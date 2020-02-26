@@ -1,0 +1,3 @@
+# Borrowed from http://www.edgewall.org/robots.txt
+User-agent: *
+Crawl-delay: 3

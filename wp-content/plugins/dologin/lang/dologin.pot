@@ -1,0 +1,400 @@
+# Copyright (C) 2020 DoLogin Security
+# This file is distributed under the same license as the DoLogin Security package.
+msgid ""
+msgstr ""
+"Project-Id-Version: DoLogin Security 1.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/dologin\n"
+"POT-Creation-Date: 2020-02-18 19:21:37+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: src/admin.cls.php:71 src/admin.cls.php:79 src/gui.cls.php:101
+msgid "Dologin Security Phone"
+msgstr ""
+
+#: src/admin.cls.php:93
+msgid "Generate Login Link"
+msgstr ""
+
+#: src/admin.cls.php:109
+msgid "Settings"
+msgstr ""
+
+#: src/f.cls.php:111
+msgid "Folder does not exist: %s"
+msgstr ""
+
+#: src/f.cls.php:118
+msgid "Can not create folder: %1$s. Error: %2$s"
+msgstr ""
+
+#: src/f.cls.php:124
+msgid "Folder is not writable: %s."
+msgstr ""
+
+#: src/f.cls.php:130 src/f.cls.php:134
+msgid "File %s is not writable."
+msgstr ""
+
+#: src/f.cls.php:141
+msgid "Failed to write to %s."
+msgstr ""
+
+#: src/gui.cls.php:86
+msgid "Dynamic Code"
+msgstr ""
+
+#: src/lang.cls.php:37
+msgid "Please try after %ds."
+msgstr ""
+
+#: src/lang.cls.php:41
+msgid "No Dologin Security phone number set under your profile."
+msgstr ""
+
+#: src/lang.cls.php:45
+msgid "No phone number under this user profile."
+msgstr ""
+
+#: src/lang.cls.php:49
+msgid "Empty username/password."
+msgstr ""
+
+#: src/lang.cls.php:53
+msgid "Your IP is not in the whitelist."
+msgstr ""
+
+#: src/lang.cls.php:57
+msgid "Your IP is in the blacklist."
+msgstr ""
+
+#: src/lang.cls.php:61
+msgid "Too many failed login attempts."
+msgstr ""
+
+#: src/lang.cls.php:65
+msgid "ON"
+msgstr ""
+
+#: src/lang.cls.php:69
+msgid "%s attempt(s) remaining."
+msgstr ""
+
+#: src/lang.cls.php:73
+msgid "Dynamic code is required."
+msgstr ""
+
+#: src/lang.cls.php:77
+msgid "Dynamic code is not correct."
+msgstr ""
+
+#: src/lang.cls.php:81
+msgid "Please check the reCAPTCHA box."
+msgstr ""
+
+#: src/lang.cls.php:86
+msgid "The secret parameter is missing."
+msgstr ""
+
+#: src/lang.cls.php:90
+msgid "The secret parameter is invalid or malformed."
+msgstr ""
+
+#: src/lang.cls.php:94
+msgid "The response parameter is missing."
+msgstr ""
+
+#: src/lang.cls.php:98
+msgid "The response parameter is invalid or malformed."
+msgstr ""
+
+#: src/lang.cls.php:102
+msgid "The request is invalid or malformed."
+msgstr ""
+
+#: src/lang.cls.php:106
+msgid ""
+"The response is no longer valid: either is too old or has been used "
+"previously."
+msgstr ""
+
+#. #-#-#-#-#  dologin.pot (DoLogin Security 1.8)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: src/lang.cls.php:114
+msgid "DoLogin Security"
+msgstr ""
+
+#: src/util.cls.php:209
+msgid "just now"
+msgstr ""
+
+#: src/util.cls.php:209
+msgid "right now"
+msgstr ""
+
+#: src/util.cls.php:211
+msgid " %s ago"
+msgstr ""
+
+#: tpl/settings.tpl.php:10
+msgid "DoLogin Security Settings"
+msgstr ""
+
+#: tpl/settings.tpl.php:22
+msgid "Lockout"
+msgstr ""
+
+#: tpl/settings.tpl.php:24
+msgid "Allowed retries"
+msgstr ""
+
+#: tpl/settings.tpl.php:26
+msgid "minutes lockout"
+msgstr ""
+
+#: tpl/settings.tpl.php:27
+msgid ""
+"If hit %1$s maximum retries in %2$s minutes, the login attempt from that IP "
+"will be temporarily disabled."
+msgstr ""
+
+#: tpl/settings.tpl.php:32
+msgid "GDPR Compliance"
+msgstr ""
+
+#: tpl/settings.tpl.php:34 tpl/settings.tpl.php:72 tpl/settings.tpl.php:147
+msgid "Enable"
+msgstr ""
+
+#: tpl/settings.tpl.php:36
+msgid ""
+"With this feature turned on, all logged IPs get obfuscated (md5-hashed)."
+msgstr ""
+
+#: tpl/settings.tpl.php:42
+msgid "Two Factor Auth"
+msgstr ""
+
+#: tpl/settings.tpl.php:44
+msgid "Enable Two Step SMS Auth"
+msgstr ""
+
+#: tpl/settings.tpl.php:46
+msgid "Verify text code for each login attempt."
+msgstr ""
+
+#: tpl/settings.tpl.php:47
+msgid "Users need to setup the Dologin Phone number in their profile."
+msgstr ""
+
+#: tpl/settings.tpl.php:48
+msgid "The phone number need to specify the coutry calling codes."
+msgstr ""
+
+#: tpl/settings.tpl.php:49
+msgid "Text message is free sent by API from %s."
+msgstr ""
+
+#: tpl/settings.tpl.php:52
+msgid "Force SMS Auth Validation"
+msgstr ""
+
+#: tpl/settings.tpl.php:54
+msgid ""
+"If enabled this, any user without phone set in profile will not be able to "
+"login."
+msgstr ""
+
+#: tpl/settings.tpl.php:55
+msgid "Click here to set your Dologin Security phone number"
+msgstr ""
+
+#: tpl/settings.tpl.php:57
+msgid ""
+"You need to setup your Dologin Phone number before enabling this setting to "
+"avoid yourself being blocked from next time login."
+msgstr ""
+
+#: tpl/settings.tpl.php:61
+msgid "Test SMS message"
+msgstr ""
+
+#: tpl/settings.tpl.php:63
+msgid "This will send a test text message to your phone number."
+msgstr ""
+
+#: tpl/settings.tpl.php:70
+msgid "Google reCAPTCHA"
+msgstr ""
+
+#: tpl/settings.tpl.php:77
+msgid "Site Key"
+msgstr ""
+
+#: tpl/settings.tpl.php:81
+msgid "Secret Key"
+msgstr ""
+
+#: tpl/settings.tpl.php:95
+msgid "<a %s>Click here</a> to generate keys from Google reCAPTCHA."
+msgstr ""
+
+#: tpl/settings.tpl.php:96
+msgid "Note: v2 supported only."
+msgstr ""
+
+#: tpl/settings.tpl.php:102 tpl/settings.tpl.php:138
+msgid "Whitelist"
+msgstr ""
+
+#: tpl/settings.tpl.php:109
+msgid "Format"
+msgstr ""
+
+#: tpl/settings.tpl.php:110
+msgid "Both prefix and value are case insensitive."
+msgstr ""
+
+#: tpl/settings.tpl.php:111
+msgid "Spaces around comma/colon are allowed."
+msgstr ""
+
+#: tpl/settings.tpl.php:112
+msgid "One rule set per line."
+msgstr ""
+
+#: tpl/settings.tpl.php:115
+msgid "Prefix list"
+msgstr ""
+
+#: tpl/settings.tpl.php:117
+msgid "IP prefix with colon is optional. IP value support wildcard (*)."
+msgstr ""
+
+#: tpl/settings.tpl.php:118 tpl/settings.tpl.php:119 tpl/settings.tpl.php:120
+#: tpl/settings.tpl.php:121
+msgid "Example"
+msgstr ""
+
+#: tpl/settings.tpl.php:119
+msgid "Dropped optional prefix"
+msgstr ""
+
+#: tpl/settings.tpl.php:123
+msgid "Get my GeoLocation data from"
+msgstr ""
+
+#: tpl/settings.tpl.php:131
+msgid "Blacklist"
+msgstr ""
+
+#: tpl/settings.tpl.php:138
+msgid "Same format as %s"
+msgstr ""
+
+#: tpl/settings.tpl.php:145
+msgid "Auto Upgrade"
+msgstr ""
+
+#: tpl/settings.tpl.php:149
+msgid "Enable this option to get the latest features at the first moment."
+msgstr ""
+
+#: tpl/settings.tpl.php:200
+msgid "Passwordless Login"
+msgstr ""
+
+#: tpl/settings.tpl.php:202
+msgid "Generate Links in Users List"
+msgstr ""
+
+#: tpl/settings.tpl.php:205
+msgid "Here you can generate login links and manage them."
+msgstr ""
+
+#: tpl/settings.tpl.php:211 tpl/settings.tpl.php:266
+msgid "Date"
+msgstr ""
+
+#: tpl/settings.tpl.php:212
+msgid "User"
+msgstr ""
+
+#: tpl/settings.tpl.php:213
+msgid "Link"
+msgstr ""
+
+#: tpl/settings.tpl.php:214
+msgid "Created By"
+msgstr ""
+
+#: tpl/settings.tpl.php:215
+msgid "Count"
+msgstr ""
+
+#: tpl/settings.tpl.php:216
+msgid "Last Used At"
+msgstr ""
+
+#: tpl/settings.tpl.php:217
+msgid "Expired At"
+msgstr ""
+
+#: tpl/settings.tpl.php:218
+msgid "One Time Usage"
+msgstr ""
+
+#: tpl/settings.tpl.php:219
+msgid "Status"
+msgstr ""
+
+#: tpl/settings.tpl.php:235
+msgid "+7 Days"
+msgstr ""
+
+#: tpl/settings.tpl.php:245
+msgid "Active"
+msgstr ""
+
+#: tpl/settings.tpl.php:247
+msgid "Disabled"
+msgstr ""
+
+#: tpl/settings.tpl.php:260
+msgid "Login Attempts Log"
+msgstr ""
+
+#: tpl/settings.tpl.php:267
+msgid "IP"
+msgstr ""
+
+#: tpl/settings.tpl.php:268
+msgid "GeoLocation"
+msgstr ""
+
+#: tpl/settings.tpl.php:269
+msgid "Login As"
+msgstr ""
+
+#: tpl/settings.tpl.php:270
+msgid "Gateway"
+msgstr ""
+
+#: tpl/settings.tpl.php:289
+msgid "Rate Us!"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Passwordless login. Free text SMS code for 2nd step verification login. "
+"GeoLocation (Continent/Country/City) or IP range to limit login attempts. "
+"Support Whitelist and Blacklist. Support WooCommerce."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WPDO"
+msgstr ""

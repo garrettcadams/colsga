@@ -1,0 +1,11 @@
+<html><head><title> - Revision 2238632: /litespeed-cache/trunk/admin/tpl/manage</title></head>
+<body>
+ <h2> - Revision 2238632: /litespeed-cache/trunk/admin/tpl/manage</h2>
+ <ul>
+  <li><a href="../">..</a></li>
+  <li><a href="manage_cdn.php">manage_cdn.php</a></li>
+  <li><a href="manage_db.php">manage_db.php</a></li>
+  <li><a href="manage_purge.php">manage_purge.php</a></li>
+ </ul>
+ <hr noshade><em>Powered by <a href="http://subversion.apache.org/">Apache Subversion</a> version 1.9.5 (r1770682).</em>
+</body></html>
