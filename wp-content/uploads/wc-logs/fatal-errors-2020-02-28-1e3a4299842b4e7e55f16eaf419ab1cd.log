@@ -368,3 +368,65 @@ Stack trace:
 #7 {main}
   thrown in /var/www/html/wp-content/plugins/wiloke-listing-tools/app/Controllers/FacebookLoginController.php on line 158
 
+2020-02-28T09:08:48+00:00 CRITICAL Uncaught Error: Class 'WilokeThemeOptions' not found in /var/www/html/wp-content/plugins/wiloke-listing-tools/app/Controllers/FacebookLoginController.php:158
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(288): WilokeListingTools\Controllers\FacebookLoginController->fbFixedFacebookLoginOnChromeiOS('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(523): do_action('init')
+#4 /var/www/html/wp-config.php(92): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-cron.php(44): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/plugins/wiloke-listing-tools/app/Controllers/FacebookLoginController.php on line 158
+
+2020-02-28T09:09:29+00:00 CRITICAL Uncaught Error: Call to undefined function Jvbpd\Base\jvbpd_tso() in /var/www/html/wp-content/plugins/javo-core/inc/Base/Enqueue.php:35
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(288): Jvbpd\Base\Enqueue->style_css_enqueue('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/script-loader.php(2670): do_action('wp_enqueue_scri...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(288): wp_enqueue_scripts('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/general-template.php(2879): do_action('wp_head')
+#8 /var/www/html/wp-content/themes/twentynineteen/header.php(19): wp_head()
+#9 /var/www/html/wp-includes/template.php(722): require_once('/var/www/html/w...')
+#10 /var/www/html/wp-includes/template.php(671): load_templ in /var/www/html/wp-content/plugins/javo-core/inc/Base/Enqueue.php on line 35
+
+2020-02-28T09:10:20+00:00 CRITICAL Uncaught Error: Class 'WilokeThemeOptions' not found in /var/www/html/wp-content/plugins/wiloke-listing-tools/app/Controllers/FacebookLoginController.php:158
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(288): WilokeListingTools\Controllers\FacebookLoginController->fbFixedFacebookLoginOnChromeiOS('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(523): do_action('init')
+#4 /var/www/html/wp-config.php(92): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-cron.php(44): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/plugins/wiloke-listing-tools/app/Controllers/FacebookLoginController.php on line 158
+
+2020-02-28T09:10:38+00:00 CRITICAL Uncaught Error: Class 'Wiloke' not found in /var/www/html/wp-content/plugins/wiloke-listing-tools/app/Controllers/PermalinksController.php:76
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(290): WilokeListingTools\Controllers\PermalinksController->modifyLink('https://cols.ga...', Object(WP_Post))
+#1 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters('https://cols.ga...', Array)
+#2 /var/www/html/wp-includes/link-template.php(316): apply_filters('post_type_link', 'https://cols.ga...', Object(WP_Post), false, false)
+#3 /var/www/html/wp-includes/link-template.php(150): get_post_permalink(Object(WP_Post), false, false)
+#4 /var/www/html/wp-includes/link-template.php(107): get_permalink(Object(WP_Post), false)
+#5 /var/www/html/wp-admin/includes/dashboard.php(637): get_the_permalink('39215')
+#6 /var/www/html/wp-admin/includes/dashboard.php(1016): _wp_dashboard_recent_comments_row(Object(WP_Comment))
+#7 /var/www/html/wp-admin/includes/dashboard.php(868): wp_dashboard_recent_comments()
+#8 /v in /var/www/html/wp-content/plugins/wiloke-listing-tools/app/Controllers/PermalinksController.php on line 76
+
+2020-02-28T09:11:56+00:00 CRITICAL Uncaught Error: Class 'WilokeThemeOptions' not found in /var/www/html/wp-content/plugins/wiloke-listing-tools/app/Controllers/FacebookLoginController.php:158
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(288): WilokeListingTools\Controllers\FacebookLoginController->fbFixedFacebookLoginOnChromeiOS('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(false, Array)
+#2 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-settings.php(523): do_action('init')
+#4 /var/www/html/wp-config.php(92): require_once('/var/www/html/w...')
+#5 /var/www/html/wp-load.php(37): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-cron.php(44): require_once('/var/www/html/w...')
+#7 {main}
+  thrown in /var/www/html/wp-content/plugins/wiloke-listing-tools/app/Controllers/FacebookLoginController.php on line 158
+
