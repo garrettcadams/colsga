@@ -1,0 +1,349 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Booking.com Banner Creator 1.0\n"
+"POT-Creation-Date: 2016-09-20 16:44+0200\n"
+"PO-Revision-Date: 2016-09-20 16:44+0200\n"
+"Last-Translator: \n"
+"Language-Team: wp-plugins@booking.com\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/bdotcom_bc_ajax.php:22
+msgid "Theme Image"
+msgstr ""
+
+#: includes/bdotcom_bc_ajax.php:28
+msgid "Issues with theme preview generation"
+msgstr "Probleme bei der Vorschau des Themas"
+
+#: includes/bdotcom_bc_ajax.php:50
+msgid "Issues with banner preview generation"
+msgstr "Probleme bei der Vorschau des Banners"
+
+#: includes/bdotcom_bc_core.php:38
+msgid " Singular Name"
+msgstr ""
+
+#: includes/bdotcom_bc_core.php:39
+msgid "Add New Banner"
+msgstr "Neuen Banner hinzuf&uuml;gen"
+
+#: includes/bdotcom_bc_core.php:40
+msgid "Add a Responsive Banner"
+msgstr "Responsiven Banner hinzuf&uuml;gen"
+
+#: includes/bdotcom_bc_core.php:41
+msgid "Edit Banner"
+msgstr ""
+
+#: includes/bdotcom_bc_core.php:42
+msgid "New Banner"
+msgstr "Neuer Banner"
+
+#: includes/bdotcom_bc_core.php:43
+msgid "View This Banner"
+msgstr ""
+
+#: includes/bdotcom_bc_core.php:44
+msgid "Search Banner"
+msgstr "Banner suchen"
+
+#: includes/bdotcom_bc_core.php:45
+msgid "No Banner Found"
+msgstr "Keinen Banner gefunden"
+
+#: includes/bdotcom_bc_core.php:46
+msgid "No Banner Found in Trash"
+msgstr "Keinen Banner im Papierkorb gefunden"
+
+#: includes/bdotcom_bc_core.php:47
+msgid "Parent Banner Colon"
+msgstr ""
+
+#: includes/bdotcom_bc_core.php:48
+msgid "B.com Banner"
+msgstr ""
+
+#: includes/bdotcom_bc_core.php:50
+msgid "{plugin_custompost_descr}"
+msgstr ""
+
+#: includes/bdotcom_bc_core.php:74
+msgid "Settings For "
+msgstr "Einstellungen f&uuml;r"
+
+#: includes/bdotcom_bc_forms.php:26
+msgid "Your affiliate ID"
+msgstr "Ihre Affiliate-ID"
+
+#: includes/bdotcom_bc_forms.php:27
+msgid ""
+"Your affiliate ID is a unique number that allows Booking.com to track "
+"commission. If you are not an affiliate yet, <a href=\"http://ww.booking.com/"
+"affiliate-program/index.html\" target=\"_blank\">check our affiliate "
+"programme</a> and get an affiliate ID. It's easy and fast. Start earning "
+"money, <a href=\"https://secure.booking.com/affiliate-program/register.html"
+"\" target=\"_blank\">sign up now!</a>"
+msgstr ""
+"Ihre Affiliate-ID ist eine individuelle Nummer, die es Booking.com erm&ouml;"
+"glicht Ihre Kommission festzustellen. Sollten Sie noch kein Affiliate-"
+"Partner sein, <a href=\"http://www.booking.com/content/affiliates.html\" "
+"target=\"_blank\">erfahren Sie mehr &uuml;ber unser Affiliate-Programm</a>  "
+"und erhalten Sie ihre Affiliate-ID. Es ist einfach und schnell. Beginnen Sie "
+"bald Geld, zu verdienen: <a href=\"https://secure.booking.com/partnerreg.html"
+"\" target=\"_blank\">Jetzt registrieren!</a>"
+
+#: includes/bdotcom_bc_forms.php:50
+msgid "Need For a Button?"
+msgstr "Button erforderlich?"
+
+#: includes/bdotcom_bc_forms.php:62
+msgid "Button Copy"
+msgstr "Text des Buttons"
+
+#: includes/bdotcom_bc_forms.php:69
+#: includes/bdotcom_bc_general_functions.php:105
+msgid "Book now"
+msgstr "Jetzt buchen"
+
+#: includes/bdotcom_bc_forms.php:74
+msgid "Button Copy Colour"
+msgstr "Textfarbe des Buttons"
+
+#: includes/bdotcom_bc_forms.php:86
+msgid "Button Background"
+msgstr "Hintergrund des Buttons"
+
+#: includes/bdotcom_bc_forms.php:98
+msgid "Button Border Colour"
+msgstr "Randfarbe des Buttons"
+
+#: includes/bdotcom_bc_forms.php:110
+msgid "Button Border Width"
+msgstr "Randbreite des Buttons"
+
+#: includes/bdotcom_bc_forms.php:123
+msgid "Theme"
+msgstr "Thema"
+
+#: includes/bdotcom_bc_forms.php:135
+msgid "Banner Image ( 1920px wide suggested )"
+msgstr "Banner-Bild (empfohlene Breite: 1920 Pixel)"
+
+#: includes/bdotcom_bc_forms.php:136
+msgid "Choose Your Image"
+msgstr "Bild ausw&auml;hlen"
+
+#: includes/bdotcom_bc_forms.php:147
+msgid "Banner Copy"
+msgstr "Text des Banners"
+
+#: includes/bdotcom_bc_forms.php:154
+#: includes/bdotcom_bc_general_functions.php:113
+msgid "Search hotels and more..."
+msgstr "Hotels und andere Unterk&uuml;nfte suchen"
+
+#: includes/bdotcom_bc_forms.php:159
+msgid "Copy Colour"
+msgstr "Schriftfarbe"
+
+#: includes/bdotcom_bc_forms.php:183
+msgid "Add Your Style"
+msgstr "Stil hinzuf&uuml;gen"
+
+#: includes/bdotcom_bc_forms.php:184
+msgid ""
+"Use this area to add your CSS to the banner. In the example, the font is set "
+"to Verdana - but you're free to change it as you wish."
+msgstr ""
+"Hier k&ouml;nnen Sie Ihr CSS dem Banner hinzuf&uuml;gen. In diesem Beispiel "
+"wurde Verdana als Schriftart ausgew&auml;hlt. Sie k&ouml;nnen dies jederzeit "
+"&auml;ndern."
+
+#: includes/bdotcom_bc_forms.php:195
+msgid "Banner Link"
+msgstr "Banner-Link"
+
+#: includes/bdotcom_bc_forms.php:196
+msgid ""
+"Leave blank to link to your landing page on Booking.com. Your affiliate ID "
+"will be automatically added to the link - make sure you add it in the &ldquo;"
+"affiliate ID&rdquo; field at the top of this page."
+msgstr ""
+"Lassen Sie dieses Feld leer, um es mit Ihrer Landing Page auf Booking.com zu "
+"verlinken. Ihre Affiliate-ID wird dem Link automatisch hinzugef&uuml;gt. "
+"Achten Sie bitte darauf, diese im Feld &bdquo;Affiliate-ID&ldquo; oben auf "
+"dieser Seite einzutragen. "
+
+#: includes/bdotcom_bc_forms.php:202
+msgid "i.e.: http://www.booking.com/city/nl/amsterdam.en-gb.html"
+msgstr "z. B. http://www.booking.com/city/nl/amsterdam.de.html"
+
+#: includes/bdotcom_bc_forms.php:207
+msgid "Banner label"
+msgstr "Banner-Bezeichnung"
+
+#: includes/bdotcom_bc_forms.php:208
+msgid ""
+"Customise your label for reservation tracking. When blank, the label will be "
+"set as the page title by default."
+msgstr ""
+"Passen Sie Ihre Bezeichnung individuell an, um Ihre Buchungen zuzuordnen. "
+"Wenn keine Bezeichnung angegeben wird, wird der Seitentitel automatisch als "
+"Bezeichnung verwendet."
+
+#: includes/bdotcom_bc_forms.php:281
+msgid "Light"
+msgstr ""
+
+#: includes/bdotcom_bc_forms.php:283
+msgid "Dark"
+msgstr ""
+
+#: includes/bdotcom_bc_forms.php:350
+msgid "Your Theme"
+msgstr "Ihr Thema"
+
+#: includes/bdotcom_bc_forms.php:351
+msgid "Choose your image"
+msgstr "Bild ausw&auml;hlen"
+
+#: includes/bdotcom_bc_forms.php:353
+msgid "Default Themes"
+msgstr "Standardthemen"
+
+#: includes/bdotcom_bc_forms.php:384
+msgid "Preview"
+msgstr "Vorschau"
+
+#: includes/bdotcom_bc_forms.php:386
+msgid "Use following shortcode to display the banner in posts/pages:"
+msgstr ""
+"Nutzen Sie den folgenden Shortcode, um den Banner in einem Beitrag/auf "
+"Seiten anzuzeigen:"
+
+#: includes/bdotcom_bc_forms.php:406
+msgid "Banner"
+msgstr ""
+
+#: includes/bdotcom_bc_forms.php:407
+msgid "Shortcode"
+msgstr ""
+
+#: includes/bdotcom_bc_forms.php:408
+msgid "Date"
+msgstr ""
+
+#: includes/bdotcom_bc_general_functions.php:19
+msgid "beach theme 1"
+msgstr "Strandthema 1"
+
+#: includes/bdotcom_bc_general_functions.php:20
+msgid "beach theme 2"
+msgstr "Strandthema 2"
+
+#: includes/bdotcom_bc_general_functions.php:21
+msgid "beach theme 3"
+msgstr "Strandthema 3"
+
+#: includes/bdotcom_bc_general_functions.php:22
+msgid "city theme 1"
+msgstr "Stadtthema 1"
+
+#: includes/bdotcom_bc_general_functions.php:23
+msgid "city theme 2"
+msgstr "Stadtthema 2"
+
+#: includes/bdotcom_bc_general_functions.php:24
+msgid "city theme 3"
+msgstr "Stadtthema 3"
+
+#: includes/bdotcom_bc_general_functions.php:25
+msgid "city theme 4"
+msgstr "Stadtthema 4"
+
+#: includes/bdotcom_bc_general_functions.php:26
+msgid "hotel theme 1"
+msgstr "Hotelthema 1"
+
+#: includes/bdotcom_bc_general_functions.php:27
+msgid "hotel theme 2"
+msgstr "Hotelthema 2"
+
+#: includes/bdotcom_bc_general_functions.php:28
+msgid "hotel theme 3"
+msgstr "Hotelthema 3"
+
+#: includes/bdotcom_bc_general_functions.php:29
+msgid "inspirational theme 1"
+msgstr "Inspirierendes Thema 1"
+
+#: includes/bdotcom_bc_general_functions.php:30
+msgid "mountain theme 1"
+msgstr "Bergthema 1"
+
+#: includes/bdotcom_bc_general_functions.php:31
+msgid "mountain theme 2"
+msgstr "Bergthema 2"
+
+#: includes/bdotcom_bc_general_functions.php:32
+msgid "mountain theme 3"
+msgstr "Bergthema 3"
+
+#: includes/bdotcom_bc_general_functions.php:33
+msgid "mountain theme 4"
+msgstr "Bergthema 4"
+
+#: includes/bdotcom_bc_general_functions.php:34
+msgid "nature theme 1"
+msgstr "Naturthema 1"
+
+#: includes/bdotcom_bc_general_functions.php:35
+msgid "nature theme 2"
+msgstr "Naturthema 2"
+
+#: includes/bdotcom_bc_general_functions.php:36
+msgid "nature theme 3"
+msgstr "Naturthema 3"
+
+#: includes/bdotcom_bc_widget.php:106
+msgid "Select one banner..."
+msgstr "W&auml;hlen Sie einen Banner aus ..."
+
+#~ msgid ""
+#~ "Your affiliate ID is a unique number that allows Booking.com to track "
+#~ "commission.\n"
+#~ "                         If you are not an affiliate yet, <a href="
+#~ "\"http://www.booking.com/affiliate-program/index.html\" target=\"_blank"
+#~ "\">\n"
+#~ "                         check our affiliate programme</a> and get an "
+#~ "affiliate ID. It's easy and fast. Start earning money, \n"
+#~ "                         <a href=\"https://secure.booking.com/affiliate-"
+#~ "program/register.html\" target=\"_blank\">sign up now!</a>"
+#~ msgstr ""
+#~ "Ihre Affiliate-ID ist eine individuelle Nummer, die es Booking.com "
+#~ "erm&ouml;glicht Ihre Kommission festzustellen. Sollten Sie noch kein "
+#~ "Affiliate-Partner sein, <a href=\"http://www.booking.com/content/"
+#~ "affiliates.html\" target=\"_blank\">erfahren Sie mehr &uuml;ber unser "
+#~ "Affiliate-Programm</a>  und erhalten Sie ihre Affiliate-ID. Es ist "
+#~ "einfach und schnell. Beginnen Sie bald Geld, zu verdienen: <a href="
+#~ "\"https://secure.booking.com/partnerreg.html\" target=\"_blank\">Jetzt "
+#~ "registrieren!</a>"
+
+#~ msgid ""
+#~ "Leave blank to link to your landing page on Booking.com. Your affiliate "
+#~ "ID will be automatically added to the link - make sure you add it in the "
+#~ "\"affiliate ID\" field at the top of this page."
+#~ msgstr ""
+#~ "Lassen Sie dieses Feld leer, um es mit Ihrer Landing Page auf Booking.com "
+#~ "zu verlinken. Ihre Affiliate-ID wird dem Link automatisch hinzugef&uuml;"
+#~ "gt. Achten Sie bitte darauf, diese im Feld &ldquo;Affiliate-ID&rdquo; "
+#~ "oben auf dieser Seite einzutragen. "

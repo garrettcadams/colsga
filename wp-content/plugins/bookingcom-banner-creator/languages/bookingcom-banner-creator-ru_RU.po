@@ -1,0 +1,319 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Booking.com Banner Creator 1.0\n"
+"POT-Creation-Date: 2016-09-20 15:58+0200\n"
+"PO-Revision-Date: 2016-09-20 15:58+0200\n"
+"Last-Translator: \n"
+"Language-Team: wp-plugins@booking.com\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/bdotcom_bc_ajax.php:22
+msgid "Theme Image"
+msgstr ""
+
+#: includes/bdotcom_bc_ajax.php:28
+msgid "Issues with theme preview generation"
+msgstr "Ошибка при предварительном просмотре темы"
+
+#: includes/bdotcom_bc_ajax.php:50
+msgid "Issues with banner preview generation"
+msgstr "Ошибка при предварительном просмотре баннера"
+
+#: includes/bdotcom_bc_core.php:38
+msgid " Singular Name"
+msgstr ""
+
+#: includes/bdotcom_bc_core.php:39
+msgid "Add New Banner"
+msgstr "Добавить новый баннер"
+
+#: includes/bdotcom_bc_core.php:40
+msgid "Add a Responsive Banner"
+msgstr "Добавить адаптивный баннер"
+
+#: includes/bdotcom_bc_core.php:41
+msgid "Edit Banner"
+msgstr ""
+
+#: includes/bdotcom_bc_core.php:42
+msgid "New Banner"
+msgstr "Новый баннер"
+
+#: includes/bdotcom_bc_core.php:43
+msgid "View This Banner"
+msgstr ""
+
+#: includes/bdotcom_bc_core.php:44
+msgid "Search Banner"
+msgstr "Найти баннер"
+
+#: includes/bdotcom_bc_core.php:45
+msgid "No Banner Found"
+msgstr "Баннер не найден"
+
+#: includes/bdotcom_bc_core.php:46
+msgid "No Banner Found in Trash"
+msgstr "Баннер не найден в удаленных"
+
+#: includes/bdotcom_bc_core.php:47
+msgid "Parent Banner Colon"
+msgstr ""
+
+#: includes/bdotcom_bc_core.php:48
+msgid "B.com Banner"
+msgstr ""
+
+#: includes/bdotcom_bc_core.php:50
+msgid "{plugin_custompost_descr}"
+msgstr ""
+
+#: includes/bdotcom_bc_core.php:74
+msgid "Settings For "
+msgstr "Настройки для:"
+
+#: includes/bdotcom_bc_forms.php:26
+msgid "Your affiliate ID"
+msgstr "Ваш ID аффилиата"
+
+#: includes/bdotcom_bc_forms.php:27
+msgid ""
+"Your affiliate ID is a unique number that allows Booking.com to track "
+"commission. If you are not an affiliate yet, <a href=\"http://ww.booking.com/"
+"affiliate-program/index.html\" target=\"_blank\">check our affiliate "
+"programme</a> and get an affiliate ID. It's easy and fast. Start earning "
+"money, <a href=\"https://secure.booking.com/affiliate-program/register.html"
+"\" target=\"_blank\">sign up now!</a>"
+msgstr ""
+"Ваш ID аффилиата — это уникальный номер, позволяющий Booking.com "
+"рассчитывать комиссионное вознаграждение. Если вы еще не стали партнером-"
+"аффилиатом, <a href=\"http://www.booking.com/content/affiliates.html\" "
+"target=\"_blank\">узнайте подробности о нашей программе для аффилиатов</a> и "
+"получите свой ID. Это быстро и просто. <a href=\"https://secure.booking.com/"
+"partnerreg.html\" target=\"_blank\">Присоединяйтесь прямо сейчас</a> — и "
+"начинайте зарабатывать деньги! "
+
+#: includes/bdotcom_bc_forms.php:50
+msgid "Need For a Button?"
+msgstr "Нужна кнопка?"
+
+#: includes/bdotcom_bc_forms.php:62
+msgid "Button Copy"
+msgstr "Текст на кнопке"
+
+#: includes/bdotcom_bc_forms.php:69
+#: includes/bdotcom_bc_general_functions.php:105
+msgid "Book now"
+msgstr "Забронировать"
+
+#: includes/bdotcom_bc_forms.php:74
+msgid "Button Copy Colour"
+msgstr "Цвет текста на кнопке"
+
+#: includes/bdotcom_bc_forms.php:86
+msgid "Button Background"
+msgstr "Фон кнопки"
+
+#: includes/bdotcom_bc_forms.php:98
+msgid "Button Border Colour"
+msgstr "Цвет рамки кнопки"
+
+#: includes/bdotcom_bc_forms.php:110
+msgid "Button Border Width"
+msgstr "Ширина рамки кнопки"
+
+#: includes/bdotcom_bc_forms.php:123
+msgid "Theme"
+msgstr "Тема"
+
+#: includes/bdotcom_bc_forms.php:135
+msgid "Banner Image ( 1920px wide suggested )"
+msgstr "Изображение на баннере (предпочтительно 1920px в ширину)"
+
+#: includes/bdotcom_bc_forms.php:136
+msgid "Choose Your Image"
+msgstr "Выберите изображение"
+
+#: includes/bdotcom_bc_forms.php:147
+msgid "Banner Copy"
+msgstr "Текст на баннере"
+
+#: includes/bdotcom_bc_forms.php:154
+#: includes/bdotcom_bc_general_functions.php:113
+msgid "Search hotels and more..."
+msgstr "Искать отели и другие варианты"
+
+#: includes/bdotcom_bc_forms.php:159
+msgid "Copy Colour"
+msgstr "Цвет текста"
+
+#: includes/bdotcom_bc_forms.php:183
+msgid "Add Your Style"
+msgstr "Добавьте свой стиль"
+
+#: includes/bdotcom_bc_forms.php:184
+msgid ""
+"Use this area to add your CSS to the banner. In the example, the font is set "
+"to Verdana - but you're free to change it as you wish."
+msgstr ""
+"Используйте это место, чтобы добавить к баннеру свою каскадную таблицу "
+"стилей. В показанном примере установлен шрифт Verdana, но вы можете выбрать "
+"свой."
+
+#: includes/bdotcom_bc_forms.php:195
+msgid "Banner Link"
+msgstr "Ссылка с баннера"
+
+#: includes/bdotcom_bc_forms.php:196
+msgid ""
+"Leave blank to link to your landing page on Booking.com. Your affiliate ID "
+"will be automatically added to the link - make sure you add it in the &ldquo;"
+"affiliate ID&rdquo; field at the top of this page."
+msgstr ""
+"Оставьте пустым, чтобы ссылка вела на вашу целевую страницу на Booking.com. "
+"Ваш ID аффилиата будет автоматически добавлен в ссылку. Не забудьте указать "
+"его в соответствующем поле в начале этой страницы."
+
+#: includes/bdotcom_bc_forms.php:202
+msgid "i.e.: http://www.booking.com/city/nl/amsterdam.en-gb.html"
+msgstr "например, http://www.booking.com/city/nl/amsterdam.ru.html"
+
+#: includes/bdotcom_bc_forms.php:207
+msgid "Banner label"
+msgstr "Название баннера"
+
+#: includes/bdotcom_bc_forms.php:208
+msgid ""
+"Customise your label for reservation tracking. When blank, the label will be "
+"set as the page title by default."
+msgstr ""
+"Создайте название, чтобы отслеживать бронирования. Если вы оставите поле "
+"пустым, по умолчанию в качестве названия будет использоваться заголовок "
+"страницы."
+
+#: includes/bdotcom_bc_forms.php:281
+msgid "Light"
+msgstr ""
+
+#: includes/bdotcom_bc_forms.php:283
+msgid "Dark"
+msgstr ""
+
+#: includes/bdotcom_bc_forms.php:350
+msgid "Your Theme"
+msgstr "Ваша тема"
+
+#: includes/bdotcom_bc_forms.php:351
+msgid "Choose your image"
+msgstr "Выберите изображение"
+
+#: includes/bdotcom_bc_forms.php:353
+msgid "Default Themes"
+msgstr "Темы по умолчанию"
+
+#: includes/bdotcom_bc_forms.php:384
+msgid "Preview"
+msgstr "Просмотреть"
+
+#: includes/bdotcom_bc_forms.php:386
+msgid "Use following shortcode to display the banner in posts/pages:"
+msgstr ""
+"Используйте этот короткий код, чтобы показать баннер на странице или в "
+"публикации:"
+
+#: includes/bdotcom_bc_forms.php:406
+msgid "Banner"
+msgstr ""
+
+#: includes/bdotcom_bc_forms.php:407
+msgid "Shortcode"
+msgstr ""
+
+#: includes/bdotcom_bc_forms.php:408
+msgid "Date"
+msgstr ""
+
+#: includes/bdotcom_bc_general_functions.php:19
+msgid "beach theme 1"
+msgstr "пляж 1"
+
+#: includes/bdotcom_bc_general_functions.php:20
+msgid "beach theme 2"
+msgstr "пляж 2"
+
+#: includes/bdotcom_bc_general_functions.php:21
+msgid "beach theme 3"
+msgstr "пляж 3"
+
+#: includes/bdotcom_bc_general_functions.php:22
+msgid "city theme 1"
+msgstr "город 1"
+
+#: includes/bdotcom_bc_general_functions.php:23
+msgid "city theme 2"
+msgstr "город 2"
+
+#: includes/bdotcom_bc_general_functions.php:24
+msgid "city theme 3"
+msgstr "город 3"
+
+#: includes/bdotcom_bc_general_functions.php:25
+msgid "city theme 4"
+msgstr "город 4"
+
+#: includes/bdotcom_bc_general_functions.php:26
+msgid "hotel theme 1"
+msgstr "отель 1"
+
+#: includes/bdotcom_bc_general_functions.php:27
+msgid "hotel theme 2"
+msgstr "отель 2"
+
+#: includes/bdotcom_bc_general_functions.php:28
+msgid "hotel theme 3"
+msgstr "отель 3"
+
+#: includes/bdotcom_bc_general_functions.php:29
+msgid "inspirational theme 1"
+msgstr "вдохновение 1"
+
+#: includes/bdotcom_bc_general_functions.php:30
+msgid "mountain theme 1"
+msgstr "горы 1"
+
+#: includes/bdotcom_bc_general_functions.php:31
+msgid "mountain theme 2"
+msgstr "горы 2"
+
+#: includes/bdotcom_bc_general_functions.php:32
+msgid "mountain theme 3"
+msgstr "горы 3"
+
+#: includes/bdotcom_bc_general_functions.php:33
+msgid "mountain theme 4"
+msgstr "горы 4"
+
+#: includes/bdotcom_bc_general_functions.php:34
+msgid "nature theme 1"
+msgstr "природа 1"
+
+#: includes/bdotcom_bc_general_functions.php:35
+msgid "nature theme 2"
+msgstr "природа 2"
+
+#: includes/bdotcom_bc_general_functions.php:36
+msgid "nature theme 3"
+msgstr "природа 3"
+
+#: includes/bdotcom_bc_widget.php:106
+msgid "Select one banner..."
+msgstr "Выберите один баннер..."

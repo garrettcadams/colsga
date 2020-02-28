@@ -1,0 +1,118 @@
+/* Admin settings style */
+
+#bdotcom_bc_meta label , 
+#bdotcom_bc_meta  .bdotcom_bc_mbe_bonus_text {
+		vertical-align:top;
+}
+
+#bdotcom_bc_meta label {
+	min-width:200px;
+	width:10%;
+	display:inline-block;
+}
+
+#bdotcom_bc_meta .bdotcom_bc_mbe_logo_var {
+	margin-right: 2%;
+}
+
+#bdotcom_bc_meta  .bdotcom_bc_mbe_bonus_text {
+		display:block;
+		font-style: italic;
+		margin:10px 0;
+}
+
+#bdotcom_bc_meta .bdotcom_bc_mbe_logo_var > input {
+	margin-left: 10px;
+}
+
+#bdotcom_bc_mbe_img {
+	width: 25%;
+}
+
+.bdotcom_bc_mbe_display_field {
+	display: block;
+}
+
+.bdotcom_bc_mbe_hide_field {
+	display: none;
+}
+
+#bdotcom_bc_meta p {
+	border-bottom: 1px solid #eee;
+	padding-bottom:5px
+}
+
+#bdotcom_bc_meta p.bdotcom_bc_mbe_button_copy,
+#bdotcom_bc_meta p.bdotcom_bc_mbe_button_copy_colour,
+#bdotcom_bc_meta p.bdotcom_bc_mbe_button_bg,
+#bdotcom_bc_meta p.bdotcom_bc_copy_wrapper,
+#bdotcom_bc_meta p.bdotcom_bc_mbe_button_border_colour {
+	border-bottom: none;
+}
+
+#bdotcom_bc_meta #bdotcom_bc_mbe_banner_link, #bdotcom_bc_meta #bdotcom_bc_mbe_img_path {
+	width: 65%;
+}
+
+
+#bdotcom_bc_meta .bdotcom_bc_theme_preview_image {
+	max-width: 320px;
+	width:100%;
+}
+
+#bdotcom_bc_meta #bdotcom_bc_theme_preview {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#bdotcom_bc_meta .bdotcom_bc_ajax_loader_image {
+	vertical-align:top;
+	margin-right: 10px;
+	margin-left:10px
+}
+
+#bdotcom_bc_meta #bdotcom_bc_mbe_preview_wrapper {
+	margin-top:10px;
+}
+
+#bdotcom_bc_meta #bdotcom_bc_mbe_themes {
+	margin-right:10px;
+}
+
+.bdotcom_bc_thumbnail {
+	margin-right:5px;
+}
+
+.bdotcom_bc_thumbnail:hover {
+	cursor:pointer;
+	box-shadow: 0px 0px 10px  0px #0073aa;
+	transition: all 0.4s ease 0s;
+}
+
+.bdotcom_bc_thumbnail_displayed {
+	width:150px;
+}
+
+#bdotcom_bc_default_themes_box_black_overlay {
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}
+
+#bdotcom_bc_default_themes_box_images{
+	position: fixed;
+	top: 25%;
+	left: 25%;
+	width: 52%;
+	height: 50%;
+	padding: 16px;
+	background-color: white;
+	z-index:1002;
+	overflow: auto;
+}

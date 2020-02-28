@@ -1,0 +1,308 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Booking.com Banner Creator 1.0\n"
+"POT-Creation-Date: 2016-09-20 16:00+0200\n"
+"PO-Revision-Date: 2016-09-20 16:00+0200\n"
+"Last-Translator: \n"
+"Language-Team: wp-plugins@booking.com\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/bdotcom_bc_ajax.php:22
+msgid "Theme Image"
+msgstr ""
+
+#: includes/bdotcom_bc_ajax.php:28
+msgid "Issues with theme preview generation"
+msgstr "主題預覽發生錯誤"
+
+#: includes/bdotcom_bc_ajax.php:50
+msgid "Issues with banner preview generation"
+msgstr "橫幅預覽發生錯誤"
+
+#: includes/bdotcom_bc_core.php:38
+msgid " Singular Name"
+msgstr ""
+
+#: includes/bdotcom_bc_core.php:39
+msgid "Add New Banner"
+msgstr "新增橫幅"
+
+#: includes/bdotcom_bc_core.php:40
+msgid "Add a Responsive Banner"
+msgstr "新增自適應橫幅"
+
+#: includes/bdotcom_bc_core.php:41
+msgid "Edit Banner"
+msgstr ""
+
+#: includes/bdotcom_bc_core.php:42
+msgid "New Banner"
+msgstr "新橫幅"
+
+#: includes/bdotcom_bc_core.php:43
+msgid "View This Banner"
+msgstr ""
+
+#: includes/bdotcom_bc_core.php:44
+msgid "Search Banner"
+msgstr "搜尋橫幅"
+
+#: includes/bdotcom_bc_core.php:45
+msgid "No Banner Found"
+msgstr "沒有找到橫幅"
+
+#: includes/bdotcom_bc_core.php:46
+msgid "No Banner Found in Trash"
+msgstr "垃圾桶內沒有找到橫幅"
+
+#: includes/bdotcom_bc_core.php:47
+msgid "Parent Banner Colon"
+msgstr ""
+
+#: includes/bdotcom_bc_core.php:48
+msgid "B.com Banner"
+msgstr ""
+
+#: includes/bdotcom_bc_core.php:50
+msgid "{plugin_custompost_descr}"
+msgstr ""
+
+#: includes/bdotcom_bc_core.php:74
+msgid "Settings For "
+msgstr "相關設定"
+
+#: includes/bdotcom_bc_forms.php:26
+msgid "Your affiliate ID"
+msgstr "您的合作夥伴"
+
+#: includes/bdotcom_bc_forms.php:27
+msgid ""
+"Your affiliate ID is a unique number that allows Booking.com to track "
+"commission. If you are not an affiliate yet, <a href=\"http://ww.booking.com/"
+"affiliate-program/index.html\" target=\"_blank\">check our affiliate "
+"programme</a> and get an affiliate ID. It's easy and fast. Start earning "
+"money, <a href=\"https://secure.booking.com/affiliate-program/register.html"
+"\" target=\"_blank\">sign up now!</a>"
+msgstr ""
+"您的合作夥伴 ID 是一組獨一無二的號碼，方便 Booking.com 追查計算佣金。如果您還"
+"不是我們的合作夥伴，<a href=\"http://www.booking.com/content/affiliates.html"
+"\" target=\"_blank\">請查看我們的合作夥伴方案</a>取得合作夥伴 ID。既簡單又快"
+"速。立即<a href=\"https://secure.booking.com/partnerreg.html\" target="
+"\"_blank\">註冊</a>，馬上賺錢！"
+
+#: includes/bdotcom_bc_forms.php:50
+msgid "Need For a Button?"
+msgstr "需要搜尋按鈕嗎？"
+
+#: includes/bdotcom_bc_forms.php:62
+msgid "Button Copy"
+msgstr "複製按鈕"
+
+#: includes/bdotcom_bc_forms.php:69
+#: includes/bdotcom_bc_general_functions.php:105
+msgid "Book now"
+msgstr "立即訂房"
+
+#: includes/bdotcom_bc_forms.php:74
+msgid "Button Copy Colour"
+msgstr "複製按鈕顏色"
+
+#: includes/bdotcom_bc_forms.php:86
+msgid "Button Background"
+msgstr "按鈕背景"
+
+#: includes/bdotcom_bc_forms.php:98
+msgid "Button Border Colour"
+msgstr "按鈕邊框顏色"
+
+#: includes/bdotcom_bc_forms.php:110
+msgid "Button Border Width"
+msgstr "按鈕寬度"
+
+#: includes/bdotcom_bc_forms.php:123
+msgid "Theme"
+msgstr "主題"
+
+#: includes/bdotcom_bc_forms.php:135
+msgid "Banner Image ( 1920px wide suggested )"
+msgstr "橫幅影像（建議寬度：1920 像素）"
+
+#: includes/bdotcom_bc_forms.php:136
+msgid "Choose Your Image"
+msgstr "選擇您的圖片"
+
+#: includes/bdotcom_bc_forms.php:147
+msgid "Banner Copy"
+msgstr "橫幅文字"
+
+#: includes/bdotcom_bc_forms.php:154
+#: includes/bdotcom_bc_general_functions.php:113
+msgid "Search hotels and more..."
+msgstr "搜尋飯店或其他類型住宿"
+
+#: includes/bdotcom_bc_forms.php:159
+msgid "Copy Colour"
+msgstr "文字顏色"
+
+#: includes/bdotcom_bc_forms.php:183
+msgid "Add Your Style"
+msgstr "新增自訂風格"
+
+#: includes/bdotcom_bc_forms.php:184
+msgid ""
+"Use this area to add your CSS to the banner. In the example, the font is set "
+"to Verdana - but you're free to change it as you wish."
+msgstr ""
+"請在此區將 CSS 加入橫幅，範例的預設字體為 Verdana－您可更改為自己想要的樣式"
+
+#: includes/bdotcom_bc_forms.php:195
+msgid "Banner Link"
+msgstr "橫幅連結"
+
+#: includes/bdotcom_bc_forms.php:196
+msgid ""
+"Leave blank to link to your landing page on Booking.com. Your affiliate ID "
+"will be automatically added to the link - make sure you add it in the &ldquo;"
+"affiliate ID&rdquo; field at the top of this page."
+msgstr ""
+"如要連結到 Booking.com 登入頁面，請在此留空。您的 ID 將自動加入網址中－請記得"
+"在此頁最上方「策略聯盟 ID」欄位填入資訊。"
+
+#: includes/bdotcom_bc_forms.php:202
+msgid "i.e.: http://www.booking.com/city/nl/amsterdam.en-gb.html"
+msgstr "例：http://www.booking.com/city/nl/amsterdam.zh-tw.html"
+
+#: includes/bdotcom_bc_forms.php:207
+msgid "Banner label"
+msgstr "橫幅標籤"
+
+#: includes/bdotcom_bc_forms.php:208
+msgid ""
+"Customise your label for reservation tracking. When blank, the label will be "
+"set as the page title by default."
+msgstr "自訂標籤追蹤訂單，若未填入資訊，標籤將自動預設為頁面標題。"
+
+#: includes/bdotcom_bc_forms.php:281
+msgid "Light"
+msgstr ""
+
+#: includes/bdotcom_bc_forms.php:283
+msgid "Dark"
+msgstr ""
+
+#: includes/bdotcom_bc_forms.php:350
+msgid "Your Theme"
+msgstr "您的主題"
+
+#: includes/bdotcom_bc_forms.php:351
+msgid "Choose your image"
+msgstr "選擇您的圖片"
+
+#: includes/bdotcom_bc_forms.php:353
+msgid "Default Themes"
+msgstr "預設主題"
+
+#: includes/bdotcom_bc_forms.php:384
+msgid "Preview"
+msgstr "預覽"
+
+#: includes/bdotcom_bc_forms.php:386
+msgid "Use following shortcode to display the banner in posts/pages:"
+msgstr "使用下列短代碼在文章、頁面中顯示橫幅："
+
+#: includes/bdotcom_bc_forms.php:406
+msgid "Banner"
+msgstr ""
+
+#: includes/bdotcom_bc_forms.php:407
+msgid "Shortcode"
+msgstr ""
+
+#: includes/bdotcom_bc_forms.php:408
+msgid "Date"
+msgstr ""
+
+#: includes/bdotcom_bc_general_functions.php:19
+msgid "beach theme 1"
+msgstr "海灘主題 1"
+
+#: includes/bdotcom_bc_general_functions.php:20
+msgid "beach theme 2"
+msgstr "海灘主題 2"
+
+#: includes/bdotcom_bc_general_functions.php:21
+msgid "beach theme 3"
+msgstr "海灘主題 3"
+
+#: includes/bdotcom_bc_general_functions.php:22
+msgid "city theme 1"
+msgstr "城市主題 1"
+
+#: includes/bdotcom_bc_general_functions.php:23
+msgid "city theme 2"
+msgstr "城市主題 2"
+
+#: includes/bdotcom_bc_general_functions.php:24
+msgid "city theme 3"
+msgstr "城市主題 3"
+
+#: includes/bdotcom_bc_general_functions.php:25
+msgid "city theme 4"
+msgstr "城市主題 4"
+
+#: includes/bdotcom_bc_general_functions.php:26
+msgid "hotel theme 1"
+msgstr "飯店主題 1"
+
+#: includes/bdotcom_bc_general_functions.php:27
+msgid "hotel theme 2"
+msgstr "飯店主題 2"
+
+#: includes/bdotcom_bc_general_functions.php:28
+msgid "hotel theme 3"
+msgstr "飯店主題 3"
+
+#: includes/bdotcom_bc_general_functions.php:29
+msgid "inspirational theme 1"
+msgstr "旅遊靈感主題 1"
+
+#: includes/bdotcom_bc_general_functions.php:30
+msgid "mountain theme 1"
+msgstr "山林主題 1"
+
+#: includes/bdotcom_bc_general_functions.php:31
+msgid "mountain theme 2"
+msgstr "山林主題 2"
+
+#: includes/bdotcom_bc_general_functions.php:32
+msgid "mountain theme 3"
+msgstr "山林主題 3"
+
+#: includes/bdotcom_bc_general_functions.php:33
+msgid "mountain theme 4"
+msgstr "山林主題 4"
+
+#: includes/bdotcom_bc_general_functions.php:34
+msgid "nature theme 1"
+msgstr "自然主題 1"
+
+#: includes/bdotcom_bc_general_functions.php:35
+msgid "nature theme 2"
+msgstr "自然主題 2"
+
+#: includes/bdotcom_bc_general_functions.php:36
+msgid "nature theme 3"
+msgstr "自然主題 3"
+
+#: includes/bdotcom_bc_widget.php:106
+msgid "Select one banner..."
+msgstr "選擇橫幅..."
