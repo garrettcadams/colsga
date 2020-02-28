@@ -3,7 +3,7 @@ Contributors: WPDO
 Tags: Login security, GeoLocation login limit, limit login attempts, passwordless login
 Requires at least: 4.0
 Tested up to: 5.3
-Stable tag: 1.8
+Stable tag: 1.9
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -57,6 +57,9 @@ Based on the original code from Limit Login Attemps plugin and Limit Login Attem
 6. WooCommerce login protection
 
 == Changelog ==
+
+= 1.9 =
+* 🍀 New option: Show reCAPTCHA on Register page. (@ach1992)
 
 = 1.8 =
 * 🍀 Show Phone Number field on Register page if Force SMS Auth setting is ON. (@ach1992)

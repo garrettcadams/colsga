@@ -23,7 +23,11 @@ class Auth extends Instance
 		add_action( 'login_head', array( $this, 'login_head' ) );
 		add_filter( 'authenticate', array( $this, 'authenticate' ), 2, 3 );
 		// Save phone number for new reg
-		add_action( 'register_new_user', array( $this, 'register_new_user' ) );
+		add_filter( 'register_new_user', array( $this, 'register_new_user' ) );
+
+		// Recaptcha validation
+		add_filter( 'registration_errors', array( $this, 'registration_errors' ) );
+		add_filter( 'lostpassword_errors', array( $this, 'lostpassword_errors' ) );
 
 		if ( Conf::val( 'sms' ) ) {
 			add_filter( 'authenticate', array( SMS::get_instance(), 'authenticate' ), 30, 3 ); // Need to be after WP auth check
@@ -38,6 +42,50 @@ class Auth extends Instance
 
 		// Add notices for XMLRPC request
 		add_filter( 'xmlrpc_login_error', array( $this, 'xmlrpc_error_msg' ) );
+	}
+
+	/**
+	 * Check recaptcha for register
+	 *
+	 * @since 1.9
+	 * @access public
+	 */
+	public function registration_errors( $errors )
+	{
+		if ( Conf::val( 'gg' ) && Conf::val( 'recapt_register' ) ) {
+			try {
+				Captcha::get_instance()->authenticate(); // Need to be before WP auth check
+			} catch ( \Exception $ex ) {
+				$err_code = $ex->getMessage();
+				defined( 'debug' ) && debug( '❌ reCAPTCHA error: ' . $err_code );
+
+				$errors->add( 'captcha_err', Lang::msg( $err_code ) );
+			}
+		}
+
+		return $errors;
+	}
+
+	/**
+	 * Check recaptcha for lost password request
+	 *
+	 * @since 1.9
+	 * @access public
+	 */
+	public function lostpassword_errors( $errors )
+	{
+		if ( Conf::val( 'gg' ) && Conf::val( 'recapt_forget' ) ) {
+			try {
+				Captcha::get_instance()->authenticate(); // Need to be before WP auth check
+			} catch ( \Exception $ex ) {
+				$err_code = $ex->getMessage();
+				defined( 'debug' ) && debug( '❌ reCAPTCHA error: ' . $err_code );
+
+				$errors->add( 'captcha_err', Lang::msg( $err_code ) );
+			}
+		}
+
+		return $errors;
 	}
 
 	/**

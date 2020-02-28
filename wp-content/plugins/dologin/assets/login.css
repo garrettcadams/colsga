@@ -89,3 +89,7 @@
 .dologin-captcha{
 	margin: 12px 0 25px -15px;
 }
+
+.dologin-hide{
+	display: none;
+}

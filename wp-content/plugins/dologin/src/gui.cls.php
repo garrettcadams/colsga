@@ -22,12 +22,16 @@ class GUI extends Instance
 	{
 		add_action( 'login_message', array( $this, 'login_message' ) );
 
+		add_action( 'login_enqueue_scripts', array( $this, 'login_enqueue_scripts' ) );
+
 		// Register injection for phone number
 		add_action( 'register_form', array( $this, 'register_form' ) );
 
+		add_action( 'lostpassword_form', array( $this, 'lostpassword_form' ) );
+
 		// Append js and set ajax url
-		add_action( 'login_enqueue_scripts', array( $this, 'login_enqueue_scripts' ) );
 		add_action( 'login_form', array( $this, 'login_form' ) );
+
 		add_action( 'woocommerce_login_form', array( $this, 'login_enqueue_scripts' ) );
 		add_action( 'woocommerce_login_form', array( $this, 'login_form' ) );
 	}
@@ -94,6 +98,12 @@ class GUI extends Instance
 		}
 	}
 
+	/**
+	 * Inject register form
+	 *
+	 * @since  1.9
+	 * @access public
+	 */
 	public function register_form()
 	{
 		if ( Conf::val( 'sms_force' ) ) {
@@ -102,6 +112,23 @@ class GUI extends Instance
 						<input type="text" name="phone_number" id="phone_number" class="input" size="25" required />
 					</p>
 			';
+		}
+
+		if ( Conf::val( 'gg' ) && Conf::val( 'recapt_register' ) ) {
+			Captcha::get_instance()->show();
+		}
+	}
+
+	/**
+	 * Inject lost password form
+	 *
+	 * @since  1.9
+	 * @access public
+	 */
+	public function lostpassword_form()
+	{
+		if ( Conf::val( 'gg' ) && Conf::val( 'recapt_forget' ) ) {
+			Captcha::get_instance()->show();
 		}
 	}
 

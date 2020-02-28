@@ -58,7 +58,7 @@ class Lang extends Instance
 				break;
 
 			case 'max_retries_hit' :
-				$msg = __( 'Too many failed login attempts.', 'dologin' );
+				$msg = __( 'Too many failed login attempts. Please try later.', 'dologin' );
 				break;
 
 			case 'under_protected' :
@@ -111,6 +111,6 @@ class Lang extends Instance
 				break;
 		}
 
-		return __( 'DoLogin Security', 'dologin' ) . ': ' . $msg;
+		return '<strong>' . __( 'DoLogin Security', 'dologin' ) . '</strong>: ' . $msg;
 	}
 }

@@ -25,6 +25,8 @@ class Conf extends Instance
 		'gg'				=> false,
 		'gg_pub_key'		=> '',
 		'gg_priv_key'		=> '',
+		'recapt_register' 	=> false,
+		'recapt_forget' 	=> false,
 		'whitelist'			=> array(),
 		'blacklist'			=> array(),
 	);

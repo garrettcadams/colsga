@@ -71,6 +71,8 @@ $current_user_phone = SMS::get_instance()->current_user_phone();
 			<td>
 				<p><label><input type="checkbox" name="gg" value="1" <?php echo Conf::val( 'gg' ) ? 'checked' : ''; ?> /> <?php echo __( 'Enable', 'dologin' ); ?></label></p>
 
+				<p class="description"><?php echo __( 'This will enable reCAPTCHA on login page.', 'dologin' ); ?></p>
+
 				<div style="display:flex;">
 					<div style="margin-right: 50px;">
 						<p><label>
@@ -95,6 +97,12 @@ $current_user_phone = SMS::get_instance()->current_user_phone();
 					<?php echo sprintf( __( '<a %s>Click here</a> to generate keys from Google reCAPTCHA.', 'dologin' ), 'href="https://www.google.com/recaptcha/admin#list" target="_blank"'); ?>
 					<?php echo __( 'Note: v2 supported only.', 'dologin' ); ?>
 				</p>
+
+				<p><label><input type="checkbox" name="recapt_register" value="1" <?php echo Conf::val( 'recapt_register' ) ? 'checked' : ''; ?> /> <?php echo __( 'Enable on Register Page', 'dologin' ); ?></label></p>
+
+				<!-- Need to wait for https://core.trac.wordpress.org/ticket/49521 fixed -->
+				<p class="dologin-hide"><label><input type="checkbox" name="recapt_forget" value="1" <?php echo Conf::val( 'recapt_forget' ) ? 'checked' : ''; ?> /> <?php echo __( 'Enable on Lost Password Page', 'dologin' ); ?></label></p>
+
 			</td>
 		</tr>
 

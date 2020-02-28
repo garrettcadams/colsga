@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the DoLogin Security package.
 msgid ""
 msgstr ""
-"Project-Id-Version: DoLogin Security 1.8\n"
+"Project-Id-Version: DoLogin Security 1.9\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/dologin\n"
-"POT-Creation-Date: 2020-02-18 19:21:37+00:00\n"
+"POT-Creation-Date: 2020-02-26 21:13:34+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
-#: src/admin.cls.php:71 src/admin.cls.php:79 src/gui.cls.php:101
+#: src/admin.cls.php:71 src/admin.cls.php:79 src/gui.cls.php:111
 msgid "Dologin Security Phone"
 msgstr ""
 
@@ -44,7 +44,7 @@ msgstr ""
 msgid "Failed to write to %s."
 msgstr ""
 
-#: src/gui.cls.php:86
+#: src/gui.cls.php:90
 msgid "Dynamic Code"
 msgstr ""
 
@@ -73,7 +73,7 @@ msgid "Your IP is in the blacklist."
 msgstr ""
 
 #: src/lang.cls.php:61
-msgid "Too many failed login attempts."
+msgid "Too many failed login attempts. Please try later."
 msgstr ""
 
 #: src/lang.cls.php:65
@@ -122,7 +122,7 @@ msgid ""
 "previously."
 msgstr ""
 
-#. #-#-#-#-#  dologin.pot (DoLogin Security 1.8)  #-#-#-#-#
+#. #-#-#-#-#  dologin.pot (DoLogin Security 1.9)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
 #: src/lang.cls.php:114
 msgid "DoLogin Security"
@@ -166,7 +166,7 @@ msgstr ""
 msgid "GDPR Compliance"
 msgstr ""
 
-#: tpl/settings.tpl.php:34 tpl/settings.tpl.php:72 tpl/settings.tpl.php:147
+#: tpl/settings.tpl.php:34 tpl/settings.tpl.php:72 tpl/settings.tpl.php:155
 msgid "Enable"
 msgstr ""
 
@@ -231,160 +231,172 @@ msgstr ""
 msgid "Google reCAPTCHA"
 msgstr ""
 
-#: tpl/settings.tpl.php:77
+#: tpl/settings.tpl.php:74
+msgid "This will enable reCAPTCHA on login page."
+msgstr ""
+
+#: tpl/settings.tpl.php:79
 msgid "Site Key"
 msgstr ""
 
-#: tpl/settings.tpl.php:81
+#: tpl/settings.tpl.php:83
 msgid "Secret Key"
 msgstr ""
 
-#: tpl/settings.tpl.php:95
+#: tpl/settings.tpl.php:97
 msgid "<a %s>Click here</a> to generate keys from Google reCAPTCHA."
 msgstr ""
 
-#: tpl/settings.tpl.php:96
+#: tpl/settings.tpl.php:98
 msgid "Note: v2 supported only."
 msgstr ""
 
-#: tpl/settings.tpl.php:102 tpl/settings.tpl.php:138
+#: tpl/settings.tpl.php:101
+msgid "Enable on Register Page"
+msgstr ""
+
+#: tpl/settings.tpl.php:104
+msgid "Enable on Lost Password Page"
+msgstr ""
+
+#: tpl/settings.tpl.php:110 tpl/settings.tpl.php:146
 msgid "Whitelist"
 msgstr ""
 
-#: tpl/settings.tpl.php:109
+#: tpl/settings.tpl.php:117
 msgid "Format"
 msgstr ""
 
-#: tpl/settings.tpl.php:110
+#: tpl/settings.tpl.php:118
 msgid "Both prefix and value are case insensitive."
 msgstr ""
 
-#: tpl/settings.tpl.php:111
+#: tpl/settings.tpl.php:119
 msgid "Spaces around comma/colon are allowed."
 msgstr ""
 
-#: tpl/settings.tpl.php:112
+#: tpl/settings.tpl.php:120
 msgid "One rule set per line."
 msgstr ""
 
-#: tpl/settings.tpl.php:115
+#: tpl/settings.tpl.php:123
 msgid "Prefix list"
 msgstr ""
 
-#: tpl/settings.tpl.php:117
+#: tpl/settings.tpl.php:125
 msgid "IP prefix with colon is optional. IP value support wildcard (*)."
 msgstr ""
 
-#: tpl/settings.tpl.php:118 tpl/settings.tpl.php:119 tpl/settings.tpl.php:120
-#: tpl/settings.tpl.php:121
+#: tpl/settings.tpl.php:126 tpl/settings.tpl.php:127 tpl/settings.tpl.php:128
+#: tpl/settings.tpl.php:129
 msgid "Example"
 msgstr ""
 
-#: tpl/settings.tpl.php:119
+#: tpl/settings.tpl.php:127
 msgid "Dropped optional prefix"
 msgstr ""
 
-#: tpl/settings.tpl.php:123
+#: tpl/settings.tpl.php:131
 msgid "Get my GeoLocation data from"
 msgstr ""
 
-#: tpl/settings.tpl.php:131
+#: tpl/settings.tpl.php:139
 msgid "Blacklist"
 msgstr ""
 
-#: tpl/settings.tpl.php:138
+#: tpl/settings.tpl.php:146
 msgid "Same format as %s"
 msgstr ""
 
-#: tpl/settings.tpl.php:145
+#: tpl/settings.tpl.php:153
 msgid "Auto Upgrade"
 msgstr ""
 
-#: tpl/settings.tpl.php:149
+#: tpl/settings.tpl.php:157
 msgid "Enable this option to get the latest features at the first moment."
 msgstr ""
 
-#: tpl/settings.tpl.php:200
+#: tpl/settings.tpl.php:208
 msgid "Passwordless Login"
 msgstr ""
 
-#: tpl/settings.tpl.php:202
+#: tpl/settings.tpl.php:210
 msgid "Generate Links in Users List"
 msgstr ""
 
-#: tpl/settings.tpl.php:205
+#: tpl/settings.tpl.php:213
 msgid "Here you can generate login links and manage them."
 msgstr ""
 
-#: tpl/settings.tpl.php:211 tpl/settings.tpl.php:266
+#: tpl/settings.tpl.php:219 tpl/settings.tpl.php:274
 msgid "Date"
 msgstr ""
 
-#: tpl/settings.tpl.php:212
+#: tpl/settings.tpl.php:220
 msgid "User"
 msgstr ""
 
-#: tpl/settings.tpl.php:213
+#: tpl/settings.tpl.php:221
 msgid "Link"
 msgstr ""
 
-#: tpl/settings.tpl.php:214
+#: tpl/settings.tpl.php:222
 msgid "Created By"
 msgstr ""
 
-#: tpl/settings.tpl.php:215
+#: tpl/settings.tpl.php:223
 msgid "Count"
 msgstr ""
 
-#: tpl/settings.tpl.php:216
+#: tpl/settings.tpl.php:224
 msgid "Last Used At"
 msgstr ""
 
-#: tpl/settings.tpl.php:217
+#: tpl/settings.tpl.php:225
 msgid "Expired At"
 msgstr ""
 
-#: tpl/settings.tpl.php:218
+#: tpl/settings.tpl.php:226
 msgid "One Time Usage"
 msgstr ""
 
-#: tpl/settings.tpl.php:219
+#: tpl/settings.tpl.php:227
 msgid "Status"
 msgstr ""
 
-#: tpl/settings.tpl.php:235
+#: tpl/settings.tpl.php:243
 msgid "+7 Days"
 msgstr ""
 
-#: tpl/settings.tpl.php:245
+#: tpl/settings.tpl.php:253
 msgid "Active"
 msgstr ""
 
-#: tpl/settings.tpl.php:247
+#: tpl/settings.tpl.php:255
 msgid "Disabled"
 msgstr ""
 
-#: tpl/settings.tpl.php:260
+#: tpl/settings.tpl.php:268
 msgid "Login Attempts Log"
 msgstr ""
 
-#: tpl/settings.tpl.php:267
+#: tpl/settings.tpl.php:275
 msgid "IP"
 msgstr ""
 
-#: tpl/settings.tpl.php:268
+#: tpl/settings.tpl.php:276
 msgid "GeoLocation"
 msgstr ""
 
-#: tpl/settings.tpl.php:269
+#: tpl/settings.tpl.php:277
 msgid "Login As"
 msgstr ""
 
-#: tpl/settings.tpl.php:270
+#: tpl/settings.tpl.php:278
 msgid "Gateway"
 msgstr ""
 
-#: tpl/settings.tpl.php:289
+#: tpl/settings.tpl.php:297
 msgid "Rate Us!"
 msgstr ""
 
