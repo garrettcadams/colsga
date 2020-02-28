@@ -1,0 +1,181 @@
+{
+    "data": {
+        "amsterdam": [
+			{
+                "meta_id": "79",
+                "term_id": "237",
+                "meta_key": "wilcity_featured_image_id",
+                "meta_value": "3249",
+                "slug": "amsterdam"
+            },
+            {
+                "meta_id": "79",
+                "term_id": "237",
+                "meta_key": "wilcity_featured_image",
+                "meta_value": "http://wilcity.wiloke.com/wp-content/uploads/2018/08/Amsterdam_1_b.jpg",
+                "slug": "amsterdam"
+            }
+		],
+        "atlanta": [
+			{
+                "meta_id": "80",
+                "term_id": "220",
+                "meta_key": "wilcity_featured_image_id",
+                "meta_value": "3248",
+                "slug": "atlanta"
+            },
+            {
+                "meta_id": "80",
+                "term_id": "220",
+                "meta_key": "wilcity_featured_image",
+                "meta_value": "http://wilcity.wiloke.com/wp-content/uploads/2018/08/madrid_8-400x300.jpg",
+                "slug": "atlanta"
+            }
+		],
+        "bangkok": [
+			{
+                "meta_id": "81",
+                "term_id": "239",
+                "meta_key": "wilcity_featured_image_id",
+                "meta_value": "3247",
+                "slug": "bangkok"
+            },
+            {
+                "meta_id": "81",
+                "term_id": "239",
+                "meta_key": "wilcity_featured_image",
+                "meta_value": "http://wilcity.wiloke.com/wp-content/uploads/2018/08/Bangkok_1_c.jpg",
+                "slug": "bangkok"
+            }
+		],
+        "barcelona": [
+            {
+                "meta_id": "82",
+                "term_id": "232",
+                "meta_key": "wilcity_featured_image_id",
+                "meta_value": "3246",
+                "slug": "barcelona"
+            },
+            {
+                "meta_id": "82",
+                "term_id": "232",
+                "meta_key": "wilcity_featured_image",
+                "meta_value": "http://wilcity.wiloke.com/wp-content/uploads/2018/08/barcelona_5-451x300.jpg",
+                "slug": "barcelona"
+            }
+        ],
+        "hanoi": [
+			{
+                "meta_id": "84",
+                "term_id": "235",
+                "meta_key": "wilcity_featured_image_id",
+                "meta_value": "3244",
+                "slug": "hanoi"
+            },
+            {
+                "meta_id": "84",
+                "term_id": "235",
+                "meta_key": "wilcity_featured_image",
+                "meta_value": "http://wilcity.wiloke.com/wp-content/uploads/2018/08/London_1_a.jpg",
+                "slug": "hanoi"
+            }
+		],
+		"istanbul": [
+			{
+                "meta_id": "90",
+                "term_id": "235",
+                "meta_key": "wilcity_featured_image_id",
+                "meta_value": "3244",
+                "slug": "hanoi"
+            },
+            {
+                "meta_id": "90",
+                "term_id": "235",
+                "meta_key": "wilcity_featured_image",
+                "meta_value": "http://wilcity.wiloke.com/wp-content/uploads/2018/08/chicago_3-450x300.jpg",
+                "slug": "hanoi"
+            }
+		],
+        "new-york": [
+			{
+                "meta_id": "85",
+                "term_id": "221",
+                "meta_key": "wilcity_featured_image_id",
+                "meta_value": "3243",
+                "slug": "new-york"
+            },
+            {
+                "meta_id": "85",
+                "term_id": "221",
+                "meta_key": "wilcity_featured_image",
+                "meta_value": "http://wilcity.wiloke.com/wp-content/uploads/2018/08/chicago_3-450x300.jpg",
+                "slug": "new-york"
+            }
+		],
+        "paris": [
+			{
+                "meta_id": "86",
+                "term_id": "228",
+                "meta_key": "wilcity_featured_image_id",
+                "meta_value": "3242",
+                "slug": "paris"
+            },
+            {
+                "meta_id": "86",
+                "term_id": "228",
+                "meta_key": "wilcity_featured_image",
+                "meta_value": "http://wilcity.wiloke.com/wp-content/uploads/2018/08/las_vegas_1.jpg",
+                "slug": "paris"
+            }
+		],
+        "san-francisco": [
+			{
+                "meta_id": "87",
+                "term_id": "215",
+                "meta_key": "wilcity_featured_image_id",
+                "meta_value": "3241",
+                "slug": "san-francisco"
+            },
+            {
+                "meta_id": "87",
+                "term_id": "215",
+                "meta_key": "wilcity_featured_image",
+                "meta_value": "http://wilcity.wiloke.com/wp-content/uploads/2018/08/madrid_8-400x300.jpg",
+                "slug": "san-francisco"
+            }
+		],
+        "seoul": [
+			{
+                "meta_id": "88",
+                "term_id": "215",
+                "meta_key": "wilcity_featured_image_id",
+                "meta_value": "3240",
+                "slug": "seoul"
+            },
+            {
+                "meta_id": "88",
+                "term_id": "215",
+                "meta_key": "wilcity_featured_image",
+                "meta_value": "http://wilcity.wiloke.com/wp-content/uploads/2018/05/Barcelona_3_b.jpg",
+                "slug": "seoul"
+            }
+		],
+        "sydney": [
+			{
+                "meta_id": "89",
+                "term_id": "245",
+                "meta_key": "wilcity_featured_image_id",
+                "meta_value": "3240",
+                "slug": "seoul"
+            },
+            {
+                "meta_id": "89",
+                "term_id": "245",
+                "meta_key": "wilcity_featured_image",
+                "meta_value": "http://wilcity.wiloke.com/wp-content/uploads/2018/05/Sydney_2_b.jpg",
+                "slug": "seoul"
+            }
+		]
+    },
+    "taxonomy": "listing_location"
+}

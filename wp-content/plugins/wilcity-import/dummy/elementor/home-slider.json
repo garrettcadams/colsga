@@ -1,0 +1,534 @@
+{
+    "version": "0.4",
+    "title": "Home Slider 2",
+    "type": "page",
+    "content": [
+        {
+            "id": "20fb948d",
+            "settings": {
+                "layout": "full_width",
+                "gap": "no",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": true
+                }
+            },
+            "elements": [
+                {
+                    "id": "78f5dba5",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "3946bce1",
+                            "settings": {
+                                "heading": "Explore This City",
+                                "description": "Business owners - over a million people view these listings every month - we highly recommend you ensure your business is properly listed.",
+                                "toggle_button": "disable",
+                                "button_name": "Check out",
+                                "button_link": "#",
+                                "bg_type": "slider",
+                                "slider_bg": [
+                                    {
+                                        "id": 3609,
+                                        "url": "http://wilcity.wiloke.com/wp-content/uploads/2018/08/Atlanta_1_a.jpg"
+                                    },
+                                    {
+                                        "id": 3543,
+                                        "url": "http://wilcity.wiloke.com/wp-content/uploads/2018/08/pexels-photo-787961-1.jpg"
+                                    }
+                                ],
+                                "toggle_search_form": "enable",
+                                "search_form": [
+                                    {
+                                        "name": "Listing",
+                                        "post_type": "listing",
+                                        "_id": "184d289"
+                                    },
+                                    {
+                                        "name": "Event",
+                                        "post_type": "event",
+                                        "_id": "996d57c"
+                                    }
+                                ]
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "wilcity-hero",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "2a8dc68e",
+            "settings": {
+                "layout": "full_width",
+                "gap": "no",
+                "background_background": "classic",
+                "background_color": "#f3f3f6",
+                "padding": {
+                    "unit": "px",
+                    "top": "30",
+                    "right": "0",
+                    "bottom": "30",
+                    "left": "0",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "55f23530",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "1f3cdd92",
+                            "settings": {
+                                "heading": "",
+                                "maximum_posts": 8,
+                                "maximum_posts_on_extra_lg_screen": "4",
+                                "maximum_posts_on_lg_screen": "4",
+                                "maximum_posts_on_md_screen": "3",
+                                "maximum_posts_on_sm_screen": 2,
+                                "maximum_posts_on_extra_sm_screen": 1
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "wilcity-listings-slider",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "1e8dc088",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "1a4c4404",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "680e9a53",
+                            "settings": {
+                                "blur_mark": "Cities",
+                                "heading": "What Do You Want to Do Tonight?",
+                                "description": "Explore restaurants, bars, and cafés by locality"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "wilcity-heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "64ea393e",
+                            "settings": {
+                                "taxonomy": "listing_location",
+                                "listing_locations": [
+                                    "2",
+                                    "10",
+                                    "20",
+                                    "32",
+                                    ""
+                                ],
+                                "posts_per_page": 6,
+                                "col_gap": 20
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "wilcity-modern-term-boxes",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "7202319f",
+            "settings": {
+                "border_border": "solid",
+                "border_width": {
+                    "unit": "px",
+                    "top": "1",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "border_color": "#e7e7ed"
+            },
+            "elements": [
+                {
+                    "id": "491b4be2",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "10e92d4a",
+                            "settings": {
+                                "blur_mark": "Categories",
+                                "heading": "What are you interested in?",
+                                "description": "Explore curated lists of top restaurants, cafes, shopping, spa, and bars around the world by categories."
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "wilcity-heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "24539aea",
+                            "settings": {
+                                "number": "8"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "wilcity-term-boxes",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "67e04de0",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#f3f3f6"
+            },
+            "elements": [
+                {
+                    "id": "3361a800",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "dfd5708",
+                            "settings": {
+                                "blur_mark": "Listings",
+                                "heading": "Best Things to Do in the City",
+                                "description": "Exploring destinations, food and culture around the world"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "wilcity-heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "6d90cc68",
+                            "settings": {
+                                "posts_per_page": 6,
+                                "img_size": "wilcity_360x200"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "wilcity-grid",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "4c3ad02d",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "6aabd85",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "d63817c",
+                            "settings": {
+                                "blur_mark": "Features",
+                                "heading": "How can I earn money with WilCity?",
+                                "description": "WilCity provides the various ways that help you can \nearn money from your site."
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "wilcity-heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "1c9455e7",
+                            "settings": {
+                                "structure": "30"
+                            },
+                            "elements": [
+                                {
+                                    "id": "6f549b34",
+                                    "settings": {
+                                        "_column_size": 33,
+                                        "_inline_size": null
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "703deab3",
+                                            "settings": {
+                                                "icon": "fa fa-viacoin",
+                                                "heading": "Paid Listings",
+                                                "description": "This is the big money maker of your directory site. Listing owners will pay to get their places listed on your site.\n"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "wilcity-box-icon",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                },
+                                {
+                                    "id": "7bbddc73",
+                                    "settings": {
+                                        "_column_size": 33,
+                                        "_inline_size": null
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "1dbc846d",
+                                            "settings": {
+                                                "icon": "fa fa-asterisk",
+                                                "heading": "Promoted Listings",
+                                                "description": "You offer Promotion Plans, listing owners will have directories appeared at special spots on site, and at the top of search results page.\n"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "wilcity-box-icon",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                },
+                                {
+                                    "id": "7f7ac580",
+                                    "settings": {
+                                        "_column_size": 33,
+                                        "_inline_size": null
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "3ef07c4b",
+                                            "settings": {
+                                                "icon": "fa fa-edit",
+                                                "heading": "Paid Claim Listings",
+                                                "description": "Another revenue model to monetize from listing. You create a listing on your site and allow the business owner to claim it.\n"
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "wilcity-box-icon",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "1619b0dc",
+            "settings": {
+                "layout": "full_width",
+                "gap": "no",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": true
+                }
+            },
+            "elements": [
+                {
+                    "id": "610865f9",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "2dffde7e",
+                            "settings": {
+                                "heading": "Yelp! iOS app, and Android app are coming soon!",
+                                "description": "We are working on the Android and IOS app, you will see it soon ;). The most important thing: You can easily design the App Homepage yourself.\n",
+                                "btn_group": [
+                                    {
+                                        "icon": "fa fa-apple",
+                                        "name": "Apple Store",
+                                        "url": "#",
+                                        "open_type": "_blank",
+                                        "_id": "cffada0"
+                                    },
+                                    {
+                                        "icon": "fa fa-android",
+                                        "name": "Google Play",
+                                        "url": "#",
+                                        "open_type": "_blank",
+                                        "_id": "2c25f56"
+                                    }
+                                ]
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "wilcity-canvas",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "68378f2",
+            "settings": {
+                "background_background": "classic",
+                "background_color": "#f3f3f6"
+            },
+            "elements": [
+                {
+                    "id": "37154569",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "67469b60",
+                            "settings": {
+                                "blur_mark": "Events",
+                                "heading": "Events for you",
+                                "description": "Discover upcoming and ongoing events near by you."
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "wilcity-heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "59fe419e",
+                            "settings": {
+                                "posts_per_page": "3",
+                                "img_size": "wilcity_360x200"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "wilcity-event-grid",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "14dab00d",
+            "settings": [],
+            "elements": [
+                {
+                    "id": "6e921345",
+                    "settings": {
+                        "_column_size": 100
+                    },
+                    "elements": [
+                        {
+                            "id": "2ff076ce",
+                            "settings": {
+                                "heading": "Trusted by over 30000+ users",
+                                "description": "Here is what some of them have to say about Wiloke"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "wilcity-heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "61a30bf8",
+                            "settings": {
+                                "testimonials": [
+                                    {
+                                        "name": "Mark Alexander",
+                                        "testimonial": "Life before WilCity was very chaotic - we got a lot of phone calls, a lot of mistyped orders. So with WilCity, the ability to see the order directly from the customer makes it so streamlined.",
+                                        "profesional": "Designer",
+                                        "avatar": {
+                                            "url": "http://wilcity.wiloke.com/wp-content/uploads/2018/08/about_20.jpg",
+                                            "id": 3504
+                                        },
+                                        "_id": "4b453df"
+                                    },
+                                    {
+                                        "name": "Randy Robinson",
+                                        "testimonial": "We’ve increased our sales from 20–35% since we’ve implemented WilCity and would never look back.",
+                                        "profesional": "Developer",
+                                        "avatar": {
+                                            "url": "http://wilcity.wiloke.com/wp-content/uploads/2018/08/about_4.jpg",
+                                            "id": 3506
+                                        },
+                                        "_id": "8f71ae3"
+                                    }
+                                ]
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "wilcity-testimonials",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ]
+}

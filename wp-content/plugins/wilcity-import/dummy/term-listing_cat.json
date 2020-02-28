@@ -1,0 +1,441 @@
+{
+    "data": {
+        "bars-pubs": [
+            {
+                "meta_id": "18",
+                "term_id": "252",
+                "meta_key": "wilcity_icon",
+                "meta_value": "la la-glass",
+                "slug": "bars-pubs"
+            },
+            {
+                "meta_id": "19",
+                "term_id": "252",
+                "meta_key": "wilcity_icon_color",
+                "meta_value": "#bfff02",
+                "slug": "bars-pubs"
+            },
+            {
+                "meta_id": "68",
+                "term_id": "252",
+                "meta_key": "wilcity_featured_image_id",
+                "meta_value": "3247",
+                "slug": "bars-pubs"
+            },
+            {
+                "meta_id": "69",
+                "term_id": "252",
+                "meta_key": "wilcity_featured_image",
+                "meta_value": "http://wilcity.wiloke.com/wp-content/uploads/2018/08/Barcelona_4_d-300x300.jpg",
+                "slug": "bars-pubs"
+            },
+            {
+                "meta_id": "110",
+                "term_id": "252",
+                "meta_key": "wilcity_left_gradient_bg",
+                "meta_value": "#ff7a78",
+                "slug": "bars-pubs"
+            },
+            {
+                "meta_id": "111",
+                "term_id": "252",
+                "meta_key": "wilcity_right_gradient_bg",
+                "meta_value": "#262dff",
+                "slug": "bars-pubs"
+            },
+            {
+                "meta_id": "112",
+                "term_id": "252",
+                "meta_key": "wilcity_gradient_tilted_degrees",
+                "meta_value": "160",
+                "slug": "bars-pubs"
+            }
+        ],
+        "destinations": [
+            {
+                "meta_id": "22",
+                "term_id": "246",
+                "meta_key": "wilcity_icon",
+                "meta_value": "la la-globe",
+                "slug": "destinations"
+            },
+            {
+                "meta_id": "23",
+                "term_id": "246",
+                "meta_key": "wilcity_icon_color",
+                "meta_value": "#9cfb23",
+                "slug": "destinations"
+            },
+            {
+                "meta_id": "66",
+                "term_id": "246",
+                "meta_key": "wilcity_featured_image_id",
+                "meta_value": "2447",
+                "slug": "destinations"
+            },
+            {
+                "meta_id": "67",
+                "term_id": "246",
+                "meta_key": "wilcity_featured_image",
+                "meta_value": "http://wilcity.wiloke.com/wp-content/uploads/2018/08/3-300x300.jpg",
+                "slug": "destinations"
+            },
+            {
+                "meta_id": "89",
+                "term_id": "246",
+                "meta_key": "wilcity_left_gradient_bg",
+                "meta_value": "#f22dff",
+                "slug": "destinations"
+            },
+            {
+                "meta_id": "90",
+                "term_id": "246",
+                "meta_key": "wilcity_right_gradient_bg",
+                "meta_value": "#7553fb",
+                "slug": "destinations"
+            },
+            {
+                "meta_id": "91",
+                "term_id": "246",
+                "meta_key": "wilcity_gradient_tilted_degrees",
+                "meta_value": "-45",
+                "slug": "destinations"
+            }
+        ],
+        "food-drink": [
+            {
+                "meta_id": "31",
+                "term_id": "4",
+                "meta_key": "wilcity_icon",
+                "meta_value": "la la-coffee",
+                "slug": "food-drink"
+            },
+            {
+                "meta_id": "32",
+                "term_id": "4",
+                "meta_key": "wilcity_icon_color",
+                "meta_value": "#f95524",
+                "slug": "food-drink"
+            },
+            {
+                "meta_id": "64",
+                "term_id": "4",
+                "meta_key": "wilcity_featured_image_id",
+                "meta_value": "3103",
+                "slug": "food-drink"
+            },
+            {
+                "meta_id": "65",
+                "term_id": "4",
+                "meta_key": "wilcity_featured_image",
+                "meta_value": "http://wilcity.wiloke.com/wp-content/uploads/2018/05/Barcelona_3_c-300x300.jpg",
+                "slug": "food-drink"
+            },
+            {
+                "meta_id": "80",
+                "term_id": "4",
+                "meta_key": "wilcity_tags_belong_to",
+                "meta_value": "a:3:{i:0;s:19:\"breakfast-available\";i:1;s:14:\"serves-alcohol\";i:2;s:4:\"wifi\";}",
+                "slug": "food-drink"
+            },
+            {
+                "meta_id": "95",
+                "term_id": "4",
+                "meta_key": "wilcity_left_gradient_bg",
+                "meta_value": "#ff482e",
+                "slug": "food-drink"
+            },
+            {
+                "meta_id": "96",
+                "term_id": "4",
+                "meta_key": "wilcity_right_gradient_bg",
+                "meta_value": "#3531ff",
+                "slug": "food-drink"
+            },
+            {
+                "meta_id": "97",
+                "term_id": "4",
+                "meta_key": "wilcity_gradient_tilted_degrees",
+                "meta_value": "30",
+                "slug": "food-drink"
+            },
+            {
+                "meta_id": "53",
+                "term_id": "272",
+                "meta_key": "wilcity_icon",
+                "meta_value": "la la-coffee",
+                "slug": "food-drink"
+            }
+        ],
+        "hotels": [
+            {
+                "meta_id": "24",
+                "term_id": "247",
+                "meta_key": "wilcity_icon",
+                "meta_value": "la la-bed",
+                "slug": "hotels"
+            },
+            {
+                "meta_id": "33",
+                "term_id": "247",
+                "meta_key": "wilcity_icon_color",
+                "meta_value": "#ffc813",
+                "slug": "hotels"
+            },
+            {
+                "meta_id": "72",
+                "term_id": "247",
+                "meta_key": "wilcity_featured_image_id",
+                "meta_value": "3113",
+                "slug": "hotels"
+            },
+            {
+                "meta_id": "73",
+                "term_id": "247",
+                "meta_key": "wilcity_featured_image",
+                "meta_value": "http://wilcity.wiloke.com/wp-content/uploads/2018/08/pexels-photo-261102-300x300.jpg",
+                "slug": "hotels"
+            },
+            {
+                "meta_id": "101",
+                "term_id": "247",
+                "meta_key": "wilcity_left_gradient_bg",
+                "meta_value": "#0216ff",
+                "slug": "hotels"
+            },
+            {
+                "meta_id": "102",
+                "term_id": "247",
+                "meta_key": "wilcity_right_gradient_bg",
+                "meta_value": "#d644f0",
+                "slug": "hotels"
+            },
+            {
+                "meta_id": "103",
+                "term_id": "247",
+                "meta_key": "wilcity_gradient_tilted_degrees",
+                "meta_value": "20",
+                "slug": "hotels"
+            }
+        ],
+        "nightlife": [
+            {
+                "meta_id": "25",
+                "term_id": "248",
+                "meta_key": "wilcity_icon",
+                "meta_value": "la la-music",
+                "slug": "nightlife"
+            },
+            {
+                "meta_id": "26",
+                "term_id": "248",
+                "meta_key": "wilcity_icon_color",
+                "meta_value": "#5c0ada",
+                "slug": "nightlife"
+            },
+            {
+                "meta_id": "74",
+                "term_id": "248",
+                "meta_key": "wilcity_featured_image_id",
+                "meta_value": "2263",
+                "slug": "nightlife"
+            },
+            {
+                "meta_id": "75",
+                "term_id": "248",
+                "meta_key": "wilcity_featured_image",
+                "meta_value": "http://wilcity.wiloke.com/wp-content/uploads/2018/08/pexels-photo-878998-300x300.jpg",
+                "slug": "nightlife"
+            },
+            {
+                "meta_id": "98",
+                "term_id": "248",
+                "meta_key": "wilcity_left_gradient_bg",
+                "meta_value": "#006bf7",
+                "slug": "nightlife"
+            },
+            {
+                "meta_id": "99",
+                "term_id": "248",
+                "meta_key": "wilcity_right_gradient_bg",
+                "meta_value": "#f06292",
+                "slug": "nightlife"
+            },
+            {
+                "meta_id": "100",
+                "term_id": "248",
+                "meta_key": "wilcity_gradient_tilted_degrees",
+                "meta_value": "150",
+                "slug": "nightlife"
+            }
+        ],
+        "restaurants": [
+            {
+                "meta_id": "27",
+                "term_id": "253",
+                "meta_key": "wilcity_icon",
+                "meta_value": "la la-cutlery",
+                "slug": "restaurants"
+            },
+            {
+                "meta_id": "28",
+                "term_id": "253",
+                "meta_key": "wilcity_icon_color",
+                "meta_value": "#374eff",
+                "slug": "restaurants"
+            },
+            {
+                "meta_id": "76",
+                "term_id": "253",
+                "meta_key": "wilcity_featured_image_id",
+                "meta_value": "2363",
+                "slug": "restaurants"
+            },
+            {
+                "meta_id": "77",
+                "term_id": "253",
+                "meta_key": "wilcity_featured_image",
+                "meta_value": "http://wilcity.wiloke.com/wp-content/uploads/2018/08/Berlin_1_b.jpg",
+                "slug": "restaurants"
+            },
+            {
+                "meta_id": "92",
+                "term_id": "253",
+                "meta_key": "wilcity_left_gradient_bg",
+                "meta_value": "#f74400",
+                "slug": "restaurants"
+            },
+            {
+                "meta_id": "93",
+                "term_id": "253",
+                "meta_key": "wilcity_right_gradient_bg",
+                "meta_value": "#ea3eff",
+                "slug": "restaurants"
+            },
+            {
+                "meta_id": "94",
+                "term_id": "253",
+                "meta_key": "wilcity_gradient_tilted_degrees",
+                "meta_value": "-10",
+                "slug": "restaurants"
+            }
+        ],
+        "shopping": [
+            {
+                "meta_id": "29",
+                "term_id": "250",
+                "meta_key": "wilcity_icon",
+                "meta_value": "la la-shopping-cart",
+                "slug": "shopping"
+            },
+            {
+                "meta_id": "30",
+                "term_id": "250",
+                "meta_key": "wilcity_icon_color",
+                "meta_value": "#0bf389",
+                "slug": "shopping"
+            },
+            {
+                "meta_id": "78",
+                "term_id": "250",
+                "meta_key": "wilcity_featured_image_id",
+                "meta_value": "3242",
+                "slug": "shopping"
+            },
+            {
+                "meta_id": "79",
+                "term_id": "250",
+                "meta_key": "wilcity_featured_image",
+                "meta_value": "http://wilcity.wiloke.com/wp-content/uploads/2018/08/pexels-photo-1068527.jpg",
+                "slug": "shopping"
+            },
+            {
+                "meta_id": "104",
+                "term_id": "250",
+                "meta_key": "wilcity_left_gradient_bg",
+                "meta_value": "#2b06f3",
+                "slug": "shopping"
+            },
+            {
+                "meta_id": "105",
+                "term_id": "250",
+                "meta_key": "wilcity_right_gradient_bg",
+                "meta_value": "#ff2a16",
+                "slug": "shopping"
+            },
+            {
+                "meta_id": "106",
+                "term_id": "250",
+                "meta_key": "wilcity_gradient_tilted_degrees",
+                "meta_value": "15",
+                "slug": "shopping"
+            },
+            {
+                "meta_id": "60",
+                "term_id": "279",
+                "meta_key": "wilcity_icon",
+                "meta_value": "la la-shopping-cart",
+                "slug": "shopping"
+            }
+        ],
+        "Beautiful": [
+            {
+                "meta_id": "20",
+                "term_id": "249",
+                "meta_key": "wilcity_icon",
+                "meta_value": "la la-female",
+                "slug": "Beautiful"
+            },
+            {
+                "meta_id": "21",
+                "term_id": "249",
+                "meta_key": "wilcity_icon_color",
+                "meta_value": "#ff2d97",
+                "slug": "Beautiful"
+            },
+            {
+                "meta_id": "70",
+                "term_id": "249",
+                "meta_key": "wilcity_featured_image_id",
+                "meta_value": "3243",
+                "slug": "Beautiful"
+            },
+            {
+                "meta_id": "71",
+                "term_id": "249",
+                "meta_key": "wilcity_featured_image",
+                "meta_value": "http://wilcity.wiloke.com/wp-content/uploads/2018/08/Barcelona_4_d-300x300.jpg",
+                "slug": "Beautiful"
+            },
+            {
+                "meta_id": "107",
+                "term_id": "249",
+                "meta_key": "wilcity_left_gradient_bg",
+                "meta_value": "#006bf7",
+                "slug": "Beautiful"
+            },
+            {
+                "meta_id": "108",
+                "term_id": "249",
+                "meta_key": "wilcity_right_gradient_bg",
+                "meta_value": "#ff4d1d",
+                "slug": "Beautiful"
+            },
+            {
+                "meta_id": "109",
+                "term_id": "249",
+                "meta_key": "wilcity_gradient_tilted_degrees",
+                "meta_value": "-15",
+                "slug": "Beautiful"
+            },
+            {
+                "meta_id": "54",
+                "term_id": "273",
+                "meta_key": "wilcity_icon",
+                "meta_value": "la la-female",
+                "slug": "Beautiful"
+            }
+        ]
+    },
+    "taxonomy": "listing_cat"
+}
