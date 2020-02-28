@@ -1,0 +1,170 @@
+/**
+/* 1. Single listing - Review Average
+**/
+
+
+/**
+/* 1. Single listing - Review Average
+**/
+.jv-rating-avg-wrap {
+    display: flex;
+    align-items: center;
+}
+
+
+/*
+* 2. Search form list widget
+*/
+.shortcode-jvbpd_search_field{
+	.field-listing_amenities{
+		.search-box-block{
+			display:flex;
+			flex-wrap:wrap;
+			margin:0px 0px 0px 0px;
+			padding: 0px 0px 0px 0px;
+			justify-content:flex-start;
+
+			.amenities{
+				margin:0px 0px 0px 0px;
+				padding: 0px 0px 0px 0px;
+				width: auto;
+				flex-grow:0;
+				flex-basis:auto;
+	                        text-align: left;
+			}
+		}
+	}
+}
+
+/*
+* 3. Spyscroll widget
+*/
+// mouse effect
+
+.mouse{
+	border: 2px solid #ffffff;
+    border-radius: 26px;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 26px;
+    height: 42px;
+    transform: translate(-50%, -50%) !important;
+    cursor: pointer;
+}
+
+.mouse:after {
+	background-color: #ffffff;
+    border-radius: 100%;
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    margin-left: -2px;
+    width: 4px;
+    height: 4px;
+    opacity: 1;
+    transform: translateY(0px) scaleY(1) scaleX(1) translateZ(0px);
+    animation: jv-mouse-effect 1.5s -1s cubic-bezier(0.680, -0.550, 0.265, 1.550) infinite;
+}
+
+/*
+* 4. Category block
+*/
+.javo-featured-block .javo-text-wrap {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(rgba(0,0,0,0)),to(rgba(0,0,0,0.65)));
+}
+
+/* Map filter btns */
+.elementor-widget-jvbpd-map-rating-btn .dropdown-item{
+    cursor: pointer;
+}
+
+/* Selectize input focus*/
+.jvbpd_map_list_sidebar_wrap .selectize-input.focus{
+    border:none;
+}
+
+/* Map area */
+.javo-maps-area-wrap .dropdown-menu{
+    top: 46px !important;
+    left: 43px !important;
+}
+
+/* Single Listing Header swich button */
+/*
+.elementor-widget-jvbpd-single-btn-meta{
+    .javo-core-single-featured-switcher{
+        display: inline-flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+    }
+}
+*/
+
+/*
+* 6. Search form section
+*/
+.jvbpd-search-form-section{width:100%;}
+
+
+
+/*
+* 7. JV Nav menu
+*/
+.jvbpd-nav-menu.flex-column > li {
+    display: inline-flex;
+}
+
+
+/*
+* 8. Lava Author Review
+*/
+.elementor-widget-jvbpd-single-author-reviews{
+    div.review-label-wrap{ line-height:1; }
+}
+
+/*
+* 9. Map listing block
+*/
+@media screen and (max-width:768px){
+	.elementor-widget-jvbpd-map-listing-blocks{
+        .slimScrollDiv, .set-vscroll{
+            height:auto!important;
+		    overflow:visible!important;
+        }
+        .slimScrollBar, .slimScrollRail{
+            display:none;
+        }
+    }
+}
+
+/*
+* 10. Listing post meta
+*/
+
+.elementor-widget{
+    &, &.field-align-inline{
+        .single-item{
+            display:-webkit-flex;
+            display:flex;
+            -webkit-flex-direction:row;
+            flex-direction: row;
+            align-items:center;
+        }
+    }
+    &.field-align-block{
+        .single-item{
+            display:block;
+            -ms-display:block;
+            .elementor-icon-wrapper, .item-label{
+                display:inline-block;
+                vertical-align:middle;
+            }
+        }
+    }
+}

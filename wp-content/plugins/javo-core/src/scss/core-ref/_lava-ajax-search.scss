@@ -1,0 +1,124 @@
+body ul.lava_ajax_search {
+  border: 0px solid #e0e0e0;
+  border-top:0;
+  padding:0;
+  box-shadow: 0 0 53px rgba(0,0,0,.1);
+  border-radius: 2px;
+  margin-top:6px;
+  transition: box-shadow .25s ease-in-out,border .3s ease-in-out;
+}
+
+.lava_ajax_search li {
+	i {
+		font-size:13px;
+		color:#666666;
+		display: inline-block;
+		vertical-align: middle;
+		padding-right: 7px;
+	}
+	span {
+		padding: 0px 0 10px 0px;
+	}
+}
+
+body ul.lava_ajax_search li.ui-menu-item.group-title:first-child {
+   margin-top: 0px;
+}
+
+body ul.lava_ajax_search li {
+  &.ui-menu-item.group-title, &.group-content {
+    font-family: "Open Sans", Sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+		margin: 0px 0 0px 0;
+		color:#aaaaaa;
+  	padding: 10px 0 10px 20px;
+  	border-bottom: solid 1px #eaeaea;
+  	&:hover {
+  		background:#eeeeee;
+  		i, a {
+  			color:#000000;
+  		}
+  	}
+  }
+
+  &.group-title {
+    // background: #c5d4e3;
+  }
+}
+
+
+body ul.lava_ajax_search li.show-result{
+	&.group-content {
+		padding: 0px 15px 0 15px;
+	}
+	&.group-title
+	{
+		background: #fafafa;
+		a {
+			padding:0 0 0 0px;
+			color:#333;
+			font-weight:600;
+		}
+	}
+}
+
+
+//listing title
+.type-listings.group-title {
+
+}
+
+body ul.lava_ajax_search li.show-result{
+&.type-listing_category.group-content, &.type-view_all_type.group-content {
+	padding: 14px 0 11px 20px;
+}
+}
+
+
+/* meta */
+.lava_ajax_search .item.media {
+	a img {
+		width: 30px;
+		height: 30px;
+		border-radius:50%;
+	}
+	.item-body.media-body {
+		.item-date, .item-desc{
+			display:none;
+		}
+	}
+}
+
+.lava_ajax_search .item.media {
+	&:after {clear:both;}
+	.item-meta-category, .item-meta-location, .item-meta-open-hours{
+    float:left;
+    font-size: 11px;
+    color: #a5a5a5;
+    padding: 0px 5px 0px 0px;
+    margin: 0px 5px 0 0;
+  }
+  .item-meta-open-hours{ display: none;}
+  .item-meta-li{font-size:11px; font-weight:300;}
+  .item-meta-li.listing_category,
+  .item-meta-li.listing_location{width:auto; float:left; margin-right:15px;}
+}
+
+ul.lava_ajax_search div.item-title a {
+  color: #737373;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.type-view_all_type {
+  background-color: #f4f4f4;
+  border:0;
+  border-radius:0;
+  .allresults {
+    a {
+      color:#848383;
+      font-weight:500;
+    }
+  }
+}

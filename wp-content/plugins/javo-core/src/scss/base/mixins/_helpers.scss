@@ -1,0 +1,35 @@
+@mixin clearfix {
+	&::after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+@mixin dropdown {
+	padding: 0;
+		margin: 0;
+		border:1px solid #eee;
+		li {
+			display: block;
+			float: initial;
+			padding: 0.3rem 1rem;
+			font-size: 12px;
+			text-transform: uppercase;
+			line-height: 2.5;
+			border-bottom: 1px solid #eee;
+			border-radius: 0;
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+		i {
+			text-shadow: none;
+			text-align: center;
+			width: 15px;
+			display: inline-block;
+			margin-right: 13px;
+			position: relative;
+			top: 1px;
+		}	
+}

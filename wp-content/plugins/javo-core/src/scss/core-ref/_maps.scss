@@ -1,0 +1,107 @@
+/*------------------------------------------------------------------
+[Map Template Stylesheet]
+
+Project:	Javo Themes
+Version:	1.0
+Last change:	09/07/15 [Organize CSS Structure]
+Assigned to:	Javo
+Primary use:	Map Template Styles
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+	// 1. color & media query & default
+	// 2. Info window
+	// 3. Map list part style - use listing switcher
+	// 4. search wrap
+	// 5. Map Panel
+	// 6. maps wrap - map area
+	// 7. switcher part
+
+*/
+
+// 1. color & media query & default
+
+//html body{ background-color:#EDEFF5; }
+
+
+.btn-circle {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 6px 0;
+	font-size: 12px;
+	line-height: 1.428571429;
+	border-radius: 100% !important;
+}
+
+.btn.btn-xxs {
+	width: 20px;
+	height: 20px;
+	padding: 0px;
+}
+
+//-------------------------------------------------------------------
+// 1. color & media query & default - end
+//-------------------------------------------------------------------
+
+body.lv-map-template {
+	.container-fluid {
+		position: static;
+	}
+
+	/*
+	#page-style{
+		overflow:hidden;
+		overflow-y:scroll;
+	} */
+}
+
+/*Search Filter List*/
+.elementor-widget-jvbpd-map-list-filters{
+	.selectize-dropdown-content{
+		div.option{
+			font-size: 12px;
+			font-weight: 400;
+			color:#aaaaaa;
+
+			&:hover{
+				color:#666666;
+			}
+		}
+	}
+}
+
+
+.jvbpd-map-mobile-switch {
+	&>span {
+		display: none;
+		visibility: hidden;
+	}
+
+	&.map-active>span.button-list {
+		display: inline-block;
+		visibility: visible;
+	}
+
+	&.list-active>span.button-map {
+		display: inline-block;
+		visibility: visible;
+	}
+}
+
+.jvbpd-map-control{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	border-radius:100%;
+	background-color:#4DB7FE;
+	box-shadow:0px 0px 0px 5px rgba(255,255,255,0.4);
+	margin:10px;
+	text-align:center;
+	color:#ffffff;
+	cursor:pointer;
+	&.dropdown-toggle::before{content:none!important;}
+}

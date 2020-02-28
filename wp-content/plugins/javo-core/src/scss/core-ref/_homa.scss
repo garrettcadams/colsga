@@ -1,0 +1,21 @@
+/*
+1. header swichers
+
+*/
+
+/* 1. header switchers */
+#javo-detail-item-header-wrap-sticky-wrapper {/*display:none;*/} /*temp display:none */
+.header_switchers ul {width:100%;}
+.header_switchers .nav-tabs.nav-justified > li > a {
+  border-bottom: 0px;
+  border-radius: 0px;
+}
+.javo-core-single-featured-switcher .nav-item.active i {
+  text-shadow: none;
+}
+
+.header_switchers{
+  .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
+    border:0;
+  }
+}

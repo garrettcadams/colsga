@@ -1,0 +1,16 @@
+.jvbpd-map-list-grid-toogle-wrap {
+    display: flex;
+}
+
+.jvbpd-map-list-sort-dropdown {
+    display: flex;
+    select {
+        padding:5px 10px;
+        border:1px solid #eee;
+    }
+    button {
+        border:1px solid #eee;
+        margin-left:5px;
+        background:#fff;
+    }
+}

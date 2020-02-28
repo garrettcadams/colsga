@@ -1,0 +1,25 @@
+.lvdr-cuurent-user-packages-orders{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    .notice-price-table div{
+        font-size: 25px;
+        font-weight: 600;
+        color: #4e4e4e;
+        letter-spacing: 1 rem;
+    }
+
+    .lvdr-payment-new-package {
+        display: flex;
+        justify-content: center;
+        a {
+        @include jv-btn(220px, 50px, #f95a65, #ffffff, 30px );
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        background-color:#f95a65 !important;
+        margin-top:15px;
+        }
+    }
+}

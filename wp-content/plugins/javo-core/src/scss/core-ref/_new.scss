@@ -1,0 +1,139 @@
+// 1. Theme Patch CSS
+// 1-1. Theme Base Patch CSS
+// 1-2. Theme Boostrap Patch CSS
+
+// 2. Menu
+
+//############ 1. Theme Patch CSS ##############
+// 1-1. Theme Base Patch CSS
+
+// 1-2. Theme Boostrap Patch CSS
+.nav.nav-tabs {
+    border-bottom: none;
+}
+
+
+//############ 2. Menu ##############
+
+/**
+ * Elementor / jvbpd-nav-menu widget
+ *
+ */
+ .jvbpd-nav-menu-widget {
+	&>.mobile-opener {
+		display: none;
+	}
+
+	&>ul.nav.collapse {
+		display: block;
+	}
+
+	@media(max-width:767px) {
+		&.device-mobile {
+			&>.mobile-opener {
+				display: block;
+			}
+
+			&>ul.nav.collapse {
+				display: none;
+			}
+		}
+	}
+
+	@media(max-width:1023px) {
+		&.device-tablet {
+			&>.mobile-opener {
+				display: block;
+			}
+
+			&>ul.nav.collapse {
+				display: none;
+			}
+		}
+	}
+
+	span.menu-titles {
+		transition: color .3s ease-in-out;
+		-webkit-transition: color .3s ease-in-out;
+		-moz-transition: color .3s ease-in-outs;
+		-o-transition: color .3s ease-in-out;
+	}
+}
+
+.jvbpd-nav-menu-widget {
+	@media(max-width: 767px) {
+		&.device-mobile {
+			&>ul.nav.top-menu-wrap {
+				position: absolute;
+				left: 0;
+				right: 0;
+				background-color: #ffffff;
+			}
+		}
+	}
+
+	@media(max-width:1023px) {
+		&.device-tablet {
+			&>ul.nav.top-menu-wrap {
+				position: absolute;
+				left: 0;
+				right: 0;
+				background-color: #ffffff;
+			}
+		}
+	}
+}
+
+/**
+ * Mega menu
+ */
+li.wide-container{
+	ul.wide-nav-overlay{
+		background-color:#ffffff;
+		box-shadow: 0 2px 6px rgba(0,0,0,.1);
+		-webkit-box-shadow: 0 2px 6px rgba(0,0,0,.1);
+		.shortcode-nav{
+			background-color:#fafafa;
+			padding-left:0;
+			padding-top:20px;
+			border:none;
+			border-right:solid 1px #eaeaea;
+			overflow:visible;
+			li.filter-nav-item{
+				text-align:right;
+				margin:0;
+				line-height:1;
+				border:solid 1px transparent;
+				border-left-width:0;
+				border-right-width:0;
+				position:relative;
+				&.current{
+					border-top:solid 1px #eaeaea;
+					border-bottom:solid 1px #eaeaea;
+					border-right:solid 1px transparent;
+					&:after{
+						content:'';
+						position:absolute;
+						background-color:#ffffff;
+						width:1px;
+						top:0;
+						right:-2px;
+						bottom:0;
+
+					}
+				}
+				&.current,
+				&:hover{ background-color:#ffffff; }
+			}
+		}
+		.shortcode-output{
+			padding:10px;
+		}
+		/* Override */
+		div.shortcode-header > div.shortcode-nav > ul.shortcode-filter li.filter-nav-item{
+			color:#454545;
+			padding:5px 10px;
+		}
+		.shortcode-header{ margin-bottom:0; }
+	}
+}

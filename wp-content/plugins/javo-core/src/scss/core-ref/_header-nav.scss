@@ -1,0 +1,221 @@
+/*------------------------------------------------------------------
+[ Responsive ]
+
+Project:	listopia-core
+Version:	1.0
+Last change:	12/26/17 [Organize CSS Structure]
+Assigned to:	Javo
+Primary use:	Header Nav Style
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+1. Top Bar
+2. Nav
+3. 2 Row Center Search
+4. 2 Row Bottom Header search
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+* [1. Top Bar]
+-------------------------------------------------------------------*/
+body .nav-top .sidebar.top-bar {
+	height: 40px;
+
+	.container {
+		width: 100%;
+		padding: 0 30px;
+	}
+}
+
+/*------------------------------------------------------------------
+* [2. Nav]
+-------------------------------------------------------------------*/
+.navbar-default .navbar-header .header-content-wrapper.pull-left li.active>a>span.menu-titles,
+.navbar-default .navbar-header .header-content-wrapper.pull-left li.current-menu-ancestor>a>span.menu-titles,
+.navbar-default .navbar-header .header-content-wrapper.pull-left li.current-menu-parent>a>span.menu-titles,
+.navbar-default .navbar-header .header-content-wrapper.pull-left li.current-menu-item>a>span.menu-titles {
+	color: #b3baec;
+}
+
+.navbar-default .navbar-header .header-content-wrapper.pull-left li.active:not(.menu-item-depth-0)>a>span.menu-titles,
+.navbar-default .navbar-header .header-content-wrapper.pull-left li.current-menu-ancestor:not(.menu-item-depth-0)>a>span.menu-titles,
+.navbar-default .navbar-header .header-content-wrapper.pull-left li.current-menu-parent:not(.menu-item-depth-0)>a>span.menu-titles,
+.navbar-default .navbar-header .header-content-wrapper.pull-left li.current-menu-item:not(.menu-item-depth-0)>a>span.menu-titles {
+	color: $primary-color;
+}
+
+
+body:not(.top-nav-type-dashboard-style) .nav-top .navbar-header .header-content-wrapper.nav.top-menu-wrap li:not(.menu-item-depth-1)>.container ul.jvbpd-nav li a.menu-link {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	color: #212121;
+	font-weight: 600;
+	padding: 18px 17px 34px 20px;
+}
+
+
+body .nav-top .navbar-header .top-nav-menu-right-wrap .menu-item.jvbpd-menu i:not(.nav-icon) {
+	background: $my-btn-color;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	transition: all .5s ease-in-out;
+	//border: 5px solid @btn-border-color;
+	font-size: 14px !important;
+	font-weight: 900;
+}
+
+body .nav-top .navbar-header .top-nav-menu-right-wrap .menu-item.jvbpd-menu ul.dropdown-menu i[class^="jvbpd-icon"] {
+	display: inline;
+	background-color: transparent;
+	color: #999999;
+}
+
+.nav-top .navbar-header .top-nav-menu-right-wrap .jvbpd-add_new_button-nav>.btn button {
+	padding: 0 10px;
+	line-height: 25px;
+	//border: 5px solid @btn-border-color;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: $my-btn-color !important;
+
+	i {
+		border: 0 !important;
+		height: 35px !important;
+	}
+}
+
+body.top-nav-type-inline .nav-top.navbar-static-top .navbar-header {
+	border: none;
+	padding: 0;
+	width: 100%;
+}
+
+.nav-top .navbar-header {
+	height: auto !important;
+
+	>.header-navs-container {
+		/* display:flex; */
+		align-items: center;
+	}
+
+	.navbar-brand {
+		width: auto;
+		padding: 0;
+		float: left;
+		overflow: hidden;
+		margin-right: 50px;
+	}
+
+	ul.jvbpd-nav .overlay-sidebar-opener {
+		display: inline-block;
+	}
+
+	.jv-search1-search-fields {
+		padding: 0 !important;
+	}
+
+	.top-menu-wrap {
+		flex: 1 0 auto;
+
+		>li {
+			width: 100%;
+		}
+
+		#navigation-bar {
+			height: auto;
+			float: right;
+			height: 89px;
+
+			.menu-item-depth-0 {
+				&.wide-container {
+					ul.wide-nav-overlay {
+						margin: auto;
+
+						@media (min-width: 576px) {
+							width: 540px;
+							max-width: 100%;
+						}
+
+						@media (min-width: 768px) {
+							width: 720px;
+							max-width: 100%;
+						}
+
+						@media (min-width: 992px) {
+							width: 960px;
+							max-width: 100%;
+						}
+
+						@media (min-width: 1200px) {
+							width: 1140px;
+							max-width: 100%;
+						}
+
+						@media (min-width: 1530px) {
+							width: 1500px;
+							max-width: 100%;
+						}
+					}
+				}
+			}
+
+			.menu-item-depth-0>a {
+				padding: 35px 18px;
+			}
+
+			.menu-item-depth-0>.sub-menu-second {
+				top: 100% !important;
+			}
+		}
+	}
+}
+
+
+.jvbpd-nav li.main-menu-item.menu-item-depth-0>a span.menu-titles span.fa {
+	display: none;
+}
+
+
+
+/** notice amount **/
+
+ul.jvbpd-nav .jvbpd-search_in_nav-nav a i,
+ul.jvbpd-nav .jvbpd-my_notifications-nav a i,
+ul.jvbpd-nav .jvbpd-right_sidebar_opener-nav a i,
+ul.jvbpd-nav .jvbpd-my_menu-nav .header-userinfo img {
+	width: 35px;
+	height: 35px;
+	//border: 5px solid @btn-border-color;
+}
+
+body .nav-top .navbar-header .top-nav-menu-right-wrap .menu-item.jvbpd-menu i[class^="jvbpd-icon"],
+body .nav-top .navbar-header .top-nav-menu-right-wrap .menu-item.jvbpd-menu i[class^="jvd-"] {
+	color: #fff;
+	font-weight: 900;
+}
+
+ul.jvbpd-nav>li:last-child {
+	padding-right: 0;
+}
+
+ul.jvbpd-nav .jvbpd-add_new_button-nav>.btn {
+	padding: 0;
+}
+
+
+@media (min-width: 768px) {
+	.nav-top .navbar-header .header-content-wrapper.nav.top-menu-wrap li:not(.menu-item-depth-1)>.container ul.jvbpd-nav ul.sub-menu-second.menu-depth-1.nav {
+		border-top: 5px solid #fdc42d;
+		z-index: 6;
+	}
+}

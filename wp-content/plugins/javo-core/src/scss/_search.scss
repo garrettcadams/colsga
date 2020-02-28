@@ -1,0 +1,75 @@
+/* Lava Ajax Search Field */
+.lava-ajax-search-form-wrap, .lava-ajax-search-form-wrap > input {
+    width: 100%;
+}
+
+/* Selectize */
+.selectize-input, .search-box-inline select{
+    padding: 0px 0px 0px 20px;
+    border-color: #e4e7ea;
+    border-width: 0px 1px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+    height: 41px;
+    min-height: 41px;
+    font-size: 13px;
+    font-weight: 400;
+    display:flex;
+}
+
+/* Fetch for Boostrap select radius */
+select{
+-webkit-appearance: none;
+-webkit-border-radius: 0px;
+}
+
+
+.javo-geoloc-trigger {
+    position: absolute;
+    cursor: pointer;
+    right: 0px;
+    top: 50%;
+    margin: 0;
+    margin-right: 20px;
+    transform: translateY(-50%);
+    color: #78829e;
+}
+
+/*Search Form (Listing) - Address + Current Location*/
+.javo-search-form-geoloc .form-control.ui-autocomplete-input{
+    font-family: "Poppins", sans-serif;
+    font-size:14px;
+    font-weight:500;
+    letter-spacing:1;
+    &::placeholder{
+        font-family: "Poppins", sans-serif;
+        font-size:14px;
+        font-weight:500;
+        letter-spacing:1; 
+    }
+}
+.pac-container{
+    border-top:none;
+}
+.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content{
+    animation: showbox 0.25s 1 linear;
+    @keyframes showbox {
+        0%{opacity:0}
+        100%{opacity:1}
+    }
+    .ui-menu-item{
+        font-family: "Poppins", sans-serif;
+        color:#333 !important;
+        font-weight: 500;
+        letter-spacing:1;
+        font-size:12px;
+        i{
+            margin:0 10px;
+        }
+        &.ui-state-focus{
+            border:1px solid transparent;
+            font-size:12px;
+            font-weight: 500;
+            letter-spacing:1;
+        }
+    }
+}

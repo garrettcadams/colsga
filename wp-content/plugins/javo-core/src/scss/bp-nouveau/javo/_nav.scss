@@ -1,0 +1,240 @@
+/** Hide admin navs **/
+
+/** Horizon position */
+.single-screen-navs.horizontal {
+    position: absolute;
+    top: -100px;
+    z-index: 2;
+    width: 100%;
+
+    ul li {
+        min-width: 110px;
+
+        &:nth-child(2) {
+            min-width: 80px;
+
+            a {
+                //text-align: left;
+            }
+        }
+    }
+
+    li:not(.current) a:focus,
+    li:not(.current) a:hover,
+    li:not(.selected) a:focus,
+    li:not(.selected) a:hover {
+        background: transparent;
+        color: $white;
+    }
+
+    .count {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+}
+
+.buddypress-wrap .main-navs:not(.dir-navs) li.selected a,
+.buddypress-wrap .main-navs:not(.dir-navs) li.current a {
+    background: transparent;
+    color: $white;
+}
+
+/** both **/
+.single-screen-navs ul li {
+    a {
+        color: #aaa;
+        text-align: center;
+
+        &:before {
+            font: 150% "jvbpd-icon1", "jvbpd-icon2", "jvbpd-icon3", "jv-icons";
+            font-weight: 400;
+            content: "\e907";
+            display: block;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        &:hover {
+            color: #454545;
+        }
+    }
+
+    &.selected a {
+        color: #454545;
+    }
+}
+
+/** Vertical, inside tabs **/
+.single-screen-navs.vertical ul li a,
+.responsive-tabdrop .dropdown-menu li a {
+    text-align: left;
+
+    &:before {
+        font-size: 110%;
+        display: inline;
+        margin-right: 15px;
+    }
+}
+
+/** Nav members **/
+.single-screen-navs ul {
+    #home-personal-li {
+        a:before {
+            content: "\e19c";
+        }
+    }
+
+    #activity-personal-li {
+        a:before {
+            content: "\e907";
+        }
+    }
+
+    #xprofile-personal-li {
+        a:before {
+            content: "\e734";
+        }
+    }
+
+    #blogs-personal-li {
+        a:before {
+            content: "\e037";
+        }
+    }
+
+    #notifications-personal-li {
+        a {
+            letter-spacing: 0;
+
+            &:before {
+                content: "\e680";
+            }
+        }
+    }
+
+    #messages-personal-li {
+        a:before {
+            content: "\ebd4";
+        }
+    }
+
+    #friends-personal-li {
+        a:before {
+            content: "\ec04";
+        }
+    }
+
+    #groups-personal-li {
+        a:before {
+            content: "\e363";
+        }
+    }
+
+    #forums-personal-li {
+        a:before {
+            content: "\e2a1";
+        }
+    }
+
+    #media-personal-li {
+        a:before {
+            content: "\e928";
+        }
+    }
+
+    #settings-personal-li {
+        a:before {
+            content: "\e92c";
+        }
+    }
+
+    #reviews-personal-li {
+        a:before {
+            content: "\ebf1";
+        }
+    }
+
+    #favorites-personal-li {
+        a:before {
+            content: "\e874";
+        }
+    }
+
+    #lv_post-personal-li {
+        a:before {
+            content: "\e2a1";
+        }
+    }
+
+    #listings-personal-li {
+        a:before {
+            content: "\e3e3";
+        }
+    }
+
+    .tabdrop {
+        padding-bottom: 0;
+
+        >a:before {
+            content: "\f142";
+            display: inline-block;
+            font: 150%/1 'Font Awesome\ 5 Free';
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            margin-top: 10px;
+        }
+
+        >a:after {
+            content: none;
+        }
+
+        >.dropdown-menu li {
+            width: 100%;
+            padding: 0 !important;
+        }
+    }
+
+    #home-groups-li {
+        a:before {
+            content: "\e19c";
+        }
+    }
+
+    #nav-forum-groups-li {
+        a:before {
+            content: "\e2a1";
+        }
+    }
+
+    #members-groups-li {
+        a:before {
+            content: "\e363";
+        }
+    }
+
+    #invite-groups-li {
+        a:before {
+            content: "\e362";
+        }
+    }
+
+    #media-groups-li {
+        a:before {
+            content: "\e93c";
+        }
+    }
+
+    #admin-groups-li {
+        a:before {
+            content: "\e95a";
+        }
+    }
+
+    li {
+        a {
+            position: relative;
+        }
+    }
+}

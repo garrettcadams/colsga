@@ -1,0 +1,206 @@
+//---------------- Pagination -----------------//
+.jv-pagination{
+	margin-bottom:0px;
+	ul.pagination{
+		&,
+		& > li,
+		& > li > a,
+		& > li > a > i{
+			float:left;
+		}
+		& a.prevNext{
+			text-align:center;
+		}
+		.page-item{
+			&:first-child{margin-right:7px;}
+			>a{
+				color: #b7b7b7;
+				transition:none;
+				border-radius:0;
+				&.prevNext {
+					padding:5px 8px 5px 9px;
+				}
+				&.previous{
+					padding:5px 9px 5px 7px;
+				}
+			}
+		}
+	}
+	& li.disabled{ opacity:.5; 
+		a {padding:5px 9px 5px 7px;}
+	}
+	&:after{
+		content:'';
+		display:table;
+		clear:both;
+	}
+}
+
+/*------------------------------------------------------------------
+[1.9-1. Block Shortcodes]
+*/
+.shortcode-output{
+	.pagination {margin:0;}
+	.page-numbers{
+		color:#787878;
+		&.loadmore{
+			width: 210px;
+			height: 60px;
+			font-size: 13px;
+			line-height: 43px;
+			font-weight: 500;
+			color: #272727;
+			border: solid 1px #e8e8e8;
+			letter-spacing: 2px;
+			border-radius: 3px;
+			margin-top: 60px;
+			margin-bottom: 20px;
+			background: #fff;
+			padding: .375rem .75rem;
+			&:hover {
+				background:#f4f4f4;
+			}
+		}
+	}
+	span.page-numbers{
+		&:hover{
+			background-color:#fff !important;
+			border:solid 1px #ddd !important;
+		}
+	}
+}
+
+
+
+//----------------------------------------- Filter -----------------------------------------//
+/*------------------------------------------------------------------
+[1.3. Shortcode Basic Header]
+*/
+.shortcode-header{
+	border:0;
+	display:flex;
+	display:-webkit-flex;
+	border-style:solid;
+	text-align:left;
+	margin:0 0 25px 0;
+	border-width:0 0 2px 0;
+	color:#454545;
+	.shortcode-title,
+	.shortcode-nav{
+		display: inline-flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	/*------------------------------------------------------------------
+	[1.3.1. Shortcode Basic Title]
+	*/
+	.shortcode-title{
+		text-align:center;
+		font-size:14px;
+		font-weight:normal;
+		background-color:#454545;
+		color:#fff;
+		padding: 8px 10px 4px;
+	}
+
+	&:after{
+	content:'';
+	display:table;
+	clear:both;
+	}
+}
+
+/*------------------------------------------------------------------
+[1.3.2. Shortcode Basic Navigation]
+*/
+.shortcode-nav{
+	flex:1;
+	-webkit-flex:1;
+	padding:0 0 0 10px;
+	overflow:hidden;
+	text-align:right;
+	margin-top:0px;	
+}
+/*------------------------------------------------------------------
+	[1.3.2.1. Shortcode Basic Filter]
+	*/
+	ul.shortcode-filter{
+		display:inline-block;
+		padding:0;
+		margin-bottom:0;
+		li{
+			/*white-space: nowrap;
+			font-size:13px;
+			font-weight:300;
+			cursor:pointer;
+			display:block;
+			padding:0;
+			margin:10px;
+			line-height:1;*/
+		}
+		> li{
+			font-size:13px;
+			display:inline-block;
+			margin:0 7px;
+			cursor:pointer;
+			height: 35px;
+			display: inline-flex;
+			justify-content: center;
+			flex-direction: column;
+			text-align: center;
+
+			&.active{ font-weight:bold; }
+			&.flexMenu-viewMore{
+				margin-right:0;
+				padding-right:0;
+				width:15px;
+				text-align:center;
+				&.active{
+					ul.flexMenu-popup{
+						margin-top:0px;
+						opacity:1;
+						display:block;
+					}
+					& > a > i.fa.fa-bars:before{
+						content:'\f00d';
+					}
+				}
+				i {
+					color:#9e9e9e;
+					font-weight:300;
+					font-size:14px;
+				}
+			}
+			> ul.flexMenu-popup{
+				position:absolute;
+				display:block;
+				z-index:10;
+				padding:0;
+				margin:0;
+				margin-top:-10px;
+				opacity:0;
+				right:0;
+				top:35px;
+				background-color:#fff;
+				border:solid 1px #eee;
+				
+				li{
+					line-height:15px;
+					border-bottom:none;
+					text-align:right;
+					margin:0;
+					padding:10px 20px 10px 25px;
+				        list-style-type: none;
+					&:hover{
+						background-color:#f4f4f4;
+					}
+				}
+			}
+		}
+		&:after{
+			content:'';
+			display:table;
+			clear:both;
+		}
+	}

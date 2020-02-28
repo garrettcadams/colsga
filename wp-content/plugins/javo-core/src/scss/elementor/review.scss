@@ -1,0 +1,46 @@
+.review-reply-wrap {
+    margin-top: 0;
+    padding: 0;
+
+    .review-reply-item {
+        padding: 10px 20px;
+        &:nth-child(1){
+            margin-top:10px;
+        }
+        // &:last-child{
+        //     margin-bottom:10px;
+        // }
+    }
+
+    .reply-date {
+        font-size: 11px;
+        color: #aaa;
+    }
+}
+
+.lv-review-list-items.type-grid {
+    .lv-review-item .row .review-left-wrap {
+        display: block;
+    }
+
+    .lv-review-item>.row {
+        border: 1px solid #eee;
+        background: #fff;
+        margin: 10px;
+        padding: 30px;
+    }
+}
+
+.jvbpd-single-review{
+	.review-avg-score-box{
+		.review-avg-score{
+			line-height:1em;
+		}
+	}
+	.btn{
+		font-size:13px;
+		font-weight: 500;
+		line-height: 1em;
+		padding:10px 20px;
+	}
+}

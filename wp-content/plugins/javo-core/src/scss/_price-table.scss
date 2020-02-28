@@ -1,0 +1,140 @@
+/*------------------------------------------------------------------
+[ Responsive ]
+
+Project:	listopia-core
+Version:	1.0
+Last change:	12/13/17 [Organize CSS Structure]
+Assigned to:	Javo
+Primary use:	Price table widget style
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+1. Default
+2. Heading
+3. Features
+4. Price
+5. Action
+6. Featured Ribbon
+
+-------------------------------------------------------------------*/
+
+.elementor-jvbpd-price-table{
+	/*------------------------------------------------------------------
+	* [1. Default]
+	-------------------------------------------------------------------*/
+	&.jvbpd-elements {
+		overflow: hidden;
+		display: block;
+		position: relative;
+	}
+	.price-table {
+		text-align: center;
+		border-color: rgba(0,0,0,0.1);
+		border-radius:15px;
+		background-color:#fff;
+	}
+
+	/*------------------------------------------------------------------
+	* [2. Heading]
+	-------------------------------------------------------------------*/
+	.price-table__heading{
+		background-color:#506ac5;
+		padding:30px 0;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		.price-table__icon .price-table__icon-box > *{color:#fff; margin:0 0 10px 0;}
+		.price-table__title{
+			color:#fff;
+			margin:0 0 5px 0;
+			font-size:23px;
+			line-height:30px;
+		}
+		.price-table__subtitle{color:#fff; margin-bottom:0;}
+	}
+	.price-table__icon-box>*:before {
+		font-size: 40px;
+	}
+
+	/*------------------------------------------------------------------
+	* [3. Features]
+	-------------------------------------------------------------------*/
+	.price-table__features{
+		padding:25px 35px;
+		.price-feature{
+			margin:15px 0; 
+			font-weight:300;
+			color:#454545;
+			&:last-child{margin-bottom:0;}
+		}
+		.item-bullet{margin-right:5px;}
+		.price-feature i.item-bullet:before{color:inherit;}
+	}
+
+	/*------------------------------------------------------------------
+	* [4. Price]
+	-------------------------------------------------------------------*/
+	.price-table__price {
+		padding: 10px 0;
+		.price-table__price-prefix{
+			color:#878787;
+			font-size: 23px;
+		}
+		.price-table__price-val{
+			color:#454545;
+			font-weight:600;
+			font-size:30px;
+			line-height:1;
+		}
+		.price-table__price-suffix{
+			color:#878787;
+		}
+	}
+
+	/*------------------------------------------------------------------
+	* [5. Action]
+	-------------------------------------------------------------------*/
+	.price-table__action {
+		padding: 30px 0;
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+		background-color:transparent;
+		a.price-table-button{
+			padding:10px 25px;
+			background: transparent;
+			color: #506ac5;
+			border: 1px solid #506ac5;
+			letter-spacing: 0px;
+		}
+	}
+
+	/*------------------------------------------------------------------
+	* [6. Featured Ribbon]
+	-------------------------------------------------------------------*/
+	.eapps-price-table-column-3 .eapps-price-table-column-ribbon {
+		background-color: rgb(255, 255, 255);
+		color: rgb(255, 138, 24);
+	}
+
+	.eapps-price-table-column-ribbon {
+		background: #fff;
+		color: #506ac5;
+		position: absolute;
+		display: block;
+		top: 18px;
+		right: -30px;
+		width: 128px;
+		padding: 9px 20px 8px;
+		margin: 0;
+		transform: rotate(45deg);
+		text-transform: uppercase;
+		height: 32px;
+		z-index: 2;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		box-sizing: border-box;
+		text-align: center;
+		letter-spacing:0;
+	}
+}

@@ -1,0 +1,290 @@
+/*------------------------------------------------------------------
+[Responsive Stylesheet]
+
+Project:	Javo Themes
+Version:	1.0
+Last change:	11/06/17 [Organize CSS Structure]
+Assigned to:	Javo
+Primary use:	Responsive
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+1. Desktop
+	1-1. Desktop (Max-width 1600px)
+		1-1-1. Header Search
+	1-2. Desktop (Max-width: 1350px)
+		1-2-1. Header Search
+		1-2-2. Single listing page
+	1-3. Desktop (Max-width: 1200px)
+2. Tablet
+	2-1. Tablet (Max-width:1024px) // Ipad - landscape
+	2-2. Tablet (Max-width:991px)
+		2-2-1. Single listing page
+		2-2-2. Member page
+	2-3. Tablet (width:768px)  // Ipad - portrait
+3. Mobile
+	3-1. Mobile (Max-width:767px)
+		3-1-1. Single listing page
+		3-1-2. Member page
+		3-1-3. Navigation
+	3-2. Mobile (Max-width:600px)
+		3-2-1. Single listing page
+		3-2-2. Member page
+	3-3. Mobile (Max-width:480px)
+		3-3-1. Single listing page
+
+*/
+
+
+/*------------------------------------------------------------------
+*	[1. Desktop]
+*/
+
+/*------------------------------------------------------------------
+*	[1-1. Desktop (Max-width 1600px)]
+*/
+@media (max-width:1600px){
+	/*------------------------------------------------------------------
+	*	[1-1-1. Header Search]
+	*/
+	//.jvbpd-header-map-filter-wrap{width:600px;}
+}
+
+
+/*------------------------------------------------------------------
+*	[1-2. Desktop (Max-width: 1350px)]
+*/
+@media (max-width:1350px){
+	/*------------------------------------------------------------------
+	*	[1-2-1. Header Search]
+	*/
+	.nav-top .navbar-header .navbar-brand{margin-right:20px;}
+	//.jvbpd-header-map-filter-wrap{width:400px;}
+	/*------------------------------------------------------------------
+	*	[1-2-2. Single listing page]
+	*/
+
+	.single-lv_listing .single-item-tab-feature-bg-wrap .jvbpd-meta-details-wrap .jvbpd-meta-details-right > div{margin-left:5px;}
+	.single-lv_listing .single-item-tab-feature-bg-wrap .jvbpd-meta-details-wrap .jvbpd-meta-details-right > div > a{padding:10px;}
+	.lv-directory-review-wrap .review-avg-wrap .review-avg-score-wrap .review-avg-score-box .review-avg-stars .fa{margin:0;}
+	#javo-single-sidebar #javo-item-condition-section .panel-body > .row{display:inline-block; width:100%;}
+	#javo-single-sidebar #javo-item-condition-section .panel-body > .row.meta-website{word-break:break-all;}
+	#javo-single-sidebar #javo-item-condition-section .panel-body > .row .contact-icons{padding-right:5px;}
+}
+
+/*------------------------------------------------------------------
+*	[1-3. Desktop (Max-width: 1200px)]
+*/
+@media (max-width:1200px){
+	/*------------------------------------------------------------------
+	*	[1-3-1. Single listing page]
+	*/
+	.single-lv_listing{
+		.today-hrs li.today-timing{padding-bottom:0;}
+		.today-hrs li.today-timing .days{width:100%;}
+		.today-hrs li.today-timing .hours{width:100%; text-align:left;}
+	}
+}
+/*------------------------------------------------------------------
+*	[2. Tablet	]
+*/
+
+
+/*------------------------------------------------------------------
+*	[2-1. Tablet (Max-width:1024px)]
+*/
+
+
+/*------------------------------------------------------------------
+*	[2-2. Tablet (Max-width:991px)]
+*/
+@media (max-width:991px){
+	/*------------------------------------------------------------------
+	*	[2-2-1. Single listing page]
+	*/
+	.single-lv_listing{
+		.single-item-tab .javo-detail-item-content > .col-md-12,
+		&.type-grid .lv_listing #javo-single-sidebar >.col-md-12{padding:20px; margin-bottom:20px;}
+		&.type-grid .lv_listing #javo-single-sidebar >.col-md-12 .jvbpd_single_listing_social-wrap a i{margin-right:5px;}
+		#javo-single-sidebar #javo-item-condition-section .panel-body > .row,
+		#javo-single-sidebar #javo-item-condition-section .panel-body > .jvbpd_single_listing_social-wrap{padding:15px 20px;}
+		#javo-single-sidebar #javo-item-condition-section .jvbpd_single_claim_wrap{margin:0 20px 20px;}
+		.lv-directory-review-wrap .review-avg-wrap .review-avg-score-wrap >.col-sm-3{max-width:100%;}
+		.single-item-tab-feature-bg-wrap .jvbpd-meta-details-wrap .single-header-terms{padding:0;}
+		.single-item-tab-feature-bg-wrap .jvbpd-meta-details-wrap .jvbpd-meta-details-right{padding:0;}
+		#javo-item-profile-section{display:inline-block;}
+	}
+
+	/*------------------------------------------------------------------
+	*	[2-2-2. Member page]
+	*/
+	#buddypress .jvbp_is_my_profile{
+		.list-group-item a.action{
+			margin-top: 20px;
+			display: block;
+			margin: 0 0 5px;
+			text-align: center;
+			font-size: 12px;
+			padding: 10px;
+		}
+	}
+}
+
+/*------------------------------------------------------------------
+*	[2-3. Tablet (width:768px)]
+*/
+	/*------------------------------------------------------------------
+	*	[2-3-1. Single listing page]
+	*/
+	/*------------------------------------------------------------------
+	*	[2-2-1. Single listing page]
+	*/
+
+/*------------------------------------------------------------------
+*	[3Mobile]
+*/
+
+/*------------------------------------------------------------------
+*	[3-1. Mobile (Max-width:767px)]
+*/
+
+@media (max-width:767px){
+	/*------------------------------------------------------------------
+	*	[3-1-1. Single listing page]
+	*/
+	.single-lv_listing{
+		&.type-grid.extend-meta-block .container-fluid>.extend-meta-block-wrap{
+			height:300px;
+		}
+		&.type-grid .lv_listing .container #javo-single-content >.row.javo-detail-item-content{
+			margin-left:0;
+		}
+		&.type-grid .lv_listing .container #javo-single-content .item-amenities .panel-default .panel-body .expandable-content #lava-directory-amenities .lava-amenity{flex:0 0 45%;}
+		&.type-grid .lv_listing #javo-single-sidebar >.col-md-12#javo-item-profile-section{display:inline-block;}
+		.logo{display:none !important;}
+		//.single-item-tab-feature-bg-wrap{z-index:9999;}
+		.single-item-tab-feature-bg-wrap .single-item-tab-bg{margin-top:0;}
+		.single-item-tab-feature-bg-wrap .single-item-tab-bg > .captions{display:inline-block; margin-bottom:15px;}
+		.single-item-tab-feature-bg-wrap .single-item-tab-bg > .captions .header-inner{padding:0 5px;}
+		.single-item-tab>.single-item-tab-feature-bg-wrap{margin-bottom:20px;}
+		.single-item-tab-feature-bg-wrap .single-item-tab-bg .captions ul.javo-core-single-featured-switcher{float:none !important;}
+		.single-item-tab-feature-bg-wrap .jvbpd-meta-details-wrap .single-header-terms{margin-bottom:10px;}
+		.single-item-tab-feature-bg-wrap .jvbpd-meta-details-wrap .jvbpd-meta-details-right > .title-line-btns{
+			width: 100%;
+			display: flex;
+			flex-wrap:wrap;
+			float: left;
+			position: static;
+			margin-bottom:0;
+			& li >div{margin-left:0; margin-right:10px;}
+		}
+		.single-item-tab-feature-bg-wrap .jvbpd-meta-details-wrap .jvbpd-meta-details-right > .title-line-btns>.dropdown{
+			position:absolute;
+			right:0;
+			div>a{display:flex; flex-wrap:nowrap;}
+			.dropdown-menu>li>div{width:100%; margin-right:0;}
+		}
+		.single-item-tab-feature-bg-wrap .jvbpd-meta-details-wrap .jvbpd-meta-details-right > div{float:left; margin-left:0; margin-right:5px; margin-bottom:5px;}
+		.lv-directory-review-wrap .lv-review-list-items .lv-review-item-holder .lv-review-item .review-left-wrap{display:none !important;}
+		.lv-directory-review-wrap .lv-review-list-items .lv-review-item-holder .lv-review-item .review-right-wrap{max-width:100%; flex:0 0 100%; padding-right:0;}
+		.today-hrs li.today-timing{padding:0 0 15px;}
+		.today-hrs li.today-timing .days{width:45%;}
+		.today-hrs li.today-timing .hours{width:55%; text-align:right;}
+		.lv-review-loadmore{padding-bottom:40px;}
+		.lv-directory-review-wrap .jv-rating-form-wrap #javo-review-form-container{padding-top:0;}
+	}
+
+	/*------------------------------------------------------------------
+	*	[3-1-2. Member page]
+	*/
+	#buddypress .jvbp_is_my_profile{
+		.bp-my-content{width:100%; padding-bottom:20px !important;}
+		.bp-my-content > .row{margin:0;}
+		.bp-my-content #buddypress-inner{margin-top:25px;}
+		.bp-my-content #buddypress-inner #item-body{
+			padding:0;
+			> form.floating-labels,
+			> .activity{margin-left:0 !important;}
+		}
+		.bp-user.home &{
+			.card-deck{width:100%; margin-bottom:20px;}
+		}
+		.bp-user.activity &{
+			form.floating-labels{
+				.col-md-1{flex:0 0 15%;}
+				.col-md-11{flex:0 0 85%;}
+			}
+		}
+		.bp-user.lv_post &{
+			.lava-my-item-list{padding:0;}
+		}
+		.bp-user.settings &{
+			#item-body>.floating-labels{padding:0;}
+		}
+	}
+
+	/*------------------------------------------------------------------
+	*	[3-1-3. Navigation]
+	*/
+	body .navbar-default.navbar-static-top{
+		.navbar-header{padding:0;}
+	}
+}
+
+/*------------------------------------------------------------------
+*	[3-2. Mobile (Max-width:600px)]
+*/
+@media (max-width:600px){
+	/*------------------------------------------------------------------
+	*	[3-2-1. Single listing page]
+	*/
+	.single-lv_listing{
+		.lv_listing >.container #javo-single-content .javo-detail-item-content #javo-item-review-section .lv-directory-review-wrap .review-avg-score-wrap .review-avg-bar-wrap .col-md-3{
+			max-width:100%;
+			flex:0 0 100%;
+			margin-bottom:5px;
+			.progress-title{text-align:left;}
+		}
+		.lv-directory-review-wrap .review-avg-wrap .review-avg-score-wrap .review-avg-des .review-avg-bar-wrap .col-sm-9{max-width:100%; flex:0 0 100%;}
+		.lv-directory-review-wrap .review-avg-wrap .review-avg-score-wrap .review-avg-des>p{margin-bottom:15px !important;}
+		.lv-directory-review-wrap .lv-review-list-items .lv-review-item-holder .review-right-wrap .reply-form > .col-md-9{max-width:100%; flex:0 0 100%;}
+		.lv-directory-review-wrap .lv-review-loadmore button#javo-detail-item-review-loadmore{margin-top:0;}
+		.detail-block.faq .panel-heading>i{flex:0 0 10%;}
+		.detail-block.faq .panel-collapse .panel-body .lava_faq_content{flex: 0 0 90%;}
+		&.type-grid .lv_listing #javo-single-content .javo-detail-item-content >.col-md-12.item-gallery #javo-item-detail-image-section .row .link-display .overlay span{font-size:16px; margin: -7px -40px;}
+		/*#javo-item-amenities-section #lava-directory-amenities .lava-amenity{flex:0 0 100%; padding-right:0;}*/
+		#page-style .single-item-tab-feature-bg-wrap .single-item-tab-bg{padding-top:5px;}
+		.jvbpd-sinlge-gallery-wrap .row .link-display .overlay span{font-size:17px;}
+	}
+	body:not(.logged-in) .lv-directory-review-wrap .lv-review-list-items .lv-review-item-holder .lv-review-item{padding:30px 20px 10px;}
+
+	/*------------------------------------------------------------------
+	*	[3-2-2. Member page]
+	*/
+	#buddypress .jvbp_is_my_profile{
+		.bp-user.activity &{
+			form.floating-labels{
+				.col-md-11{flex:0 0 100%;}
+			}
+			#buddypress-inner #item-body .item-list-tabs > ul{display:block;}
+		}
+	}
+
+}
+
+
+
+/*------------------------------------------------------------------
+*	[3-2. Mobile (Max-width:480px)]
+*/
+@media (max-width:480px){
+	/*------------------------------------------------------------------
+	*	[3-2-1. Single listing page]
+	*/
+	.single-lv_listing{
+		.lv-directory-review-wrap .lv-review-list-items .lv-review-item-holder .lv-review-item .review-right-wrap .review-rating{padding:0;}
+	}
+
+}
+

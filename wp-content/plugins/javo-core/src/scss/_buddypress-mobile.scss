@@ -1,0 +1,143 @@
+
+ /* Buddypress Mobile Menu */
+ @media (max-width: 787px) {
+    .bp-wrap{
+        display:flex;
+        flex-direction:column;
+    }
+    /*skin 1*/
+    body.jv-bp-skin1{
+        .single-headers{
+            width:100%;
+        }
+        .bp-navs.users-nav{
+            width:100%;
+        }
+        .bp-single-vert-nav .item-body:not(#group-create-body){
+            padding:14px 7px;
+            background: transparent;
+        }
+    }
+    /*user-sub-navs bg*/
+    .buddypress-wrap{
+        .bp-subnavs li.current a, .buddypress-wrap .bp-subnavs li.current a:focus, .buddypress-wrap .bp-subnavs li.current a:hover, .buddypress-wrap .bp-subnavs li.selected a, .buddypress-wrap .bp-subnavs li.selected a:focus, .buddypress-wrap .bp-subnavs li.selected{
+            background:transparent;
+        }
+        .bp-navs li:not(.current) a:focus, .buddypress-wrap .bp-navs li:not(.current) a:hover, .buddypress-wrap .bp-navs li:not(.selected) a:focus, .buddypress-wrap .bp-navs li:not(.selected) a:hover{
+            background:transparent;
+        }
+        .listing-content .listing-desc{
+            margin-bottom:10px;
+        }
+    }
+    body.buddypress{
+        .bp-single-vert-nav .item-body:not(#group-create-body) #subnav:not(.tabbed-links) li a{
+            color:#333;
+        }
+        .bp-single-vert-nav .item-body:not(#group-create-body) #subnav:not(.tabbed-links) li a:hover{
+            color:#9ea9c5;
+            background:none;
+        }
+        /*user-subnav*/
+        .user-subnav{
+            margin: 10px 0 !important;
+            border:none;
+            background:transparent !important;
+        }
+        .bp-single-vert-nav .item-body:not(#group-create-body) #subnav:not(.tabbed-links) li a{
+            border:none;
+            padding:0 28px 0 7px;
+        }
+        /*Home Recent Favorites*/
+        .user-favorites .listing-content span{
+            display:block;
+            margin-bottom:3px;
+        }
+        .listing-content span{
+            display:inline-block;
+            margin-bottom:10px;
+        }
+    }
+    
+    .subnav-filters.filters.no-ajax#subnav-filters .select-wrap select{
+        margin-right:-30px;
+        padding:5px 30px;
+    }
+    /*Home-settings*/
+    .buddypress .buddypress-wrap .card-block button{
+        margin-top:20px;
+        margin-bottom:0;
+    }
+    /*Skin 4*/
+    body.jv-bp-skin4{
+        #item-header-cover-image{
+            position: relative !important;
+            top:0 !important;
+            left:50% !important;
+            transform:translateX(-50%) !important;
+            #item-header-content{
+                ul{display:none;}
+                br{display:none;}
+            }
+            .user-nicename{
+                margin:0 !important;
+            }
+        }
+    }
+
+}
+$mobile-size:787px;
+.bp-navs.main-navs{
+    position:relative;
+    a.jvbpd-bp-navs-opener{
+        display:none;
+        position:absolute;
+        color:$white;
+        cursor:pointer;
+        right:0;
+        top:0;
+        margin:0;
+        padding:15px;
+    }
+    @media screen and (max-width: $mobile-size){
+        border:none;
+        a.jvbpd-bp-navs-opener{display:block;}
+        & > ul{
+            max-width:unset!important;
+            & > li{
+                border:none;
+                background-color:transparent;
+                &.selected a{
+                    color:#ffffff!important;
+                    background-color:transparent!important;
+                }
+                &:not(:first-child){
+                    display:none;
+                }
+                & > a, & > a:hover{
+                    color:#ffffff;
+                    background-color:transparent;
+                }
+                &:hover{
+                    background-color:rgba(255, 255, 255, .4);
+                }
+            }
+        }
+        &.open{
+            & > ul > li{display:block;}
+            .jvbpd-bp-navs-opener > i.fa:before{
+                content:'\f00d';
+            }
+        }
+    }
+}
+ /* Buddypress Mobile Menu */
+ .bp-single-vert-nav .item-body:not(#group-create-body) {
+     @media screen and (max-width: $mobile-size){
+         width:100%;
+         padding:0 7.5px;
+         .bp-subnavs ul.subnav > li{
+             display:inline-block;
+         }
+     }
+ }

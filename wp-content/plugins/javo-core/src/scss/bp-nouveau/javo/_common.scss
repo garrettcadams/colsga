@@ -1,0 +1,357 @@
+// Variables, Mixin 
+
+$mypage-bgcolor:#edf1f5;
+$border-color:#e4e8f7;
+$blue:#01a2ea;
+$white: #fff;
+$primary: #01bcc3; // remove
+$jvbp-primary: #01bcc3;
+$tab-border-color: #e4e8f7;
+$nav-bgcolor:#3a3f4f;
+$nav-textcolor:#fff; // #d1d6d8
+
+
+@mixin rounded-badge($bg) {
+    background: $bg;
+    border-radius: 60px;
+    padding: 4px 12px 3px;
+    font-weight: 500;
+    letter-spacing: .05em;
+    font-size: 75%;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border: 0;
+}
+
+
+/** Typo **/
+.main-navs li a,
+.subnav a,
+.bp-screen-title {
+    text-transform: uppercase;
+}
+
+.main-navs li a,
+.subnav a {
+    font-size: 13px;
+}
+
+.bp-screen-title {
+    font-size: 18px;
+}
+
+#cover-image-container .group-status,
+#cover-image-container .activity,
+.moderators-title,
+    {
+    color: $white;
+}
+
+.bp-screen-title {
+    padding: 0 0 0 10px;
+}
+
+/** shape text **/
+.bp-list li .last-activity {
+    font-weight: 300;
+    font-size: 12px;
+    color: #a2a2aa;
+}
+
+
+/*=====  1. Layout  ======*/
+body.buddypress {
+
+    &.bp-user {
+        #content {
+            padding-top: 0;
+
+            &>.container {
+                max-width: 100%;
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
+
+    .item-body {
+        min-height: 400px;
+    }
+}
+
+
+/** BP list & loop **/
+
+body.directory.members.buddypress .buddypress-wrap,
+body.directory.groups.buddypress .buddypress-wrap{
+    padding-top: 35px;
+    min-height: 500px; // this is for when you don't have any data
+}
+
+body.directory.members.buddypress,
+body.directory.groups.buddypress,
+body.directory.activity {
+    .jvbp-wrap {
+        width: 1300px;
+        margin: auto;
+    }
+}
+
+.bp-wrap {
+    max-width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+/*=====  2. Header Cover  ======*/
+
+#item-header {
+    //overflow: hidden;
+    position: relative;
+    margin-bottom: 0;
+
+    #header-cover-image {
+        height: 100%;
+        background-color: #c5c5c5;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 0;
+        display: block;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 0;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), #232631);
+            opacity: 0.95;
+        }
+    }
+
+    #item-header-cover-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+
+        #item-header-avatar {
+            margin-top: 0;
+
+            img {
+                width: 100px;
+            }
+        }
+
+        #item-header-content {
+            margin-left: 0 !important;
+            margin-top: 0 !important;
+            padding-left: 0;
+            display: flex;
+            flex-direction: column;
+
+            /** Members **/
+            h2 {
+                margin: 0;
+                font-size: 20px;
+                text-align: center;
+                color: $white;
+                order: 1;
+            }
+
+            .item-meta {
+                order: 2;
+            }
+
+            .action {
+                order: 3;
+            }
+
+            /** Groups **/
+            .group-status,
+            .activity,
+            .action {
+                text-align: center;
+            }
+
+        }
+
+        .group-item-actions {
+            position: absolute;
+            right: 25%;
+        }
+
+    }
+}
+
+#buddypress #header-cover-image,
+#item-header-cover-image {
+    height: 500px;
+}
+
+#item-header-cover-image {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* title : we don't hide in buddypress single */
+
+.jvbp-wrap .entry-header {
+    display: none;
+}
+
+body.buddypress.single-item.groups article.page>.entry-header {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 110px;
+    transform: translate(-50%, 0);
+    z-index: 100;
+
+    h1 {
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+}
+
+
+.single-headers #user_switching_switch_to.generic-button {
+    margin: 2px 10px;
+}
+
+
+.buddypress-wrap {
+
+    // Sub nav right 
+    .subnav-filters {
+        //position: absolute;
+        //right: 15px;
+        //padding: 2.2em;
+
+        .bp-search {
+            padding-right: 10px;
+
+            input[type="search"] {
+                line-height: 2;
+            }
+        }
+
+
+        .select-wrap {
+            border: 1px solid #ccc;
+            background: #fff;
+
+            select {
+                font-size: 13px;
+                text-indent: 0;
+                padding: 5px 30px;
+                color: #555;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .bp_activity .subnav-filters {
+        position: relative;
+    }
+
+}
+
+// close buddypress-wrap
+
+/** Group **/
+.desc-wrap {
+    display: none;
+}
+
+/** Activity **/
+.activity-inner img {
+    max-width: 500px;
+    display: block;
+}
+
+.activity-inner iframe {
+    max-width: 100%;
+}
+
+
+#user_switching_switch_to {
+    float: right;
+}
+
+
+/** align **/
+.main-navs {
+
+    >ul.responsive-tabdrop>li:nth-child(2),
+    .horizontal.groups-nav {
+
+        >a {
+            padding: 1.5em calc(1.5em + 2px) 1.6em 0;
+            text-align: center;
+        }
+    }
+
+}
+
+// Sub nav First li a : left align
+.bp-single-vert-nav .item-body:not(#group-create-body) #subnav:not(.tabbed-links) .subnav li:first-child>a {
+    padding: 0 2em 0 0.5em;
+}
+
+/** invitation **/
+#group-invites-container {
+
+    .member-name {
+        font-size: 15px;
+    }
+
+    .action .icons:before {
+        font-size: 17px;
+        color: $light-text-plus;
+    }
+
+}
+
+#item-header-content .action {
+
+    .generic-button a,
+    button {
+        background: rgba(255, 255, 255, 0.12);
+        border-color: rgba(140, 140, 140, 0.36);
+        border-style: solid;
+        border-width: 1px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 13px;
+        border-radius: 3px;
+
+        &:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+    }
+}
+
+.screen-content {
+    //position: relative;
+}
+
+// nav.main-navs {
+//     height: 44px;
+// }

@@ -1,0 +1,273 @@
+/*--------------------------------------------------------------
+# Import Modules
+--------------------------------------------------------------*/
+//@import '~normalize-scss/sass/normalize/import-now';
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+//@import 'bp-nouveau/sass/buddypress.scss';
+//@import 'base/buddypress';
+//@import 'base/grid_loading';
+
+/*--------------------------------------------------------------
+# Core
+--------------------------------------------------------------*/
+// @import "core/maps01-basic"; // 1. color & media query & default
+// @import "core/maps02-info-window"; // 2. Info window
+// @import "core/maps03-map-list-part-style"; // 3. Map list part style - use listing switcher
+// @import "core/maps04-search-wrap"; // 4. search wrap
+// @import "core/maps05-map-panel-wrap"; // 5. Map Panel
+// @import "core/maps06-maps-area"; // 6. maps wrap - map area
+// @import "core/maps07-switcher-part"; // 7. switcher part
+// @import "core/maps08-responsive"; // 8. Responsive
+// @import 'core/maps';
+// @import 'core/selectize';
+
+// @import "core/fixed-blocks";
+// // //@import "loading-effects.less";
+// // //@import "animation-text.less";
+// @import "core/temp";
+// @import "core/page-block";
+// @import 'core/core';
+
+
+// @import "core/addon";
+// @import "core/lava-ajax-search";
+
+// @import "core/elementor";
+
+// @import "core/page-block";
+// @import "core/price-table";
+
+// @import "core/single";
+// @import "core/review";
+
+// @import "core/temp";
+
+
+// @import "core/member";
+// @import "core/header-nav";
+// @import "core/homa";
+// @import "core/responsive";
+// @import "core/theme-compatibility";
+
+//@import "modules/scrolltabs.scss";
+
+//@import "/node_modules/jquery.scrolltabs.psk/css/custom.css";
+//@import "/node_modules/jquery.scrolltabs.psk/css/scrolltabs.css";
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+@import 'base/variables';
+@import 'base/animations';
+@import 'base/animation_loading';
+@import 'base/mixins';
+@import 'base/body';
+@import 'base/forms';
+@import 'base/_grid_loading';
+@import 'theme-helper';
+/*--------------------------------------------------------------
+# Partials
+--------------------------------------------------------------*/
+
+@import 'partials/javo-icons';
+/*
+@import 'partials/javo-icons2'; */
+@import 'partials/jvbpd-icons';
+@import 'partials/view-icons';
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import 'components/header';
+
+/*--------------------------------------------------------------
+# Elementor
+--------------------------------------------------------------*/
+@import 'shortcodes';
+@import 'elementor/widgets';
+@import 'elementor/review';
+@import 'elementor/maps';
+@import "elementor/default-custom";
+@import "price-table";
+
+@import "common";
+@import "buttons";
+@import "post-block";
+@import "menu";
+@import "user-menu";
+@import "selectize";
+@import "search";
+@import "lava-ajax-search";
+
+@import "single-header";
+@import "single-detail";
+
+@import "listing-list";
+@import "listing-map";
+@import "map-info-window";
+
+@import "modules/magnific-popup";
+@import "modules/jquery.scrolling-tabs.scss";
+@import "modules/light-gallery.scss";
+@import "modules/metismenu.scss";
+
+@import "pages/bbpress";
+@import "pages/t_event";
+
+@import "lava-ajax-search2";
+@import "lava-directory-manager";
+@import "new";
+
+@import "buddypress-body";
+@import "buddypress-skin";
+@import "buddypress-modules";
+@import "buddypress-mobile";
+@import "widget";
+
+/*--------------------------------------------------------------
+# Parts
+--------------------------------------------------------------*/
+@import "lv_booking";
+
+
+
+/*All*/
+
+.btn-group.menu-item{
+    .dropdown-menu.show{
+        padding:0;
+        height:auto;
+        overflow:hidden;
+        box-shadow: 0 0 5px 1px rgba(0,0,0,.08);
+        animation: itemshow 0.25s linear 1;
+        @keyframes itemshow {
+            from{opacity:0;}
+            to{opacity:1;}
+        }
+        .dropdown-item.desc,.dropdown-item{
+            border-bottom: 1px solid #e6e6e6;
+            transition:0.25s;
+            &:hover{
+                background: #e6e4e4;
+                text-indent:6px;
+                font-weight:500;
+                color:#333;
+            }
+            &:last-child{
+                border:none;
+            }
+        }
+        .dropdown-divider{
+            margin:0;
+            border:none;
+        }
+    }
+}
+/*Menu - Category*/
+.jvbpd-nav-menu .shortcode-jvbpd_block{
+    border: solid 1px #eaeaea;
+}
+li.wide-container .javo-shortcode .shortcode-container > .shortcode-header{
+    width:200px;
+}
+li.wide-container .javo-shortcode .shortcode-container > .shortcode-header > .shortcode-nav > ul.shortcode-filter{
+    height:auto;
+    position: absolute;
+    left:0;
+    top:30px;
+}
+li.wide-container ul.wide-nav-overlay div.shortcode-header > div.shortcode-nav > ul.shortcode-filter li.filter-nav-item{
+    height:30px;
+    padding:5px 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color:#454545;
+}
+/*filter overflow*/
+.shortcode-nav ul.shortcode-filter > li{
+    height:18px;
+}
+/*Listing Map Style2 Sort Button */
+.jvbpd-map-list-sort-dropdown select,
+.jvbpd-map-list-sort-dropdown button{
+    height:auto;
+}
+/*Jv-heading-style*/
+.heading-header.jv-heading-style1{
+    display:flex;
+    align-items:center;
+}
+/*List Prev Next*/
+.jvbpd-swiper-carousel .jvbpd-nav-button{
+    display:inline-flex;
+}
+.jvbpd-swiper-carousel .jvbpd-nav-button i{
+    position: absolute;
+    top:47%;
+    z-index:1;
+}
+/*Mag swiper button*/
+.swiper-button-prev{
+    background-image:none;
+    left:10px;
+    right:auto;
+    &:focus{
+        outline-color: transparent;
+    }
+    &:before{
+        content: '\e87e';
+        color:white;
+        font-size:25px;
+        font-family: eicons;
+    }
+}
+.swiper-button-next{
+    background-image:none;
+    right:10px;
+    left:auto;
+    &:focus{
+        outline-color: transparent;
+    }
+    &:before{
+        content: '\e87d';
+        color:white;
+        font-size:25px;
+        font-family: eicons;
+    }
+}
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    height: auto;
+    margin:0;
+    z-index: 10;
+    cursor: pointer;
+    transform:translateY(-50%);
+}
+/*Listing Slim Scroll Bar*/
+.panel-body {
+    .slimScrollBar{z-index:1;}
+    .slimScrollRail{z-index:0;}
+}
+/*listing*/
+.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.jvbpd-ajax-search-536a40d.lava_ajax_search{
+    animation: fadein 0.25s linear 1;
+    @keyframes fadein {
+        0%{opacity:0;}
+        100%{opacity:1;}
+    }
+    .type-listing_category.group-title.ui-menu-item{
+        transition:0.25s;
+        a >i{
+            transition:0.25s;
+        }
+    }
+}
+/*dropdown-item*/
+.dropdown-item.active, .dropdown-item:active{
+    background:transparent;
+}

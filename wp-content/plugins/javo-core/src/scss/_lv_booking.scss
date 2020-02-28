@@ -1,0 +1,265 @@
+/*
+Description : Additional CSS for Lava Booking.
+Author : Javo
+Last Modified: 2019-01-09
+
+1. Booking Widget - Listing Detail Page
+2. Booking Widget Date Picker
+
+*/
+
+/** 1. Booking Widget - Listing Detail Page **/
+
+.lava-bookings-wrap {
+    display: block;
+    padding: 30px;
+
+    .field {
+        //display: none;
+        //visibility:hidden;
+        display: flex;
+        visibility: visible;
+        justify-content: center;
+        margin-bottom: 30px;
+
+        /*
+        &.active{
+            display: flex;
+            visibility: visible;
+            justify-content: center;
+            animation:lava-single-field-fade 1s;
+        }
+        */
+
+        .people-group{
+            display: inline-flex;
+        }
+    }
+
+    .field-price{
+        color: #666666;
+        font-size: 30px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 1.2em;
+        letter-spacing: 0px;
+
+        .icon{
+            margin-right: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .field-select-day{
+        .icon{
+            width:15%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            font-size: 20px;
+            line-height: 45px;
+        }
+
+        .input{
+            width:85%;
+
+            input{
+                font-size: 14px;
+                height: 38px;
+                padding: 5px 15px;
+                width: 100%;
+                outline: none;
+                border:2px solid #e6e6e6;
+                color: #898989;
+            }
+        }
+    }
+
+    .field-people{
+        .icon{
+            width:15%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            font-size: 20px;
+            line-height: 45px;
+        }
+
+        .people-group{
+            width: 85%;
+
+            .people{
+                width:50%;
+
+                &.people-adult{
+                    margin-right: 10px;
+                }
+
+                select{
+                    font-size: 14px;
+                    height: 38px;
+                    padding: 5px 15px;
+                    width: 100%;
+                    outline: none;
+                    border:2px solid #e6e6e6;
+                    color: #898989;
+                }
+            }
+        }
+    }
+
+    .field-submit{
+        button{
+            width:100%;
+            font-size: 13px;
+            text-transform: uppercase;
+            font-weight: 600;
+            padding: 15px 27px;
+            letter-spacing: 1px;
+            border:none;
+            background:#666666;
+            color:#fff;
+            outline:none;
+        }
+    }
+
+}
+@keyframes lava-single-field-fade {
+    0%{ opacity:0; } 100%{ opacity:1 }
+}
+@-webkit-keyframes lava-single-field-fade {
+    0%{ opacity:0; } 100%{ opacity:1 }
+}
+@-moz-keyframes lava-single-field-fade {
+    0%{ opacity:0; } 100%{ opacity:1 }
+}
+
+/** 2. Booking Widget Date Picker **/
+$picker_primary: #11c0c6;
+
+.ui-datepicker{
+    box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    width: 301px;
+    padding:0;
+    border:0;
+}
+
+//** Header **//
+.ui-datepicker .ui-datepicker-header {
+    padding: 25px;
+    background-color: $picker_primary;
+    border:0;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0;
+}
+
+.ui-widget-header .ui-icon {background-image: none;}
+
+
+.ui-datepicker .ui-datepicker-prev {
+    left: 27px;
+    top: 35px;
+}
+
+.ui-datepicker .ui-datepicker-next {
+    right: 12px;
+    top: 34px;
+}
+
+.ui-corner-all {
+    &.ui-datepicker-prev:before,
+    &.ui-datepicker-next:before {
+        font-family: 'Font Awesome\ 5 Free';
+        display: inline-block;
+        vertical-align: middle;
+        font-weight: 900;
+        color: #fff;
+    }
+
+    &.ui-datepicker-prev:before {
+        content: "\f053";
+        padding-right: 3px;
+    }
+    &.ui-datepicker-next:before {
+        content: "\f054";
+        padding-right: 3px;
+    }
+
+}
+
+.ui-datepicker .ui-datepicker-next-hover {
+    right: 12px;
+}
+
+/** hover effect disable **/
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+    border:0;
+    background: transparent;
+    //font-weight: 900;
+    color: #fff;
+}
+
+.ui-datepicker table {
+    margin: 1.0em 0em 2.0em;
+    overflow: hidden;
+
+}
+.ui-datepicker th {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    cursor: initial;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border:0px;
+    background-color: transparent;
+}
+
+/** Today **/
+.ui-widget-content .ui-state-default.ui-state-highlight {
+    background-color:#c9e9ea;
+    color:#000;
+}
+
+.ui-widget-content .ui-state-default.ui-state-active {
+    background-color: $picker_primary;
+    color:#fff; font-weight: 700;
+}
+
+.ui-datepicker td span, .ui-datepicker td a {
+    text-align: center;
+}
+
+.ui-datepicker td {padding:0;}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    color: #333;
+    padding: 7px 10px;
+    font-size: 13px;
+}
+
+select.ui-datepicker-month, select.ui-datepicker-year {
+    font-size: 14px;
+    height: 38px;
+    padding: 5px 7px;
+    width: 100%;
+    outline: none;
+    border: 2px solid #e6e6e6;
+    color: #898989;
+}
+
+select.ui-datepicker-month {
+    border-right: 0;
+}
+
+

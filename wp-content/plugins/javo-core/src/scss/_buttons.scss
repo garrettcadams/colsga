@@ -1,0 +1,1219 @@
+
+/* Load More Button & BP Buttons */
+.javo-loadmore-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin jv-btn($width, $height, $bg, $color, $radius) {
+    width:$width;
+    height: $height;
+    background: $bg;
+    color:$color;
+    border-radius: $radius;
+    font-size: 13px;
+    //line-height: $height;
+    border:2px solid $bg;
+    font-weight: 500;
+    letter-spacing: 2px;    
+    margin-top: 20px;
+    margin-bottom: 20px;    
+    padding: 0;
+    text-transform: uppercase;
+    transition:0.25s;
+    &:hover{
+        color: $bg;
+        border: 2px solid $bg;
+        background: $color;
+        //line-height: $height;
+    }    
+}
+.jvbpd-map-list-reset-filter-wrap span.filter-item{
+    @include jv-btn(auto,auto,#fff,#898989,0);
+    padding:2px 8px;
+    margin:0;
+    cursor:pointer;
+    border:1px solid #e5e5e5;
+    &:hover{
+        border:1px solid #e5e5e5;
+        color:#fff;
+    }
+}
+
+.javo-map-box-morebutton {
+    @include jv-btn(220px, 50px, #f95a65, #ffffff, 30px );
+}
+
+.jv-user-content button.btn,
+.lava-item-add-form .submit button,
+#profile-group-edit-submit{
+    @include jv-btn(auto, 50px, #f95a65, #ffffff, 30px);
+    
+}
+
+.javo-map-box-morebutton {    
+    padding:0 35px;
+    i {
+        margin-right:10px;
+    }
+}
+
+/* Small Button */
+.card-title a.btn {
+    @include jv-btn(auto, 30px, #01bcc3, #ffffff, 30px);
+    font-size: 11px;
+    padding:0 20px;
+    margin-top: -6px;
+    border: 2px solid #01bcc3;
+    margin-bottom: 0px; 
+    line-height:28px;
+    &:hover{
+        border: 2px solid;
+        line-height:28px;
+        padding:0 20px;
+    }
+}
+
+/* XS Gray */
+.activity-comments .activity-meta.action .generic-button a
+{
+    width: auto;
+    height: 25px;
+    background: #ffffff;
+    color: #717577;
+    border-radius: 0px;
+    font-size: 10px;
+    border: 1px solid #dedede;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    text-transform: uppercase;
+    transition: 0.25s;
+    padding: 0 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Text Button */
+.buddypress .buddypress-wrap .activity-read-more a, 
+.activity .activity-comments .show-all button {
+    text-transform: uppercase;
+    transition: 0.25s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:0;
+}
+body #buddypress .activity-update-form #whats-new-submit input{
+    border-radius: 30px;
+    text-decoration: none;
+    height: 25px;
+    font-size: 10px;
+    width: auto;
+    padding: 5px 7px 5px 7px;
+    line-height: 1;
+    margin : 5px 10px 5px 0;
+}
+
+
+//---------------- Pagination Buttons -----------------//
+.jv-pagination{
+	margin-bottom:0px;
+	ul.pagination{
+		&,
+		& > li,
+		& > li > a,
+		& > li > a > i{
+			float:left;
+		}
+		& a.prevNext{
+			text-align:center;
+		}
+		.page-item{
+			&:first-child{margin-right:7px;}
+			>a{
+				color: #b7b7b7;
+				transition:none;
+				border-radius:0;
+				&.prevNext,
+				&.previous{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+				}
+			}
+		}
+	}
+	& li.disabled{ opacity:.5; 
+		a {padding:5px 8px 5px 9px;}
+	}
+	&:after{
+		content:'';
+		display:table;
+		clear:both;
+    }
+    &.text-center .pagination li{
+        &.active{
+            margin-left:7px;
+            .page-numbers.current{
+                margin:0;
+            }
+        }
+        &:first-child{
+            margin:0;
+        }
+        &:last-child{
+            margin-left:7px;
+        }
+        .prev.page-numbers,.next.page-numbers{
+            margin:0;
+        }
+        .page-numbers{
+            margin:0 0 0 7px;
+        }
+        .page-numbers.current{
+            margin:0;
+        }
+    }
+}
+/*Common*/
+
+/*Groups Button*/
+.buddypress .buddypress-wrap .bp-list.grid .action button{
+    border:2px solid #01bcc3;
+    &:hover{
+        background:none;
+    }
+}
+body.buddypress.groups button.group-button.join-group.button{
+    height: 30px;
+    width: 120px;
+    font-weight: 400;
+    font-size: 11px;
+    padding: 0 11px;
+}
+ /*Pagination*/
+ .lava-pagination,.jv-pagination .pagination{
+    margin-top:10px;
+    display:flex;
+    span{
+        background:rgb(245, 245, 245);
+        color:#b7b7b7;
+        border:1px solid #dee2e6;
+    }
+    a{
+        background:#fff;
+        color: #888;
+        border: 1px solid #dad9d9;
+        transition:0.25s;
+        &:hover{
+            background-color: #e9ecef;
+            border-color: #dee2e6;
+        }
+    }
+    span,a{
+        padding: 5px;
+        width:25px;
+        height:25px;
+        display: inline-block;
+        margin: 0;
+        text-align: center;
+        line-height: 14px;
+        box-sizing: border-box;
+    }
+    .page-link.page-numbers,
+    .next.page-numbers{
+        width:25px;
+        height:25px;
+        overflow:hidden;
+        color:transparent;
+        i{
+            display:none;
+        }
+        &#text{
+            display:none;
+        }
+        &:before{
+            content: "\f105";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            font-style: normal;
+            font-size:12px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            display:block;
+            color:#b7b7b7;
+        }
+    }
+    .page-link.page-numbers.previous,
+    .prev.page-numbers{
+        i{
+            display:none;
+        }
+        width:25px;
+        height:25px;
+        overflow:hidden;
+        color:transparent;
+        &#text{
+            display:none;
+        }
+        &:before{
+            content: "\f104";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            font-style: normal;
+            font-size:12px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            display:block;
+            color:#b7b7b7;
+        }
+    }
+}
+/*Listing Button*/
+.jvbpd-map-list-grid-toogle-wrap {
+    .toggle-item {
+        &.type-map.map_toggle,&.type-list.list_toggle,i{
+            transition:0.25s;
+        }
+    }
+}
+
+
+
+
+
+/* BP Default Buttons */
+body #buddypress input[type=submit], 
+.buddypress .buddypress-wrap .comment-reply-link, 
+.buddypress .buddypress-wrap .generic-button a, .buddypress .buddypress-wrap a.bp-title-button, 
+.buddypress .buddypress-wrap a.button, .buddypress .buddypress-wrap button, .buddypress .buddypress-wrap input[type=button], 
+.buddypress .buddypress-wrap input[type=reset], 
+.buddypress .buddypress-wrap input[type=submit], .buddypress .buddypress-wrap ul.button-nav:not(.button-tabs) li a 
+{
+@include jv-btn(auto, 40px, #01bcc3, #ffffff, 30px);
+    padding: 0 25px;
+    
+}
+
+.buddypress .buddypress-wrap button{
+    margin-top:0;
+    margin-bottom:50px;
+}
+.buddypress .buddypress-wrap .mce-widget.mce-btn button{
+    width:40px;
+    background:white;
+    border-radius:50%;
+    border:1px solid #d6d6d6;
+}
+.buddypress .card-block .btn.btn-primary{
+    margin-top:20px;
+    margin-bottom:0;
+}
+/* Elementor Widget Button */
+.jvbpd-button__container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.jvbpd-advanced-button {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    cursor: pointer;
+}
+
+.jvbpd-button_wapper {
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute
+}
+
+.jvbpd-button_wrapper-normal {
+    z-index: 1
+}
+
+.jvbpd-button_wrapper-hover {
+    z-index: 3
+}
+
+.jvbpd-button_inner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.jvbpd-button_inner-normal {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 2
+}
+
+.jvbpd-button_inner-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 4
+}
+
+.jvbpd-button_icon {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.jvbpd-advanced-button.jvbpd-advanced-button--icon-left .jvbpd-button_inner {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.jvbpd-advanced-button.jvbpd-advanced-button--icon-left .jvbpd-button_inner .jvbpd-button_icon {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1
+}
+
+.jvbpd-advanced-button.jvbpd-advanced-button--icon-left .jvbpd-button_inner .jvbpd-button_txt {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2
+}
+
+.jvbpd-advanced-button.jvbpd-advanced-button--icon-top .jvbpd-button_inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.jvbpd-advanced-button.jvbpd-advanced-button--icon-top .jvbpd-button_inner .jvbpd-button_icon {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1
+}
+
+.jvbpd-advanced-button.jvbpd-advanced-button--icon-top .jvbpd-button_inner .jvbpd-button_txt {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2
+}
+
+.jvbpd-advanced-button.jvbpd-advanced-button--icon-right .jvbpd-button_inner {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.jvbpd-advanced-button.jvbpd-advanced-button--icon-right .jvbpd-button_inner .jvbpd-button_icon {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2
+}
+
+.jvbpd-advanced-button.jvbpd-advanced-button--icon-right .jvbpd-button_inner .jvbpd-button_txt {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1
+}
+
+.jvbpd-advanced-button.jvbpd-advanced-button--icon-bottom .jvbpd-button_inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.jvbpd-advanced-button.jvbpd-advanced-button--icon-bottom .jvbpd-button_inner .jvbpd-button_icon {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2
+}
+
+.jvbpd-advanced-button.jvbpd-advanced-button--icon-bottom .jvbpd-button_inner .jvbpd-button_txt {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1
+}
+
+.jvbpd-advanced-button.hover-effect-0 .jvbpd-button_wrapper-normal {
+    opacity: 1
+}
+
+.jvbpd-advanced-button.hover-effect-0 .jvbpd-button_wrapper-hover {
+    opacity: 0
+}
+
+.jvbpd-advanced-button.hover-effect-0 .jvbpd-button_inner-normal {
+    opacity: 1
+}
+
+.jvbpd-advanced-button.hover-effect-0 .jvbpd-button_inner-hover {
+    opacity: 0
+}
+
+.jvbpd-advanced-button.hover-effect-0:hover .jvbpd-button_wrapper-normal {
+    opacity: 0
+}
+
+.jvbpd-advanced-button.hover-effect-0:hover .jvbpd-button_wrapper-hover {
+    opacity: 1
+}
+
+.jvbpd-advanced-button.hover-effect-0:hover .jvbpd-button_inner-normal {
+    opacity: 0
+}
+
+.jvbpd-advanced-button.hover-effect-0:hover .jvbpd-button_inner-hover {
+    opacity: 1
+}
+
+.jvbpd-advanced-button.hover-effect-1 .jvbpd-button_wrapper-normal {
+    opacity: 1;
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-1 .jvbpd-button_wrapper-hover {
+    opacity: 0;
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-1 .jvbpd-button_inner-normal .jvbpd-button_icon {
+    opacity: 1;
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-1 .jvbpd-button_inner-normal .jvbpd-button_txt {
+    opacity: 1;
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-1 .jvbpd-button_inner-hover .jvbpd-button_icon {
+    opacity: 0;
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-1 .jvbpd-button_inner-hover .jvbpd-button_txt {
+    opacity: 0;
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-1:hover .jvbpd-button_wrapper-normal {
+    opacity: 0
+}
+
+.jvbpd-advanced-button.hover-effect-1:hover .jvbpd-button_wrapper-hover {
+    opacity: 1
+}
+
+.jvbpd-advanced-button.hover-effect-1:hover .jvbpd-button_inner-normal .jvbpd-button_icon {
+    opacity: 0
+}
+
+.jvbpd-advanced-button.hover-effect-1:hover .jvbpd-button_inner-normal .jvbpd-button_txt {
+    opacity: 0
+}
+
+.jvbpd-advanced-button.hover-effect-1:hover .jvbpd-button_inner-hover .jvbpd-button_icon {
+    opacity: 1
+}
+
+.jvbpd-advanced-button.hover-effect-1:hover .jvbpd-button_inner-hover .jvbpd-button_txt {
+    opacity: 1
+}
+
+.jvbpd-advanced-button.hover-effect-2 .jvbpd-button_wrapper-normal {
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-2 .jvbpd-button_wrapper-hover {
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-2 .jvbpd-button_inner-normal {
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-2 .jvbpd-button_inner-hover {
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-2:hover .jvbpd-button_wrapper-normal {
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s;
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%)
+}
+
+.jvbpd-advanced-button.hover-effect-2:hover .jvbpd-button_wrapper-hover {
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s
+}
+
+.jvbpd-advanced-button.hover-effect-2:hover .jvbpd-button_inner-normal {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%)
+}
+
+.jvbpd-advanced-button.hover-effect-2:hover .jvbpd-button_inner-hover {
+    -webkit-transition-delay: .15s;
+    transition-delay: .15s;
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%)
+}
+
+.jvbpd-advanced-button.hover-effect-3 .jvbpd-button_wrapper-normal {
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-3 .jvbpd-button_wrapper-hover {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-3 .jvbpd-button_inner-normal {
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-3 .jvbpd-button_inner-hover {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-3:hover .jvbpd-button_wrapper-normal {
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s;
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%)
+}
+
+.jvbpd-advanced-button.hover-effect-3:hover .jvbpd-button_wrapper-hover {
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s
+}
+
+.jvbpd-advanced-button.hover-effect-3:hover .jvbpd-button_inner-normal {
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%)
+}
+
+.jvbpd-advanced-button.hover-effect-3:hover .jvbpd-button_inner-hover {
+    -webkit-transition-delay: .15s;
+    transition-delay: .15s;
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%)
+}
+
+.jvbpd-advanced-button.hover-effect-4 .jvbpd-button_wrapper-normal {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-4 .jvbpd-button_wrapper-hover {
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-4 .jvbpd-button_inner-normal {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-4 .jvbpd-button_inner-hover {
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-4:hover .jvbpd-button_wrapper-normal {
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s
+}
+
+.jvbpd-advanced-button.hover-effect-4:hover .jvbpd-button_wrapper-hover {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0)
+}
+
+.jvbpd-advanced-button.hover-effect-4:hover .jvbpd-button_inner-normal {
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%)
+}
+
+.jvbpd-advanced-button.hover-effect-4:hover .jvbpd-button_inner-hover {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s
+}
+
+.jvbpd-advanced-button.hover-effect-5 .jvbpd-button_wrapper-normal {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-5 .jvbpd-button_wrapper-hover {
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-5 .jvbpd-button_inner-normal {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-5 .jvbpd-button_inner-hover {
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-5:hover .jvbpd-button_wrapper-normal {
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s
+}
+
+.jvbpd-advanced-button.hover-effect-5:hover .jvbpd-button_wrapper-hover {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0)
+}
+
+.jvbpd-advanced-button.hover-effect-5:hover .jvbpd-button_inner-normal {
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%)
+}
+
+.jvbpd-advanced-button.hover-effect-5:hover .jvbpd-button_inner-hover {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s
+}
+
+.jvbpd-advanced-button.hover-effect-6 .jvbpd-button_wrapper-normal {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-6 .jvbpd-button_wrapper-hover {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-6 .jvbpd-button_inner-normal {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-6 .jvbpd-button_inner-hover {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-6:hover .jvbpd-button_wrapper-normal {
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+.jvbpd-advanced-button.hover-effect-6:hover .jvbpd-button_wrapper-hover {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1)
+}
+
+.jvbpd-advanced-button.hover-effect-6:hover .jvbpd-button_inner-normal {
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+.jvbpd-advanced-button.hover-effect-6:hover .jvbpd-button_inner-hover {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1)
+}
+
+.jvbpd-advanced-button.hover-effect-7 .jvbpd-button_wrapper-normal {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-7 .jvbpd-button_wrapper-hover {
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-7 .jvbpd-button_inner-normal {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-7 .jvbpd-button_inner-hover {
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-7:hover .jvbpd-button_wrapper-normal {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0)
+}
+
+.jvbpd-advanced-button.hover-effect-7:hover .jvbpd-button_wrapper-hover {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1)
+}
+
+.jvbpd-advanced-button.hover-effect-7:hover .jvbpd-button_inner-normal {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0)
+}
+
+.jvbpd-advanced-button.hover-effect-7:hover .jvbpd-button_inner-hover {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1)
+}
+
+.jvbpd-advanced-button.hover-effect-8 .jvbpd-button_wrapper-normal {
+    opacity: 1;
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-8 .jvbpd-button_wrapper-hover {
+    opacity: 1;
+    -webkit-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-transform: rotateZ(-90deg) scaleX(2);
+    -ms-transform: rotate(-90deg) scaleX(2);
+    transform: rotateZ(-90deg) scaleX(2);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-8 .jvbpd-button_inner-normal {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-8 .jvbpd-button_inner-hover {
+    opacity: 0;
+    -webkit-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-transform: rotateZ(-90deg) translateY(-100%);
+    -ms-transform: rotate(-90deg) translateY(-100%);
+    transform: rotateZ(-90deg) translateY(-100%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-8:hover .jvbpd-button_wrapper-normal {
+    opacity: 0
+}
+
+.jvbpd-advanced-button.hover-effect-8:hover .jvbpd-button_wrapper-hover {
+    opacity: 1;
+    -webkit-transform: rotateZ(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotateZ(0deg)
+}
+
+.jvbpd-advanced-button.hover-effect-8:hover .jvbpd-button_inner-normal {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%)
+}
+
+.jvbpd-advanced-button.hover-effect-8:hover .jvbpd-button_inner-hover {
+    opacity: 1;
+    -webkit-transform: rotateZ(0) translateY(0);
+    -ms-transform: rotate(0) translateY(0);
+    transform: rotateZ(0) translateY(0);
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s
+}
+
+.jvbpd-advanced-button.hover-effect-9 .jvbpd-button_wrapper-normal {
+    opacity: 1;
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-9 .jvbpd-button_wrapper-hover {
+    opacity: 1;
+    -webkit-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    -webkit-transform: rotateZ(-90deg) translateY(100%) scaleX(2);
+    -ms-transform: rotate(-90deg) translateY(100%) scaleX(2);
+    transform: rotateZ(-90deg) translateY(100%) scaleX(2);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-9 .jvbpd-button_inner-normal {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-9 .jvbpd-button_inner-hover {
+    opacity: 0;
+    -webkit-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+    -webkit-transform: rotateZ(-90deg) translateY(100%);
+    -ms-transform: rotate(-90deg) translateY(100%);
+    transform: rotateZ(-90deg) translateY(100%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-9:hover .jvbpd-button_wrapper-normal {
+    opacity: 0
+}
+
+.jvbpd-advanced-button.hover-effect-9:hover .jvbpd-button_wrapper-hover {
+    opacity: 1;
+    -webkit-transform: rotateZ(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotateZ(0deg)
+}
+
+.jvbpd-advanced-button.hover-effect-9:hover .jvbpd-button_inner-normal {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%)
+}
+
+.jvbpd-advanced-button.hover-effect-9:hover .jvbpd-button_inner-hover {
+    opacity: 1;
+    -webkit-transform: rotateZ(0) translateY(0);
+    -ms-transform: rotate(0) translateY(0);
+    transform: rotateZ(0) translateY(0);
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s
+}
+
+.jvbpd-advanced-button.hover-effect-10 .jvbpd-button_wrapper-normal {
+    opacity: 1;
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-10 .jvbpd-button_wrapper-hover {
+    opacity: 1;
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-10 .jvbpd-button_inner-normal {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-10 .jvbpd-button_inner-hover {
+    opacity: 0;
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-10:hover .jvbpd-button_wrapper-normal {
+    opacity: 0
+}
+
+.jvbpd-advanced-button.hover-effect-10:hover .jvbpd-button_wrapper-hover {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0)
+}
+
+.jvbpd-advanced-button.hover-effect-10:hover .jvbpd-button_inner-normal {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%)
+}
+
+.jvbpd-advanced-button.hover-effect-10:hover .jvbpd-button_inner-hover {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s
+}
+
+.jvbpd-advanced-button.hover-effect-11 .jvbpd-button_wrapper-normal {
+    opacity: 1;
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-11 .jvbpd-button_wrapper-hover {
+    opacity: 1;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-11 .jvbpd-button_inner-normal {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-11 .jvbpd-button_inner-hover {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+    transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88)
+}
+
+.jvbpd-advanced-button.hover-effect-11:hover .jvbpd-button_wrapper-normal {
+    opacity: 1
+}
+
+.jvbpd-advanced-button.hover-effect-11:hover .jvbpd-button_wrapper-hover {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0)
+}
+
+.jvbpd-advanced-button.hover-effect-11:hover .jvbpd-button_inner-normal {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%)
+}
+
+.jvbpd-advanced-button.hover-effect-11:hover .jvbpd-button_inner-hover {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s
+}

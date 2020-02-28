@@ -1,0 +1,23 @@
+/* Nav mega menu style */
+.jvbpd-nav .wide-container .menu-depth-2 {
+	position: relative;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.wide-container{
+	span.fa.arrow{display:none;}
+	&:hover {
+		.menu-depth-1 {
+			display: flex !important;
+		}
+	}
+}
+
+.header-elementor-wrap,
+.is-sticky .header-elementor-wrap{
+	transition:all .5s;
+	-webkit-transition:all .5s;
+	-moz-transition:all .5s;
+}

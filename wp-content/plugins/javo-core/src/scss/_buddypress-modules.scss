@@ -1,0 +1,536 @@
+/*------------------------------------------------------------------
+[ BP Parts ]
+
+Project:    Activity, Members, Groups for Total Directory List and also Each profile.
+Version:    1.0.0.1
+Last change:    08/26/2019 [Added Members, Groups]
+Assigned to:    Javo
+Primary use:    Javo 
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Common
+2. Modal
+3. Working Hours
+
+-------------------------------------------------------------------*/
+
+$bp-content-width: 1100px;
+$bp-background: #f4f5f7;
+$bpm_border: #e4e8f7;
+$bp-base-color: #000;
+$bp-lighter-txt: lighten($bp-base-color, 10%);
+$bp-darken-txt: darken($bp-base-color, 10%);
+
+/*------------------------------------------------------------------
+* [1. Common]
+-------------------------------------------------------------------*/
+
+.buddypress img.avatar {
+  border: 3px #fff solid;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.08);
+  content: none;
+  transition: all 0.3s;
+}
+
+.buddypress-wrap .subnav-filters .select-wrap select {
+  font-size: 13px;
+  text-indent: 0;
+  padding: 3px 50px 3px 10px;
+  color: #555;
+  font-weight: 400;
+}
+
+/* layout */
+body.directory.members,
+body.directory.groups,
+body.directory.activity {
+  background-color: $bp-background;
+}
+
+.activity.activity-permalink #buddypress,
+.directory.members #buddypress,
+.directory.groups #buddypress,
+.directory.activity #buddypress {
+  width: $bp-content-width;
+  margin: auto;
+  .bp-navs.main-navs {
+    width: 100%;
+    margin-top: 0;
+    ul {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      li {
+        min-width: 110px;
+        overflow: visible;
+        a {
+          color: #9ea9c5 !important;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+  .screen-content {
+    position: relative;
+    margin-left: 0;
+    border-left: 0;
+  }
+}
+
+.buddypress #buddypress .create-button {
+  a {
+    margin: 0;
+  }
+}
+
+.buddypress #buddypress.bp-dir-vert-nav .create-button,
+.buddypress-wrap .grid.bp-list > li .list-wrap {
+  padding: 0;
+}
+
+.members-list li,
+.groups-list li,
+.buddypress #buddypress .create-button a,
+.directory.members #buddypress .bp-navs.main-navs ul li.selected,
+.directory.groups #buddypress .bp-navs.main-navs ul li.selected,
+.directory.activity #buddypress .bp-navs.main-navs ul li.selected {
+  border: 0;
+  border-right: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.buddypress-wrap.bp-vertical-navs .dir-navs.activity-nav-tabs ul li a span.count,
+.buddypress-wrap.bp-vertical-navs .dir-navs.groups-nav-tabs ul li a span.count,
+.buddypress-wrap.bp-vertical-navs .dir-navs.members-nav-tabs ul li a span.count,
+.buddypress-wrap.bp-vertical-navs .dir-navs.sites-nav-tabs ul li a span.count,
+.buddypress-wrap.bp-vertical-navs .main-navs.group-nav-tabs ul li a span.count,
+.buddypress-wrap.bp-vertical-navs .main-navs.user-nav-tabs ul li a span.count{
+  background: none;
+  border: none;
+  color: #444;
+  // position: absolute;
+  top: 35%;
+  transform: translateY(-50%);
+}z
+.grid > li .list-wrap,
+.activity-list.bp-list .activity-item {
+  border: 1px solid $bpm_border;
+}
+
+/*------------------------------------------------------------------
+* [2. Activity]
+-------------------------------------------------------------------*/
+.buddypress .activity ul.activity-list li.activity-item .activity-avatar a img {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px 0 0;
+}
+
+.buddypress .activity-avatar img.avatar {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px 0 0;
+}
+
+.buddypress li .activity-meta a.button {
+  color: #878787;
+  border: 1px solid #e6eef1;
+  background: #fff;
+  font-size: 11px;
+  padding: 2px 6px;
+}
+
+.buddypress #activity-stream p {
+  margin: 5px 0;
+  color: #696969;
+  font-size: 13px;
+}
+
+.activity-list .activity-item .activity-content .activity-inner,
+.activity-list .activity-item .activity-content blockquote {
+  padding: 0;
+  margin: 0;
+}
+
+.activity-list .activity-item .activity-meta.action a {
+  padding: 0px 8px;
+  margin: 0;
+}
+
+.activity-list.bp-list li:first-child {
+  margin-top: 0;
+}
+
+#activity-list > li {
+  display: block;
+  width: 100%;
+  overflow:hidden;
+}
+
+.activity-list.bp-list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.activity-list.bp-list .activity-item {
+  //display: flex;
+}
+
+.activity-list.bp-list .activity-item {
+  margin: 10px 0;
+  border-radius: 3px;
+  display: block;
+  float: none;
+}
+
+/* Activity Comment */
+.buddypress-wrap .activity-comments ul li {
+  position: relative !important;
+
+  top: unset !important;
+  left: unset !important;
+}
+
+.activity-list .activity-item {
+  padding: 0;
+}
+
+/* Comment reply lines */
+.buddypress li.has-comments .activity-comments {
+  margin: 25px -30px 0;
+  padding: 0 30px 0 45px;
+  border-top: 1px solid #d0d2e0;
+}
+.buddypress .activity ul.activity-list li:not(.show-all) {
+  background-color: #fdfdfd;
+  border: 1px solid #d0d2e0;
+  border-radius: 5px;
+  transition: background-color 200ms ease-in-out, opacity 200ms ease-in-out;
+  margin: 0px;
+  // border-right: 0;
+  border-top: 0;
+  // border-bottom: 0;
+}
+
+li.has-comments .activity-comments ul > li:not(.show-all):before {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  top: 35px;
+  left: -7px;
+  background-color: #fdfdfd;
+  border-radius: 100%;
+  border: 2px solid #b6b9ce;
+  z-index:2;
+}
+li.has-comments .activity-comments ul > li:not(.show-all):after {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  top: 35px;
+  left: -7px;
+  background-color: #fdfdfd;
+  border-radius: 100%;
+  border: 1px solid #d0d2e0;
+  animation: dingdong 1.1s linear infinite;
+            @keyframes dingdong {
+                0%{transform: scale(0);opacity:1;}
+                100%{transform: scale(2);opacity:0;}
+            }
+}
+.activity .activity-comments .show-all {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  button {
+    margin: 0 0 10px 0;
+  }
+}
+
+.buddypress-wrap .activity-comments .acomment-content {
+  border-left: 0px;
+  margin: 15px 0 0 5.5%;
+  padding: 0.5em 1em;
+}
+
+/* replies of replies */
+.activity ul.activity-list li {
+  padding: 30px 0px 0px 30px;
+  &:last-child{
+    border-bottom:0;
+  }
+}
+div.activity ul.activity-list li.has-comments ul li.comment-item {
+  padding: 30px 10px 30px 30px;
+  border-right:none;
+  margin-right:-10px;
+  &:last-child{
+    // border-bottom:0;
+    margin-bottom:30px;
+  }
+  ul li {
+    padding-right: 0;
+  }
+}
+.activity-list .activity-item.has-comments {
+  padding-bottom: 0;
+}
+.buddypress-wrap .activity-comments ul {
+  margin: 0;
+}
+.buddypress-wrap .activity-comments .activity-meta.action {
+  padding: 0 10px 10px 0;
+  // margin: 0 10px 10px 0;
+}
+
+.activity-list .activity-item .activity-content .activity-inner {
+    padding:10px 30px 0px 60px;
+}
+.activity-update-form #whats-new-post-in{
+  padding:5px 7px;
+  font-size:10px;
+  text-transform: uppercase;
+  letter-spacing:1px;
+  color:696969;
+  font-weight:500;
+}
+.activity-update-form #whats-new-post-in-box{
+  height:27px;
+}
+.activity-update-form #whats-new-submit{
+  margin:0 0 0 8.5%;
+}
+.activity-update-form #whats-new-content{
+  padding:0;
+  margin-bottom:9px;
+}
+.activity-update-form #whats-new-post-in-box #whats-new-post-in-box-items{
+  display:inline-block;
+  margin:0;
+  padding:0 0 0 10px;
+  #activity-autocomplete{
+    font-size: 10px;
+    border: 1px solid #d6d6d6;
+    padding: 5px 7px;
+    margin: 0;
+    width: 200px;
+    font-weight:500;
+  }
+}
+
+/* Text */
+/* 13px */
+.buddypress-wrap .activity-comments .acomment-meta {
+    font-size: 13px;
+}
+
+.activity-list .activity-item.mini .activity-avatar img.avatar {
+    max-width: 100%;
+}
+
+.activity-content .activity-header a:nth-child(1),
+.buddypress-wrap .activity-comments .acomment-meta a:nth-child(1),
+.activity-comment .acomment-meta a:nth-child(1){    
+    padding-right: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.buddypress a.activity-time-since .time-since:before {
+    font-family: 'jvbpd-icon2';
+    content: "\e90d";
+    padding-right: 5px;
+}
+.activity-list .activity-item .activity-header .time-since,
+buddypress-wrap .activity-comments .acomment-meta, .activity-time-since
+{
+    color: #696969;
+    font-size: 11px;
+    padding-left:5px;
+}
+
+/* Form */
+.activity-update-form #whats-new-textarea textarea,
+form.ac-form .ac-reply-content .ac-textarea textarea {
+  background: 0 0;
+  box-shadow: none;
+  color: #555;
+  font-family: inherit;
+  font-size: 100%;
+  height: 60px;
+  margin: 0;
+  outline: 0;
+  padding: 0.5em;
+  border: 1px solid #e6ecf5;
+  background: #fff;
+}
+/* Form on reply */
+.item-body .activity-update-form .activity-form,
+.activity-update-form form,
+.comment-item form {
+  border: 1px solid #eee;
+  padding: 30px 50px 10px 50px;
+  background: #f6f9ff;
+  margin: 30px 0 0 0;
+}
+/*Activity Filter*/
+.directory.activity #buddypress .screen-content{
+  padding-bottom:0;
+  margin-bottom:80px;
+  overflow:inherit;
+}
+body.buddypress.activity .subnav-filters{
+  position: absolute;
+  top:40px;
+  z-index:1;
+  .subnav-search.clearfix{
+    margin-right:15px;
+  }
+}
+.directory.activity #buddypress .bp-navs.main-navs{
+  margin-top:40px;
+  z-index:1;
+}
+
+/*------------------------------------------------------------------
+* [3. Members]
+-------------------------------------------------------------------*/
+.buddypress-wrap .grid.bp-list > li .item-meta,
+.buddypress-wrap .grid.bp-list > li .list-title {
+  text-align: left;
+}
+
+.buddypress-wrap .grid.bp-list > li .list-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.buddypress-wrap .grid.bp-list > li .list-wrap {
+  padding: 25px 0;
+}
+
+.grid > li .list-wrap .list-title {
+  padding: 0;
+}
+
+.buddypress-wrap .grid.bp-list.groups-list > li {
+  padding-bottom: 25px;
+}
+.grid.three > li:nth-child(3n + 3) {
+  padding-right: 15px;
+}
+
+.grid.three > li:nth-child(1n + 1) {
+  padding-right: 15px;
+}
+
+.grid.members-list .list-wrap {
+  min-height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.grid.members-list .list-wrap .item-block {
+  margin: 0;
+  min-height: 0;
+}
+.directory.members #buddypress .screen-content{
+  padding-bottom:0;
+  margin-bottom:80px;
+  overflow:inherit;
+}
+body.buddypress.members .subnav-filters{
+  position: absolute;
+  top:40px;
+  z-index:1;
+  .subnav-search.clearfix,.component-filters.clearfix{
+    margin-right:15px;
+  }
+  .select-wrap .select-arrow{
+    right:25px;
+  }
+}
+.directory.members #buddypress .bp-navs.main-navs{
+  margin-top:40px;
+  z-index:1;
+}
+
+/*------------------------------------------------------------------
+* [4. Groups]
+-------------------------------------------------------------------*/
+.group-desc {
+  display: none;
+}
+.grid.groups-list .list-wrap {
+  min-height: 50px;
+}
+
+.groups-list .item-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buddypress-wrap .grid.bp-list > li .item {
+  font-size: 18px;
+  left: 0;
+  margin: 0 auto;
+  text-align: center;
+  width: 96%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buddypress-wrap .grid.bp-list > li .action {
+  position: relative;
+  width: auto;
+}
+
+#activity-stream {
+  display: block !important;
+  opacity: 1 !important;
+}
+.directory.groups #buddypress .screen-content{
+  padding-bottom:0;
+  margin-bottom:80px;
+  overflow:inherit;
+}
+body.buddypress.groups .subnav-filters{
+  position: absolute;
+  top:40px;
+  z-index:1;
+  .subnav-search.clearfix,.component-filters.clearfix{
+    margin-right:15px;
+  }
+  .select-wrap .select-arrow{
+    right:25px;
+  }
+}
+.directory.groups #buddypress .bp-navs.main-navs{
+  margin-top:40px;
+  z-index:1;
+}
+/* Disable Effect */
+.jvbpd-grid > li.show-list {
+  opacity: 1;
+}
+.jvbpd-grid > li {
+  opacity: 1;
+}
+
+.dir-list {
+  min-height: 60vh;
+}

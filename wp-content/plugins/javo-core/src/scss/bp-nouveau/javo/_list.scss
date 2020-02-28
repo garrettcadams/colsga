@@ -1,0 +1,186 @@
+// #buddypress #groups-list,
+// #buddypress #members-list,
+#search-members-form, #search-groups-form {
+    input[type=text] {
+    background-color: #fff;
+    width: 165px;
+    border: none;
+    color: #2b2b2b;
+    padding: 5px 15px;
+    border: 1px solid #e4e7ea;
+    transition: width .5s ease-out;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -ms-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    }
+    input[type=submit]{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 40px;
+        text-indent: -9999px;
+        padding: 0;
+        border: none;
+        color: #fdc42d;
+        background-color: transparent;
+        //background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIW…bA1oCtv6eGVdC3VGBTvNeguzaAFXRnaOMd3vH/8Gr9DQDVtWJXCReSfAAAAABJRU5ErkJggg==);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+.jvbpd-bp-list-meta.type-filter {
+    a {
+        font-weight: 500; 
+        text-transform: uppercase; 
+        margin-right:13px;
+        padding: 10px 5px;
+        position: relative;
+        font-size: 13px;
+    }
+    span.bp-separator { display: none;}
+
+    .item-options > a:hover:after, .item-options > a.active:after {
+    opacity: 1;
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    -o-transform: scale(1,1);
+    transform: scale(1,1);
+    }
+    
+    a:after{
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: 0;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: -webkit-transform 0.2s linear, opacity 0.2s linear;
+    -moz-transition: -moz-transform 0.2s linear, opacity 0.2s linear;
+    -ms-transition: -ms-transform 0.2s linear, opacity 0.2s linear;
+    -o-transition: -o-transform 0.2s linear, opacity 0.2s linear;
+    transition: transform 0.2s linear, opacity 0.2s linear;
+    -webkit-transform: scale(0,1);
+    -moz-transform: scale(0,1);
+    -ms-transform: scale(0,1);
+    -o-transform: scale(0,1);
+    transform: scale(0,1);
+    border-bottom: 3px solid #0cb4ce;
+    }
+}
+
+
+#buddypress .bp-list.grid.members-list {
+
+    .list-wrap {
+        background: transparent;
+        border: 0;
+        min-height: 80px;
+
+        .item-avatar {
+            img {
+                width: 60px;
+                border-radius: 50%;
+                border: 3px solid #f4f4f4;
+            }
+        }
+
+        .list-title {
+            font-size: 15px;
+        }
+
+        .item-meta {
+            color: #888;
+
+            &.last-activity {
+                margin: 0;
+            }
+        }
+
+        .user-update {
+            display: none;
+        }
+    }
+
+
+    .action {
+        position: absolute;
+        right: 0;
+        top: 0;
+        left: auto;
+        width: auto;
+        height: 25px;
+
+        &:before {
+            content: "\e2a5";
+            font-family: "jv-icons";
+            display: none;
+            color: #eee;
+            text-align: right;
+        }
+
+        .generic-button {
+            display: none;
+            margin: 0;
+        }
+
+        &:hover {
+            width: 50%;
+
+            .generic-button {
+                display: block;
+            }
+        }
+
+    }
+
+    li.item-entry:hover {
+
+        .action {
+
+            &:before {
+                display: block;
+            }
+
+            li {
+                padding: 0;
+
+                .action a,
+                .action button {
+                    border: 1px solid #f4f4f4;
+                }
+            }
+        }
+    }
+
+    &>li.item-entry .list-wrap {
+        border: 1px solid $border-color;
+        border-radius: 3px;
+        padding: 10px 10px;
+        background: $white;
+        margin: 5px;
+    }
+
+
+
+    .list-wrap {
+        display: flex;
+        align-items: center;
+        padding: 1em 0;
+
+        .item {
+            flex: 1;
+
+            .item-block {
+                width: 100%;
+                min-height: auto;
+            }
+        }
+
+
+    }
+}

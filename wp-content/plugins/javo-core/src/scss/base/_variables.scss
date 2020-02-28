@@ -1,0 +1,175 @@
+/*-------------------------
+*  Grid
+*--------------------------*/
+$columns: 12;
+$gutter: 10px;
+$spacing: 20;
+
+/*-------------------------
+*  Spacing
+*--------------------------*/
+$paddings: ('pt': 'padding-top', 'pr': 'padding-right', 'pb': 'padding-bottom', 'pl': 'padding-left');
+$margins: ('mt': 'margin-top', 'mr': 'margin-right', 'mb': 'margin-bottom', 'ml': 'margin-left');
+
+/*-------------------------
+*  Media Queries
+*--------------------------*/
+$xs: 480px;
+$sm: 600px;
+$md: 800px;
+$lg: 1190px;
+$xl: 1440px;
+$xxl: 1700px;
+
+$breakpoints: ('xs': $xs, 'sm': $sm, 'md': $md, 'lg': $lg, 'xl': $xl);
+
+/*-------------------------
+*  Colours
+*--------------------------*/
+$white: #fff;
+$black: #000;
+$light-grey: #f0f0f0;
+
+// custom colours
+
+$colours: ('white': $white, 'black': $black, 'light-grey': $light-grey);
+
+/*-------------------------
+*  Typography
+*--------------------------*/
+$base-font: 'Open Sans',
+'Helvetica Neue',
+Helvetica,
+Arial,
+sans-serif;
+
+$base-fs: 18px;
+
+/*-------------------------
+*  Animations
+*--------------------------*/
+$time: 320ms;
+$time_slow: 700ms;
+
+$swing: cubic-bezier(0.55, 0, 0.1, 1);
+$swift: cubic-bezier(0.4, 0, 0.2, 1);
+$ease: ease;
+
+$transition-default: all $time $ease;
+
+
+
+//-------------------------------------------------------------------
+// 1. color & media query & default
+//-------------------------------------------------------------------
+// @main-color:#ff5a5f;
+$main-color:#506ac5;
+$main-action-color:#e00007;
+$title-color:#666;
+$description-color:#999;
+$sub-title-color:#fff;
+$sub-description-color:#ccc;
+
+$primary-color:#4c58a4;
+$my-btn-color:#000;
+/* 2b2d38 */
+$btn-border-color : #cccdd0;
+//$background-color: #edeff5;
+
+$border-bottom-color:5px solid #ff5a5f;
+
+$xs-min: 320px;
+$sm-min: 768px;
+$md-min: 992px;
+$lg-min: 1250px;
+$xlg-min: 1401px;
+
+$xs-max: ($sm-min - 1);
+$sm-max: ($md-min - 1);
+$md-max: ($lg-min - 1);
+$lg-max: ($xlg-min - 1);
+
+$phone: "only screen and (min-width: #{xs-min})";
+$phone-strict: "only screen and (min-width: #{xs-min}) and (max-width: #{xs-max})";
+$tablet-strict: "only screen and (min-width: #{sm-min}) and (max-width: #{sm-max})";
+$desktop: "only screen and (min-width: #{md-min})";
+$desktop-strict: "only screen and (min-width: #{md-min}) and (max-width: #{md-max})";
+$large: "only screen and (min-width: #{lg-min})";
+
+$mobile: "only screen and (min-width: #{xs-min}) and (max-width: #{xs-max})";
+
+$tablet-mini: "only screen and (min-width: #{sm-min}) and (max-width: #{sm-max})";
+$tablet: "only screen and (min-width: #{md-min}) and (max-width: #{md-max})";
+$notebook: "only screen and (min-width: #{lg-min}) and (max-width: #{lg-max})";
+
+$input-height: 30px;
+
+@mixin jv-button-transition {
+    position: relative;
+
+    &:hover {
+        background-color: darken($main-color, 10%) !important;
+        -webkit-transition: all 01.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+
+        &:after {
+            border-color: transparent;
+            background-color: transparent;
+            -webkit-transition: all 01.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            -ms-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+            color: #fff !important;
+            width: 100%;
+        }
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0%;
+        border-color: rgba(255, 255, 255, .4);
+        background-color: rgba(255, 255, 255, .4);
+        border-radius: 3px;
+        z-index: 1;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s ease-out;
+        ;
+
+    }
+}
+
+@mixin javo-noUISlider() {
+    .noUi-horizontal {
+        .noUi-background {
+            .noUi-handle {
+
+                &:after,
+                &:before {
+                    background: transparent;
+                }
+
+                .javo-slider-tooltip {
+                    strong {
+                        display: block;
+                        padding: 2px;
+                    }
+                }
+            }
+        }
+
+        // .noUi-background
+    }
+
+    // .noUi-horizontal
+}

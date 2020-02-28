@@ -1,0 +1,42 @@
+.panel-elements-category-title-jvbpd-elements + .panel-elements-category-items .elementor-element, 
+.panel-elements-category-title-jvbpd-single-listing + .panel-elements-category-items .elementor-element, 
+.panel-elements-category-title-jvbpd-map-page + .panel-elements-category-items .elementor-element, 
+.panel-elements-category-title-jvbpd-core-add-form + .panel-elements-category-items .elementor-element{
+	position:relative;
+}
+
+.panel-elements-category-title-jvbpd-elements + .panel-elements-category-items .elementor-element:before, 
+.panel-elements-category-title-jvbpd-single-listing + .panel-elements-category-items .elementor-element:before, 
+.panel-elements-category-title-jvbpd-map-page + .panel-elements-category-items .elementor-element:before, 
+.panel-elements-category-title-jvbpd-core-add-form + .panel-elements-category-items .elementor-element:before {
+	content: "JV";
+    position: absolute;
+    background: #545786;
+    color: #fff;
+    border-radius: 3px;
+    padding: 3px 6px;
+    top: 0px;
+    right: 0px;
+    font-size: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.panel-elements-category-title-jvbpd-elements + .panel-elements-category-items .elementor-element, 
+.panel-elements-category-title-jvbpd-single-listing + .panel-elements-category-items .elementor-element, 
+.panel-elements-category-title-jvbpd-map-page + .panel-elements-category-items .elementor-element, 
+.panel-elements-category-title-jvbpd-core-add-form + .panel-elements-category-items .elementor-element {
+	background-color: #fff;
+}
+.panel-elements-category-title-jvbpd-elements + .panel-elements-category-items .elementor-element .icon, 
+.panel-elements-category-title-jvbpd-single-listing + .panel-elements-category-items .elementor-element .icon, 
+.panel-elements-category-title-jvbpd-map-page + .panel-elements-category-items .elementor-element .icon, 
+.panel-elements-category-title-jvbpd-core-add-form + .panel-elements-category-items .elementor-element .icon {
+	color: #556068;
+}
+.panel-elements-category-title-jvbpd-elements + .panel-elements-category-items .elementor-element .title, 
+.panel-elements-category-title-jvbpd-single-listing + .panel-elements-category-items .elementor-element .title, 
+.panel-elements-category-title-jvbpd-map-page + .panel-elements-category-items .elementor-element .title, 
+.panel-elements-category-title-jvbpd-core-add-form + .panel-elements-category-items .elementor-element .title {
+	color: #556068;
+}

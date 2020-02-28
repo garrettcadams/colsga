@@ -1,0 +1,108 @@
+$primary:#6ec1e4;
+
+body.search-results {
+    background:#eee;
+    .container > .row >.col-sm-9 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .container > .row >.col-sm-3 {
+        flex: 0 0 0%;
+        max-width: 0%;
+    }
+    .entry-header {display: none;}
+}
+
+
+.lava-ajax-search-result-page-wrap h3.page-title {display: none;}
+
+/** form **/
+.lava-ajax-search-result-page-wrap .lava-ajax-search-form-wrap {
+    width: 100%;
+    br {display: none;}
+    input {width: 80%; padding: 20px 30px; border: 1px solid #eee;}
+    button {
+        width: 20%; border: 0; color: #fff; background: #aaa;
+        &:hover {
+            background: $primary;
+        }
+    }
+}
+
+
+.lava-ajax-search-result-page-wrap .lava-ajax-search-form-wrap > form {display: flex;}
+
+
+/** Tabs **/
+.lava-ajax-search-result-page-wrap .results-header ul.results-tabs {
+    display: flex;
+    border: none;
+    border-bottom: solid 1px #efefef;
+}
+
+.lava-ajax-search-result-page-wrap .results-header ul.results-tabs>li {
+    background-color: transparent;
+    //border: solid 1px #efefef;
+    border:0;
+    border-bottom-width: 0;
+    float: initial;
+    margin: 0 0 -1px 0;
+    padding: 11px 40px 5px 40px;
+    //padding: 10px;
+    a {
+        font-size: 13px;
+        .count {
+            background: transparent;
+            min-height: 22px;            
+            font-size:10px;
+            color: $primary;
+        }
+    }
+}
+
+/** Result content **/
+.lava-ajax-search-result-page-wrap .lava-ajax-search-results .results-body {
+    background-color: #ffffff;
+    padding: 20px 40px 30px 40px;
+}
+
+.lava-ajax-search-result-page-wrap div.lava-ajax-search-results .results-body h2.results-group-title {
+    font-size: 14px;
+}
+
+.result-item {
+.item-body.media-body, .item.media-body {
+
+    br {display: none;}
+
+    .item-date, .item-meta {
+        font-size: 11px;
+        color: #aaa;
+    }
+}
+}
+
+.lava-ajax-search-result-page-wrap .result-item .item.media .item-body > .item-title {
+    color:#000;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 13px;
+}
+
+.lava-ajax-search-result-page-wrap .result-item .item.media .item-body > .item-desc {
+    color:#a2a2a2;
+    font-size: 13px;
+}
+
+.lava-ajax-search-result-page-wrap .result-item .item.media img {
+    margin: 0;
+    width: 60px;
+    height: auto;
+}
+
+
+/** BuddyPress **/
+
+
+
