@@ -1,0 +1,2001 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WilCity\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-07 10:57+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.3"
+
+#: index.php:76 search.php:54 post-types/post.php:50
+#, php-format
+msgid "%s Comments"
+msgstr ""
+
+#: admin/public/class.WilokeComment.php:14
+msgid "(Edit)"
+msgstr ""
+
+#: single-listing/home-sections/events.php:24
+msgid "+ Create an event"
+msgstr ""
+
+#: configs/config.themeoptions.php:1604
+msgid "404"
+msgstr ""
+
+#: author-listing/navigation.php:20
+msgid "About"
+msgstr ""
+
+#: configs/config.translation.php:469
+msgid "Active"
+msgstr ""
+
+#: configs/config.metaboxes.php:421
+msgid "Add a button to your Page"
+msgstr ""
+
+#: configs/config.translation.php:614
+msgid "Add a review"
+msgstr ""
+
+#: configs/config.translation.php:575
+msgid "Add more images to this listing"
+msgstr ""
+
+#: configs/config.themeoptions.php:1753
+msgid "Add More Sidebar"
+msgstr ""
+
+#: configs/config.translation.php:572
+msgid "Add more videos to this listing"
+msgstr ""
+
+#: admin/inc/redux-extensions/wiloke-pickupicon/wiloke_pickupicon_field/field_wiloke_pickupicon_field.php:86
+#: admin/inc/redux-extensions/wiloke-repeater/wiloke_repeater_field/field_wiloke_repeater_field.php:88
+msgid "Add New"
+msgstr ""
+
+#: configs/config.translation.php:111
+msgid "Add new"
+msgstr ""
+
+#: configs/config.translation.php:622
+msgid "Add Photos And Videos"
+msgstr ""
+
+#: single-listing/events/event.php:65
+msgid "Add Review"
+msgstr ""
+
+#: configs/config.translation.php:449
+msgid "Add Social"
+msgstr ""
+
+#: configs/config.metaboxes.php:153 configs/config.translation.php:567
+msgid "Add Video"
+msgstr ""
+
+#: configs/config.single-sidebar.php:5
+msgid "Address Info"
+msgstr ""
+
+#: configs/config.themeoptions.php:1697
+msgid "Advanced Settings"
+msgstr ""
+
+#: configs/config.translation.php:461
+msgid "All Categories"
+msgstr ""
+
+#: configs/config.translation.php:460
+msgid "All Listings"
+msgstr ""
+
+#: configs/config.translation.php:462
+msgid "All Locations"
+msgstr ""
+
+#: configs/config.translation.php:431
+msgid "All Regions"
+msgstr ""
+
+#: configs/config.translation.php:463
+msgid "All Tags"
+msgstr ""
+
+#: configs/config.translation.php:425
+msgid "Allow accessing your location while you are using the app?"
+msgstr ""
+
+#: configs/config.translation.php:496
+msgid "Already have an account?"
+msgstr ""
+
+#: configs/config.translation.php:489
+msgid "Amount"
+msgstr ""
+
+#: wiloke-submission/checkout.php:102
+msgid "Apply Coupon"
+msgstr ""
+
+#: configs/config.translation.php:594
+msgid "Are you sure that you want to hide this listing?"
+msgstr ""
+
+#: configs/config.translation.php:677
+msgid "Are you sure want to delete this comment?"
+msgstr ""
+
+#: configs/config.translation.php:610
+msgid "Are you want to delete this comment?"
+msgstr ""
+
+#: configs/config.translation.php:108
+msgid "Are you want to delete this setting?"
+msgstr ""
+
+#: configs/config.single-sidebar.php:10
+msgid "Author"
+msgstr ""
+
+#: configs/config.translation.php:526 configs/config.translation.php:617
+msgid "Average Rating"
+msgstr ""
+
+#: single-listing/home.php:37
+msgid "Average Reviews"
+msgstr ""
+
+#: configs/config.translation.php:452
+msgid "Back"
+msgstr ""
+
+#: configs/config.translation.php:493 configs/config.translation.php:618
+msgid "Basic Info"
+msgstr ""
+
+#: configs/config.metaboxes.php:319
+msgid "Belongs To"
+msgstr ""
+
+#: configs/config.translation.php:477
+msgid "Billing History"
+msgstr ""
+
+#: configs/config.translation.php:473
+msgid "Billing Type"
+msgstr ""
+
+#: functions.php:394
+msgid "Blog Sidebar"
+msgstr ""
+
+#: configs/config.translation.php:564
+msgid "Boost Event"
+msgstr ""
+
+#: configs/config.translation.php:559
+msgid "Boost now"
+msgstr ""
+
+#: configs/config.translation.php:563
+msgid "Boost Post"
+msgstr ""
+
+#: configs/config.translation.php:561
+msgid "Boost this post to a specify positions on the website"
+msgstr ""
+
+#: single-listing/home-sections/promotion.php:39
+msgid "Boost your listing"
+msgstr ""
+
+#: single-listing/home-sections/promotion.php:71
+msgid "Boost Your Listing today"
+msgstr ""
+
+#: configs/config.single-sidebar.php:3 configs/config.themeoptions.php:1352
+msgid "Business Hours"
+msgstr ""
+
+#: configs/config.metaboxes.php:442
+msgid "Button Icon"
+msgstr ""
+
+#: configs/config.metaboxes.php:436
+msgid "Button Link"
+msgstr ""
+
+#: configs/config.metaboxes.php:430
+msgid "Button Name"
+msgstr ""
+
+#: configs/config.translation.php:609
+msgid "Cancel"
+msgstr ""
+
+#: comment-template.php:12
+msgid "Cancel Review"
+msgstr ""
+
+#: configs/config.translation.php:607
+msgid "Cancelled"
+msgstr ""
+
+#: configs/config.single-sidebar.php:7 configs/config.translation.php:491
+msgid "Categories"
+msgstr ""
+
+#: configs/config.translation.php:468
+msgid "Change Plan"
+msgstr ""
+
+#: configs/config.metaboxes.php:277
+msgid "Cheap"
+msgstr ""
+
+#: configs/config.metaboxes.php:402 configs/config.single-sidebar.php:11
+msgid "Claim Listing"
+msgstr ""
+
+#: configs/config.translation.php:672
+msgid "Claim This Listing"
+msgstr ""
+
+#: post-types/listing.php:37
+msgid "Claimed"
+msgstr ""
+
+#: admin/class.wiloke.php:364
+msgid "Class doesn't exist!"
+msgstr ""
+
+#: configs/config.install_plugins.php:17
+msgid "Cmb2"
+msgstr ""
+
+#: comment-template.php:15 configs/config.translation.php:587
+#: reviews/item.php:80 single-post/comment-form.php:18
+#: single-listing/partials/review-item.php:67
+msgid "Comment"
+msgstr ""
+
+#: configs/config.translation.php:588
+msgid "Comments"
+msgstr ""
+
+#: configs/config.metaboxes.php:207
+msgid "Contact Information"
+msgstr ""
+
+#: single-listing/events/event.php:68
+msgid "Contact Now"
+msgstr ""
+
+#: configs/config.translation.php:95
+msgid "Copied"
+msgstr ""
+
+#: configs/config.translation.php:676
+msgid "Copy Link"
+msgstr ""
+
+#: wiloke-submission/checkout.php:95
+msgid "Coupon"
+msgstr ""
+
+#: configs/config.translation.php:97
+msgid "Coupon Ends in"
+msgstr ""
+
+#: configs/config.metaboxes.php:126
+msgid "Cover Image"
+msgstr ""
+
+#: single-listing/events/event.php:62
+msgid "Create Event"
+msgstr ""
+
+#: configs/config.themeoptions.php:1726
+msgid "Css Rules"
+msgstr ""
+
+#: configs/config.translation.php:472
+msgid "Currency"
+msgstr ""
+
+#: configs/config.translation.php:475
+msgid "Current Plan"
+msgstr ""
+
+#: configs/config.themeoptions.php:1709
+msgid "Custom"
+msgstr ""
+
+#: configs/config.themeoptions.php:1747
+msgid "Custom Color"
+msgstr ""
+
+#: configs/config.themeoptions.php:1761
+msgid "Custom CSS Code"
+msgstr ""
+
+#: configs/config.themeoptions.php:1768
+msgid "Custom Javascript Code"
+msgstr ""
+
+#: configs/config.translation.php:630
+msgid "Daily"
+msgstr ""
+
+#: author-listing/navigation.php:47
+msgid "Dashboard"
+msgstr ""
+
+#: configs/config.translation.php:485
+msgid "Date"
+msgstr ""
+
+#: configs/config.translation.php:101
+msgid "day"
+msgstr ""
+
+#: configs/config.translation.php:102
+msgid "days"
+msgstr ""
+
+#: configs/config.themeoptions.php:1708
+msgid "Default"
+msgstr ""
+
+#: configs/config.themeoptions.php:1365
+msgid "Default Closed Hour"
+msgstr ""
+
+#: configs/config.themeoptions.php:613
+msgid "Default Cover Image"
+msgstr ""
+
+#: configs/config.themeoptions.php:984
+msgid "Default Map Center"
+msgstr ""
+
+#: configs/config.themeoptions.php:1358
+msgid "Default Opening Hour"
+msgstr ""
+
+#: configs/config.themeoptions.php:1379
+msgid "Default Second Closed Hour"
+msgstr ""
+
+#: configs/config.themeoptions.php:1372
+msgid "Default Second Opening Hour"
+msgstr ""
+
+#: configs/config.themeoptions.php:619
+msgid "Default User Avatar"
+msgstr ""
+
+#: configs/config.translation.php:603 reviews/toolbar.php:40
+#: single-listing/partials/discussion-toolbar.php:16
+msgid "Delete"
+msgstr ""
+
+#: configs/config.translation.php:554
+msgid "Delete Message"
+msgstr ""
+
+#: configs/config.themeoptions.php:1624 configs/config.translation.php:486
+msgid "Description"
+msgstr ""
+
+#: configs/config.translation.php:639
+msgid "Details"
+msgstr ""
+
+#: configs/config.translation.php:557
+msgid "Direct Bank Transfer"
+msgstr ""
+
+#: configs/config.themeoptions.php:1099
+msgid "Directory Type"
+msgstr ""
+
+#: configs/config.translation.php:479 wiloke-submission/checkout.php:62
+msgid "Discount"
+msgstr ""
+
+#: configs/config.translation.php:439 reviews/comment-form.php:7
+#: reviews/comment-form.php:7 reviews/discussion-form.php:10
+msgid "Discussion"
+msgstr ""
+
+#: configs/config.translation.php:440
+msgid "Discussions"
+msgstr ""
+
+#: functions.php:462
+msgid "Displaying widget items on the Footer 1 area"
+msgstr ""
+
+#: functions.php:473
+msgid "Displaying widget items on the Footer 2 area"
+msgstr ""
+
+#: functions.php:484
+msgid "Displaying widget items on the Footer 3 area"
+msgstr ""
+
+#: functions.php:495
+msgid "Displaying widget items on the Footer 4 area"
+msgstr ""
+
+#: functions.php:439
+msgid ""
+"Displaying widget items on the Listing Tag page, Listing Location page and "
+"Listing Category page"
+msgstr ""
+
+#: functions.php:395
+msgid "Displaying widget items on the Sidebar area"
+msgstr ""
+
+#: functions.php:428
+msgid "Displaying widget items on the Single Event area"
+msgstr ""
+
+#: functions.php:417
+msgid "Displaying widget items on the Single Page area"
+msgstr ""
+
+#: functions.php:406
+msgid "Displaying widget items on the Single Post area"
+msgstr ""
+
+#: configs/config.translation.php:596
+msgid "Do you want to re-publish this listing?"
+msgstr ""
+
+#: configs/config.translation.php:505
+msgid "Do you want to show the section content on the Home tab?"
+msgstr ""
+
+#: configs/config.translation.php:501
+msgid "Don't have an account?"
+msgstr ""
+
+#: configs/config.translation.php:535
+msgid "Down"
+msgstr ""
+
+#: configs/config.translation.php:602 post-types/listing.php:64
+#: single-listing/events/event.php:55
+#: single-listing/partials/discussion-toolbar.php:10
+msgid "Edit"
+msgstr ""
+
+#: reviews/toolbar.php:35
+msgid "Edit Review"
+msgstr ""
+
+#: configs/config.translation.php:442
+#: single-listing/partials/review-toolbar.php:13
+msgid "Edit review"
+msgstr ""
+
+#: configs/config.metaboxes.php:215 single-post/comment-form.php:15
+msgid "Email"
+msgstr ""
+
+#: configs/config.translation.php:92
+msgid "Empty Cart"
+msgstr ""
+
+#: configs/config.metaboxes.php:313
+msgid "Empty means forever. Date Format: Month/Day/Year"
+msgstr ""
+
+#: configs/config.themeoptions.php:992
+msgid "Enable Map Bound Feature"
+msgstr ""
+
+#: configs/config.translation.php:582
+msgid "End"
+msgstr ""
+
+#: configs/config.translation.php:580
+msgid "Enter a query"
+msgstr ""
+
+#: configs/config.themeoptions.php:985
+msgid ""
+"Enter in the default latitude and longitude. For example: -33.866,151.196"
+msgstr ""
+
+#: configs/config.translation.php:99
+msgid ""
+"Error: We could not find your email in this Facebook account. Please make "
+"sure that this Facebook account is verified and You provide your email "
+"address to it."
+msgstr ""
+
+#: configs/config.translation.php:597
+msgid "ERROR: Wrong the confirmation code."
+msgstr ""
+
+#: configs/config.translation.php:512
+msgid "Event Name"
+msgstr ""
+
+#: configs/config.metaboxes.php:450
+msgid "Event Template Settings"
+msgstr ""
+
+#: configs/config.translation.php:621
+msgid "Event Video"
+msgstr ""
+
+#: single-listing/home-sections/events.php:37
+msgid "Events"
+msgstr ""
+
+#: configs/config.metaboxes.php:499
+msgid "Events / Row (Screen < 992px)"
+msgstr ""
+
+#: configs/config.metaboxes.php:477
+msgid "Events / Row (Screen >= 1200px)"
+msgstr ""
+
+#: configs/config.metaboxes.php:488
+msgid "Events / Row (Screen >= 992px)"
+msgstr ""
+
+#: configs/config.metaboxes.php:471
+msgid "Events Per Page"
+msgstr ""
+
+#: configs/config.themeoptions.php:1144
+msgid "Excerpt Length"
+msgstr ""
+
+#: configs/config.metaboxes.php:279
+msgid "Expensive"
+msgstr ""
+
+#: configs/config.metaboxes.php:302
+msgid "Expiration"
+msgstr ""
+
+#: configs/config.translation.php:517
+msgid "Expired"
+msgstr ""
+
+#: configs/config.translation.php:96
+msgid "Expiry Date"
+msgstr ""
+
+#: configs/config.translation.php:453
+msgid "Expiry On"
+msgstr ""
+
+#: single-listing/right-top-tools/favorite.php:6
+msgid "Favorite"
+msgstr ""
+
+#: configs/config.translation.php:530
+#: single-listing/home-sections/promotion.php:58
+msgid "Favorites"
+msgstr ""
+
+#: configs/config.taxonomy.php:7 configs/config.taxonomy.php:25
+#: configs/config.taxonomy.php:43 configs/config.taxonomy.php:77
+#: configs/config.taxonomy.php:120 configs/config.themeoptions.php:1163
+msgid "Featured Image"
+msgstr ""
+
+#: configs/config.translation.php:546
+msgid "Filter By Tags"
+msgstr ""
+
+#: author-listing/author-info.php:43 author-listing/author-info.php:47
+#: dashboard/index.php:45
+msgid "Follow"
+msgstr ""
+
+#: configs/config.translation.php:494
+msgid "Follow & Contact"
+msgstr ""
+
+#: dashboard/index.php:42
+msgid "Follower"
+msgstr ""
+
+#: dashboard/index.php:42
+msgid "Followers"
+msgstr ""
+
+#: author-listing/author-info.php:40 author-listing/author-info.php:47
+#: dashboard/index.php:45 dashboard/index.php:45
+msgid "Following"
+msgstr ""
+
+#: dashboard/index.php:45
+msgid "Followings"
+msgstr ""
+
+#: functions.php:461
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:472
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:483
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:494
+msgid "Footer 4"
+msgstr ""
+
+#: configs/config.translation.php:638
+msgid "Frequency"
+msgstr ""
+
+#: configs/config.translation.php:665
+msgid "Fri"
+msgstr ""
+
+#: configs/config.themeoptions.php:283
+msgid "Front-end Dashboard"
+msgstr ""
+
+#: configs/config.metaboxes.php:174 configs/config.translation.php:541
+msgid "Gallery"
+msgstr ""
+
+#: configs/config.translation.php:483
+msgid "Gateway"
+msgstr ""
+
+#: configs/config.metaboxes.php:8 configs/config.metaboxes.php:101
+#: configs/config.themeoptions.php:137
+msgid "General Settings"
+msgstr ""
+
+#: configs/config.translation.php:464
+msgid "Geolocation is not supported by this browser."
+msgstr ""
+
+#: templates/reset-password.php:132
+msgid "Get New Password"
+msgstr ""
+
+#: configs/config.translation.php:470
+msgid "Get Now"
+msgstr ""
+
+#: configs/config.metaboxes.php:443
+msgid ""
+"Go to <a href=\"https://icons8.com/line-awesome\" target=\"_blank\">"
+"LineIcon</a> to find your icon"
+msgstr ""
+
+#: configs/config.metaboxes.php:191
+msgid "Google Address"
+msgstr ""
+
+#. If there are characters in your language that are not supported
+#. by chosen font(s), translate this to 'off'. Do not translate into your own language.
+#: admin/public/class.WilokeFrontPage.php:172
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: configs/config.themeoptions.php:1706 configs/config.themeoptions.php:1717
+msgid "Google Fonts"
+msgstr ""
+
+#: configs/config.themeoptions.php:927
+msgid "Google Map API / Mapbox Token"
+msgstr ""
+
+#: templates/map.php:160 templates/search-without-map.php:230
+msgid "Grid Layout"
+msgstr ""
+
+#: configs/config.taxonomy.php:15 configs/config.taxonomy.php:33
+#: configs/config.taxonomy.php:51 configs/config.taxonomy.php:85
+#: configs/config.taxonomy.php:110 configs/config.taxonomy.php:128
+msgid "Header Overlay"
+msgstr ""
+
+#: configs/config.themeoptions.php:1618
+msgid "Heading"
+msgstr ""
+
+#: configs/config.translation.php:601
+msgid "Hide"
+msgstr ""
+
+#: configs/config.translation.php:456 single-listing/navigation.php:26
+#: single-listing/navigation.php:29
+msgid "Home"
+msgstr ""
+
+#: configs/config.translation.php:441 single-event/header.php:23
+msgid "Hosted By"
+msgstr ""
+
+#. URI of the theme
+msgid "https://wilcity.com"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://wiloke.com"
+msgstr ""
+
+#: configs/config.translation.php:109
+msgid "Icon"
+msgstr ""
+
+#: configs/config.themeoptions.php:1164
+msgid "If the featured image is emptied, this image will be used"
+msgstr ""
+
+#: configs/config.themeoptions.php:1145
+msgid "If the tagline is empty, the excerpt length will be used."
+msgstr ""
+
+#: configs/config.themeoptions.php:1171
+msgid ""
+"If the video does not come from Youtube / Vimeo, the default thumbnail will "
+"used."
+msgstr ""
+
+#: configs/config.translation.php:569
+msgid "Image"
+msgstr ""
+
+#: configs/config.themeoptions.php:1613
+msgid "Image Background"
+msgstr ""
+
+#: configs/config.translation.php:570
+msgid "Images"
+msgstr ""
+
+#: configs/config.translation.php:448
+msgid "In Reviews"
+msgstr ""
+
+#: single-event/header.php:42
+msgid "Interested"
+msgstr ""
+
+#: author-listing/about.php:29
+msgid "Intro"
+msgstr ""
+
+#: configs/config.translation.php:484
+msgid "Invoice Pay For"
+msgstr ""
+
+#: configs/config.translation.php:112
+msgid "Is open new window?"
+msgstr ""
+
+#: configs/config.translation.php:107
+msgid "Item title"
+msgstr ""
+
+#: configs/config.translation.php:466
+msgid ""
+"Just a friendly popup to ensure that you want to change your subscription "
+"level?"
+msgstr ""
+
+#: configs/config.install_plugins.php:121
+msgid "King Composer"
+msgstr ""
+
+#: comment-template.php:11
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: configs/config.themeoptions.php:428 configs/config.themeoptions.php:440
+msgid "Leave empty to refresh the self page"
+msgstr ""
+
+#: comment-template.php:10 single-post/comment-form.php:29
+msgid "Leave your comment"
+msgstr ""
+
+#: comment-template.php:10
+msgid "Leave your Review"
+msgstr ""
+
+#: configs/config.translation.php:640
+msgid "Let people know what type of event you're hosting and what to expect"
+msgstr ""
+
+#: configs/config.translation.php:590
+msgid "Like"
+msgstr ""
+
+#: configs/config.translation.php:592
+msgid "Liked"
+msgstr ""
+
+#: configs/config.translation.php:591
+msgid "Likes"
+msgstr ""
+
+#: configs/config.translation.php:110
+msgid "Link To"
+msgstr ""
+
+#: templates/map.php:161 templates/search-without-map.php:231
+msgid "List Layout"
+msgstr ""
+
+#: configs/config.translation.php:458
+msgid "Listing"
+msgstr ""
+
+#: configs/config.metaboxes.php:312
+msgid "Listing Expiry"
+msgstr ""
+
+#: post-types/listing.php:74 single-listing/navigation.php:51
+msgid "Listing Settings"
+msgstr ""
+
+#: configs/config.metaboxes.php:411
+msgid "Listing Status"
+msgstr ""
+
+#: functions.php:438
+msgid "Listing Taxonomy Sidebar"
+msgstr ""
+
+#: configs/config.translation.php:471
+msgid "Listing Type"
+msgstr ""
+
+#. Description of the theme
+msgid "Listing WordPress Theme"
+msgstr ""
+
+#: configs/config.translation.php:459
+msgid "Listings"
+msgstr ""
+
+#: configs/config.metaboxes.php:198 configs/config.translation.php:623
+msgid "Location"
+msgstr ""
+
+#: comment-template.php:26 single-post/comment-form.php:36
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: configs/config.translation.php:503
+msgid "Login"
+msgstr ""
+
+#: configs/config.themeoptions.php:439
+msgid "Login Redirect To"
+msgstr ""
+
+#: configs/config.themeoptions.php:427
+msgid "Login Redirect Type"
+msgstr ""
+
+#: configs/config.metaboxes.php:119 configs/config.themeoptions.php:153
+msgid "Logo"
+msgstr ""
+
+#: configs/config.translation.php:500
+msgid "Lost your password?"
+msgstr ""
+
+#: configs/config.single-sidebar.php:9
+msgid "Map"
+msgstr ""
+
+#: configs/config.taxonomy.php:100
+msgid "Map Marker"
+msgstr ""
+
+#: configs/config.themeoptions.php:1197
+msgid "Map page"
+msgstr ""
+
+#: configs/config.metaboxes.php:296
+msgid "Maximum Price"
+msgstr ""
+
+#: configs/config.metaboxes.php:29
+msgid "Menu background"
+msgstr ""
+
+#: configs/config.translation.php:549 configs/config.translation.php:553
+#: single-listing/right-top-tools/inbox.php:8
+msgid "Message"
+msgstr ""
+
+#: configs/config.metaboxes.php:291
+msgid "Minimum Price"
+msgstr ""
+
+#: configs/config.metaboxes.php:278
+msgid "Moderate"
+msgstr ""
+
+#: configs/config.translation.php:649
+msgid "Mon"
+msgstr ""
+
+#: configs/config.translation.php:490
+msgid "More"
+msgstr ""
+
+#: configs/config.translation.php:566 single-post/comment-form.php:14
+msgid "Name"
+msgstr ""
+
+#: configs/config.translation.php:432
+msgid "Nearby"
+msgstr ""
+
+#: configs/config.translation.php:433
+msgid "Network Error"
+msgstr ""
+
+#: configs/config.translation.php:550
+msgid "New Message"
+msgstr ""
+
+#: templates/reset-password.php:96
+msgid "New Password"
+msgstr ""
+
+#: configs/config.translation.php:474
+msgid "Next Billing Date"
+msgstr ""
+
+#: index.php:76 search.php:54 configs/config.translation.php:586
+#: post-types/post.php:50
+msgid "No Comment"
+msgstr ""
+
+#: configs/config.translation.php:537
+msgid "No older notifications."
+msgstr ""
+
+#: configs/config.translation.php:437
+msgid "No Posts Found"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:88
+msgid "No products in the cart."
+msgstr ""
+
+#: configs/config.translation.php:446
+msgid "Not Found"
+msgstr ""
+
+#: configs/config.metaboxes.php:276
+msgid "Not to say"
+msgstr ""
+
+#: configs/config.translation.php:538
+msgid "Notifications"
+msgstr ""
+
+#: configs/config.translation.php:626
+msgid "Occurs once"
+msgstr ""
+
+#: configs/config.translation.php:540
+msgid "of"
+msgstr ""
+
+#: configs/config.translation.php:604
+msgid "Ok"
+msgstr ""
+
+#: index.php:76 search.php:54 post-types/post.php:50
+msgid "One Comment"
+msgstr ""
+
+#: configs/config.translation.php:516
+msgid "Ongoing"
+msgstr ""
+
+#: wiloke-submission/addlisting.php:32
+#, php-format
+msgid "Oops! %s type is not supported."
+msgstr ""
+
+#: configs/config.translation.php:444
+msgid "Open 24/7"
+msgstr ""
+
+#: page.php:43 post-types/post.php:55
+msgid "Pages:"
+msgstr ""
+
+#: configs/config.translation.php:499
+msgid "Password"
+msgstr ""
+
+#: configs/config.translation.php:98
+msgid "Pay and Publish"
+msgstr ""
+
+#: configs/config.translation.php:606
+msgid "Pending"
+msgstr ""
+
+#: configs/config.translation.php:513
+msgid "People interested"
+msgstr ""
+
+#: single-event/header.php:37
+msgid "people interested"
+msgstr ""
+
+#: single-event/header.php:37
+msgid "person interested"
+msgstr ""
+
+#: configs/config.metaboxes.php:220
+msgid "Phone"
+msgstr ""
+
+#: configs/config.translation.php:584
+msgid "Photo"
+msgstr ""
+
+#: configs/config.translation.php:585
+#: single-listing/home-sections/photos.php:27
+msgid "Photos"
+msgstr ""
+
+#: admin/run.php:4
+msgid ""
+"PHP 7.0 or higher is required by the theme. Please access to your cPanel "
+"(the site manager of your hosting provider) to upgrade your PHP."
+msgstr ""
+
+#: configs/config.translation.php:509 reviews/toolbar.php:19
+#: single-listing/partials/review-toolbar.php:10
+msgid "Pin to Top of Review"
+msgstr ""
+
+#: admin/public/class.WilokeComment.php:14
+msgid "Pingback:"
+msgstr ""
+
+#: configs/config.taxonomy.php:68
+msgid "Place ID"
+msgstr ""
+
+#: searchform.php:7
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: configs/config.translation.php:480
+msgid "Plan"
+msgstr ""
+
+#: configs/config.translation.php:481 wiloke-submission/checkout.php:54
+msgid "Plan Name"
+msgstr ""
+
+#: configs/config.translation.php:482
+msgid "Plan Type"
+msgstr ""
+
+#: author-listing/events.php:23 author-listing/listings.php:22
+msgid ""
+"Please go to Appearance -> Install Plugins -> Activate Wilcity Shortcodes "
+"plugin"
+msgstr ""
+
+#: author-listing/author-info.php:25
+msgid "Please go to Dashboard -> Profile -> Write something about yourself."
+msgstr ""
+
+#: templates/reset-password.php:120
+msgid "Please request a new link below."
+msgstr ""
+
+#: wiloke-submission/thankyou.php:19
+msgid ""
+"Please send your cheque to the following bank account to complete this "
+"payment:"
+msgstr ""
+
+#: configs/config.general.php:42
+msgid "Portfolio Permalinks"
+msgstr ""
+
+#: comment-template.php:13
+msgid "Post Comment"
+msgstr ""
+
+#: reviews/comment-form.php:7
+msgid "Post Discussion"
+msgstr ""
+
+#: comments.php:3
+msgid "Post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: single-listing/home-sections/posts.php:46
+msgid "Posts"
+msgstr ""
+
+#: configs/config.themeoptions.php:1138
+msgid "Posts Per Page"
+msgstr ""
+
+#: configs/config.translation.php:675
+msgid "Press Ctrl+C to copy this link"
+msgstr ""
+
+#: configs/config.translation.php:113
+msgid "Price"
+msgstr ""
+
+#: configs/config.metaboxes.php:264 configs/config.metaboxes.php:273
+#: configs/config.single-sidebar.php:4
+msgid "Price Range"
+msgstr ""
+
+#: configs/config.metaboxes.php:286
+msgid "Price Range Description"
+msgstr ""
+
+#: configs/config.themeoptions.php:396
+msgid "Privacy Policy Description"
+msgstr ""
+
+#: wiloke-submission/checkout.php:108
+msgid "Proceed to checkout"
+msgstr ""
+
+#: author-listing/about.php:10
+msgid "Profile"
+msgstr ""
+
+#: configs/config.translation.php:518
+msgid "Promote"
+msgstr ""
+
+#: single-listing/home-sections/promotion.php:75
+msgid "Promote Listing"
+msgstr ""
+
+#: configs/config.translation.php:103
+msgid "Promotion Duration: "
+msgstr ""
+
+#: configs/config.translation.php:465
+msgid "Promotions"
+msgstr ""
+
+#: configs/config.translation.php:605
+msgid "Publish"
+msgstr ""
+
+#: configs/config.translation.php:532
+msgid "Ratings"
+msgstr ""
+
+#: single-listing/home-sections/promotion.php:72
+msgid "Reach more people visit your listing"
+msgstr ""
+
+#: index.php:85 search.php:63
+msgid "Read More"
+msgstr ""
+
+#: configs/config.translation.php:552
+msgid "Recipient information"
+msgstr ""
+
+#: configs/config.themeoptions.php:480
+msgid "Redirect to this page after creating an account"
+msgstr ""
+
+#: configs/config.install_plugins.php:9
+msgid "Redux Framework"
+msgstr ""
+
+#: admin/inc/class.WilokeThemeOptions.php:120
+msgid "Redux Framework plugin is required."
+msgstr ""
+
+#: configs/config.translation.php:504
+msgid "Register"
+msgstr ""
+
+#: configs/config.themeoptions.php:309
+msgid "Register And Login"
+msgstr ""
+
+#: woocommerce/single-product/related.php:27
+msgid "Related products"
+msgstr ""
+
+#: configs/config.translation.php:476
+msgid "Remaining Items"
+msgstr ""
+
+#: configs/config.translation.php:502
+msgid "Remember me?"
+msgstr ""
+
+#: configs/config.translation.php:600 admin/inc/class.WilokeMessage.php:52
+msgid "Remove"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:49
+msgid "Remove this item"
+msgstr ""
+
+#: configs/config.metaboxes.php:154
+msgid "Remove Video"
+msgstr ""
+
+#: admin/public/class.WilokeComment.php:54
+msgid "Reply"
+msgstr ""
+
+#: post-types/listing.php:82 single-listing/events/event.php:58
+#: single-listing/right-top-tools/report.php:9
+msgid "Report"
+msgstr ""
+
+#: configs/config.translation.php:508
+msgid "Report abuse"
+msgstr ""
+
+#: configs/config.translation.php:611 reviews/toolbar.php:27
+#: single-listing/partials/review-toolbar.php:12
+msgid "Report review"
+msgstr ""
+
+#: configs/config.translation.php:680 templates/map.php:156
+#: templates/search-without-map.php:224
+msgid "Reset"
+msgstr ""
+
+#: configs/config.translation.php:495 templates/reset-password.php:102
+msgid "Reset Password"
+msgstr ""
+
+#: configs/config.translation.php:543
+msgid "Result"
+msgstr ""
+
+#: configs/config.translation.php:544 configs/config.translation.php:545
+msgid "Results"
+msgstr ""
+
+#: configs/config.themeoptions.php:159
+msgid "Retina Logo"
+msgstr ""
+
+#: configs/config.translation.php:612
+msgid "Review For"
+msgstr ""
+
+#: configs/config.translation.php:613
+msgid "Reviews For"
+msgstr ""
+
+#: configs/config.translation.php:669
+msgid "Sat"
+msgstr ""
+
+#: configs/config.translation.php:492
+msgid "Save Changes"
+msgstr ""
+
+#: configs/config.translation.php:542
+msgid "Save to my favorites"
+msgstr ""
+
+#: searchform.php:8 configs/config.translation.php:555 templates/map.php:162
+#: templates/map.php:164 templates/search-without-map.php:234
+#: templates/search-without-map.php:236
+msgid "Search"
+msgstr ""
+
+#: configs/config.translation.php:457
+msgid "Search as I move the map"
+msgstr ""
+
+#: configs/config.translation.php:551
+msgid "Search by username"
+msgstr ""
+
+#: searchform.php:5
+msgid "Search for:"
+msgstr ""
+
+#: configs/config.translation.php:450
+msgid "Search Now"
+msgstr ""
+
+#: configs/config.themeoptions.php:1211
+msgid "Search page"
+msgstr ""
+
+#: configs/config.translation.php:436
+msgid "Search Results"
+msgstr ""
+
+#: search.php:31
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: configs/config.translation.php:539
+#: single-listing/home-sections/events.php:39
+#: single-listing/home-sections/photos.php:29
+#: single-listing/home-sections/posts.php:48
+#: single-listing/home-sections/videos.php:27
+msgid "See All"
+msgstr ""
+
+#: configs/config.translation.php:430
+msgid "See more discussions"
+msgstr ""
+
+#: configs/config.translation.php:511
+msgid "See More Reviews"
+msgstr ""
+
+#: configs/config.translation.php:560
+msgid "Select Ads Positions"
+msgstr ""
+
+#: configs/config.translation.php:565
+msgid "Select Plans"
+msgstr ""
+
+#: configs/config.themeoptions.php:424
+msgid "Self page"
+msgstr ""
+
+#: configs/config.translation.php:548
+msgid "Send"
+msgstr ""
+
+#: post-types/listing.php:75 single-listing/navigation.php:54
+msgid "Settings"
+msgstr ""
+
+#: configs/config.translation.php:589 reviews/item.php:85
+#: single-event/header.php:46 single-listing/partials/review-item.php:72
+#: single-listing/right-top-tools/share.php:5
+msgid "Share"
+msgstr ""
+
+#: configs/config.translation.php:455 configs/config.translation.php:531
+#: single-listing/home-sections/promotion.php:59
+msgid "Shares"
+msgstr ""
+
+#: reviews/item.php:60
+msgid "Show less"
+msgstr ""
+
+#: configs/config.translation.php:579
+msgid "Show map"
+msgstr ""
+
+#: reviews/item.php:59
+msgid "Show more"
+msgstr ""
+
+#: templates/map.php:155
+msgid "Showing"
+msgstr ""
+
+#: configs/config.metaboxes.php:460
+msgid "Sidebar Position"
+msgstr ""
+
+#: functions.php:427
+msgid "Single Event Sidebar"
+msgstr ""
+
+#: functions.php:416
+msgid "Single Page Sidebar"
+msgstr ""
+
+#: functions.php:405
+msgid "Single Post Sidebar"
+msgstr ""
+
+#: admin/inc/class.WilokeSocialNetworks.php:89
+msgid "Social icon will not display if you leave empty"
+msgstr ""
+
+#: configs/config.metaboxes.php:233 configs/config.metaboxes.php:240
+#: configs/config.themeoptions.php:1596
+msgid "Social Networks"
+msgstr ""
+
+#: admin/class.wiloke.php:364
+msgid "Sorry"
+msgstr ""
+
+#: search.php:81
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: configs/config.translation.php:93
+msgid ""
+"Sorry, We could not create chat room! Please contact admin to report this "
+"issue"
+msgstr ""
+
+#: configs/config.themeoptions.php:423
+msgid "Specify page"
+msgstr ""
+
+#: configs/config.translation.php:581
+msgid "Starts"
+msgstr ""
+
+#: configs/config.single-sidebar.php:6
+msgid "Statistic"
+msgstr ""
+
+#: configs/config.translation.php:478 wiloke-submission/checkout.php:58
+msgid "Sub Total"
+msgstr ""
+
+#: configs/config.translation.php:608 wiloke-submission/become-an-author.php:65
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:77
+msgid "Subtotal"
+msgstr ""
+
+#: configs/config.translation.php:645
+msgid "Sun"
+msgstr ""
+
+#: configs/config.metaboxes.php:112
+msgid "Tagline"
+msgstr ""
+
+#: configs/config.single-sidebar.php:8
+msgid "Tags"
+msgstr ""
+
+#: post-types/post.php:60
+msgid "Tags: "
+msgstr ""
+
+#: wiloke-submission/become-an-author.php:47
+#: wiloke-submission/become-an-author.php:75
+msgid "Take me to the Add Listing page"
+msgstr ""
+
+#: configs/config.translation.php:434
+msgid "Tap To Retry"
+msgstr ""
+
+#: configs/config.translation.php:451
+msgid "Temporary Close"
+msgstr ""
+
+#: configs/config.themeoptions.php:415
+msgid "Terms and conditionals description"
+msgstr ""
+
+#: author-listing/about.php:18
+#, php-format
+msgid ""
+"Thank for joining %s. Please go to Dashboard -> Profile -> Description and "
+"write something about yourself."
+msgstr ""
+
+#: wiloke-submission/thankyou.php:18
+msgid "Thank for your order!"
+msgstr ""
+
+#: wiloke-submission/become-an-author.php:74
+msgid ""
+"Thanks for being an contributor. You can now upload your listing to the "
+"website."
+msgstr ""
+
+#: configs/config.translation.php:678
+msgid "The confirm password must be matched the new password"
+msgstr ""
+
+#: admin/class.wiloke.php:389
+#, php-format
+msgid ""
+"The file with name %s doesn't exist. Please open a topic via support.wiloke."
+"com to report this problem."
+msgstr ""
+
+#: wiloke-submission/checkout.php:114
+msgid "The plan ID is required"
+msgstr ""
+
+#: configs/config.themeoptions.php:1719
+msgid ""
+"The theme allows replace current Google Fonts with another Google Fonts. Go "
+"to https://fonts.google.com/specimen to get a the Font that you want. For "
+"example: https://fonts.googleapis.com/css?family=Prompt"
+msgstr ""
+
+#: configs/config.themeoptions.php:1733
+msgid "Theme Color"
+msgstr ""
+
+#: configs/config.themeoptions.php:24 configs/config.themeoptions.php:39
+#: configs/config.themeoptions.php:40
+msgid "Theme Options"
+msgstr ""
+
+#: wiloke-submission/event-plans.php:15
+msgid ""
+"There are no event plans. Please go to Wiloke Submission -> Event Plans -> "
+"Complete this setting"
+msgstr ""
+
+#: configs/config.translation.php:673
+msgid ""
+"There are no fields. Please go to Wiloke Listing Tools -> Claim Listing to "
+"add some fields"
+msgstr ""
+
+#: author-listing/author-info.php:27
+msgid "There is no information about this customer"
+msgstr ""
+
+#: configs/config.themeoptions.php:1727
+msgid ""
+"This code shoule be under Google Font link. For example: font-family: "
+"'Prompt', sans-serif;"
+msgstr ""
+
+#: configs/config.taxonomy.php:69
+msgid ""
+"This feature available in ListGo 1.0.8 and higher. You can find the place "
+"here <a href=\"https://developers.google."
+"com/maps/documentation/javascript/examples/places-placeid-finder\" "
+"target=\"_blank\">PlaceID finder</a>"
+msgstr ""
+
+#: configs/config.translation.php:619
+msgid ""
+"This info will also appear in Listing and any ads created for this event"
+msgstr ""
+
+#: configs/config.translation.php:91
+msgid "This order does not exists"
+msgstr ""
+
+#: configs/config.translation.php:598
+msgid ""
+"This post will be deleted permanently, Press x to confirm that you still "
+"want to delete this listing"
+msgstr ""
+
+#: configs/config.themeoptions.php:993 configs/config.themeoptions.php:1004
+msgid "This setting is useful for local business."
+msgstr ""
+
+#: configs/config.translation.php:661
+msgid "Thurs"
+msgstr ""
+
+#: configs/config.translation.php:583
+msgid "Time"
+msgstr ""
+
+#: configs/config.themeoptions.php:1184
+msgid "Time Format"
+msgstr ""
+
+#: configs/config.metaboxes.php:133
+msgid "Timezone"
+msgstr ""
+
+#: configs/config.translation.php:519
+msgid "Title"
+msgstr ""
+
+#: configs/config.translation.php:547
+msgid "To"
+msgstr ""
+
+#: before-footer.php:23
+msgid "To top"
+msgstr ""
+
+#: configs/config.themeoptions.php:390
+msgid "Toggle agree To the Privacy Policy"
+msgstr ""
+
+#: configs/config.themeoptions.php:1342
+msgid "Toggle Favorite Feature"
+msgstr ""
+
+#: configs/config.themeoptions.php:625
+msgid "Toggle Follow Feature"
+msgstr ""
+
+#: configs/config.themeoptions.php:318
+msgid "Toggle Register"
+msgstr ""
+
+#: configs/config.themeoptions.php:408
+msgid "Toggle Terms and conditionals"
+msgstr ""
+
+#: configs/config.translation.php:558 wiloke-submission/checkout.php:66
+msgid "Total"
+msgstr ""
+
+#: configs/config.translation.php:524
+msgid "Total Favorites"
+msgstr ""
+
+#: configs/config.translation.php:525
+msgid "Total Shares"
+msgstr ""
+
+#: configs/config.translation.php:523
+msgid "Total Views"
+msgstr ""
+
+#: wiloke-submission/checkout.php:79
+msgid "Trial Period (Days)"
+msgstr ""
+
+#: configs/config.translation.php:653
+msgid "Tue"
+msgstr ""
+
+#: configs/config.translation.php:520
+msgid "Type"
+msgstr ""
+
+#: configs/config.translation.php:593
+msgid "Type a message..."
+msgstr ""
+
+#: configs/config.metaboxes.php:280
+msgid "Ultra High"
+msgstr ""
+
+#: configs/config.translation.php:515
+msgid "Unpaid"
+msgstr ""
+
+#: reviews/toolbar.php:19 single-listing/partials/review-toolbar.php:10
+msgid "Unpin this review"
+msgstr ""
+
+#: configs/config.translation.php:510
+msgid "Unpin to Top of Review"
+msgstr ""
+
+#: configs/config.translation.php:534
+msgid "Up"
+msgstr ""
+
+#: configs/config.translation.php:514
+msgid "Upcoming"
+msgstr ""
+
+#: configs/config.translation.php:573
+msgid "Upload Image"
+msgstr ""
+
+#: configs/config.metaboxes.php:181 configs/config.translation.php:574
+msgid "Upload Images"
+msgstr ""
+
+#: configs/config.translation.php:571
+msgid "Upload Videos"
+msgstr ""
+
+#. Name of the template
+msgid "User Plan Info"
+msgstr ""
+
+#: configs/config.translation.php:497
+msgid "Username"
+msgstr ""
+
+#: configs/config.translation.php:498 templates/reset-password.php:128
+msgid "Username or Email Address"
+msgstr ""
+
+#: configs/config.themeoptions.php:604
+msgid "Users"
+msgstr ""
+
+#: configs/config.metaboxes.php:142
+msgid "Video"
+msgstr ""
+
+#: configs/config.translation.php:568
+msgid "Video Link"
+msgstr ""
+
+#: configs/config.themeoptions.php:1170
+msgid "Video Thumbnail"
+msgstr ""
+
+#: configs/config.metaboxes.php:152
+msgid "Video URL"
+msgstr ""
+
+#: single-listing/home-sections/videos.php:25
+msgid "Videos"
+msgstr ""
+
+#: single-listing/home-sections/promotion.php:57
+msgid "View"
+msgstr ""
+
+#: configs/config.translation.php:488
+msgid "View All"
+msgstr ""
+
+#: configs/config.translation.php:487
+msgid "View Details"
+msgstr ""
+
+#: configs/config.translation.php:507
+msgid "View more comments"
+msgstr ""
+
+#: configs/config.translation.php:447
+msgid "View Profile"
+msgstr ""
+
+#: configs/config.translation.php:454 configs/config.translation.php:529
+msgid "Views"
+msgstr ""
+
+#: configs/config.install_plugins.php:129
+msgid "Visual Composer"
+msgstr ""
+
+#: configs/config.translation.php:435
+msgid "We are working on this feature"
+msgstr ""
+
+#: configs/config.translation.php:556
+msgid "We could not add product to cart"
+msgstr ""
+
+#: templates/search-without-map.php:222
+msgid "We found "
+msgstr ""
+
+#: configs/config.translation.php:578
+msgid "We need your"
+msgstr ""
+
+#: configs/config.metaboxes.php:225
+msgid "Website"
+msgstr ""
+
+#: configs/config.translation.php:657
+msgid "Wed"
+msgstr ""
+
+#: configs/config.translation.php:634
+msgid "Weekly"
+msgstr ""
+
+#: configs/config.translation.php:445
+msgid "What are you looking for?"
+msgstr ""
+
+#. Name of the theme
+msgid "WilCity"
+msgstr ""
+
+#. Name of the template
+msgid "Wilcity AddListing"
+msgstr ""
+
+#. Name of the template
+msgid "Wilcity Become an author"
+msgstr ""
+
+#. Name of the template
+msgid "Wilcity Cancel"
+msgstr ""
+
+#. Name of the template
+msgid "Wilcity Checkout"
+msgstr ""
+
+#. Name of the template
+msgid "Wilcity Confirm Account"
+msgstr ""
+
+#. Name of the template
+msgid "Wilcity Custom Login Page"
+msgstr ""
+
+#. Name of the template
+msgid "Wilcity Dashboard"
+msgstr ""
+
+#. Name of the template
+msgid "Wilcity Event Plans"
+msgstr ""
+
+#. Name of the template
+msgid "Wilcity Event Template"
+msgstr ""
+
+#. Name of the template
+msgid "Wilcity Map"
+msgstr ""
+
+#: configs/config.frontend.php:88 configs/config.frontend.php:98
+msgid "WilCity Menu"
+msgstr ""
+
+#. Name of the template
+msgid "Wilcity Mobile App Homepage"
+msgstr ""
+
+#. Name of the template
+msgid "Wilcity Package Page"
+msgstr ""
+
+#. Name of the template
+msgid "Wilcity Page Builder"
+msgstr ""
+
+#. Name of the template
+msgid "Wilcity Reset Password"
+msgstr ""
+
+#. Name of the template
+msgid "Wilcity Search Without Map"
+msgstr ""
+
+#. Name of the template
+msgid "Wilcity Taxonomy Template"
+msgstr ""
+
+#. Name of the template
+msgid "Wilcity Thank You"
+msgstr ""
+
+#. Author of the theme
+msgid "wiloke"
+msgstr ""
+
+#: configs/config.general.php:25
+msgid "Wiloke Options"
+msgstr ""
+
+#: post-types/listing.php:69
+msgid "Write a review"
+msgstr ""
+
+#: configs/config.translation.php:106
+msgid "Wrote reviews for"
+msgstr ""
+
+#: templates/reset-password.php:76
+msgid "You are already logged in the site."
+msgstr ""
+
+#: configs/config.translation.php:105
+#, php-format
+msgid "You can add a maximum of %s items"
+msgstr ""
+
+#: configs/config.translation.php:104
+#, php-format
+msgid "You can add a maximum of %s menus"
+msgstr ""
+
+#: configs/config.translation.php:576
+#, php-format
+msgid "You can add a maximum of %s videos"
+msgstr ""
+
+#: configs/config.themeoptions.php:1754
+msgid ""
+"You can add more sidebar by entering in your sidebar id here. For example: "
+"my_custom_sidebar_1,my_custom_sidebar_2"
+msgstr ""
+
+#: configs/config.taxonomy.php:101
+msgid ""
+"You can download Wiloke Map Icons here <a href=\"https://www.dropbox."
+"com/s/l67lf2t135j1ns0/map-icons.zip?dl=0\" target=\"_blank\">Download Map "
+"Icons</a>"
+msgstr ""
+
+#: configs/config.themeoptions.php:1185
+msgid "You can override this setting in each listing"
+msgstr ""
+
+#: configs/config.translation.php:577
+#, php-format
+msgid "You can upload a maximum of %s images"
+msgstr ""
+
+#: wiloke-submission/become-an-author.php:34
+msgid "You do not have permission to access this page"
+msgstr ""
+
+#: comment-template.php:38
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+
+#: comment-template.php:20
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: configs/config.translation.php:427
+msgid "Your current location will be used for nearby search results."
+msgstr ""
+
+#: comment-template.php:33
+msgid "Your email address will not be published."
+msgstr ""
+
+#: wiloke-submission/checkout.php:45
+msgid "Your Package Details"
+msgstr ""
+
+#: templates/reset-password.php:115
+msgid ""
+"Your password reset link appears to be invalid or expired. Please request a "
+"new link below."
+msgstr ""

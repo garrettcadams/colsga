@@ -1,0 +1,77 @@
+
+@media (max-width:1199px){
+     .wil-table-responsive-lg td[data-th]:before{
+         #googlefont
+    }
+}
+ @media (max-width:991px){
+     .wil-table-responsive-md td[data-th]:before{
+         #googlefont
+    }
+}
+ @media (max-width:766px){
+     .wil-table-responsive-sm td[data-th]:before{
+         #googlefont
+    }
+}
+ .font-secondary,
+ h1,h2,h3,h4,h5,h6,
+ blockquote cite,
+ .widget-stattictis__textSm,
+ .widget-title,
+ .gallery-item_number__vrRlG,
+ .rated-small_overallRating__oFmKR,
+ .content-box_link__2K0Ib,
+ .nav-tab--detailTop li a,
+ .pagination_pageLink__2UQhK,
+ .post_title__2Jnhn,
+ .post_readMore__3P2AS,
+ .price-range_sign2__3xNkO,
+ .pricing_title__1vXhE,
+ .pricing_price__2vtrC,
+ .promo-item-2_title__Ghd11,
+ .promo-item_title__3hfHG,
+ .comment-review_title__2WbAh,
+ .date-item_date__3OIqD,
+ .list-utility_more__2Y_w7,
+ .list_horizontal__7fIr5 .list_text__35R07,
+ .product_price__2XOkb,
+ .search-screen_search__15VV1 input,
+ .tab_nav__3YJph a,
+ .header_module__Snpib[style*='background-color:rgb(255,255,255);'] .header_searchText__10VVZ,
+ .header_module__Snpib[style*='background-color:rgb(255,255,255);'] .header_searchText__10VVZ,
+ .header_module__Snpib[style*="background-color:rgb(255,255,255);"] .header_searchText__10VVZ,
+ .header_module__Snpib[style*="background-color:rgb(255,255,255);"],
+ .header_module__Snpib[style*='background-color:rgb(255,255,255);']:after,
+ .header_module__Snpib[style*='background-color:rgb(255,255,255);']:after,
+ .header_module__Snpib[style*="background-color:rgb(255,255,255);"]:after,
+ .header_module__Snpib[style*="background-color:rgb(255,255,255);"],
+ .wil-nav .nav-menu a,
+ [data-header-theme="transparent"] .wil-nav .nav-menu .sub-menu a[style*="color:#ffffff;"],
+ [data-header-theme="transparent"] .wil-nav .nav-menu .sub-menu a[style*="color:#fff;"],
+ [data-header-theme="transparent"] .wil-nav .nav-menu .sub-menu a[style*="color:#ffffff;"],
+ [data-header-theme="transparent"] .wil-nav .nav-menu .sub-menu a[style*="color:#fff;"],
+ [data-header-theme="transparent"] .wil-nav .nav-menu .sub-menu a[style*="color:rgb(255,255,255);"],
+ [data-header-theme="transparent"] .wil-nav .nav-menu .sub-menu a[style*="color:rgb(255,255,255);"],
+ [data-header-theme="transparent"] .wil-nav .nav-menu .sub-menu a[style*='color:rgb(255,255,255);'],
+ [data-header-theme="transparent"] .wil-nav .nav-menu .sub-menu a[style*='color:rgb(255,255,255);'],
+ [class*='header_module'][style*='background-color:rgb(255,255,255);'] .wil-nav .nav-menu .sub-menu a,
+ [class*='header_module'][style*='background-color:rgb(255,255,255);'] .wil-nav .nav-menu .sub-menu a,
+ [class*='header_module'][style*="background-color:rgb(255,255,255);"] .wil-nav .nav-menu .sub-menu a,
+ [class*='header_module'][style*="background-color:rgb(255,255,255);"] .wil-nav .nav-menu .sub-menu a,
+ [class*="header_module"][style*='background-color:rgb(255,255,255);'] .wil-nav .nav-menu .sub-menu a,
+ [class*="header_module"][style*='background-color:rgb(255,255,255);'] .wil-nav .nav-menu .sub-menu a,
+ [class*="header_module"][style*="background-color:rgb(255,255,255);"] .wil-nav .nav-menu .sub-menu a,
+ [class*="header_module"][style*="background-color:rgb(255,255,255);"],
+ .nav-mobile a,
+ .table-module__table thead th,
+ .ui-widget,
+ .wil-btn,
+ .wpcf7-form input[type="submit"],
+ .comment-form input[type="submit"],
+ ul.page-numbers .current,
+ ul.page-numbers .dots,
+ ul.page-numbers a,
+ .wilcity-link-pages{
+     #googlefont
+}

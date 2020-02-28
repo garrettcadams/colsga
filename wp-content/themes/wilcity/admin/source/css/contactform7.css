@@ -1,0 +1,16 @@
+#wilokecontactform7.contactform7{
+    width: 1000px;
+    max-width: 100%;
+}
+
+#wilokecontactform7 .postbox-container{
+    width: 100%;
+}
+
+#wilokecontactform7 h2{
+    padding: 8px 12px;
+    line-height: 1.4;
+}
+.redux-notice{
+    display: none !important;
+}

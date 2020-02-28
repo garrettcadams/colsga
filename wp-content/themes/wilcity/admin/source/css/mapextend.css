@@ -1,0 +1,44 @@
+#wiloke-map {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.pi-map-wrapper {
+    width:  100%;
+    height: 100%
+}
+.pi-map-box-search {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 400px;
+}
+
+.wiloke-latlongwrapper .wiloke-latlongwrapper-field {
+    width: 44%;
+    float: left;
+    box-sizing: border-box;
+    margin-right: 2%;
+    margin-bottom: 10px;
+}
+
+.wiloke-latlongwrapper .wiloke-latlongwrapper-field .wiloke-latlong-label {
+    display: block;
+    font-weight: 600;
+}
+
+.wiloke-latlongwrapper .wiloke-latlongwrapper-field input.cmb_text_medium {
+    width: 100%;
+    margin-right: 0;
+}
+
+.wiloke-latlongwrapper .cmb_metabox_description {
+    clear: both;
+}

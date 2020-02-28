@@ -1,0 +1,171 @@
+#wiloke-post-format-wrapper {
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+#wiloke-controls-post-format {
+    margin: 0;
+    padding: 0;
+}
+
+#wiloke-controls-post-format ul {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+#wiloke-controls-post-format li {
+    float: left;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    position: relative;
+    top: 1px;
+    background: #ebebeb;
+    color: #777;
+    cursor: pointer;
+    font: 13px/19px "Open Sans",sans-serif;
+    height: 20px;
+    margin: 5px 0 0 5px;
+    padding: 3px 8px 4px;
+    border: 1px solid #e5e5e5;
+}
+#wiloke-controls-post-format li:first-child {
+    margin-left: 0;
+}
+#wiloke-controls-post-format li a {
+    color: #555;
+    text-decoration: none;
+}
+#wiloke-controls-post-format li a:active, #wiloke-controls-post-format li a:focus {
+    outline: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+#wiloke-controls-post-format li.active {
+    background: #fff;
+    color: #555;
+    border-bottom-color: #fff;
+}
+#wiloke-handle-post-format {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-top: 0;
+}
+.wiloke-format-block {
+    padding: 15px;
+}
+.list-wiloke-image-media:before {
+    content: "";
+    display: table;
+}
+.list-wiloke-image-media:after {
+    clear: both;
+}
+.list-wiloke-image-media li.wiloke-image {
+    display: inline-block;
+    width: 100px;
+    margin: 0px;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    cursor: move;
+}
+.list-wiloke-image-media li.wiloke-image img {
+    width: 100%;
+}
+.wiloke-control-wrap {
+    position:absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all ease .2s;
+    transition: all ease .2s;
+}
+.list-wiloke-image-media li.wiloke-image:hover .wiloke-control-wrap {
+    opacity: 1;
+    visibility: visible;
+}
+.list-wiloke-image-media li.wiloke-image .wiloke-edit,
+.list-wiloke-image-media li.wiloke-image .wiloke-close {
+    display: inline-block;
+    margin: 3px;
+    padding: 5px;
+    color: #fff;
+    background-color: #333;
+    cursor: pointer;
+    border-radius: 3px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+}
+.wiloke-button {
+    margin-bottom: 15px !important;
+}
+.wiloke-format-field {
+    padding: 5px 0;
+}
+.wiloke-format-field label {
+    margin-bottom: 7px;
+    display: block;
+}
+.wiloke-format-field input {
+    max-width: 450px;
+    width: 100%;
+}
+.wiloke-format-field textarea {
+    display: block;
+    max-width: 450px;
+    width: 100%;
+}
+.wiloke-show-notice .wiloke-notice-button {
+    font-size: 22px;
+}
+.wiloke-notice-button.wiloke-url-pass {
+    color: #5cb85c;
+    display: none;
+}
+.wiloke-notice-button.wiloke-url-pass.active {
+    display: block;
+}
+.wiloke-notice-button.wiloke-url-not-pass {
+    color: #c9302c;
+    display: none;
+}
+.wiloke-notice-button.wiloke-url-not-pass.active {
+    display: block;
+}
+.wiloke-show-image {
+    padding-top: 25px;
+    clear: both;
+}
+.wiloke-show-image img {
+    border: 3px solid #efefef;
+    max-width: 445px;
+}
+.wiloke-icon-wrap {
+    margin-bottom: 25px;
+}
+.wiloke-icon-wrap:before {
+    content: "";
+    display: table;
+}
+.wiloke-icon-wrap:after {
+    clear: both;
+}
+.wiloke-icon-wrap textarea {
+    float: left;
+    margin-right: 5px;
+}
+.wiloke-button-media .wiloke-media-value{
+    padding: 5px 0;
+}
+.wiloke-checkbox-field{
+    width: auto !important;
+}
+.td-of-image-field-in-term .list-wiloke-image-media{
+    margin-top: 0;
+}

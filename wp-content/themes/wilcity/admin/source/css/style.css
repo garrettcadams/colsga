@@ -1,0 +1,345 @@
+.icon-list li{
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.icon-list li label{
+    display: none;
+}
+
+.pi_toggle{
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.mfp-hide{
+    display: none;
+}
+
+.wo-alert{
+    padding: 20px 0;
+}
+
+.wiloke-redux-group-item {
+	border: 1px solid #eaeaea;
+	margin-bottom: 20px;
+	overflow: hidden;
+	background-color: #f5f5f5;
+	padding: 20px;
+	border-radius: 3px;
+	max-width: 700px;
+}
+
+.wiloke-redux-group-item .wiloke-redux-delete {
+	display: inline-block;
+	text-decoration: none;
+	margin-top: 20px;
+	font-size: 13px;
+	line-height: 26px;
+	height: 28px;
+	padding: 0 10px 1px;
+	cursor: pointer;
+	border-radius: 3px;
+	color: #ef521d;
+	background: #f7f7f7;
+	border:1px solid #ccc;
+	box-shadow: 0 1px 0 #ccc;
+}
+
+.wiloke-redux-group-item .wiloke-redux-delete:before {
+	content: 'Remove';
+}
+
+.wiloke-redux-group-item .wiloke-redux-delete span {
+	display: none;
+}
+
+.wiloke-field {
+	position: relative;
+	padding-left: 150px !important;
+}
+
+.wiloke-field strong {
+	position: absolute;
+	left: 0;
+	top: 10px;
+	width: 150px;
+}
+
+.wiloke-field .redux-option-image {
+	margin-top: 0;
+}
+
+.wiloke-field .redux-option-image[src=""] {
+	display: none;
+}
+
+.sp-replacer {
+	margin: auto;
+	border: 0;
+	padding: 0;
+	background: none;
+}
+.sp-container * {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.sp-replacer {
+	border: 0 !important;
+	background: none !important;
+	padding: 0 !important;
+    box-shadow: none;
+}
+.sp-replacer .sp-dd {
+	display: none;
+}
+.sp-replacer .sp-preview {
+	margin: 0;
+	border: 0;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.sp-picker-container, .sp-palette-container {
+	float: none;
+	overflow: hidden;
+	width: 240px;
+}
+.sp-container, .sp-container button, .sp-container input, .sp-color, .sp-hue, .sp-clear {
+	font-size: 13px;
+}
+.sp-container {
+    background-color: #444;
+    border: none;
+}
+.sp-picker-container {
+    border: 0;
+}
+.sp-input {
+    background-color: #131415;
+    color: #82878C;
+    border: 0;
+    border-radius: 0;
+    line-height: 30px !important;
+    padding: 0 9px;
+}
+.sp-input:focus {
+    border: 0;
+}
+.sp-input-container,
+.sp-palette-button-container,
+.sp-button-container {
+    float: none;
+    overflow: hidden;
+}
+.sp-cancel,
+.sp-cancel:hover,
+.sp-container button,
+.sp-container button:hover {
+    display: block;
+    width: 50%;
+    float: left;
+    margin: 0;
+    text-align: center;
+    padding: 0 10px;
+    line-height: 34px;
+    border: 0 !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 12px !important;
+    background: none;
+    background-color: #000;
+    box-shadow: none !important;
+    border-radius: 0;
+    text-shadow: none;
+    text-decoration: none;
+}
+.sp-container button,
+.sp-container button:hover {
+    background-color: #ba93ef;
+}
+.sp-slider, .sp-alpha .sp-alpha-handle {
+    opacity: 1;
+    border: none;
+}
+.sp-slider {
+	height: 0;
+}
+.sp-alpha .sp-alpha-handle {
+	width: 0;
+	border-left: 3px solid #000;
+	border-right: 3px solid #fff;
+}
+.sp-slider {
+    margin: 0 auto;
+    left: 0; right: 0;
+}
+.sp-alpha .sp-alpha-handle {
+    margin: auto;
+    top: 0; bottom: 0;
+}
+.sp-alpha-inner, .sp-color, .sp-hue, .sp-clear {
+    border: 0;
+}
+.sp-alpha {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    left: 0; bottom: 0;
+    margin-top: 10px;
+}
+.sp-alpha-enabled .sp-top {
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
+.sp-top-inner {
+    bottom: 40px;
+}
+.sp-color {
+    right: 34px;
+}
+.sp-input-container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.sp-palette-container {
+    border: 0;
+}
+.sp-clear-display {
+    background: none;
+}
+.sp-clear-enabled .sp-clear {
+    background-color: #131415;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+.sp-clear-enabled .sp-clear:before {
+    content: '\f335';
+	font-size: 24px;
+	font-weight: 400;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.sp-clear-enabled .sp-hue {
+    height: auto;
+    top: 34px;
+    bottom: 0;
+}
+
+.sp-palette-row {
+	margin-left: -2px;
+	margin-right: -2px;
+}
+.sp-palette {
+    max-width: none;
+}
+.sp-palette .sp-thumb-el {
+    border: 0;
+    width: calc(14.2857143% - 4px);
+    height: 25px;
+    line-height: 25px;
+    padding: 2px;
+    margin: 0;
+}
+.sp-preview-inner, .sp-alpha-inner, .sp-thumb-inner {
+}
+.sp-palette .sp-thumb-dark.sp-thumb-active .sp-thumb-inner,
+.sp-palette .sp-thumb-light.sp-thumb-active .sp-thumb-inner {
+    text-align: center;
+    background: none;
+}
+.sp-palette .sp-thumb-dark.sp-thumb-active .sp-thumb-inner:before,
+.sp-palette .sp-thumb-light.sp-thumb-active .sp-thumb-inner:before {
+	content: "\f147";
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    font: 400 24px/1 dashicons;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.sp-palette .sp-thumb-light.sp-thumb-active .sp-thumb-inner {
+    color: #000;
+}
+.wo_wpb_left .form-control:first-child {
+	display: block !important;
+}
+
+.sp-clear-enabled .sp-clear:before {
+    content: '\f335';
+}
+
+.avatar-32{
+    max-width: 32px;
+    max-height: 32px;
+}
+
+/*
+ Fixed Select2 On Visual Composer popup
+ */
+.edit_form_line .select2.select2-container{
+    display: block !important;
+}
+
+#side-sortables #gallery_status{
+    overflow: hidden !important;
+}
+
+#side-sortables #gallery_status{
+    overflow: hidden !important;
+    padding-left: 5px !important;
+}
+
+#side-sortables table.cmb_metabox .cmb_media_status .img_status img{
+    width: auto !important;
+}
+
+#side-sortables table.cmb_metabox .cmb_media_status .img_status img{
+    padding: 0 !important;
+}
+
+.wiloke-map .pi-map-box-search {
+    max-width: 30%;
+    height: 29px;
+    top: 10px !important;
+    background-color: #fff;
+    right: 10px;
+    left: auto !important;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+    border-width: 0;
+    font-size: 14px;
+    line-height: 29px;
+    padding: 0 10px;
+    margin-left: 0;
+}
+
+#business_hours .table-bordered {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.help.red{
+    color: #ff0000;
+}
+
+.edit_form_line .ui.selection.dropdown {
+    min-height: 18px;
+}
+
+.edit_form_line .ui.search.dropdown > .text {
+    line-height: 18px;
+}
+
+.hidden{
+    display: none;
+}

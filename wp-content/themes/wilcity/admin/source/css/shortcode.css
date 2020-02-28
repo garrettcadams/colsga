@@ -1,0 +1,196 @@
+.wiloke-pattern-bg{
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    border: 2px solid #ddd;
+}
+
+.wiloke_vc_list_of_posts_wrapper label > input{
+    display: none;
+}
+
+.wiloke-vc-checked{
+    border: 1px solid #ff0000;
+}
+
+.color-red{
+    color: #ff0000;
+}
+
+
+.wpb_wiloke_heading_description .vc_element-icon,
+#wiloke_heading_description .vc_element-icon {
+	background-image: url(../img/1_heading-block.jpg);
+}
+
+
+.wpb_wiloke_automatically_type .vc_element-icon,
+#wiloke_automatically_type .vc_element-icon {
+	background-image: url(../img/2_automatically_typer.jpg);
+}
+
+.wpb_wiloke_accordion_portfolio .vc_element-icon,
+#wiloke_accordion_portfolio .vc_element-icon {
+	background-image: url(../img/3_accordion_portfolio.jpg);
+}
+
+.wpb_wiloke_smart_scroll .vc_element-icon,
+#wiloke_smart_scroll .vc_element-icon {
+	background-image: url(../img/3_smart_scroll_portfolio.jpg);
+}
+
+.wpb_wiloke_swiper_slider .vc_element-icon,
+#wiloke_swiper_slider .vc_element-icon {
+	background-image: url(../img/4_full_screen_slider.jpg);
+}
+
+.wpb_wiloke_design_portfolio .vc_element-icon,
+#wiloke_design_portfolio .vc_element-icon {
+	background-image: url(../img/5_design_portfolio.jpg);
+}
+
+.wpb_wiloke_blog .vc_element-icon,
+#wiloke_blog .vc_element-icon {
+	background-image: url(../img/6_blog_layout.jpg);
+}
+
+.wpb_wiloke_project_description .vc_element-icon,
+#wiloke_project_description .vc_element-icon {
+	background-image: url(../img/7_project_description.jpg);
+}
+
+.wpb_wiloke_nice_intro .vc_element-icon,
+#wiloke_nice_intro .vc_element-icon {
+	background-image: url(../img/8_Nice_intro.jpg);
+}
+
+.wpb_wiloke_heading_border .vc_element-icon,
+#wiloke_heading_border .vc_element-icon {
+	background-image: url(../img/9_heading_border.jpg);
+}
+
+.wpb_wiloke_content_box .vc_element-icon,
+#wiloke_content_box .vc_element-icon {
+	background-image: url(../img/10_Content_box.jpg);
+}
+
+.wpb_wiloke_team_member .vc_element-icon,
+#wiloke_team_member .vc_element-icon {
+	background-image: url(../img/11_our_team.jpg);
+}
+
+.wpb_wiloke_testimonials .vc_element-icon,
+#wiloke_testimonials .vc_element-icon {
+	background-image: url(../img/12_Testimonials.jpg);
+}
+
+.wpb_wiloke_countto .vc_element-icon,
+#wiloke_countto .vc_element-icon {
+	background-image: url(../img/13_Counter_box.jpg);
+}
+
+.wpb_wiloke_skills_bar .vc_element-icon,
+#wiloke_skills_bar .vc_element-icon {
+	background-image: url(../img/14_Skillbar.jpg);
+}
+
+.wpb_wiloke_button .vc_element-icon,
+#wiloke_button .vc_element-icon {
+	background-image: url(../img/15_button.jpg);
+}
+.wpb_wiloke_pricing .vc_element-icon,
+#wiloke_pricing .vc_element-icon {
+	background-image: url(../img/16_Pricing.jpg);
+}
+
+.wpb_wiloke_half_map .vc_element-icon,
+#wiloke_half_map .vc_element-icon {
+	background-image: url(../img/17_wiloke_half_map.jpg);
+}
+
+.wpb_wiloke_design_shop .vc_element-icon,
+#wiloke_design_shop .vc_element-icon {
+	background-image: url(../img/16_shop.jpg);
+}
+
+.wpb_wiloke_single_image .vc_element-icon,
+#wiloke_single_image .vc_element-icon {
+	background-image: url(../img/single-img.jpg);
+}
+
+.wpb_wiloke_twitter .vc_element-icon,
+#wiloke_twitter .vc_element-icon {
+	background-image: url(../img/twitter-feed.jpg);
+}
+
+.wpb_wiloke_google_map .vc_element-icon,
+#wiloke_google_map .vc_element-icon {
+	background-image: url(../img/map.jpg);
+}
+
+
+/*List-Go Shortcode Icons style*/
+.wpb_wiloke_hero .vc_element-icon,
+#wiloke_hero .vc_element-icon {
+	background-image: url(../img/c_hero.png);
+}
+.wpb_wiloke_heading .vc_element-icon,
+#wiloke_heading .vc_element-icon {
+	background-image: url(../img/c_heading.png);
+}
+.wpb_wiloke_listing_layout .vc_element-icon,
+#wiloke_listing_layout .vc_element-icon {
+	background-image: url(../img/c_listing_layout.png);
+}
+.wpb_wiloke_awesome_map .vc_element-icon,
+#wiloke_awesome_map .vc_element-icon {
+	background-image: url(../img/c_awesome_map.png);
+}
+.wpb_wiloke_promotion .vc_element-icon,
+#wiloke_promotion .vc_element-icon {
+	background-image: url(../img/c_promotion.png);
+}
+.wpb_wiloke_posts_slider .vc_element-icon,
+#wiloke_posts_slider .vc_element-icon {
+	background-image: url(../img/c_articles_slider.png);
+}
+.wpb_wiloke_categories_cover .vc_element-icon,
+#wiloke_categories_cover .vc_element-icon {
+	background-image: url(../img/c_categories_cover.png);
+}
+.wpb_wiloke_listings_cover .vc_element-icon,
+#wiloke_listings_cover .vc_element-icon {
+	background-image: url(../img/c_listing_cover.png);
+}
+.wpb_wiloke_events .vc_element-icon,
+#wiloke_events .vc_element-icon {
+	background-image: url(../img/c_events.png);
+}
+.wpb_wiloke_our_members .vc_element-icon,
+#wiloke_our_members .vc_element-icon {
+	background-image: url(../img/c_member.png);
+}
+.wpb_wiloke_our_team .vc_element-icon,
+#wiloke_our_team .vc_element-icon {
+	background-image: url(../img/c_our_team.png);
+}
+.wpb_wiloke_boxes_icon .vc_element-icon,
+#wiloke_boxes_icon .vc_element-icon {
+	background-image: url(../img/c_box_content.png);
+}
+.wpb_wiloke_map .vc_element-icon,
+#wiloke_map .vc_element-icon {
+	background-image: url(../img/c_map.png);
+}
+.wpb_wiloke_grid_rotator .vc_element-icon,
+#wiloke_grid_rotator .vc_element-icon {
+	background-image: url(../img/c_rotator.png);
+}
+.wpb_wiloke_registration_form .vc_element-icon,
+#wiloke_registration_form .vc_element-icon {
+	background-image: url(../img/c_regis_form.png);
+}
+.wpb_wiloke_events_list .vc_element-icon,
+#wiloke_events_list .vc_element-icon {
+	background-image: url(../img/c_events_list.png);
+}

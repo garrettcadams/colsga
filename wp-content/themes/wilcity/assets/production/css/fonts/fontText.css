@@ -1,0 +1,37 @@
+body,
+.gallery-item_title__2yStU,
+.icon-box-3_number__1pDzT,
+.listing-hours_status__dQ6Z9,
+.pricing_period__2A8L4,
+.product_name__2RnUW,
+.header_module__Snpib[style*='background-color:rgb(255,255,255);'] .header_searchText__10VVZ,
+.header_module__Snpib[style*='background-color:rgb(255,255,255);'] .header_searchText__10VVZ,
+.header_module__Snpib[style*="background-color:rgb(255,255,255);"] .header_searchText__10VVZ,
+.header_module__Snpib[style*="background-color:rgb(255,255,255);"],
+.header_module__Snpib[style*='background-color:rgb(255,255,255);']:after,
+.header_module__Snpib[style*='background-color:rgb(255,255,255);']:after,
+.header_module__Snpib[style*="background-color:rgb(255,255,255);"]:after,
+.header_module__Snpib[style*="background-color:rgb(255,255,255);"],
+[data-header-theme="transparent"] .wil-nav .nav-menu .sub-menu a[style*="color:#ffffff;"],
+[data-header-theme="transparent"] .wil-nav .nav-menu .sub-menu a[style*="color:#fff;"],
+[data-header-theme="transparent"] .wil-nav .nav-menu .sub-menu a[style*="color:#ffffff;"],
+[data-header-theme="transparent"] .wil-nav .nav-menu .sub-menu a[style*="color:#fff;"],
+[data-header-theme="transparent"] .wil-nav .nav-menu .sub-menu a[style*="color:rgb(255,255,255);"],
+[data-header-theme="transparent"] .wil-nav .nav-menu .sub-menu a[style*="color:rgb(255,255,255);"],
+[data-header-theme="transparent"] .wil-nav .nav-menu .sub-menu a[style*='color:rgb(255,255,255);'],
+[data-header-theme="transparent"] .wil-nav .nav-menu .sub-menu a[style*='color:rgb(255,255,255);'],
+[class*='header_module'][style*='background-color:rgb(255,255,255);'] .wil-nav .nav-menu .sub-menu a,
+[class*='header_module'][style*='background-color:rgb(255,255,255);'] .wil-nav .nav-menu .sub-menu a,
+[class*='header_module'][style*="background-color:rgb(255,255,255);"] .wil-nav .nav-menu .sub-menu a,
+[class*='header_module'][style*="background-color:rgb(255,255,255);"] .wil-nav .nav-menu .sub-menu a,
+[class*="header_module"][style*='background-color:rgb(255,255,255);'] .wil-nav .nav-menu .sub-menu a,
+[class*="header_module"][style*='background-color:rgb(255,255,255);'] .wil-nav .nav-menu .sub-menu a,
+[class*="header_module"][style*="background-color:rgb(255,255,255);"] .wil-nav .nav-menu .sub-menu a,
+[class*="header_module"][style*="background-color:rgb(255,255,255);"] {
+	#googlefont
+}
+@media (max-width:767px){
+    .author-hero_right__20vEh .wil-btn{
+        #googlefont
+    }
+}
