@@ -1,0 +1,6 @@
+suites:
+   acme_suite:
+       namespace:  WilokeListingTools
+       psr4_prefix:  WilokeListingTools
+       src_path: app
+

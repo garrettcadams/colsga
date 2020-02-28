@@ -1,0 +1,44 @@
+{
+  "name": "wiloke-listing-tools",
+  "version": "1.0.0",
+  "main": "rollup.config.js",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "rollup-plugin-babel": "^3.0.2",
+    "rollup-plugin-multi-entry": "^2.0.1",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-uglify": "^2.0.1",
+    "uglify-es": "^3.1.5",
+    "v-autocomplete": "^1.8.1",
+    "vue-json-edit": "^1.1.5"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "commonjs": "0.0.1",
+    "rollup-plugin-buble": "^0.18.0",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-css-only": "^0.4.0",
+    "rollup-plugin-livereload": "^0.6.0",
+    "rollup-plugin-postcss": "^0.5.5",
+    "rollup-plugin-scss": "^0.4.0",
+    "rollup-plugin-serve": "^0.4.2",
+    "rollup-plugin-vue": "^4.3.2",
+    "rollup-plugin-vue2": "^0.8.0",
+    "rollup-watch": "^4.3.1",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "directories": {
+    "test": "tests"
+  },
+  "description": ""
+}
