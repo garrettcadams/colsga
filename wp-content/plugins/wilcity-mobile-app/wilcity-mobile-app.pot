@@ -1,0 +1,540 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Wilcity Mobile App\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-05 03:14+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.3"
+
+#: app/Controllers/WooCommerce/WooCommerceWishlistController.php:401
+#, php-format
+msgid "Added %s to your wishlist"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceRatingController.php:178
+msgid "All comments have been loaded"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:298
+msgid "Amount"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceWishlistController.php:361
+msgid "An error occurred while adding products to the wishlist."
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceWishlistController.php:411
+msgid "An error occurred while adding products to wishlist."
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:357
+msgid "Approved"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:145
+msgid "Approved Requests"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceBookingController.php:224
+msgid "Bookings"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanStatisticController.php:80
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:360
+msgid "Cancelled"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:150
+msgid "Cancelled Requests"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanStatisticController.php:68
+msgid "Completed"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanOrderController.php:53
+#: app/Controllers/WooCommerce/DokanProductController.php:60
+msgid "Congratulation! This product has been deleted successfully"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:116
+msgid "Congratulations! The request has been cancelled successfully"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:218
+msgid ""
+"Congratulations! Your withdraw has been submitted successfully. We will "
+"contact you shortly."
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:315
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:434
+msgid "Current Balance:"
+msgstr ""
+
+#: app/SidebarOnApp/BusinessHours.php:62
+msgid "Day Off"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanStatisticController.php:51
+msgid "Earning"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceWishlistController.php:622
+msgid "Error. Unable to remove the product from the wishlist."
+msgstr ""
+
+#: app/Controllers/JsonSkeleton.php:904
+msgid "Favorite"
+msgstr ""
+
+#: app/Controllers/JsonSkeleton.php:903
+msgid "Favorites"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceOrderController.php:466
+#, php-format
+msgid ""
+"Firstly, thank for order! — we've received your order #%s, and it is now "
+"being processed:"
+msgstr ""
+
+#: app/Controllers/WooCommerceController.php:170
+#, php-format
+msgid "From %s"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanStatisticController.php:44
+msgid "General Statistic"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceOrderController.php:462
+#, php-format
+msgid "Hi %s,"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://wilcity.com"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceWishlistController.php:73
+msgid ""
+"In order to use this feature, please go to Plugins -> Add New -> Install "
+"YITH WishList plugin"
+msgstr ""
+
+#: app/Controllers/WooCommercePrepareCheckout.php:32
+msgid "Invalid country code"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanStatisticController.php:101
+msgid "Live"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:306
+msgid "Method"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:319
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:438
+msgid "Minimum Withdraw amount:"
+msgstr ""
+
+#: app/Controllers/WooCommerceController.php:672
+msgid "Missing WooCommerce Authentication Configuration"
+msgstr ""
+
+#: kingcomposer-sc/wilcity_app_listing_blocks.php:56
+msgid "More"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceBookingController.php:141
+#: app/Controllers/WooCommerce/WooCommerceBookingController.php:191
+msgid "No bookings available yet."
+msgstr ""
+
+#: app/Controllers/Event.php:124
+msgid "No Post Found"
+msgstr ""
+
+#: app/Controllers/Blog.php:272
+msgid "No Post Founds"
+msgstr ""
+
+#: app/Controllers/Listings.php:77 app/Controllers/NearByMe.php:44
+#: app/Controllers/NearByMe.php:68
+msgid "No Posts Found"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceWishlistController.php:444
+#: app/Controllers/WooCommerce/WooCommerceWishlistController.php:629
+msgid "No products were added to the wishlist"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceProductController.php:324
+msgid "No variation found"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:268
+msgid ""
+"No withdraw method is available. Please update your payment method to "
+"withdraw funds. "
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanStatisticController.php:105
+msgid "Offline"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanStatisticController.php:88
+msgid "On hold"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanStatisticController.php:61
+msgid "Order Statistic"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanGlobalController.php:37
+msgid "Orders"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanStatisticController.php:55
+msgid "Pageview"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanStatisticController.php:72
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:354
+msgid "Pending"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:140
+msgid "Pending Requests"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanStatisticController.php:109
+msgid "Pending Review"
+msgstr ""
+
+#: app/Controllers/JsonSkeleton.php:900 app/Controllers/JsonSkeleton.php:901
+msgid "people interested"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceBookingController.php:69
+msgid "Persons"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceCartController.php:128
+msgid "Please add your attribute as a term"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceCartController.php:148
+msgid "Please choose product options&hellip;"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanStatisticController.php:76
+msgid "Processing"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanGlobalController.php:32
+msgid "Products"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceWishlistController.php:641
+msgid "Products Wishlist"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanStatisticController.php:84
+msgid "Refunded"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceWishlistController.php:616
+#, php-format
+msgid "Removed %s from your wishlist"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:451
+msgid "Request"
+msgstr ""
+
+#: app/Controllers/WooCommerceController.php:598
+msgid "Ship to different address?"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceOrderController.php:281
+msgid "Shop Order"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:225
+msgid "Something went to error"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceOrderController.php:417
+msgid "Something went wrong, We could not cancel this order."
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:344
+msgid "Sorry, no transactions were found!"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceCartController.php:100
+msgid "Sorry, We could not process add this product to cart"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanGlobalController.php:27
+msgid "Statistic"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceOrderController.php:470
+msgid "Thank for order! We have finished processing your order."
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceOrderController.php:475
+msgid ""
+"Thanks for your order. It’s on-hold until we confirm that payment has been "
+"received."
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:60
+msgid "The Amount is required"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:65
+msgid "The Method is required"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceOrderController.php:402
+#, php-format
+msgid "The order %s has been cancelled successfully"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceOrderController.php:398
+msgid "The orderhas been updated successfully"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceOrderController.php:479
+#, php-format
+msgid ""
+"The payment has not been completed. Please check the order number to re-"
+"proceed payment again: %d"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:198
+#, php-format
+msgid "The payment method %s is not not supported"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceProductController.php:227
+#: app/Controllers/WooCommerce/WooCommerceProductController.php:381
+#: app/Controllers/WooCommerce/WooCommerceProductController.php:409
+#: app/Controllers/WooCommerce/WooCommerceProductController.php:427
+msgid "The product does not exist"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceWishlistController.php:47
+msgid "The product id is an integer"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceRatingController.php:81
+msgid "The rating feature is disabling"
+msgstr ""
+
+#: app/Middleware/VerifyFirebaseChat.php:16
+msgid "The receiver ID is required."
+msgstr ""
+
+#: app/Controllers/WooCommercePrepareCheckout.php:48
+msgid "The shipping country is required"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceCartController.php:247
+msgid "The variation ID is required"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceCartController.php:215
+msgid "The variation is invalid"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceWishlistController.php:57
+msgid "The wishlist id must be an integer"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceWishlistController.php:52
+msgid "The wishlist token is required"
+msgstr ""
+
+#: app/Controllers/ReviewController.php:440
+msgid "There are no discussions"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceRatingController.php:103
+msgid "There are no rating yet"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceRatingController.php:156
+msgid "There are no ratings yet"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceOrderController.php:261
+msgid "There is no order yet"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:428
+msgid "There is no request"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanOrderController.php:74
+msgid "There is not order yet"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanProductController.php:103
+msgid "There is not product yet"
+msgstr ""
+
+#: app/Middleware/IsLoggedInFirebase.php:19
+msgid ""
+"There is something wrong! Please try logout and the re-login to the website "
+"again"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceCartController.php:46
+msgid "This cart item has been removed successfully"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceWishlistController.php:475
+msgid "This is not a product or This is unpublish product"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceOrderController.php:142
+msgid "This order does not exist"
+msgstr ""
+
+#: app/Controllers/Blog.php:213
+msgid "This page no longer available"
+msgstr ""
+
+#: app/Controllers/WooCommerceController.php:400
+#: app/Controllers/WooCommerce/WooCommerceProductController.php:208
+msgid "This product does not exist"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceCartController.php:234
+msgid "This product does not exists"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceCartController.php:94
+msgid "This product has been added to cart successfully"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceWishlistController.php:379
+msgid "This product has been added to your wish list"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanStatisticController.php:64
+#: app/Controllers/WooCommerce/DokanStatisticController.php:97
+msgid "Total"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanStatisticController.php:47
+msgid "Total Sales"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceCartController.php:271
+#, php-format
+msgid "Unfortunately, There %s is not supported on Mobile App yet"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceCartController.php:88
+msgid "We could not add this product to cart"
+msgstr ""
+
+#: app/Middleware/VerifyFirebaseChat.php:32
+msgid "We could not create your Firebase account"
+msgstr ""
+
+#. Author of the plugin
+msgid "Wilcity"
+msgstr ""
+
+#. Name of the plugin
+#. Description of the plugin
+msgid "Wilcity Mobile App"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanGlobalController.php:42
+msgid "Withdraw"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:190
+#, php-format
+msgid "Withdraw amount must be greater than %d"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:323
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:442
+msgid "Withdraw Threshold:"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:293
+msgid "Withdrawn Request"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:243
+msgid ""
+"You already have pending withdraw request(s). Please submit your request "
+"after approval or cancellation of your previous request."
+msgstr ""
+
+#: app/Middleware/VerifyFirebaseChat.php:50
+msgid "You do not have permission to access this chat room"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceOrderController.php:149
+msgid "You do not have permission to access this order"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanOrderController.php:33
+#: app/Controllers/WooCommerce/DokanProductController.php:40
+#: app/Controllers/WooCommerce/WooCommerceOrderController.php:456
+msgid "You do not have permission to access this page"
+msgstr ""
+
+#: app/Controllers/WooCommerce/WooCommerceOrderController.php:387
+msgid "You do not have permission to modify this order"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:185
+msgid "You don't have enough balance for this request"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:249
+msgid "You don't have sufficient balance for a withdraw request!"
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:259
+#, php-format
+msgid ""
+"You have already withdrawn %s. This amount will be deducted from your "
+"balance."
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:86
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:105
+msgid "You have no permission to do this action"
+msgstr ""
+
+#: app/Middleware/VerifyFirebaseChat.php:21
+msgid "You need to build Chat reference object first."
+msgstr ""
+
+#: app/Controllers/WooCommerce/DokanWithdrawnController.php:447
+msgid "Your activity"
+msgstr ""
