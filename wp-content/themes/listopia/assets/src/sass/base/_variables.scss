@@ -1,0 +1,213 @@
+/*-------------------------
+*  Grid
+*--------------------------*/
+
+$columns: 12;
+$gutter: 10px;
+$spacing: 20;
+/*-------------------------
+*  Spacing
+*--------------------------*/
+
+$paddings: ('pt': 'padding-top', 'pr': 'padding-right', 'pb': 'padding-bottom', 'pl': 'padding-left');
+$margins: ('mt': 'margin-top', 'mr': 'margin-right', 'mb': 'margin-bottom', 'ml': 'margin-left');
+/*-------------------------
+*  Media Queries
+*--------------------------*/
+
+$xs: 480px;
+$sm: 600px;
+$md: 800px;
+$lg: 1190px;
+$xl: 1440px;
+$xxl: 1700px;
+$breakpoints: ('xs': $xs, 'sm': $sm, 'md': $md, 'lg': $lg, 'xl': $xl);
+/*-------------------------
+*  Colours
+*--------------------------*/
+
+$white: #fff;
+$black: #000;
+$light-grey: #f0f0f0;
+$text-color: #777;
+$dark-smoth: #333;
+// custom colours
+$colours: ('white': $white, 'black': $black, 'light-grey': $light-grey);
+/*-------------------------
+*  Typography
+*--------------------------*/
+
+$base-font: 'Poppins',
+'Roboto',
+'Open Sans',
+'Raleway',
+'Oswald',
+'Playfair Display',
+'Poppins',
+sans-serif;
+$base-fs: 15px;
+/*-------------------------
+*  Animations
+*--------------------------*/
+
+$time: 320ms;
+$time_slow: 700ms;
+$swing: cubic-bezier(0.55, 0, 0.1, 1);
+$swift: cubic-bezier(0.4, 0, 0.2, 1);
+$ease: ease;
+$transition-default: all $time $ease;
+
+	/*------------------------------------------------------------------
+	[1-1. Theme Colors]
+	*/
+$topbar: #3c4451;
+$sidebar: #4F5467;
+$bodycolor: #eeeff2; /* edf1f5 */
+$headingtext: #2b2b2b;
+$bodytext: #686868;
+$sidebar-text: #54667a;
+$woocommerce: #ec8165;
+
+	/*------------------------------------------------------------------
+	[1-2. Bootstrap Colors]
+	*/
+$danger: #ff4757;
+$success: #12bb91;
+$warning: #f9bb00;
+$primary: #fdc42d; /*01bcc3 */
+$info: #01a2ea;
+$muted: #636c72;
+$dark: #2b2b2b;
+$light-dark: #8f97af;
+$inverse: #4c5667;
+$light-middle: #c7c7c7;
+$light: #e4e7ea;
+$extralight: #f7fafc;
+
+	/*------------------------------------------------------------------
+    [1-3. Normal Color]
+    */
+
+
+$white: #ffffff;
+$red: #fb3a3a;
+$purple: #9675ce;
+$blue: #02bec9;  /* #558ae4 */
+$border: rgba(120, 130, 140, 0.13);
+$skyblue: #01c0c8;
+$rgt: right;
+$lft: left;
+$dark-text: #454545;
+$light-blue : #f6f9fa;
+$light-blue-dark : #e6eef1;
+$dark-navy:#3a3f4f;
+$gray-light-blue:#d1d6d8;
+
+
+ $m-txt-title: #aaa;
+    $main-color: #000;
+    $main-text-color: #000;
+    $m-font-meta-title : #111;
+    $m-font-title : #000;
+    $m-txt-meta : #aaa;
+    $m-txt: #aaa;
+    $sub-title-color:#aaa;
+    $main-action-color:#aaa;
+    $bp-border-color: #aaaaaa;
+
+
+
+	/*------------------------------------------------------------------
+	[1-4. Bp colors dark blue]
+	*/
+$bp-bg:#edf2f6;
+$bp-color:#888da8;
+$bp-color-light:#c2c5d9;
+$bp-color-darken:darken($bp-color,30%);
+$bp-link-color: #515365;
+$bp-border-color:#e6ecf5;
+$bp-border-color-darken:darken($bp-border-color,10%);
+
+	/*------------------------------------------------------------------
+	[1-5. Bp colors black]
+	*/
+$bp-bg:#edf2f6;
+$bp-color:#5f727f;
+$bp-color:#696969;
+$bp-color-light:#c2c5d9;
+$bp-color-darken:darken($bp-color,30%);
+$bp-link-color: #878787;
+$bp-hover-color:$primary;
+$bp-border-color:#e6ecf5;
+$bp-border-color-darken:darken($bp-border-color,10%);
+$bp-button-bg:#323131;
+
+/*------------------------------------------------------------------
+[2. Specific parts]
+*/
+	/*------------------------------------------------------------------
+	[2-1. Top & Sidebar]
+	*/
+$dashboard-nav-color:#506ac5;
+$topbar:#506ac5;
+$topbar-lighten:lighten($topbar,10%);
+$topbar-darken:darken($topbar,10%);
+$topbar-text:$white;
+$nav-header-height:60px;
+$sidebar:$white;
+$sidebar-text:#9fa6bf;
+$sidebar-width:60px; //default left sidebar & also margin in main content
+$sidebar-extend-width:260px;
+$top-fixed-admin-bar: 32px;  //when admin bar
+$top-fixed-admin-bar-mobile: 46px;  //when admin bar in mobile
+
+/* 1-header.less */
+$primary-menu-border-color:#e6e6e6;
+$container-boxed-width: 1290px;
+$container-boxed-height: 90px;
+$container-wide-boxed-width: 1400px;
+
+
+	/*------------------------------------------------------------------
+	[2-2. Posts]
+	*/
+$single-post-bg:#f1f1f1;
+
+	/*------------------------------------------------------------------
+	[2-3. Card]
+	*/
+$card-bg-light: #fff;
+$card-border-light: #eaecef;
+$card-shawdow-light:#dfe1e7;
+$card-border-middle: #aaa;
+
+	/*------------------------------------------------------------------
+	[2-4. Default border]
+	*/
+$radius: 0px;
+
+/*------------------------------------------------------------------
+[3. Fonts]
+*/
+$font-size: 12px;
+$font-weight: 300;
+$letter-spacing: 1px;
+$basefont1: 'Poppins', sans-serif;
+$basefont2: 'Poppins', sans-serif;
+$javo-menu-icon-size: 17px;
+	/*------------------------------------------------------------------
+	[3-1. Magazine fonts]
+	*/
+$m-font-normal:12px;  /* magazine font-size */
+$m-font-small: 11px;   /* magazine small font-size */
+$m-font-title: 14px;   /* magazine title font-size */
+$m-font-large-title: 20px;   /* magazine big title font-size */
+$m-font-meta-title: 12px;   /* magazine post meta font-size */
+$m-txt-title:#222221;  /* title color */
+$m-txt:#7a7a7a;  /* text color */
+$m-txt-meta:#888;  /* meta color */
+
+$main-color: #ff5a5f;
+$main-text-color: #fff;
+$main-footer-color: #323131;
+$main-footer-outside-color: #333333;

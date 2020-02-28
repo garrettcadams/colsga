@@ -1,0 +1,2601 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Javo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-03 01:45+0000\n"
+"PO-Revision-Date: 2019-04-03 01:45+0000\n"
+"Last-Translator: javo <javothemes@gmail.com>\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.2; wp-5.1.1"
+
+#: 404.php:15
+msgid "404"
+msgstr ""
+
+#: 404.php:16
+msgid "Ooops!"
+msgstr ""
+
+#: 404.php:17
+msgid "Page  &nbsp;Not &nbsp;Found"
+msgstr ""
+
+#: 404.php:19
+msgid ""
+"Sorry, the page you have requested has either been moved, or does not exist."
+msgstr ""
+
+#: 404.php:25
+msgid "Go To Home"
+msgstr ""
+
+#. 1: Comments count.
+#: comments.php:32
+#, php-format
+msgid "%d Comment."
+msgid_plural "%d Comments."
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:38 comments.php:56
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:41 comments.php:59
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:42 comments.php:60
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:73
+msgid "Comments are closed."
+msgstr ""
+
+#. %s: Search Term.
+#: search.php:27
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: views/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. 1: link.
+#: views/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: views/content-none.php:33
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: views/content-none.php:39
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: views/content-page.php:22 views/content-search.php:35 views/content.php:46
+msgid "Pages:"
+msgstr ""
+
+#. %s: Name of current post.
+#: views/content-search.php:28 views/content.php:38
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: views/content.php:61
+msgid "Tags:"
+msgstr ""
+
+#: views/content.php:74 inc/Api/Callbacks/CommentCallback.php:73
+msgid "Edit"
+msgstr ""
+
+#: buddypress/activity/activity-loop.php:32
+msgctxt "button"
+msgid "Load More"
+msgstr ""
+
+#: buddypress/activity/comment-form.php:19
+msgctxt "heading"
+msgid "Comment"
+msgstr ""
+
+#: buddypress/activity/comment-form.php:29
+#: buddypress/common/js-templates/invites/index.php:120
+msgctxt "button"
+msgid "Cancel"
+msgstr ""
+
+#: buddypress/activity/post-form.php:17
+msgctxt "heading"
+msgid "Post Update"
+msgstr ""
+
+#: buddypress/common/search-and-filters-bar.php:15
+#: buddypress/groups/single/activity.php:21
+msgid "RSS Feed"
+msgstr ""
+
+#: buddypress/common/search-and-filters-bar.php:15
+#: buddypress/groups/single/activity.php:21
+msgid "RSS"
+msgstr ""
+
+#: buddypress/groups/create.php:11
+msgid "Create A New Group"
+msgstr ""
+
+#: buddypress/groups/create.php:27
+msgid "Group creation menu"
+msgstr ""
+
+#. %s = last activity timestamp (e.g. "active 1 hour ago")
+#: buddypress/groups/groups-loop.php:52
+#: buddypress/groups/single/cover-image-header.php:31
+#: buddypress/groups/single/group-header.php:31
+#, php-format
+msgid "active %s"
+msgstr ""
+
+#: buddypress/members/activate.php:21
+msgid ""
+"Your account was activated successfully! Your account details have been sent "
+"to you in a separate email."
+msgstr ""
+
+#: buddypress/members/activate.php:23
+msgid ""
+"Your account was activated successfully! You can now log in with the "
+"username and password you provided when you signed up."
+msgstr ""
+
+#: buddypress/members/activate.php:30
+msgid "Log In"
+msgstr ""
+
+#: buddypress/members/activate.php:36
+msgid "Please provide a valid activation key."
+msgstr ""
+
+#: buddypress/members/activate.php:40
+msgid "Activation Key:"
+msgstr ""
+
+#: buddypress/members/activate.php:44
+msgctxt "button"
+msgid "Activate"
+msgstr ""
+
+#: buddypress/members/register.php:31
+msgid "Account Details"
+msgstr ""
+
+#: buddypress/members/register.php:47
+msgid "Profile Details"
+msgstr ""
+
+#: buddypress/members/register.php:89
+msgid "Site Details"
+msgstr ""
+
+#: buddypress/members/register.php:91
+msgid "Yes, i'd like to create a new site"
+msgstr ""
+
+#: inc/Core/Sidebar.php:25 inc/Api/Customizer/Sidebar.php:25
+msgid "Sidebar"
+msgstr ""
+
+#: inc/Core/Sidebar.php:27
+msgid "Default sidebar to add all your widgets."
+msgstr ""
+
+#: inc/Core/Tags.php:33
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/Core/Tags.php:38
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/Core/Tags.php:50 inc/Core/Tags.php:55
+msgid ", "
+msgstr ""
+
+#: inc/Core/Tags.php:52 inc/Core/Tags.php:57
+#, php-format
+msgid " %1$s"
+msgstr ""
+
+#. %s: post title
+#: inc/Core/Tags.php:63
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/Custom/Admin-Helper.php:16
+msgid ""
+"The old version of Core plugin has been deactivated due to compatibility. "
+"Please update Core plugin to the newest version."
+msgstr ""
+
+#: inc/Custom/Admin-Helper.php:17
+msgid "Go to plugin update"
+msgstr ""
+
+#: inc/Custom/Admin-Helper.php:173 views/admin-wizard/status.php:41
+msgid "Status"
+msgstr ""
+
+#: inc/Custom/Admin-Helper.php:179 inc/Custom/Admin-Wizard.php:68
+msgid "Plugins"
+msgstr ""
+
+#: inc/Custom/Admin-Helper.php:185
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/Custom/Admin-Helper.php:290
+msgid "Return Javo Core Plugin Page"
+msgstr ""
+
+#: inc/Custom/Admin-Wizard.php:62
+msgid "Introduction"
+msgstr ""
+
+#: inc/Custom/Admin-Wizard.php:74
+msgid "Addons"
+msgstr ""
+
+#: inc/Custom/Admin-Wizard.php:80
+msgid "Server Status"
+msgstr ""
+
+#: inc/Custom/Admin-Wizard.php:86
+msgid "Demo import"
+msgstr ""
+
+#: inc/Custom/Admin-Wizard.php:92
+msgid "Ready!"
+msgstr ""
+
+#: inc/Custom/Admin-Wizard.php:121
+msgid "Verifying..."
+msgstr ""
+
+#: inc/Custom/Admin-Wizard.php:167
+msgid "No Slug Found"
+msgstr ""
+
+#: inc/Custom/Admin-Wizard.php:188
+msgid "Activating Plugin"
+msgstr ""
+
+#: inc/Custom/Admin-Wizard.php:208
+msgid "Updating Plugin"
+msgstr ""
+
+#: inc/Custom/Admin-Wizard.php:228
+msgid "Installing Plugin"
+msgstr ""
+
+#: inc/Custom/Admin-Wizard.php:239
+msgid "Success"
+msgstr ""
+
+#: inc/Custom/Admin-Wizard.php:252
+msgid "Javo &rsaquo; Setup Wizard"
+msgstr ""
+
+#: inc/Custom/Admin-Wizard.php:290
+msgid "Return to the WordPress Dashboard"
+msgstr ""
+
+#: inc/Custom/Admin.php:138 views/admin/General.php:3
+msgid "General"
+msgstr ""
+
+#: inc/Custom/Admin.php:141 inc/Api/Customizer/Header.php:25
+msgid "Header"
+msgstr ""
+
+#: inc/Custom/Admin.php:144 inc/Api/Customizer/Footer.php:27
+msgid "Footer"
+msgstr ""
+
+#: inc/Custom/Admin.php:147
+msgid "Custom CSS / JS"
+msgstr ""
+
+#: inc/Custom/Admin.php:148
+msgid "Import / Export"
+msgstr ""
+
+#: inc/Custom/Admin.php:172
+msgid ""
+"Warning : All option results remove and Style initialize.\n"
+"Continue?"
+msgstr ""
+
+#: inc/Custom/Admin.php:173
+msgid ""
+"Warning : Change option. can`t option restore. \n"
+"Continue?"
+msgstr ""
+
+#: inc/Custom/Admin.php:222
+msgid "Documentation"
+msgstr ""
+
+#: inc/Custom/Admin.php:257 views/admin-helper/plugins.php:59
+msgid "Processing..."
+msgstr ""
+
+#: inc/Custom/Admin.php:262
+msgid "Saved"
+msgstr ""
+
+#: inc/Custom/Admin.php:267
+msgid "Failed"
+msgstr ""
+
+#: inc/Custom/Admin.php:304 views/admin/Header.php:126
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/Custom/Admin.php:305 views/admin/Header.php:127
+msgid "It shows when there is at least one menu. otherwise, it doesn't show."
+msgstr ""
+
+#: inc/Custom/Admin.php:308
+msgid "Member Sidebar"
+msgstr ""
+
+#: inc/Custom/Admin.php:309
+msgid ""
+"It works when required plugins ('Core', 'BuddyPress') are actived. For "
+"groups, group component in BuddyPress needs to be actived."
+msgstr ""
+
+#: inc/Custom/Admin.php:320
+msgid "Default as theme settings"
+msgstr ""
+
+#: inc/Custom/Admin.php:321 views/admin/General.php:93
+#: views/admin/General.php:179 views/admin/General.php:198
+#: views/admin/Header.php:9 views/admin/Header.php:14
+#: views/admin/Portfolio.php:10
+msgid "Disable"
+msgstr ""
+
+#: inc/Custom/Admin.php:322 views/admin/General.php:157
+#: views/admin/General.php:180 views/admin/General.php:199
+#: views/admin/Header.php:139
+msgid "Enable"
+msgstr ""
+
+#: inc/Custom/Admin.php:331 views/admin/Header.php:149
+msgid "Note"
+msgstr ""
+
+#: inc/Setup/Menus.php:25
+msgid "Primary"
+msgstr ""
+
+#: inc/Setup/Menus.php:26
+msgid "Sidebar - Left"
+msgstr ""
+
+#: inc/Setup/Menus.php:27
+msgid "Sidebar - Right"
+msgstr ""
+
+#: inc/Setup/Setup.php:87
+msgid ""
+"The old version of Core plugin has been deactivated due to compatibility. "
+"Please activate Javo Core plugin to the newest version."
+msgstr ""
+
+#: inc/Setup/Setup.php:88
+msgid "Go to plugin page"
+msgstr ""
+
+#: views/admin/Contact.php:2
+msgid "Contact Information Settings"
+msgstr ""
+
+#: views/admin/Contact.php:5
+msgid "Contact Information"
+msgstr ""
+
+#: views/admin/Contact.php:7
+msgid "Add Your Contact Information"
+msgstr ""
+
+#: views/admin/Contact.php:10
+msgid "Address"
+msgstr ""
+
+#: views/admin/Contact.php:15
+msgid "Phone"
+msgstr ""
+
+#: views/admin/Contact.php:20
+msgid "Mobile"
+msgstr ""
+
+#: views/admin/Contact.php:25
+msgid "Fax"
+msgstr ""
+
+#: views/admin/Contact.php:30
+msgid "Email"
+msgstr ""
+
+#: views/admin/Contact.php:35
+msgid "Working Hours"
+msgstr ""
+
+#: views/admin/Contact.php:40
+msgid "Additional Information"
+msgstr ""
+
+#: views/admin/Contact.php:45
+msgid "Social Network Service IDs"
+msgstr ""
+
+#: views/admin/Contact.php:47
+msgid "Add your SSN information."
+msgstr ""
+
+#: views/admin/Contact.php:50
+msgid "Facebook  ex) https://facebook.com/your_name"
+msgstr ""
+
+#: views/admin/Contact.php:55
+msgid "Twitter"
+msgstr ""
+
+#: views/admin/Contact.php:60
+msgid "Instagram"
+msgstr ""
+
+#: views/admin/Contact.php:65
+msgid "Google+"
+msgstr ""
+
+#: views/admin/Contact.php:70
+msgid "Dribbble"
+msgstr ""
+
+#: views/admin/Contact.php:75
+msgid "Youtube"
+msgstr ""
+
+#: views/admin/Contact.php:80
+msgid "Flickr"
+msgstr ""
+
+#: views/admin/Contact.php:85
+msgid "Pinterest"
+msgstr ""
+
+#: views/admin/Contact.php:90
+msgid "Linkedin"
+msgstr ""
+
+#: views/admin/Contact.php:95
+msgid "Website"
+msgstr ""
+
+#: views/admin/Custom.php:2
+msgid "Javo Customization Settings"
+msgstr ""
+
+#: views/admin/Custom.php:5
+msgid "CSS Stylesheet"
+msgstr ""
+
+#: views/admin/Custom.php:6
+msgid "Please Add Your Custom CSS Code Here."
+msgstr ""
+
+#: views/admin/Custom.php:8 views/admin/Custom.php:20
+msgid "Code:"
+msgstr ""
+
+#: views/admin/Custom.php:9
+msgid "<style type=\"text/css\">"
+msgstr ""
+
+#: views/admin/Custom.php:13
+msgid "</style>"
+msgstr ""
+
+#: views/admin/Custom.php:15
+msgid "Custom Script"
+msgstr ""
+
+#: views/admin/Custom.php:17
+msgid " If you have additional script, please add here."
+msgstr ""
+
+#: views/admin/Custom.php:21
+msgid "<script type=\"text/javascript\">"
+msgstr ""
+
+#: views/admin/Custom.php:25
+msgid "</script>"
+msgstr ""
+
+#: views/admin/Custom.php:26
+msgid ""
+"(Note : Please make sure that your scripts are NOT conflict with our own "
+"script or ajax core)"
+msgstr ""
+
+#: views/admin/Edit-Menu.php:3
+msgid "Icon Class (For Parent Menu on Left Sidebar Only)"
+msgstr ""
+
+#: views/admin/Edit-Menu.php:11
+msgid "Font awsome"
+msgstr ""
+
+#: views/admin/Edit-Menu.php:12
+msgid "Javo custom icons"
+msgstr ""
+
+#: views/admin/Edit-Menu.php:13
+msgid "Ex) jvbpd-icon1-shop2"
+msgstr ""
+
+#: views/admin/Edit-Menu.php:29
+msgid "Wide menu (for Only top-level menu)"
+msgstr ""
+
+#: views/admin/Edit-Menu.php:36
+msgid "Mega menu post type"
+msgstr ""
+
+#: views/admin/Edit-Menu.php:53
+msgid "Mega menu post categories"
+msgstr ""
+
+#: views/admin/Edit-Menu.php:55 views/admin/Edit-Menu.php:68
+msgid "All Category"
+msgstr ""
+
+#: views/admin/Edit-Menu.php:66
+msgid "Mega menu listing categories"
+msgstr ""
+
+#: views/admin/Edit-Menu.php:82
+msgid "Mega menu module"
+msgstr ""
+
+#: views/admin/Font.php:5
+msgid "Fonts Settings"
+msgstr ""
+
+#: views/admin/Font.php:8
+msgid "Basic Font"
+msgstr ""
+
+#: views/admin/Font.php:10 views/admin/Font.php:45 views/admin/Font.php:80
+#: views/admin/Font.php:115 views/admin/Font.php:151 views/admin/Font.php:187
+#: views/admin/Font.php:223
+msgid "Setup font size, tags"
+msgstr ""
+
+#: views/admin/Font.php:13
+msgid "Choose basic font-family"
+msgstr ""
+
+#: views/admin/Font.php:27
+msgid "Normal Font size"
+msgstr ""
+
+#: views/admin/Font.php:35 views/admin/Font.php:70 views/admin/Font.php:105
+#: views/admin/Font.php:141 views/admin/Font.php:177 views/admin/Font.php:213
+#: views/admin/Font.php:249
+msgid "Line height"
+msgstr ""
+
+#: views/admin/Font.php:43
+msgid "H1"
+msgstr ""
+
+#: views/admin/Font.php:48
+msgid "Choose H1 font-family"
+msgstr ""
+
+#: views/admin/Font.php:62
+msgid "H1 Font size"
+msgstr ""
+
+#: views/admin/Font.php:78
+msgid "H2"
+msgstr ""
+
+#: views/admin/Font.php:83
+msgid "Choose H2 font-family"
+msgstr ""
+
+#: views/admin/Font.php:97
+msgid "H2 Font size"
+msgstr ""
+
+#: views/admin/Font.php:113
+msgid "H3"
+msgstr ""
+
+#: views/admin/Font.php:118
+msgid "Choose H3 font-family"
+msgstr ""
+
+#: views/admin/Font.php:132
+msgid "H3 Font size"
+msgstr ""
+
+#: views/admin/Font.php:149
+msgid "H4"
+msgstr ""
+
+#: views/admin/Font.php:154
+msgid "Choose H4 font-family"
+msgstr ""
+
+#: views/admin/Font.php:168
+msgid "H4 Font size"
+msgstr ""
+
+#: views/admin/Font.php:185
+msgid "H5"
+msgstr ""
+
+#: views/admin/Font.php:190
+msgid "Choose H5 font-family"
+msgstr ""
+
+#: views/admin/Font.php:204
+msgid "H5 Font size"
+msgstr ""
+
+#: views/admin/Font.php:221
+msgid "H6"
+msgstr ""
+
+#: views/admin/Font.php:226
+msgid "Choose H6 font-family"
+msgstr ""
+
+#: views/admin/Font.php:240
+msgid "H6 Font size"
+msgstr ""
+
+#: views/admin/Footer.php:2
+msgid "Footer Settings"
+msgstr ""
+
+#: views/admin/Footer.php:5
+msgid "Select a Footer"
+msgstr ""
+
+#: views/admin/Footer.php:13
+msgid "Default(Global) Footer"
+msgstr ""
+
+#: views/admin/Footer.php:14
+#, php-format
+msgid ""
+"To create more footers, Core >> page builder ( <a href=\"%1$s\" "
+"target=\"_blank\">Go page builder</a> )<br>\n"
+"\t\t\t\t\t\t If you do not select, the recent footer ( you created ) will be "
+"displayed."
+msgstr ""
+
+#: views/admin/Footer.php:21 views/admin/Header.php:53
+msgid "Single post detail pages"
+msgstr ""
+
+#: views/admin/Footer.php:22 views/admin/Footer.php:26
+msgid ""
+"If you do not select \"Footer\", \"Default(Global) Footer\" will be "
+"displayed."
+msgstr ""
+
+#: views/admin/Footer.php:25 views/admin/Header.php:61
+msgid "Single listing detail pages"
+msgstr ""
+
+#: views/admin/Footer.php:34
+msgid "Select a footer"
+msgstr ""
+
+#: views/admin/General.php:6
+msgid "Blank Image Settings"
+msgstr ""
+
+#: views/admin/General.php:8
+msgid ""
+"Blank (or white) images are shown when no images are available. The "
+"preferred dimensions are 300x300."
+msgstr ""
+
+#: views/admin/General.php:11
+msgid "Blank Image"
+msgstr ""
+
+#: views/admin/General.php:15 views/admin/General.php:27
+#: views/admin/Logo.php:17 views/admin/Logo.php:28 views/admin/Logo.php:39
+#: views/admin/Logo.php:50 views/admin/Logo.php:62
+msgid "Select Image"
+msgstr ""
+
+#: views/admin/General.php:16 views/admin/General.php:28
+#: views/admin/Logo.php:18 views/admin/Logo.php:29 views/admin/Logo.php:40
+#: views/admin/Logo.php:51 views/admin/Logo.php:63
+msgid "Delete"
+msgstr ""
+
+#: views/admin/General.php:19 views/admin/General.php:31
+#: views/admin/Logo.php:20 views/admin/Logo.php:31 views/admin/Logo.php:42
+#: views/admin/Logo.php:53 views/admin/Logo.php:66
+msgid "Preview"
+msgstr ""
+
+#: views/admin/General.php:23
+msgid "Google maps default marker"
+msgstr ""
+
+#: views/admin/General.php:36
+msgid "Login Settings"
+msgstr ""
+
+#: views/admin/General.php:38
+msgid "The page to redirect users to after a successful login."
+msgstr ""
+
+#: views/admin/General.php:45
+msgid "Login Template"
+msgstr ""
+
+#: views/admin/General.php:49
+msgid "Sign-up Template"
+msgstr ""
+
+#: views/admin/General.php:70
+msgid "Redirect to"
+msgstr ""
+
+#: views/admin/General.php:76
+msgid "Profile Page (Default)"
+msgstr ""
+
+#: views/admin/General.php:77
+msgid "Main Page"
+msgstr ""
+
+#: views/admin/General.php:78
+msgid "Current Page"
+msgstr ""
+
+#: views/admin/General.php:79
+msgid "WordPress Profile Page"
+msgstr ""
+
+#: views/admin/General.php:90
+msgid "User Agreement"
+msgstr ""
+
+#: views/admin/General.php:97
+msgid "Select a page for user agreement"
+msgstr ""
+
+#: views/admin/General.php:110
+msgid "Color Settings"
+msgstr ""
+
+#: views/admin/General.php:112
+msgid "Choose colors to match your theme."
+msgstr ""
+
+#: views/admin/General.php:116 inc/Api/Customizer/Footer.php:45
+#: inc/Api/Customizer/Sidebar.php:37
+msgid "Background Color"
+msgstr ""
+
+#: views/admin/General.php:121
+msgid "Primary Color Selection"
+msgstr ""
+
+#: views/admin/General.php:126
+msgid "Primary Font Color Selection"
+msgstr ""
+
+#: views/admin/General.php:131
+msgid "Border Color Setup"
+msgstr ""
+
+#: views/admin/General.php:133
+msgid "Use"
+msgstr ""
+
+#: views/admin/General.php:134
+msgid "Not Use"
+msgstr ""
+
+#: views/admin/General.php:137
+msgid "Border Color Selection"
+msgstr ""
+
+#: views/admin/General.php:144
+msgid "Miscellaneous Settings"
+msgstr ""
+
+#: views/admin/General.php:146
+msgid "Other settings"
+msgstr ""
+
+#: views/admin/General.php:150
+msgid "Preloader"
+msgstr ""
+
+#: views/admin/General.php:156
+msgid "Disabled"
+msgstr ""
+
+#: views/admin/General.php:171
+msgid "Floating Menu"
+msgstr ""
+
+#: views/admin/General.php:173
+msgid "Use floating menu ( Right bottom on all pages )"
+msgstr ""
+
+#: views/admin/General.php:193
+msgid "Show to scroll"
+msgstr ""
+
+#: views/admin/General.php:213
+msgid "Add a shortcodde"
+msgstr ""
+
+#: views/admin/General.php:216
+msgid ""
+"To create a shortcode, please go to javo builder and create one to get a "
+"shortcode."
+msgstr ""
+
+#: views/admin/General.php:219
+msgid "Plugins Settings"
+msgstr ""
+
+#: views/admin/General.php:222
+msgid "Module Excerpt"
+msgstr ""
+
+#: views/admin/General.php:228
+msgid "wp_trim_words ( Default )"
+msgstr ""
+
+#: views/admin/General.php:232
+msgid "mb_substr"
+msgstr ""
+
+#: views/admin/General.php:234
+msgid "(mb_subsr is for a few languages - excerpt length. ex. Chinese)"
+msgstr ""
+
+#: views/admin/Header.php:5 views/admin/Portfolio.php:7
+msgid "Light"
+msgstr ""
+
+#: views/admin/Header.php:6 views/admin/Portfolio.php:6
+msgid "Dark"
+msgstr ""
+
+#: views/admin/Header.php:10 views/admin/Header.php:13
+#: views/admin/Portfolio.php:11
+msgid "Able"
+msgstr ""
+
+#: views/admin/Header.php:17 views/admin/Portfolio.php:15
+msgid "Center Left"
+msgstr ""
+
+#: views/admin/Header.php:18 views/admin/Portfolio.php:16
+msgid "Center Right"
+msgstr ""
+
+#: views/admin/Header.php:19 views/admin/Portfolio.php:17
+msgid "Wide"
+msgstr ""
+
+#: views/admin/Header.php:22 views/admin/Header.php:27
+#: views/admin/Portfolio.php:20
+msgid "Transparency menu"
+msgstr ""
+
+#: views/admin/Header.php:23 views/admin/Header.php:26
+#: views/admin/Portfolio.php:21
+msgid "Default menu"
+msgstr ""
+
+#: views/admin/Header.php:32
+msgid "Heading Settings"
+msgstr ""
+
+#: views/admin/Header.php:36 views/admin/Header.php:94
+msgid "Select a header"
+msgstr ""
+
+#: views/admin/Header.php:44
+msgid "Default(Global) Header"
+msgstr ""
+
+#: views/admin/Header.php:46
+#, php-format
+msgid ""
+"To create more headers, Core >> page builder ( <a href=\"%1$s\" "
+"target=\"_blank\">Go page builder</a> )<br>\n"
+"\t\t\t\t\t If you do not select, the recent header ( you created ) will be "
+"displayed."
+msgstr ""
+
+#: views/admin/Header.php:54 views/admin/Header.php:58
+#: views/admin/Header.php:62 views/admin/Header.php:66
+#: views/admin/Header.php:70 views/admin/Header.php:75
+#: views/admin/Header.php:80
+msgid ""
+"If you do not select \"Header\", \"Default(Global) Header\" will be "
+"displayed."
+msgstr ""
+
+#: views/admin/Header.php:57
+msgid "Post archive pages"
+msgstr ""
+
+#: views/admin/Header.php:65
+msgid "Listing archive pages"
+msgstr ""
+
+#: views/admin/Header.php:69
+msgid "My Dashboard Page"
+msgstr ""
+
+#: views/admin/Header.php:74
+msgid "Member Page"
+msgstr ""
+
+#: views/admin/Header.php:79
+msgid "Group Page"
+msgstr ""
+
+#: views/admin/Header.php:119
+msgid "Select a sidebars"
+msgstr ""
+
+#: views/admin/Header.php:138
+msgid "Disable (Default)"
+msgstr ""
+
+#: views/admin/Import.php:8
+msgid "Theme Settings Default Values"
+msgstr ""
+
+#: views/admin/Import.php:11 views/admin-wizard/import.php:1
+msgid "Import"
+msgstr ""
+
+#: views/admin/Import.php:13
+msgid ""
+"Please paste your previously saved theme settings values into the adjacent "
+"box. This may help you restore any backed-up theme settings."
+msgstr ""
+
+#: views/admin/Import.php:16
+msgid "Please paste your saved source into the box below."
+msgstr ""
+
+#: views/admin/Import.php:20
+msgid "Import options"
+msgstr ""
+
+#: views/admin/Import.php:22
+msgid "Export"
+msgstr ""
+
+#: views/admin/Import.php:24
+msgid ""
+"Please copy and save the text in the adjacent box as a restore point for "
+"your preferred theme settings."
+msgstr ""
+
+#: views/admin/Import.php:27
+msgid "Please select and copy the source from the box below."
+msgstr ""
+
+#: views/admin/Import.php:33
+msgid "Reset options"
+msgstr ""
+
+#: views/admin/Import.php:37
+msgid "Warning:"
+msgstr ""
+
+#: views/admin/Import.php:38
+msgid "All values will be removed."
+msgstr ""
+
+#: views/admin/Import.php:43
+msgid "RESET DEFAULT OPTIONS"
+msgstr ""
+
+#: views/admin/Import.php:44
+msgid "RESET OPTIONS"
+msgstr ""
+
+#: views/admin/Logo.php:4
+msgid "Logo"
+msgstr ""
+
+#: views/admin/Logo.php:7
+msgid "Header Logo Settings"
+msgstr ""
+
+#: views/admin/Logo.php:9
+msgid ""
+"Uploaded logos will be displayed on the header in their appropriate "
+"locations."
+msgstr ""
+
+#: views/admin/Logo.php:14
+msgid "Main Logo ( Dark / Default )"
+msgstr ""
+
+#: views/admin/Logo.php:25
+msgid "Main Logo ( Light )"
+msgstr ""
+
+#: views/admin/Logo.php:36
+msgid "Small Logo ( Simple )"
+msgstr ""
+
+#: views/admin/Logo.php:47
+msgid "Mobile Logo"
+msgstr ""
+
+#: views/admin/Logo.php:58
+msgid "Retina Logo"
+msgstr ""
+
+#: views/admin/Portfolio.php:24
+msgid "Featured image with Title"
+msgstr ""
+
+#: views/admin/Portfolio.php:25
+msgid "Title on the top"
+msgstr ""
+
+#: views/admin/Portfolio.php:26
+msgid "Title upper content "
+msgstr ""
+
+#: views/admin/Portfolio.php:30
+msgid "Full Width - Content After"
+msgstr ""
+
+#: views/admin/Portfolio.php:31
+msgid "Full Width - Content Before"
+msgstr ""
+
+#: views/admin/Portfolio.php:32
+msgid "Right - Side Bar"
+msgstr ""
+
+#: views/admin/Portfolio.php:38
+msgid "Portfolio Page Settings"
+msgstr ""
+
+#: views/admin/Portfolio.php:41
+msgid "Page Setting"
+msgstr ""
+
+#: views/admin/Portfolio.php:44
+msgid "Listing page"
+msgstr ""
+
+#: views/admin/Portfolio.php:47
+msgid "Select a page"
+msgstr ""
+
+#: views/admin/Portfolio.php:57
+msgid ""
+"A portfolio list page to be moved when list button (or icon) is pressed on "
+"single portfolio pages."
+msgstr ""
+
+#: views/admin/Portfolio.php:61
+msgid "Header / Menu"
+msgstr ""
+
+#: views/admin/Portfolio.php:65
+msgid "Header Style"
+msgstr ""
+
+#: views/admin/Portfolio.php:68
+msgid "Header type"
+msgstr ""
+
+#: views/admin/Portfolio.php:77 views/admin/Portfolio.php:99
+msgid ""
+"Caution: If you choose transparent menu type, page's main text contents "
+"ascends as much as menu's height to make menu transparent."
+msgstr ""
+
+#: views/admin/Portfolio.php:86
+msgid "Default Style"
+msgstr ""
+
+#: views/admin/Portfolio.php:90
+msgid "Default Page Layout"
+msgstr ""
+
+#: views/admin-helper/plugins.php:35
+msgid "Required"
+msgstr ""
+
+#: views/admin-helper/plugins.php:49
+msgid "Update Available:"
+msgstr ""
+
+#: views/admin-helper/plugins.php:50
+msgid "Version"
+msgstr ""
+
+#: views/admin-helper/status.php:15
+msgid "Active Requested Plugins"
+msgstr ""
+
+#: views/admin-helper/status.php:25
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: views/admin-helper/status.php:26
+msgid "Ultimate Addons for Visual Composer"
+msgstr ""
+
+#: views/admin-helper/status.php:31
+msgid "Demo Installation"
+msgstr ""
+
+#: views/admin-helper/status.php:35
+msgid "Permalink Setup"
+msgstr ""
+
+#: views/admin-helper/status.php:39
+msgid "Widget Installation"
+msgstr ""
+
+#: views/admin-helper/status.php:43
+msgid "Menu Setup"
+msgstr ""
+
+#: views/admin-helper/status.php:47
+msgid "Front Page Setup"
+msgstr ""
+
+#: views/admin-helper/status.php:51
+msgid "Theme Settings Setup"
+msgstr ""
+
+#: views/admin-helper/status.php:57
+msgid "Default Setting / System Status"
+msgstr ""
+
+#: views/admin-helper/status.php:61
+msgid ""
+"Please have a look at default settings and system status. default settings "
+"is for you should complete (100%) to use our theme properly."
+msgstr ""
+
+#: views/admin-helper/status.php:67
+msgid "Default Settings Status"
+msgstr ""
+
+#: views/admin-helper/status.php:69
+msgid "Loading"
+msgstr ""
+
+#: views/admin-helper/status.php:69 views/admin-helper/status.php:76
+msgid "Completed"
+msgstr ""
+
+#: views/admin-helper/status.php:72
+msgid ""
+"These default settings should be installed or actived to make this theme "
+"work properly."
+msgstr ""
+
+#: views/admin-helper/status.php:76
+msgid "Incompleted"
+msgstr ""
+
+#: views/admin-helper/status.php:110 views/admin-helper/status.php:118
+msgid "Theme config"
+msgstr ""
+
+#: views/admin-helper/status.php:111
+msgid "Theme name"
+msgstr ""
+
+#: views/admin-helper/status.php:119
+msgid "Theme version"
+msgstr ""
+
+#: views/admin-helper/status.php:131 views/admin-helper/status.php:139
+#: views/admin-helper/status.php:147 views/admin-helper/status.php:157
+#: views/admin-helper/status.php:164 views/admin-helper/status.php:176
+#: views/admin-helper/status.php:183
+msgid "php.ini configuration"
+msgstr ""
+
+#: views/admin-helper/status.php:132
+msgid "Server software"
+msgstr ""
+
+#: views/admin-helper/status.php:134
+msgid "Unknown"
+msgstr ""
+
+#: views/admin-helper/status.php:140 views/admin-wizard/status.php:6
+msgid "PHP Version"
+msgstr ""
+
+#: views/admin-helper/status.php:148
+msgid "post_max_size"
+msgstr ""
+
+#: views/admin-helper/status.php:150
+msgid ""
+"You cannot upload images, themes and plugins that have a size bigger than "
+"this value."
+msgstr ""
+
+#: views/admin-helper/status.php:158 views/admin-helper/status.php:165
+msgid "max_execution_time"
+msgstr ""
+
+#: views/admin-helper/status.php:167
+msgid ""
+"the execution time should be bigger than 60 if you plan to use the demos"
+msgstr ""
+
+#: views/admin-helper/status.php:177 views/admin-helper/status.php:184
+msgid "max_input_vars"
+msgstr ""
+
+#: views/admin-helper/status.php:186
+msgid ""
+"the max_input_vars should be bigger than 2000, otherwise it can cause "
+"incomplete saves in the menu panel in WordPress"
+msgstr ""
+
+#: views/admin-helper/status.php:195 views/admin-helper/status.php:203
+#: views/admin-helper/status.php:212 views/admin-helper/status.php:221
+#: views/admin-helper/status.php:230 views/admin-helper/status.php:239
+#: views/admin-helper/status.php:251 views/admin-helper/status.php:258
+#: views/admin-helper/status.php:269 views/admin-helper/status.php:276
+#: views/admin-helper/status.php:314
+msgid "WordPress and plugins"
+msgstr ""
+
+#: views/admin-helper/status.php:196
+msgid "WP Home URL"
+msgstr ""
+
+#: views/admin-helper/status.php:204
+msgid "WP Site URL"
+msgstr ""
+
+#: views/admin-helper/status.php:213
+msgid "Home URL - Site URL"
+msgstr ""
+
+#: views/admin-helper/status.php:214 views/admin-helper/status.php:215
+msgid ""
+"Home URL not equal to Site URL, this may indicate a problem with your "
+"WordPress configuration."
+msgstr ""
+
+#: views/admin-helper/status.php:215
+msgid "Home URL != Site URL"
+msgstr ""
+
+#: views/admin-helper/status.php:222
+msgid "WP version"
+msgstr ""
+
+#: views/admin-helper/status.php:231
+msgid "WP multisite enabled"
+msgstr ""
+
+#: views/admin-helper/status.php:233
+msgid "Yes"
+msgstr ""
+
+#: views/admin-helper/status.php:233
+msgid "No"
+msgstr ""
+
+#: views/admin-helper/status.php:240
+msgid "WP Language"
+msgstr ""
+
+#: views/admin-helper/status.php:252 views/admin-helper/status.php:259
+msgid "WP Memory Limit"
+msgstr ""
+
+#: views/admin-helper/status.php:254
+msgid "/request"
+msgstr ""
+
+#: views/admin-helper/status.php:254
+msgid ""
+"We recommend setting memory to at least 64MB. The theme is well tested with "
+"a 40MB/request limit, but if you are using multiple plugins that may not be "
+"enough. See:"
+msgstr ""
+
+#: views/admin-helper/status.php:254
+msgid "Increasing memory allocated to PHP"
+msgstr ""
+
+#: views/admin-helper/status.php:270 views/admin-helper/status.php:277
+msgid "WP_DEBUG"
+msgstr ""
+
+#: views/admin-helper/status.php:272
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: views/admin-helper/status.php:279
+msgid "False"
+msgstr ""
+
+#: views/admin-helper/status.php:292
+msgid "WP super cache"
+msgstr ""
+
+#: views/admin-helper/status.php:296
+msgid "W3 total cache (we recommend WP super cache)"
+msgstr ""
+
+#: views/admin-helper/status.php:300
+msgid "WP Fastest Cache (we recommend WP super cache)"
+msgstr ""
+
+#: views/admin-helper/status.php:305
+msgid "No caching plugin detected"
+msgstr ""
+
+#: views/admin-helper/status.php:315
+msgid "Caching plugin"
+msgstr ""
+
+#: views/admin-helper/status.php:361
+msgid "Green status: this check passed our system status test!"
+msgstr ""
+
+#: views/admin-helper/status.php:364
+msgid ""
+"Yellow status: this setting may affect the backend of the site. The front "
+"end should still run as expected. We recommend that you fix this."
+msgstr ""
+
+#: views/admin-helper/status.php:367
+msgid "Red status: the site may not work as expected with this option."
+msgstr ""
+
+#: views/admin-helper/status.php:370
+msgid ""
+"Info status: this is just for information purposes and easier debug if a "
+"problem appears"
+msgstr ""
+
+#: views/admin-helper/welcome.php:8
+msgid ""
+"Are you first time to use our theme?If you are new to use this theme, please "
+"check your status."
+msgstr ""
+
+#: views/admin-helper/welcome.php:11
+msgid "1.If you are new to use this theme, please check your status."
+msgstr ""
+
+#: views/admin-helper/welcome.php:12
+msgid "2.Install and ative plugins."
+msgstr ""
+
+#: views/admin-helper/welcome.php:13
+msgid "3.Import demo data. (optional)"
+msgstr ""
+
+#: views/admin-helper/welcome.php:14
+msgid "4.Check theme settings and setup."
+msgstr ""
+
+#: views/admin-wizard/addons.php:1
+msgid "Addons setup"
+msgstr ""
+
+#: views/admin-wizard/addons.php:22
+msgid "Install and activate Addons"
+msgstr ""
+
+#: views/admin-wizard/addons.php:29
+msgid ""
+"You will get free addons during an event. It will automatically install and "
+"activate in you site."
+msgstr ""
+
+#: views/admin-wizard/addons.php:54
+msgid ""
+"Good news! All addons are already installed and up to date. Please continue."
+msgstr ""
+
+#: views/admin-wizard/addons.php:58 views/admin-wizard/plugins.php:59
+msgid "If it's failed, it's mostly from a plugin folder permission issue."
+msgstr ""
+
+#: views/admin-wizard/addons.php:61
+#, php-format
+msgid ""
+"Please click to have a look <a href=\"%s\">how to get a license for updates."
+"</a>"
+msgstr ""
+
+#: views/admin-wizard/addons.php:68 views/admin-wizard/plugins.php:63
+msgid "Continue"
+msgstr ""
+
+#: views/admin-wizard/addons.php:69
+msgid "How do i get a license for addons"
+msgstr ""
+
+#: views/admin-wizard/finish.php:5
+msgid "Your site is ready!"
+msgstr ""
+
+#: views/admin-wizard/finish.php:9
+msgid "Vist Your site"
+msgstr ""
+
+#: views/admin-wizard/finish.php:11
+msgid "Visit Home Page"
+msgstr ""
+
+#: views/admin-wizard/finish.php:12
+msgid "Visit Dashboard"
+msgstr ""
+
+#: views/admin-wizard/finish.php:16
+msgid "Learn more"
+msgstr ""
+
+#: views/admin-wizard/finish.php:22
+msgid "Important: Check List after import"
+msgstr ""
+
+#: views/admin-wizard/finish.php:26
+msgid "Online Documentation"
+msgstr ""
+
+#: views/admin-wizard/finish.php:30
+msgid "Visit our support site"
+msgstr ""
+
+#: views/admin-wizard/finish.php:37
+msgid "Detail"
+msgstr ""
+
+#: views/admin-wizard/import.php:10 views/admin-wizard/status.php:65
+msgid "Next"
+msgstr ""
+
+#: views/admin-wizard/intro.php:1
+#, php-format
+msgid "Welcome! %s setup wizard"
+msgstr ""
+
+#: views/admin-wizard/intro.php:2
+#, php-format
+msgid ""
+"Thank you for choosing %s theme! This quick setup wizard will help you "
+"configure the basic settings. </strong>It's completely optional and "
+"shouldn't take longer than five minutes.</strong>"
+msgstr ""
+
+#: views/admin-wizard/intro.php:3
+msgid ""
+"No time right now? If you don't want to go through the wizard, you can skip "
+"and return to the WordPress dashboard. Come back anytime if you change your "
+"mind!"
+msgstr ""
+
+#: views/admin-wizard/intro.php:5
+msgid "Let's go!"
+msgstr ""
+
+#: views/admin-wizard/intro.php:6
+msgid "Not right now"
+msgstr ""
+
+#: views/admin-wizard/plugins.php:1
+msgid "Plugins setup"
+msgstr ""
+
+#: views/admin-wizard/plugins.php:23
+msgid "Let's Install Required Plugins"
+msgstr ""
+
+#: views/admin-wizard/plugins.php:30
+msgid ""
+"Your website needs a few essential plugins. The following plugins will be "
+"installed or updated:"
+msgstr ""
+
+#: views/admin-wizard/plugins.php:55
+msgid ""
+"Good news! All plugins are already installed and up to date. Please continue."
+msgstr ""
+
+#: views/admin-wizard/plugins.php:58
+msgid ""
+"You can add and remove plugins later on from within WordPress. Click "
+"Continue to install"
+msgstr ""
+
+#: views/admin-wizard/status.php:1
+msgid "Check your server status"
+msgstr ""
+
+#: views/admin-wizard/status.php:7
+msgid "7.3.x"
+msgstr ""
+
+#: views/admin-wizard/status.php:12
+msgid "Post Max Size"
+msgstr ""
+
+#: views/admin-wizard/status.php:13 views/admin-wizard/status.php:21
+msgid "128M"
+msgstr ""
+
+#: views/admin-wizard/status.php:20
+msgid "WP MEMORY LIMIT"
+msgstr ""
+
+#: views/admin-wizard/status.php:28
+msgid "WP DEBUG"
+msgstr ""
+
+#: views/admin-wizard/status.php:29 views/admin-wizard/status.php:30
+msgid "Off"
+msgstr ""
+
+#: views/admin-wizard/status.php:30
+msgid "On"
+msgstr ""
+
+#: views/admin-wizard/status.php:39
+msgid "Recommended"
+msgstr ""
+
+#: views/admin-wizard/status.php:40
+msgid "Your Server"
+msgstr ""
+
+#: views/footers/footer.php:3
+#, php-format
+msgid "Copyright %s %s"
+msgstr ""
+
+#: views/sidebars/sidebar-right.php:8
+msgid "Site Menu"
+msgstr ""
+
+#: buddypress/assets/emails/single-bp-email.php:220
+msgctxt "email"
+msgid "unsubscribe"
+msgstr ""
+
+#: buddypress/assets/_attachments/uploader.php:14
+msgid "The web browser on your device cannot be used to upload files."
+msgstr ""
+
+#: buddypress/assets/_attachments/uploader.php:16
+msgid "Upload Limit Exceeded"
+msgstr ""
+
+#: buddypress/assets/_attachments/uploader.php:21
+msgid "Drop your file here"
+msgstr ""
+
+#: buddypress/assets/_attachments/uploader.php:25
+msgid "Select your file"
+msgstr ""
+
+#: buddypress/assets/_attachments/uploader.php:27
+msgctxt "button"
+msgid "Select your file"
+msgstr ""
+
+#: buddypress/common/nav/directory-nav.php:10
+msgid "Directory menu"
+msgstr ""
+
+#: buddypress/common/notices/template-notices.php:15
+#: buddypress/members/single/default-front.php:16
+#: buddypress/members/single/parts/profile-visibility.php:36
+msgctxt "button"
+msgid "Close"
+msgstr ""
+
+#: buddypress/common/notices/template-notices.php:15
+#: buddypress/members/single/default-front.php:16
+msgid "Close this notice"
+msgstr ""
+
+#: buddypress/common/search/search-form.php:19
+#: buddypress/common/js-templates/invites/index.php:134
+#: buddypress/common/js-templates/messages/search-form.php:16
+msgctxt "button"
+msgid "Search"
+msgstr ""
+
+#: buddypress/groups/single/activity.php:12
+msgid "Group Activities"
+msgstr ""
+
+#: buddypress/groups/single/default-front.php:16
+msgid "Manage the Groups default front page"
+msgstr ""
+
+#: buddypress/groups/single/default-front.php:21
+#, php-format
+msgid "You can set your preferences for the %1$s or add %2$s to it."
+msgstr ""
+
+#: buddypress/groups/single/members.php:20
+msgid "Membership List"
+msgstr ""
+
+#. %s = group name
+#: buddypress/groups/single/request-membership.php:17
+#, php-format
+msgid "You are requesting to become a member of the group \"%s\"."
+msgstr ""
+
+#: buddypress/groups/single/request-membership.php:30
+msgctxt "button"
+msgid "Send Request"
+msgstr ""
+
+#: buddypress/groups/single/requests-loop.php:13
+msgid "Manage Membership Requests"
+msgstr ""
+
+#: buddypress/members/single/activity.php:11
+msgid "Activity menu"
+msgstr ""
+
+#: buddypress/members/single/activity.php:20
+msgid "Member Activities"
+msgstr ""
+
+#: buddypress/members/single/blogs.php:10
+msgid "Sites menu"
+msgstr ""
+
+#: buddypress/members/single/default-front.php:15
+msgid "Manage the members default front page"
+msgstr ""
+
+#: buddypress/members/single/default-front.php:19
+#, php-format
+msgid "You can set the preferences of the %1$s or add %2$s to it."
+msgstr ""
+
+#: buddypress/members/single/friends.php:10
+msgid "Friends menu"
+msgstr ""
+
+#: buddypress/members/single/groups.php:10
+msgid "Groups menu"
+msgstr ""
+
+#: buddypress/members/single/messages.php:9
+msgid "Messages menu"
+msgstr ""
+
+#: buddypress/members/single/notifications.php:10
+msgid "Notifications menu"
+msgstr ""
+
+#: buddypress/members/single/profile.php:10
+msgid "Profile menu"
+msgstr ""
+
+#: buddypress/members/single/settings.php:12
+msgid "Settings menu"
+msgstr ""
+
+#. %s: title of menu item which is invalid
+#: inc/Api/Callbacks/AdminCustomWalkerCallback.php:78
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. %s: title of menu item in draft status
+#: inc/Api/Callbacks/AdminCustomWalkerCallback.php:82
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: inc/Api/Callbacks/AdminCustomWalkerCallback.php:106
+msgid "Move up"
+msgstr ""
+
+#: inc/Api/Callbacks/AdminCustomWalkerCallback.php:119
+msgid "Move down"
+msgstr ""
+
+#: inc/Api/Callbacks/AdminCustomWalkerCallback.php:121
+#: inc/Api/Callbacks/AdminCustomWalkerCallback.php:123
+msgid "Edit Menu Item"
+msgstr ""
+
+#: inc/Api/Callbacks/AdminCustomWalkerCallback.php:132
+msgid "URL"
+msgstr ""
+
+#: inc/Api/Callbacks/AdminCustomWalkerCallback.php:139
+msgid "Navigation Label"
+msgstr ""
+
+#: inc/Api/Callbacks/AdminCustomWalkerCallback.php:145
+msgid "Title Attribute"
+msgstr ""
+
+#: inc/Api/Callbacks/AdminCustomWalkerCallback.php:152
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: inc/Api/Callbacks/AdminCustomWalkerCallback.php:157
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: inc/Api/Callbacks/AdminCustomWalkerCallback.php:163
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: inc/Api/Callbacks/AdminCustomWalkerCallback.php:169
+msgid "Description"
+msgstr ""
+
+#: inc/Api/Callbacks/AdminCustomWalkerCallback.php:171
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: inc/Api/Callbacks/AdminCustomWalkerCallback.php:182
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: inc/Api/Callbacks/AdminCustomWalkerCallback.php:195
+msgid "Remove"
+msgstr ""
+
+#: inc/Api/Callbacks/AdminCustomWalkerCallback.php:196
+msgid "Cancel"
+msgstr ""
+
+#: inc/Api/Callbacks/CommentCallback.php:38
+msgid "Pingback:"
+msgstr ""
+
+#: inc/Api/Callbacks/CommentCallback.php:38
+msgid "(Edit)"
+msgstr ""
+
+#: inc/Api/Callbacks/CommentCallback.php:58
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/Api/Callbacks/CommentCallback.php:66
+msgid "Reply"
+msgstr ""
+
+#: inc/Api/Customizer/Footer.php:28
+msgid "Customize the Footer"
+msgstr ""
+
+#: inc/Api/Customizer/Footer.php:51
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/Api/Customizer/Header.php:26
+msgid "Customize the Header"
+msgstr ""
+
+#: inc/Api/Customizer/Header.php:49
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/Api/Customizer/Header.php:55
+msgid "Header Text Color"
+msgstr ""
+
+#: inc/Api/Customizer/Header.php:61
+msgid "Header Link Color"
+msgstr ""
+
+#: inc/Api/Customizer/Sidebar.php:26
+msgid "Customize the Sidebar"
+msgstr ""
+
+#: the-grid/grid/javo-grid-skin1/javo-grid-skin1.php:18
+#: the-grid/grid/jv-sofia/jv-sofia.php:23
+#: the-grid/masonry/jv-maren/jv-maren.php:31
+#: the-grid/masonry/jv-panama/jv-panama.php:28
+#: the-grid/masonry/jv-praia/jv-praia.php:32
+#: the-grid/masonry/jv-quito/jv-quito.php:27
+#: the-grid/masonry/jv-quito/jv-quito.php:31
+msgid "Read More"
+msgstr ""
+
+#: the-grid/grid/jv-sofia/jv-sofia.php:29
+#: the-grid/masonry/jv-panama/jv-panama.php:42
+#: the-grid/masonry/jv-praia/jv-praia.php:38
+#: the-grid/masonry/jv-quito/jv-quito.php:41
+msgid "Play Song"
+msgstr ""
+
+#: the-grid/grid/jv-sofia/jv-sofia.php:30
+#: the-grid/masonry/jv-panama/jv-panama.php:43
+#: the-grid/masonry/jv-praia/jv-praia.php:39
+#: the-grid/masonry/jv-quito/jv-quito.php:42
+msgid "Play Video"
+msgstr ""
+
+#: the-grid/masonry/jv-maren/jv-maren.php:27
+#: the-grid/masonry/jv-panama/jv-panama.php:32
+#: the-grid/masonry/jv-praia/jv-praia.php:28
+#: the-grid/masonry/jv-riga/jv-riga.php:27
+#: the-grid/masonry/jv-victoria/jv-victoria.php:23
+msgid "By"
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/camera.php:15
+msgid "Your browser does not support this feature."
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/camera.php:22
+msgctxt "button"
+msgid "Capture"
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/camera.php:23
+msgctxt "button"
+msgid "Save"
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/crop.php:21
+msgctxt "button"
+msgid "Crop Image"
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/index.php:35
+#: buddypress/members/single/profile/change-avatar.php:43
+msgid ""
+"If you'd like to delete your current profile photo, use the delete profile "
+"photo button."
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/index.php:36
+#: buddypress/members/single/profile/change-avatar.php:44
+msgid "Delete My Profile Photo"
+msgstr ""
+
+#: buddypress/assets/_attachments/avatars/index.php:39
+#: buddypress/groups/single/admin/group-avatar.php:71
+#: buddypress/groups/single/admin/group-avatar.php:72
+msgid "Delete Group Profile Photo"
+msgstr ""
+
+#: buddypress/assets/_attachments/cover-images/index.php:24
+msgid ""
+"If you'd like to delete your current cover image, use the delete Cover Image "
+"button."
+msgstr ""
+
+#: buddypress/assets/_attachments/cover-images/index.php:27
+msgctxt "button"
+msgid "Delete My Cover Image"
+msgstr ""
+
+#: buddypress/assets/_attachments/cover-images/index.php:31
+msgid ""
+"If you'd like to remove the existing group cover image but not upload a new "
+"one, please use the delete group cover image button."
+msgstr ""
+
+#: buddypress/assets/_attachments/cover-images/index.php:34
+msgctxt "button"
+msgid "Delete Group Cover Image"
+msgstr ""
+
+#: buddypress/common/js-templates/activity/form.php:42
+msgctxt "button"
+msgid "Remove item"
+msgstr ""
+
+#: buddypress/common/js-templates/invites/index.php:16
+#: buddypress/common/js-templates/invites/index.php:22
+msgid "Invite Members"
+msgstr ""
+
+#: buddypress/common/js-templates/invites/index.php:29
+msgid "Group invitations menu"
+msgstr ""
+
+#: buddypress/common/js-templates/invites/index.php:65
+msgid "Invited by:"
+msgstr ""
+
+#: buddypress/common/js-templates/invites/index.php:74
+msgid "The invite has not been sent yet."
+msgstr ""
+
+#: buddypress/common/js-templates/invites/index.php:76
+msgid "The invite has been sent."
+msgstr ""
+
+#: buddypress/common/js-templates/invites/index.php:86
+msgid "Cancel invitation"
+msgstr ""
+
+#: buddypress/common/js-templates/invites/index.php:86
+#: buddypress/common/js-templates/invites/index.php:92
+msgctxt "button"
+msgid "Invite"
+msgstr ""
+
+#: buddypress/common/js-templates/invites/index.php:90
+#: buddypress/common/js-templates/invites/index.php:99
+#: buddypress/common/js-templates/invites/index.php:101
+msgctxt "button"
+msgid "Cancel invitation"
+msgstr ""
+
+#: buddypress/common/js-templates/invites/index.php:116
+msgid "Optional: add a message to your invite."
+msgstr ""
+
+#: buddypress/common/js-templates/invites/index.php:121
+#: buddypress/common/js-templates/messages/index.php:47
+msgctxt "button"
+msgid "Send"
+msgstr ""
+
+#: buddypress/common/js-templates/invites/index.php:129
+msgctxt "heading"
+msgid "Search Members"
+msgstr ""
+
+#: buddypress/common/js-templates/invites/index.php:130
+#: buddypress/common/js-templates/messages/search-form.php:13
+msgctxt "search placeholder text"
+msgid "Search"
+msgstr ""
+
+#: buddypress/common/js-templates/invites/index.php:143
+#: buddypress/common/js-templates/invites/index.php:145
+#: buddypress/common/js-templates/messages/index.php:81
+msgctxt "link"
+msgid "Previous page"
+msgstr ""
+
+#: buddypress/common/js-templates/invites/index.php:150
+#: buddypress/common/js-templates/invites/index.php:151
+#: buddypress/common/js-templates/messages/index.php:88
+msgctxt "link"
+msgid "Next page"
+msgstr ""
+
+#: buddypress/common/js-templates/messages/index.php:36
+msgid "Send @Username"
+msgstr ""
+
+#: buddypress/common/js-templates/messages/index.php:39
+msgid "Subject"
+msgstr ""
+
+#: buddypress/common/js-templates/messages/index.php:48
+msgctxt "form reset button"
+msgid "Reset"
+msgstr ""
+
+#: buddypress/common/js-templates/messages/index.php:104
+msgid "All Messages"
+msgstr ""
+
+#: buddypress/common/js-templates/messages/index.php:108
+msgid "Select bulk action"
+msgstr ""
+
+#: buddypress/common/js-templates/messages/index.php:117
+#: buddypress/common/js-templates/messages/index.php:119
+msgctxt "button"
+msgid "Apply"
+msgstr ""
+
+#: buddypress/common/js-templates/messages/index.php:127
+msgid "Select message:"
+msgstr ""
+
+#: buddypress/common/js-templates/messages/index.php:134
+msgid "From:"
+msgstr ""
+
+#: buddypress/common/js-templates/messages/index.php:144
+msgid "To:"
+msgstr ""
+
+#: buddypress/common/js-templates/messages/index.php:169
+msgid "Active conversation:"
+msgstr ""
+
+#: buddypress/common/js-templates/messages/index.php:175
+#: buddypress/common/js-templates/messages/index.php:238
+msgid "Participants:"
+msgstr ""
+
+#: buddypress/common/js-templates/messages/index.php:188
+#: buddypress/common/js-templates/messages/index.php:189
+#: buddypress/common/js-templates/messages/index.php:250
+#: buddypress/common/js-templates/messages/index.php:251
+msgid "Delete conversation."
+msgstr ""
+
+#: buddypress/common/js-templates/messages/index.php:195
+#: buddypress/common/js-templates/messages/index.php:196
+msgid "Unstar Conversation"
+msgstr ""
+
+#: buddypress/common/js-templates/messages/index.php:199
+#: buddypress/common/js-templates/messages/index.php:200
+msgid "Star Conversation"
+msgstr ""
+
+#: buddypress/common/js-templates/messages/index.php:206
+#: buddypress/common/js-templates/messages/index.php:207
+msgid "View full conversation and reply."
+msgstr ""
+
+#: buddypress/common/js-templates/messages/index.php:273
+#: buddypress/common/js-templates/messages/index.php:274
+msgid "Unstar Message"
+msgstr ""
+
+#: buddypress/common/js-templates/messages/index.php:277
+#: buddypress/common/js-templates/messages/index.php:278
+msgid "Star Message"
+msgstr ""
+
+#: buddypress/common/js-templates/messages/index.php:323
+msgid "Send a Reply"
+msgstr ""
+
+#: buddypress/common/js-templates/messages/index.php:334
+msgid "Reply to Message"
+msgstr ""
+
+#: buddypress/common/js-templates/messages/index.php:340
+msgctxt "button"
+msgid "Send Reply"
+msgstr ""
+
+#: buddypress/common/js-templates/messages/search-form.php:11
+msgid "Search Messages"
+msgstr ""
+
+#: buddypress/groups/single/admin/delete-group.php:11
+msgid "Delete this group"
+msgstr ""
+
+#: buddypress/groups/single/admin/delete-group.php:18
+msgid "I understand the consequences of deleting this group."
+msgstr ""
+
+#: buddypress/groups/single/admin/edit-details.php:13
+msgid "Enter Group Name &amp; Description"
+msgstr ""
+
+#: buddypress/groups/single/admin/edit-details.php:19
+msgid "Edit Group Name &amp; Description"
+msgstr ""
+
+#: buddypress/groups/single/admin/edit-details.php:24
+msgid "Group Name (required)"
+msgstr ""
+
+#: buddypress/groups/single/admin/edit-details.php:27
+msgid "Group Description (required)"
+msgstr ""
+
+#: buddypress/groups/single/admin/edit-details.php:33
+msgid "Notify group members of these changes via email"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-avatar.php:13
+msgid "Upload Group Avatar"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-avatar.php:19
+msgid "Change Group Avatar"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-avatar.php:26
+msgid ""
+"Add an image to use as a profile photo for this group. The image will be "
+"shown on the main group page, and in search results."
+msgstr ""
+
+#: buddypress/groups/single/admin/group-avatar.php:28
+msgid "Edit or update your avatar image for this group."
+msgstr ""
+
+#: buddypress/groups/single/admin/group-avatar.php:46
+msgid ""
+"Upload an image to use as a profile photo for this group. The image will be "
+"shown on the main group page, and in search results."
+msgstr ""
+
+#: buddypress/groups/single/admin/group-avatar.php:49
+#: buddypress/members/single/profile/change-avatar.php:36
+msgid "Select an image"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-avatar.php:51
+#: buddypress/members/single/profile/change-avatar.php:38
+msgid "Upload Image"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-avatar.php:56
+msgid ""
+"To skip the group profile photo upload process, hit the \"Next Step\" button."
+msgstr ""
+
+#: buddypress/groups/single/admin/group-avatar.php:61
+msgid ""
+"If you'd like to remove the existing group profile photo but not upload a "
+"new one, please use the delete group profile photo button."
+msgstr ""
+
+#: buddypress/groups/single/admin/group-avatar.php:98
+msgid "Crop Group Profile Photo"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-avatar.php:100
+#: buddypress/members/single/profile/change-avatar.php:53
+msgid "Profile photo to crop"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-avatar.php:103
+#: buddypress/members/single/profile/change-avatar.php:56
+msgid "Profile photo preview"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-avatar.php:106
+#: buddypress/members/single/profile/change-avatar.php:59
+msgid "Crop Image"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-cover-image.php:13
+msgid "Upload Cover Image"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-cover-image.php:21
+#: buddypress/members/single/profile/change-cover-image.php:11
+msgid "Change Cover Image"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-cover-image.php:26
+msgid "The Cover Image will be used to customize the header of your group."
+msgstr ""
+
+#: buddypress/groups/single/admin/group-settings.php:13
+msgid "Select Group Settings"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-settings.php:19
+msgid "Change Group Settings"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-settings.php:27
+msgid "Privacy Options"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-settings.php:30
+msgid "This is a public group"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-settings.php:34
+msgid "Any site member can join this group."
+msgstr ""
+
+#: buddypress/groups/single/admin/group-settings.php:35
+#: buddypress/groups/single/admin/group-settings.php:45
+msgid ""
+"This group will be listed in the groups directory and in search results."
+msgstr ""
+
+#: buddypress/groups/single/admin/group-settings.php:36
+msgid "Group content and activity will be visible to any site member."
+msgstr ""
+
+#: buddypress/groups/single/admin/group-settings.php:40
+msgid "This is a private group"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-settings.php:44
+msgid "Only people who request membership and are accepted can join the group."
+msgstr ""
+
+#: buddypress/groups/single/admin/group-settings.php:46
+#: buddypress/groups/single/admin/group-settings.php:56
+msgid ""
+"Group content and activity will only be visible to members of the group."
+msgstr ""
+
+#: buddypress/groups/single/admin/group-settings.php:50
+msgid "This is a hidden group"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-settings.php:54
+msgid "Only people who are invited can join the group."
+msgstr ""
+
+#: buddypress/groups/single/admin/group-settings.php:55
+msgid ""
+"This group will not be listed in the groups directory or search results."
+msgstr ""
+
+#: buddypress/groups/single/admin/group-settings.php:67
+msgid "Group Types"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-settings.php:69
+msgid "Select the types this group should be a part of."
+msgstr ""
+
+#: buddypress/groups/single/admin/group-settings.php:90
+msgid "Group Invitations"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-settings.php:92
+msgid "Which members of this group are allowed to invite others?"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-settings.php:96
+msgid "All group members"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-settings.php:101
+msgid "Group admins and mods only"
+msgstr ""
+
+#: buddypress/groups/single/admin/group-settings.php:106
+msgid "Group admins only"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:11
+msgid "Manage Group Members"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:14
+msgid ""
+"Manage your group members; promote to moderators, admins or demote or ban."
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:18
+msgid "Administrators"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:35
+#: buddypress/groups/single/admin/manage-members.php:65
+msgid "Demote to Member"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:49
+msgid "Moderators"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:64
+msgid "Promote to Admin"
+msgstr ""
+
+#: buddypress/groups/single/admin/manage-members.php:79
+msgid "Members"
+msgstr ""
+
+#. indicates a user is banned from a group, e.g. "Mike (banned)".
+#: buddypress/groups/single/admin/manage-members.php:102
+msgid "(banned)"
+msgstr ""
+
+#: buddypress/groups/single/parts/admin-subnav.php:10
+msgid "Group administration menu"
+msgstr ""
+
+#: buddypress/groups/single/parts/header-item-actions.php:13
+msgid "Group Leadership"
+msgstr ""
+
+#: buddypress/groups/single/parts/header-item-actions.php:16
+msgid "Group Administrators"
+msgstr ""
+
+#: buddypress/groups/single/parts/header-item-actions.php:28
+msgid "Group Mods"
+msgstr ""
+
+#: buddypress/groups/single/parts/item-nav.php:10
+msgid "Group menu"
+msgstr ""
+
+#: buddypress/members/single/friends/requests.php:10
+msgid "Friendship Requests"
+msgstr ""
+
+#: buddypress/members/single/groups/invites.php:10
+#: buddypress/members/single/settings/group-invites.php:11
+msgid "Group Invites"
+msgstr ""
+
+#. %s = number of members
+#: buddypress/members/single/groups/invites.php:40
+#, php-format
+msgid "%s member"
+msgid_plural "%s members"
+msgstr[0] ""
+msgstr[1] ""
+
+#: buddypress/members/single/notifications/notifications-loop.php:18
+msgid "Select all"
+msgstr ""
+
+#: buddypress/members/single/notifications/notifications-loop.php:19
+msgid "Notification"
+msgstr ""
+
+#: buddypress/members/single/notifications/notifications-loop.php:21
+msgid "Date Received"
+msgstr ""
+
+#: buddypress/members/single/notifications/notifications-loop.php:24
+msgid "Actions"
+msgstr ""
+
+#: buddypress/members/single/notifications/notifications-loop.php:37
+msgid "Select this notification"
+msgstr ""
+
+#: buddypress/members/single/parts/item-nav.php:10
+msgid "Member menu"
+msgstr ""
+
+#. field visibility level, e.g. "...seen by: everyone".
+#: buddypress/members/single/parts/profile-visibility.php:21
+#: buddypress/members/single/parts/profile-visibility.php:44
+#, php-format
+msgid "This field may be seen by: %s"
+msgstr ""
+
+#: buddypress/members/single/parts/profile-visibility.php:25
+msgctxt "button"
+msgid "Change"
+msgstr ""
+
+#: buddypress/members/single/parts/profile-visibility.php:31
+msgid "Who is allowed to see this field?"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:10
+msgid "Change Profile Photo"
+msgstr ""
+
+#. %s is used to output the link to the Gravatar site
+#: buddypress/members/single/profile/change-avatar.php:21
+#, php-format
+msgid ""
+"Your profile photo will be used on your profile and throughout the site. If "
+"there is a %s associated with your account email we will use that, or you "
+"can upload an image from your computer."
+msgstr ""
+
+#. Url to the Gravatar site, you can use the one for your country eg: https://fr.gravatar.com for French translation
+#: buddypress/members/single/profile/change-avatar.php:23
+#: buddypress/members/single/profile/change-avatar.php:89
+msgid "https://gravatar.com"
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:33
+msgid ""
+"Click below to select a JPG, GIF or PNG format photo from your computer and "
+"then click 'Upload Image' to proceed."
+msgstr ""
+
+#: buddypress/members/single/profile/change-avatar.php:51
+msgid "Crop Your New Profile Photo"
+msgstr ""
+
+#. %s is used to output the link to the Gravatar site
+#: buddypress/members/single/profile/change-avatar.php:87
+#, php-format
+msgid ""
+"Your profile photo will be used on your profile and throughout the site. To "
+"change your profile photo, create an account with %s using the same email "
+"address as you used to register with this site."
+msgstr ""
+
+#: buddypress/members/single/profile/change-cover-image.php:17
+msgid "Your Cover Image will be used to customize the header of your profile."
+msgstr ""
+
+#: buddypress/members/single/profile/edit.php:11
+msgid "Edit Profile"
+msgstr ""
+
+#. %s = profile field group name
+#: buddypress/members/single/profile/edit.php:34
+#, php-format
+msgid "Editing \"%s\" Profile Group"
+msgstr ""
+
+#: buddypress/members/single/profile/profile-loop.php:11
+msgid "View Profile"
+msgstr ""
+
+#: buddypress/members/single/profile/profile-wp.php:16
+msgid "My Profile"
+msgstr ""
+
+#. a member's profile, e.g. "Paul's profile".
+#: buddypress/members/single/profile/profile-wp.php:20
+#, php-format
+msgid "%s's Profile"
+msgstr ""
+
+#: buddypress/members/single/settings/capabilities.php:12
+msgid "Members Capabilities"
+msgstr ""
+
+#: buddypress/members/single/settings/capabilities.php:19
+msgid "This member is a spammer."
+msgstr ""
+
+#: buddypress/members/single/settings/delete-account.php:12
+msgid "Delete Account"
+msgstr ""
+
+#: buddypress/members/single/settings/delete-account.php:21
+msgid "I understand the consequences."
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:12
+msgid "Email & Password"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:16
+msgid "Update your email and or password."
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:23
+msgid ""
+"Current Password <span>(required to update email or change current password)"
+"</span>"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:24
+msgid "Lost your password?"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:28
+msgid "Account Email"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:33
+msgid "Leave password fields blank for no change"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:36
+msgid "Add Your New Password"
+msgstr ""
+
+#: buddypress/members/single/settings/general.php:39
+msgid "Repeat Your New Password"
+msgstr ""
+
+#: buddypress/members/single/settings/group-invites.php:27
+msgid "I want to restrict Group invites to my friends only."
+msgstr ""
+
+#: buddypress/members/single/settings/notifications.php:12
+msgid "Email Notifications"
+msgstr ""
+
+#: buddypress/members/single/settings/notifications.php:16
+msgid "Set your email notification preferences."
+msgstr ""
+
+#: buddypress/members/single/settings/profile.php:12
+msgid "Profile Visibility Settings"
+msgstr ""
+
+#: buddypress/members/single/settings/profile.php:16
+msgid "Select who may see your profile details."
+msgstr ""
+
+#: buddypress/members/single/settings/profile.php:34
+msgid "Visibility"
+msgstr ""
+
+#. Name of the theme
+msgid "Javo Theme"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Listopia is a premium WordPress theme for Business Directory and Community "
+"Websites. You can build so many types of Directory websites."
+msgstr ""
+
+#. URI of the theme
+msgid "http://wpjavo.com/theme/"
+msgstr ""
+
+#. Author of the theme
+msgid "Javo Team"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://javothemes.com/"
+msgstr ""

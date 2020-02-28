@@ -1,0 +1,12 @@
+a {
+	@include transition(all $time $ease);
+	color: $dark-smoth;
+	&,
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
+	&:hover {
+		color: #0cb4ce;
+	}
+}

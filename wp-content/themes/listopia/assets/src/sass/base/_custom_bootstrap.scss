@@ -1,0 +1,44 @@
+// Font
+$font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Poppins, Roboto, Raleway, Roboto+Condensed, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:       $font-family-sans-serif !default;
+
+$body-bg: #fff;
+$body-color: #888;
+$theme-colors: ("custom-color": #900);
+
+/* Remove Focus blue */
+
+select:focus,
+.form-control:focus,
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+input[type="submit"]:focus,
+.uneditable-input:focus { 
+  box-shadow: none;
+  outline: 0 none;
+}
+.btn:focus,
+.btn.focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.tooltip-inner{
+    font-size: 10px;
+    letter-spacing: 1px;
+}

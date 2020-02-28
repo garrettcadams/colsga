@@ -1,0 +1,27 @@
+@import 'mixins/grid';
+@import 'mixins/animations';
+@import 'mixins/transitions';
+@import 'mixins/typography';
+@import 'mixins/helpers';
+
+
+/*------------------------------------------------------------------
+[2. Buttons ]
+*/
+
+@mixin btn-sm-light-dark {  // activity buttons
+	color: $bp-link-color;
+	border: 1px solid $light-blue-dark;
+	background:#fff;
+    font-size: 11px;
+    padding: 2px 6px;
+	span { background:transparent; color: $bp-color;}
+	&:hover {
+		color: #ffffff;
+		border: 1px solid #000000;
+		font-size: 11px;
+		padding: 2px 6px;
+		background: #000;
+	}
+}
+

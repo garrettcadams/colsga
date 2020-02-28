@@ -1,0 +1,122 @@
+/* layout */
+
+body.buddypress .col-sm-3 {
+  display: none;
+}
+
+body.buddypress .col-sm-9 {
+  max-width: 100%;
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+}
+
+body.buddypress .entry-title {
+  display: none;
+}
+
+body.buddypress.bp-user #content {
+  padding-top: 0;
+}
+
+body.buddypress.bp-user #content > .container {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#buddypress #header-cover-image {
+  height: 300px;
+}
+
+#item-header-cover-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#item-header-avatar img,
+.activity-avatar.item-avatar img,
+.activity-header img,
+.acomment-avatar.item-avatar img {
+  border-radius: 100%;
+}
+
+#item-header-avatar a {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.bp-wrap {
+  max-width: 1140px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bp-list:not(.activity-list) {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
+}
+
+/* Group */
+
+.group-desc {
+  display: none;
+}
+
+body.single-item.groups #buddypress div#item-header #item-header-cover-image #item-header-content,
+body.single-item.groups #buddypress div#item-header #item-header-cover-image #item-actions {
+  margin-top: 20px;
+}
+
+/*Activate */
+
+.activity-list.bp-list .activity-item {
+  border-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/*small text */
+
+.activity-list.bp-list {
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+/* Avatar size */
+
+.activity-list .activity-item div.item-avatar img {
+  width: 60px;
+  height: 60px;
+}
+
+.activity-list .activity-item div.item-avatar .acomment-avatar.item-avatar img {
+  width: 40px;
+  height: 40px;
+}
+
+.activity-header .avatar {
+  width: 20px;
+  height: 20px;
+}
+
+.bp-list li .action {
+  clear: none;
+}
+
+.activity-list .activity-item .activity-meta.action {
+  background: transparent;
+}
+

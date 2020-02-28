@@ -1,0 +1,29 @@
+body.archive{
+    #content-wrapper {
+        padding:0;
+    }
+    article.post{
+        width: 100%;
+        padding:0px 30px 25px 30px;        
+        .entry-header,
+        .single-post-thumbnail{ padding-bottom:20px; }
+        .entry-title{
+            overflow:hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+.archive-header-wrap{
+    position:relative;
+    overflow:hidden;
+    padding:50px 0;
+    background: #f9f9f9;
+    margin-bottom: 35px;
+    .archive-header{
+        text-align:center;
+        h1 {
+            margin-bottom: 10px;
+        }
+    }
+}
