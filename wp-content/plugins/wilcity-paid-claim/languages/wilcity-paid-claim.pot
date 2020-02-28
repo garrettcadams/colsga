@@ -1,0 +1,44 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Wilcity Paid Claim\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-04 17:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. Description of the plugin
+msgid "An extension of the Wilcity. That helps to enable Paid Claim Listing"
+msgstr ""
+
+#: app/Register/RegisterClaimSubMenu.php:22
+msgid "Claim Settings"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://wiloke.com"
+msgstr ""
+
+#: app/Controllers/ClaimListingsController.php:63
+msgid "Oops! This plan does not exists."
+msgstr ""
+
+#: app/Controllers/ClaimListingsController.php:50
+msgid "The Claim Plan is required."
+msgstr ""
+
+#. Name of the plugin
+msgid "Wilcity Paid Claim"
+msgstr ""
+
+#. Author of the plugin
+msgid "Wiloke"
+msgstr ""
