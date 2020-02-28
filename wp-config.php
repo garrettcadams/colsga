@@ -1,4 +1,5 @@
 <?php
+define( 'WPCACHEHOME', '/var/www/html/wp-content/plugins/wp-super-cache/' );
 define('WP_CACHE', true);
 /**
  * The base configuration for WordPress
