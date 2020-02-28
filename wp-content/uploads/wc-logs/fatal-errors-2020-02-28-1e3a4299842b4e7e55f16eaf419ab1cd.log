@@ -1,0 +1,42 @@
+2020-02-28T04:37:12+00:00 CRITICAL Uncaught Error: Call to undefined function Jvbpd\Base\jvbpd_tso() in /var/www/html/wp-content/plugins/javo-core/inc/Base/Enqueue.php:35
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(288): Jvbpd\Base\Enqueue->style_css_enqueue('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/script-loader.php(2670): do_action('wp_enqueue_scri...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(288): wp_enqueue_scripts('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/general-template.php(2879): do_action('wp_head')
+#8 /var/www/html/wp-content/themes/wilcity/header.php(15): wp_head()
+#9 /var/www/html/wp-includes/template.php(722): require_once('/var/www/html/w...')
+#10 /var/www/html/wp-includes/template.php(671): load_template('/v in /var/www/html/wp-content/plugins/javo-core/inc/Base/Enqueue.php on line 35
+
+2020-02-28T04:37:34+00:00 CRITICAL Uncaught Error: Call to undefined function Jvbpd\Base\jvbpd_tso() in /var/www/html/wp-content/plugins/javo-core/inc/Base/Enqueue.php:35
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(288): Jvbpd\Base\Enqueue->style_css_enqueue('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/script-loader.php(2670): do_action('wp_enqueue_scri...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(288): wp_enqueue_scripts('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/general-template.php(2879): do_action('wp_head')
+#8 /var/www/html/wp-content/themes/wilcity/header.php(15): wp_head()
+#9 /var/www/html/wp-includes/template.php(722): require_once('/var/www/html/w...')
+#10 /var/www/html/wp-includes/template.php(671): load_template('/v in /var/www/html/wp-content/plugins/javo-core/inc/Base/Enqueue.php on line 35
+
+2020-02-28T04:37:34+00:00 CRITICAL Uncaught Error: Call to undefined function Jvbpd\Base\jvbpd_tso() in /var/www/html/wp-content/plugins/javo-core/inc/Base/Enqueue.php:35
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(288): Jvbpd\Base\Enqueue->style_css_enqueue('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-includes/script-loader.php(2670): do_action('wp_enqueue_scri...')
+#4 /var/www/html/wp-includes/class-wp-hook.php(288): wp_enqueue_scripts('')
+#5 /var/www/html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/html/wp-includes/general-template.php(2879): do_action('wp_head')
+#8 /var/www/html/wp-content/themes/wilcity/header.php(15): wp_head()
+#9 /var/www/html/wp-includes/template.php(722): require_once('/var/www/html/w...')
+#10 /var/www/html/wp-includes/template.php(671): load_template('/v in /var/www/html/wp-content/plugins/javo-core/inc/Base/Enqueue.php on line 35
+
