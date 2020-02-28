@@ -1,0 +1,1125 @@
+/*-----------------------------------------
+Lava Directory Manager
+	0. Default
+	1. Single Page
+	2. Listing Page
+	3. Add Item Page
+	4. Dashboard My Item List Page
+	5. Sidebar - Widget
+	6. jQuery Lava MessageBox
+	7. Map Template Page
+	8. PLUploader Style
+-----------------------------------------*/
+
+/*-----------------------------------------
+	0. Default
+-----------------------------------------*/
+// Define Variables	===================
+@main-color:#ff5a5f;
+
+// Define Package	===================
+.border-radius (@radius:3px) {
+	border-radius:@radius;
+	-moz-border-radius:@radius;
+	-webkit-border-radius:@radius;
+}
+
+
+.main-navigation li ul.sub-menu {
+	z-index:999;
+}
+
+.hidden{ display: none !important; visibility:hidden; }
+@media(max-width:1178px) {
+	.container{width:100%;}
+}
+@media(max-width:767px){
+body.single-lv_listing {
+		.item-title{line-height:25px;}
+	}
+	.four.columns{
+		margin:0 auto;
+		display:table;
+	}
+}
+@media(max-width:480px){
+	.description{
+		#lava-directory-amenities{
+			display:table;
+			.lava-amenity{width:50%; margin:0;}
+		}
+	}
+}
+
+// Twenty Theme Series Map broken
+.entry-content .gm-style img{ max-width:none; }
+
+
+/*-----------------------------------------
+	1. Single Page
+-----------------------------------------*/
+body.single-lv_listing {
+		h1{
+			font-size:22px;
+			line-height:60px;
+			letter-spacing: 2px;
+			font-weight:bold;
+		}
+		h2:not(.widgettitle) {
+			font-size: 15px;
+			line-height: 33px;
+			letter-spacing: 1px;
+			font-weight: 700;
+			margin: 20px 0;
+		}
+		p {
+			font-size:13px;
+			line-height:26px;
+			font-weight:nomal;
+		}
+		strong {
+			font-size: 13px;
+			color:#888;
+			font-weight: 600;
+			text-align: center;
+		}
+
+		.flex-viewport{
+			max-height:330px;
+		}
+
+		.meta-summary {
+			a {
+				text-decoration: none;
+			}
+			strong {
+				display:block;
+			}
+			img {
+				width: 4em;
+				height: 4em;
+				margin-bottom: 5px;
+				border-radius: 100%;
+			}
+			li {
+				display: inline-block;
+				text-align: center;
+				margin: 0px 5em 0 0;
+				vertical-align: middle;
+				span {
+					line-height: 40px;
+					font-size: 12px;
+					color:#999;
+
+				}
+			}
+			.meta-type {
+				span {
+					&:not(:empty) {
+						background:#ff5a5f;
+						color: #fff;
+						padding: 1px 10px;
+						border-radius: 3px;
+					}
+				}
+			}
+		}
+		.meta-condition {
+			li {
+				display: inline-block;
+				text-align: center;
+				margin: 0 2.5em 0 0;
+				vertical-align: middle;
+				span {
+					line-height: 30px;
+					font-size: 12px;
+					color:#999;
+
+				}
+			}
+		}
+	}
+
+	#lava-directory-amenities{
+		display:block;
+		.lava-amenity{
+			display:inline-block;
+			margin: 3px 5px;
+			color:#ccc;
+			width:28%;
+			font-size:13px;
+			&::before{
+				display:inline-block;
+				vertical-align:middle;
+				width:1em;
+				font-weight:bold;
+				content:'';
+			}
+			&.active{
+				color:#454545;
+				&::before{
+					content:'v';
+				}
+			}
+			&.showall{
+				color:#454545;
+				width:auto;
+			}
+			&.with-own-icon{
+				&:before{
+					content:none !important;
+				}
+			}
+		}
+	}
+	.lava-detail-images{
+		position:relative;
+		ul.lava-attach-item{
+			> li{
+				height:300px;
+				overflow:hidden;
+				position:relative;
+				display:block;
+				> img{
+					max-width:100%;
+					height:300px;
+				}
+			}
+		}
+	}
+
+	@media (min-width:768px) and (max-width:991px) {
+	body.single-lv_listing {
+			.meta-summary {
+				li {
+					margin: 0px 2em 0 0;
+				}
+			}
+		}
+	}
+
+
+
+
+/*-----------------------------------------
+	2. Listing Page
+-----------------------------------------*/
+	#lava-directory-manager-listing {
+		margin-bottom:2em;
+		background: #f4f4f4;
+		padding: 2%;
+		border-radius: 5px;
+		.search-type {
+
+			.search-type-keywords,
+			.search-type-location {
+				width:35%;
+				padding-right: 1.5em;
+				float: left;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+				input, select {
+					height: 34px;
+					width: 100%;
+					border: 1px solid #ccc;
+					padding: 0.428571429rem;
+					border-radius:3px;
+					-moz-border-radius:3px;
+					-webkit-border-radius:3px;
+					-webkit-box-sizing: border-box;
+					-moz-box-sizing: border-box;
+					box-sizing: border-box;
+				}
+			}
+			.search-type-category {
+				float: left;
+				width:30%;
+				select {
+					height: 34px;
+					width: 100%;
+					border: 1px solid #ccc;
+					padding: 0.428571429rem;
+					border-radius:3px;
+					-moz-border-radius:3px;
+					-webkit-border-radius:3px;
+					-webkit-box-sizing: border-box;
+					-moz-box-sizing: border-box;
+					box-sizing: border-box;
+				}
+			}
+
+		}
+		.select-type {
+			margin-top: 45px;
+			li {
+				display:inline-block;
+				margin-left: 0;
+				&:last-child {
+					label {
+						margin-right:0;
+						padding-right:0;
+						border-right:none;
+					}
+				}
+			}
+			label {
+				margin-right: 9px;
+				font-size: 13px;
+				border-right: 1px solid #ccc;
+				padding-right: 9px;
+
+			}
+
+		}
+	}
+	#lava-directory-manager-output {
+		a {
+			text-decoration: none;
+		}
+		h1 {
+			color: #999;
+			font-size: 1em;
+			line-height: 1.5em;
+			letter-spacing: 1px;
+			font-weight: 700;
+			margin: 0;
+		}
+		.lava-directory-manager-listing-item {
+			padding-top: 1.2em;
+			padding-bottom: 1.2em;
+			border-bottom: 1px solid #e9e9e9;
+
+			&:hover {
+				background: #f9f9f9;
+				border-radius: 3px;
+			}
+			.lava-image {
+				width: 15%;
+				display: inline-block;
+				vertical-align: middle;
+				text-align: center;
+				.lava-thb {
+					width: 4em !important;
+					height: 4em !important;
+					margin: 0 auto;
+					border-radius: 100%;
+					background-position: center center;
+					background-size: cover;
+				}
+				strong {
+					color:#888;
+					font-size: 1em;
+				}
+			}
+			.description {
+				width: 84%;
+				display: inline-block;
+				vertical-align: middle;
+				ul {
+					list-style:none;
+					margin: 0;
+					margin-top: 5px;
+					padding:0;
+					li {
+						margin:0;
+						display: inline-block;
+						margin-right: 1em;
+						span {
+							font-size:13px;
+							color:#999;
+						}
+					}
+					.meta-type {
+						span {
+							&:not(:empty){
+								background:#ff5a5f;
+								color: #fff;
+								padding: 2px 10px;
+								border-radius: 3px;
+								font-size: 12px;
+							}
+						}
+					}
+					.meta-date {
+						float: right;
+
+					}
+				}
+			}
+		}
+	}
+
+	@media  (max-width:992px) {
+		#lava-directory-manager-listing {
+			.search-type {
+				.search-type-category {
+					select {
+						height: 34px;
+						overflow: hidden;
+					}
+				}
+			}
+		}
+	}
+	@media  (max-width:767px) {
+		#lava-directory-manager-output {
+			.lava-directory-manager-listing-item {
+				.lava-image {
+					display:none;
+				}
+				.description {
+					ul {
+						.meta-date {
+							display:none;
+						}
+						.meta-location {
+							margin-right:0;
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+/*-----------------------------------------
+	3. Add Item Page
+-----------------------------------------*/
+
+@form-bg-color:#eeeeee;
+@form-border-color:#e9e9e9;
+@form-holder-color:#eeeeee;
+
+@form-btn-bg:#eeeeee;
+@form-btn-border:#e9e9e9;
+@form-btn-txt-color:#666;
+
+	.lava-item-add-form {
+		& > form {
+
+			textarea::-webkit-input-placeholder, input::-webkit-input-placeholder{
+				color: #c6c6c6 !important;
+			}
+			.form-inner{
+				position:relative;
+				padding: 14px 0px 10px 0px;
+				border-bottom: 0px solid #f9f9f9;
+				display:table;
+				width:100%;
+
+				& > label.field-title, & > label {
+					width:29%;
+					display: table-cell;
+					line-height: 34px;
+					margin-right: 10px;
+					vertical-align: middle;
+					font-size: 12px;
+					text-transform: uppercase;
+					font-weight: 400;
+					letter-spacing: 2px;
+					color: #777;
+				}
+
+				& > label {
+					display:inline-block;
+				}
+
+				& > div.address-group{
+					display:table;
+					width:100%;
+					& > input, & > button{
+						display:table-cell;
+						&.lava-add-item-map-search{
+							width:75%;
+						}
+						&.lava-add-item-map-search-find{
+							width:20%;
+							margin-left:10px;
+							&[type=button]{
+								margin-top:0;
+							}
+
+						}
+					}
+				}
+
+				.selectize-control, select, input:not([type=radio]):not([type=checkbox]), textarea, .lava-fileupload-wrap, .form-inner-video {
+					width:100%;
+					display: table-cell;
+					vertical-align: middle;
+					line-height: 21px;
+					-webkit-box-sizing: border-box;
+					-moz-box-sizing: border-box;
+					box-sizing: border-box;
+					border-radius:3px;
+					-moz-border-radius:3px;
+					-webkit-border-radius:3px;
+				}
+
+				.selectize-control.multi .selectize-input > div {
+				    padding: 1px 3px 1px 10px;
+				    background: #6f6f6f;
+				    color: #ffffff;
+				}
+				.select{
+					width:100%;
+					&::after, &::before{content:none !important;}
+				}
+				input, .selectize-input, textarea, select, select option {
+					padding: 0.5em 1em;
+					font-size: 11px;
+					border-radius:3px;
+					-moz-border-radius:3px;
+					-webkit-border-radius:3px;
+					border:1px solid @form-border-color;
+					background: @form-bg-color;
+					font-weight:400;
+				}
+				.video-portal, .video-id {
+					display: inline-block;
+				}
+				.video-portal {
+					select {
+						width:100%;
+						vertical-align:middle;
+					}
+				}
+				.video-id {
+					width:60%;
+					input {
+						width:100%;
+						height: 34px;
+						vertical-align: middle;
+					}
+				}
+				/** addons **/
+				.loop-field-item{
+					background-color:#f5f5f5 !important;
+					div.field-item {
+						div{
+							padding:10px;
+							input, textarea {
+								background:#ffffff;
+								color: #454545;
+							}
+							&.loop-action{
+								[type=button]{
+									background: #fff;
+									&:hover {
+										background: #ccc;
+										border: 1px solid #ccc;
+										color: #454545;
+									}
+								}
+								&::after{
+									color:#454545;
+									text-shadow: none;
+									border: 1px solid #dadada;
+									font-size: 16px;
+									top:0;
+									background:#fff;
+								}
+							}
+						}
+					}
+				}
+				&.ajax-process{
+					&:after{
+						content:'';
+						display:block;
+						position:absolute;
+						top:0;
+						left:0;
+						right:0;
+						bottom:0;
+						/*Selectize z-index ... */
+						z-index:1;
+						background-color:rgba( 255, 255, 255, .8 );
+						background-image: url(../images/loading2.gif);
+						background-position: center center;
+						background-repeat: no-repeat;
+					}
+					&.no-effect {
+						&:after{
+							background-image:none;
+						}
+					}
+				}
+			}
+			.lava_map_advanced {
+				background-color: #f4f4f4;
+				padding: 35px;
+				input {
+					background-color: #fff;
+				}
+			}
+			#lava-detail-image-input-wrap{
+				fieldset{
+					max-width:25%;
+					float:left;
+				}
+			}// #lava-detail-image-input-wrap
+			button, [type=button] {
+				font-size:11px;
+				letter-spacing: 1px;
+				text-transform: uppercase;
+				background: @form-btn-bg;
+				border: 1px solid @form-btn-border;
+				padding: 7px 12px 5px 12px;
+				color: @form-btn-txt-color;
+				margin-top: 10px;
+				&:hover {
+					background: #ccc;
+					border: 1px solid #ccc;
+					color: #fff;
+				}
+			}
+
+			.amenties-field .output label {
+				display: inline-block;
+				font-weight: 400;
+				width: 30.3%;
+				position: relative;
+			}
+		}
+		fieldset.submit{
+			display:block;
+			text-align:center;
+			margin:30px 0;
+			& > button, & > button[type=submit]{
+				font-size:16px;
+				font-weight:600;
+				padding:5px 30px;
+			}
+		}
+	}
+
+	#lava-additem-upload-loading{
+		display:inline-block;
+		width:18px;
+		height:18px;
+		background-image:url( '../images/loading.gif');
+		background-repeat:no-repeat;
+		background-size:cover;
+		opacity:0.3;
+	}
+
+	div#lava-detail-image-input-wrap{
+		&::after{
+			content:'';
+			display:block;
+			clear:both;
+		}
+	}
+
+/*-----------------------------------------
+   4. Dashboard My Item List Page
+-----------------------------------------*/
+
+	.lava-my-item-list {
+		h2 {
+			color: #777;
+			font-size: 15px;
+			line-height: 33px;
+			letter-spacing: 1px;
+			font-weight: 700;
+			margin: 20px 0;
+			border-bottom: 2px solid #eee;
+		}
+
+		table {
+			thead {
+				background:#f4f4f4;
+				tr {
+					th {
+						font-size: 12px;
+						text-transform: uppercase;
+						font-weight: 700;
+						letter-spacing: 2px;
+						padding: 5px 15px;
+						color: #666;
+					}
+				}
+			}
+			tbody {
+				tr {
+					th {
+						padding: 15px 15px 5px 15px;
+						font-size: 12px;
+						color: #999;
+						border-bottom: 1px solid #e9e9e9;
+						.lava-title {
+							margin-bottom: 0em;
+							line-height: 15px;
+							a {
+								text-decoration: none;
+								color: #666;
+								font-size: 14px;
+								font-weight: 600;
+							}
+						}
+						.lava-action {
+							line-height: 15px;
+							a {
+								text-decoration: none;
+								font-size: 10px;
+								color: #aaa;
+								margin-right: 1em;
+							}
+						}
+					}
+				}
+			}
+		}
+		.lava-pagination {
+			text-align: center;
+			margin: 20px 0;
+			font-size:12px;
+		}
+	}
+
+/*-----------------------------------------
+   5. Sidebar - Widget
+-----------------------------------------*/
+// Widget - Recent widget
+.lava-recent-widget{
+	margin-bottom:30px;
+	.lava-recent-widget-title{
+		margin-bottom:20px;
+		border-bottom:2px solid #ddd;
+		h3{
+			font-size:16px;
+			line-height:16px;
+			text-transform:uppercase;
+			color:#666;
+		}
+	}// lava-recent-widget-title
+
+	.latest-posts{
+		margin-bottom:10px;
+		.lava-recent-widget-content{
+			float:left;
+			&.thumb-content{
+				width:30%;
+				.thumb{
+					a{
+						position:relative;
+						display:inline-block;
+						&:hover{
+							&::after{
+								background-color:rgba(0,0,0,0.3);
+							}
+						} // a:hover
+						&::after{
+							content:'';
+							background-color:rgba(0,0,0,0);
+							position:absolute;
+							top:0;
+							left:0;
+							width:100%;
+							height:93%;
+							border-radius:100%;
+							-webkit-transition:all 1s;
+							-moz-transition: all 1s;
+							-ms-transition: all 1s;
+							-o-transition: all 1s;
+							transition: all 1s;
+						} // a:after
+
+						img{
+							border-radius:100%;
+							border: 3px solid #aaa;
+						}
+					}
+				}// .thumb
+			}// .lava-recent-widget-content.thumb-content
+			&.text-content{
+				width:70%;
+				h3{
+					margin-bottom:5px;
+					margin-top:0px;
+					font-size:14px;
+					line-height:15px;
+					a{
+						color:#777;
+					}
+				}
+				a{
+					color:#999;
+					text-decoration:none;
+
+				}
+			}// .lava-recent-widget-content.text-content
+		}// .lava-recent-widget-content
+		&::after{
+			content:'';
+			display:block;
+			clear:both;
+		}
+	}// latest-posts
+}// lava-recent-widget
+
+/* Widget - Featured widget */
+.lava-featured-widget{
+	margin-bottom:30px;
+	.lava-featured-widget-title{
+		margin-bottom:20px;
+		border-bottom:2px solid #ddd;
+		h3{
+			font-size:16px;
+			line-height:16px;
+			text-transform:uppercase;
+			color:#666;
+		}
+	}// lava-featured-widget-title
+	.latest-posts{
+		margin-bottom:30px;
+		.lava-featured-widget-content{
+
+			position: relative;
+			.corner-ribbon{
+				width: 100px;
+				background: #ff5a5f;
+				position: absolute;
+				top: 5px;
+				left: -3px;
+				text-align: center;
+				line-height: 30px;
+				letter-spacing: 1px;
+				color: #f0f0f0;
+				box-shadow: 0 0 3px rgba(0,0,0,.3);
+			}
+			&.thumb-content{
+				display:table;
+				margin:0 auto;
+				margin-bottom:20px;
+				.thumb{
+					a{
+						img{
+							box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+							max-width:100%;
+							width:100% !important;
+							height:auto !important;
+						}
+					}
+				}
+			}// thumb-content
+			&.text-content{
+				h3{
+					margin-bottom:5px;
+
+					a{
+						font-size:14px;
+						color:#454545;
+					}
+				}
+				span{
+					font-size:12px;
+					color:#646464;
+				}
+				a{
+					text-decoration:none;
+					color:#000;
+					font-size:12px;
+				}
+				p{
+					margin-top:15px;
+					font-size:16px;
+					&.price{
+						margin-top:2px;
+						font-size:14px;
+					}
+				}
+			}// text-content
+		}// lava-featured-widget-content
+	}// latest-posts
+}// lava-featured-widget
+
+/* Widget - Single Contact */
+#lava-single-contact-widget{
+	margin: 0 0 50px 0;
+	> div{
+		text-align:center;
+	}
+	.author-avatar{
+		img{
+			max-width:100%;
+		}
+		.author-name{
+			font-size:1.2em;
+			font-weight:bold;
+			text-transform:uppercase;
+		}
+		.author-phone a,
+		.author-email a,
+		.author-properties{
+			color:#888;
+		}
+
+
+	}
+}
+
+/*-----------------------------------------
+	6. jQuery Lava MessageBox
+-----------------------------------------*/
+div#lava-alert-box-bg{
+	position: fixed;
+	background: rgba( 45, 45, 45, .2);
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 999998;
+}
+div#lava-alert-box{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 999999;
+	background-color: #fff;
+
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border: solid 1px #efefef;
+	padding: 10px 30px;
+	box-shadow: 0 0 20px rgba( 150, 150, 150, .8 );
+	-webkit-box-shadow: 0 0 20px rgba( 150, 150, 150, .8 );
+	-moz-box-shadow: 0 0 20px rgba( 150, 150, 150, .8 );
+	-ms-box-shadow: 0 0 20px rgba( 150, 150, 150, .8 );
+	-o-box-shadow: 0 0 20px rgba( 150, 150, 150, .8 );
+}
+
+/*-----------------------------------------
+	7. Map Template Page
+-----------------------------------------*/
+#lava-map-container{ height:300px; }
+#lava-map-output{
+	margin: 0 0 30px 0;
+	.lava-list-item{
+		width:100%;
+		display:table;
+		padding:10px;
+		margin:10px 0;
+		border-bottom:1px solid #ccc;
+		.lv-item-thumbnail{
+			float:left;
+			width:10%;
+		}
+
+		.lv-item-name-wrap{
+			float:left;
+			width:75%;
+			.item-name{
+				margin-bottom:20px;
+				a{
+					display:block;
+					margin:10px 0;
+					text-decoration: none;
+					font-weight: 700;
+					display:table-cell;
+					font-size:20px;
+				}
+			}// item-name
+			.lv-item-info{
+				span{
+					color:#aaa;
+					font-size:13px;
+					display: block;
+					float: left;
+					width: 30%;
+				}
+			}
+		}// lv-item-name-wrap
+		.item-author{
+			width:10%;
+			text-align:center;
+			float:left;
+			display:table-cell;
+		}// item-author
+		&:hover{
+			background-color:#eee;
+		}
+	}
+}
+#lava-map-filter{
+	margin: 0 0 15px 0;
+	.filter-group{
+		display:table;
+		width:100%;
+		margin: 10px 0;
+		.filter-group-column{
+			display:table-cell;
+			width:50%;
+			&:first-child
+			{
+				padding-right:5px;
+			}
+			&:last-child
+			{
+				padding-left:5px;
+			}
+		}
+		> label,
+		.filter-group-column > label{
+			text-indent:-9999px;
+			display:none;
+		}
+		> select,
+		.filter-group-column > select{
+			width:100%;
+
+		}
+		&.submit{
+			padding:0;
+			margin:0;
+			input, button{
+				float:left;
+			}
+			input{
+				width:80%;
+			}
+			button{
+				width:18%;
+			}
+		}
+	}
+}
+
+/*-----------------------------------------
+	8. PLUploader Style
+-----------------------------------------*/
+@color_1: #f0f0f0;
+@color_2: #fff;
+@background_color_1: #efefef;
+@background_color_2: rgba(0, 0, 0, 0.5);
+@background_color_3: rgba(0, 0, 0, 0.6);
+
+#lava-multi-uploader-drag-drop {
+	background-color: @background_color_1;
+	border: 2px dashed #dfdfdf;
+	text-align: center;
+	padding: 30px;
+	margin-top: 10px;
+}
+.lava-multi-uploader-wrap {
+	.sortable-placeholder {
+		width: 133px;
+		height: 133px;
+		margin: 0 0 5px 5px;
+		width: 141px;
+		height: 141px;
+		float: left;
+		margin: 0 0 8px 8px;
+		background-color: @background_color_1;
+		img {
+			width: 133px;
+			height: 133px;
+		}
+	}
+	.gallery-thumb {
+		width: 133px;
+		height: 133px;
+		margin: 0 0 5px 5px;
+		width: 141px;
+		height: 141px;
+		float: left;
+		margin: 0 0 8px 8px;
+		background-color: @background_color_1;
+		position: relative;
+		display: table;
+		text-align: center;
+		background-color: @background_color_1;
+		box-shadow: inset 0px 0px 0px 2px #dfdfdf;
+		img {
+			width: 133px;
+			height: 133px;
+			width: 141px;
+			height: 141px;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		span {
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+			font-weight: bold;
+		}
+		.mark-featured {
+			display: block;
+			background-color: @background_color_2;
+			color: @color_1;
+			padding: 5px 8px;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			font-size: 16px;
+			right: auto;
+			top: auto;
+			bottom: 0;
+			left: 0;
+			&:hover {
+				color: @color_2;
+				background-color: @background_color_3;
+			}
+		}
+		.loader {
+			display: block;
+			background-color: @background_color_2;
+			color: @color_1;
+			padding: 5px 8px;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			font-size: 16px;
+			right: auto;
+			bottom: auto;
+			left: 0;
+			top: 0;
+			background-color: @background_color_3;
+			color: @color_2;
+			display: none;
+			&:hover {
+				color: @color_2;
+				background-color: @background_color_3;
+			}
+		}
+		a {
+			display: block;
+			background-color: @background_color_2;
+			color: @color_1;
+			padding: 5px 8px;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			font-size: 16px;
+			&:hover {
+				color: @color_2;
+				background-color: @background_color_3;
+			}
+		}
+	}
+	.image {
+		margin-bottom: 6px;
+	}
+	#add-more {
+		margin-bottom: 10px;
+	}
+	#featured-file-container.hidden {
+		display: none;
+	}
+	#featured-thumb-container {
+		margin: 0 0 10px -8px;
+	}
+	#gallery-thumbs-container {
+		margin: 0 0 10px -8px;
+	}
+}
+
+
+

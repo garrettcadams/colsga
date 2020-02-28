@@ -1,0 +1,1118 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-07 07:48+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: lava-directory-manager.php:114
+#, php-format
+msgid "Lava Single Sidebar (%s)"
+msgstr ""
+
+#: includes/class-addons.php:186 includes/class-addons.php:188
+#: includes/class-addons.php:190 includes/class-core.php:207
+msgid "Error"
+msgstr ""
+
+#: includes/class-addons.php:225
+msgid "Server Error"
+msgstr ""
+
+#: includes/class-addons.php:305
+msgid "Download from plugin site"
+msgstr ""
+
+#: includes/class-admin.php:148
+msgid "You can add icon class "
+msgstr ""
+
+#: includes/class-admin.php:152
+msgid "Awesome Font Icons"
+msgstr ""
+
+#: includes/class-admin.php:156
+msgid "Before you use font icons, you need to enqueue icon code "
+msgstr ""
+
+#: includes/class-admin.php:160
+msgid "Here"
+msgstr ""
+
+#: includes/class-admin.php:164
+msgid "(If you are using javo themes, you do not need to enqueue)"
+msgstr ""
+
+#: includes/class-admin.php:176 includes/class-admin.php:262
+#: includes/class-admin.php:988 templates/form/lava-add-item-file.php:52
+#: templates/form/lava-add-item-file.php:72
+msgid "Featured Image"
+msgstr ""
+
+#: includes/class-admin.php:263 includes/class-admin.php:766
+#: includes/class-admin.php:779
+msgid "Name"
+msgstr ""
+
+#: includes/class-admin.php:264 includes/class-admin.php:353
+#: includes/class-admin.php:781 includes/admin/part-add-category-meta.php:7
+#: includes/admin/part-edit-category-meta.php:8
+msgid "Icon"
+msgstr ""
+
+#: includes/class-admin.php:265 includes/class-admin.php:767
+#: includes/class-admin.php:780 templates/content.php:73
+#: templates/template-addItem.php:32
+msgid "Description"
+msgstr ""
+
+#: includes/class-admin.php:266 includes/admin/part-add-category-meta.php:13
+#: includes/admin/part-edit-category-meta.php:20
+msgid "Map Marker"
+msgstr ""
+
+#: includes/class-admin.php:267 includes/class-admin.php:770
+#: includes/class-admin.php:782
+msgid "Slug"
+msgstr ""
+
+#: includes/class-admin.php:268 includes/class-admin.php:771
+#: includes/class-admin.php:783
+msgid "Items"
+msgstr ""
+
+#: includes/class-admin.php:340
+msgid "Listing Additional Meta"
+msgstr ""
+
+#: includes/class-admin.php:393 includes/class-shortcodes.php:204
+#: includes/class-submit.php:371
+msgid "You are not the author."
+msgstr ""
+
+#: includes/class-admin.php:505 includes/class-admin.php:529
+msgid "Lava Directory Manager Settings"
+msgstr ""
+
+#: includes/class-admin.php:506
+msgid "Settings"
+msgstr ""
+
+#: includes/class-admin.php:560 includes/functions-core.php:208
+msgid "Save"
+msgstr ""
+
+#: includes/class-admin.php:647
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/class-admin.php:768
+msgid "Marker Preview"
+msgstr ""
+
+#: includes/class-admin.php:769
+msgid "Featured Preview"
+msgstr ""
+
+#: includes/class-admin.php:825
+msgid "Select Category Featured Image"
+msgstr ""
+
+#: includes/class-admin.php:826
+msgid "Apply"
+msgstr ""
+
+#: includes/class-admin.php:976 templates/template-addItem.php:17
+#: templates/template-dashboard.php:33
+#: includes/widgets/widget-featureds.php:112
+#: includes/widgets/widget-recents.php:109
+#: includes/widgets/widget-single-contact.php:89
+msgid "Title"
+msgstr ""
+
+#: includes/class-admin.php:979 templates/template-addItem.php:25
+#: includes/admin/admin-metabox.php:17
+msgid "TagLine"
+msgstr ""
+
+#: includes/class-admin.php:982
+msgid "Content"
+msgstr ""
+
+#: includes/class-admin.php:985 includes/admin/admin-metabox.php:5
+#: templates/form/lava-add-item-file.php:36
+msgid "Logo"
+msgstr ""
+
+#: includes/class-admin.php:991 templates/form/lava-add-item-file.php:98
+#: templates/form/lava-add-item-file.php:107
+msgid "Detail Images"
+msgstr ""
+
+#: includes/class-admin.php:994
+msgid "Map Informations"
+msgstr ""
+
+#: includes/class-core.php:116
+#, php-format
+msgid "%s is invalid taxonomy name."
+msgstr ""
+
+#: includes/class-core.php:204
+msgid "invalid access"
+msgstr ""
+
+#: includes/class-core.php:215 templates/content.php:48
+msgid "Website"
+msgstr ""
+
+#: includes/class-core.php:221 templates/content.php:49
+msgid "Email"
+msgstr ""
+
+#: includes/class-core.php:227 templates/content.php:50
+msgid "Address"
+msgstr ""
+
+#: includes/class-core.php:233 templates/content.php:51
+msgid "Contact Phone 1"
+msgstr ""
+
+#: includes/class-core.php:239 templates/content.php:52
+msgid "Contact Phone 2"
+msgstr ""
+
+#: includes/class-core.php:245
+msgid "Price"
+msgstr ""
+
+#: includes/class-core.php:251
+msgid "Sale Price"
+msgstr ""
+
+#: includes/class-core.php:257
+msgid "Currency Unit"
+msgstr ""
+
+#: includes/class-core.php:263
+msgid "Facebook Link"
+msgstr ""
+
+#: includes/class-core.php:267
+msgid "ex) https://www.facebook.com/lavacode"
+msgstr ""
+
+#: includes/class-core.php:270
+msgid "Twitter Link"
+msgstr ""
+
+#: includes/class-core.php:274
+msgid "ex) https://twitter.com/lavacode"
+msgstr ""
+
+#: includes/class-core.php:277
+msgid "Instagram Link"
+msgstr ""
+
+#: includes/class-core.php:281
+msgid "ex) https://www.instagram.com/lavacode"
+msgstr ""
+
+#: includes/class-core.php:284
+msgid "Google+ Link"
+msgstr ""
+
+#: includes/class-core.php:288
+msgid "ex) https://plus.google.com/lavacode"
+msgstr ""
+
+#: includes/class-core.php:291
+msgid "Linkedin"
+msgstr ""
+
+#: includes/class-core.php:295
+msgid "ex) https://www.linkedin.com/"
+msgstr ""
+
+#: includes/class-core.php:298
+msgid "Youtube Link"
+msgstr ""
+
+#: includes/class-core.php:302
+msgid "ex) https://wwww.youtube.com/"
+msgstr ""
+
+#: includes/class-core.php:314
+msgctxt "Amenities Label"
+msgid "Listing Amenities"
+msgstr ""
+
+#: includes/class-core.php:316
+msgctxt "Amenities Name"
+msgid "Amenities"
+msgstr ""
+
+#: includes/class-core.php:327
+msgctxt "Item Types Label"
+msgid "Listing Categories"
+msgstr ""
+
+#: includes/class-core.php:329
+msgctxt "Item Types Name"
+msgid "Categories"
+msgstr ""
+
+#: includes/class-core.php:341
+msgctxt "Location Label"
+msgid "Listing Location"
+msgstr ""
+
+#: includes/class-core.php:343
+msgctxt "Location Name"
+msgid "Locations"
+msgstr ""
+
+#: includes/class-core.php:355
+msgctxt "Keyword Label"
+msgid "Listing Keyword"
+msgstr ""
+
+#: includes/class-core.php:357
+msgctxt "Keyword Name"
+msgid "Keyword"
+msgstr ""
+
+#: includes/class-core.php:388 templates/template-map.php:52
+msgid "Listings"
+msgstr ""
+
+#: includes/class-core.php:390
+msgctxt "post type general name"
+msgid "Listings"
+msgstr ""
+
+#: includes/class-core.php:391
+msgctxt "post type singular name"
+msgid "Listing"
+msgstr ""
+
+#: includes/class-core.php:392
+msgctxt "admin menu"
+msgid "Listings"
+msgstr ""
+
+#: includes/class-core.php:393
+msgctxt "add new on admin bar"
+msgid "Listing"
+msgstr ""
+
+#: includes/class-core.php:394
+msgctxt "Listing"
+msgid "Add New"
+msgstr ""
+
+#: includes/class-core.php:395
+msgid "Add New Listing"
+msgstr ""
+
+#: includes/class-core.php:396
+msgid "New Listing"
+msgstr ""
+
+#: includes/class-core.php:397
+msgid "Edit Listing"
+msgstr ""
+
+#: includes/class-core.php:398
+msgid "View Listing"
+msgstr ""
+
+#: includes/class-core.php:399
+msgid "All Listings"
+msgstr ""
+
+#: includes/class-core.php:400
+msgid "Search Listings"
+msgstr ""
+
+#: includes/class-core.php:401
+msgid "Parent Listings:"
+msgstr ""
+
+#: includes/class-core.php:402
+msgid "Not found Listings."
+msgstr ""
+
+#: includes/class-core.php:403
+msgid "Not found properties in trash."
+msgstr ""
+
+#: includes/class-core.php:509
+msgid "There is no location information on this item."
+msgstr ""
+
+#: includes/class-core.php:510
+msgid ""
+"This location is not supported by google StreetView or the location did not "
+"add."
+msgstr ""
+
+#: includes/class-field.php:300 includes/class-shortcodes.php:130
+msgid "has been saved successfully."
+msgstr ""
+
+#: includes/class-field.php:301 includes/class-shortcodes.php:131
+#: includes/class-submit.php:124
+msgid "Download"
+msgstr ""
+
+#: includes/class-field.php:302 includes/class-shortcodes.php:132
+#: templates/template-dashboard.php:91
+#: includes/admin/admin-featured-form.php:15
+#: includes/admin/part-add-category-meta.php:25
+#: includes/admin/part-add-term-featured-image.php:15
+#: includes/admin/part-edit-category-meta.php:34
+#: includes/admin/part-edit-term-featured-image.php:17
+#: templates/form/lava-add-item-file.php:107
+msgid "Remove"
+msgstr ""
+
+#: includes/class-shortcodes.php:133
+msgid "Required field is empty : "
+msgstr ""
+
+#: includes/class-shortcodes.php:134
+msgid "Please add a featured image."
+msgstr ""
+
+#: includes/class-shortcodes.php:135
+msgid "Please add a Detail images."
+msgstr ""
+
+#: includes/class-shortcodes.php:136
+msgid "Please choose at least one option."
+msgstr ""
+
+#: includes/class-shortcodes.php:137
+msgid "Map information is required."
+msgstr ""
+
+#: includes/class-shortcodes.php:172
+msgid "Do you want to delete this item?"
+msgstr ""
+
+#: includes/class-shortcodes.php:189
+msgid "Please login"
+msgstr ""
+
+#: includes/class-shortcodes.php:200
+msgid "Invaild Post ID."
+msgstr ""
+
+#: includes/class-submit.php:71 templates/template-dashboard.php:88
+msgid "Edit"
+msgstr ""
+
+#: includes/class-submit.php:105
+msgid "Inavild File"
+msgstr ""
+
+#: includes/class-submit.php:177 templates/content.php:66
+#: templates/template-map.php:33 templates/template-map.php:35
+msgid "Amenities"
+msgstr ""
+
+#: includes/class-submit.php:204
+msgid "Invaild User Email."
+msgstr ""
+
+#: includes/class-submit.php:208
+msgid "Invaild User Password."
+msgstr ""
+
+#: includes/class-submit.php:245
+#, php-format
+msgid "Limited amount of images : %s ( You have uploaded : %s )"
+msgstr ""
+
+#: includes/class-submit.php:346
+msgid "Please try again, failure to submit"
+msgstr ""
+
+#: includes/class-submit.php:369
+msgid "It has been deleted."
+msgstr ""
+
+#: includes/class-template.php:97 includes/class-template.php:122
+#, php-format
+msgid "Lava %s Map Template"
+msgstr ""
+
+#: includes/class-template.php:348
+msgid "Edit this post"
+msgstr ""
+
+#: includes/class-template.php:356
+msgid "Publish this post"
+msgstr ""
+
+#: includes/class-template.php:377
+msgid "Finish"
+msgstr ""
+
+#: includes/class-template.php:564 templates/template-not-list.php:8
+msgid "Not found results."
+msgstr ""
+
+#: includes/functions-ajaxMap.php:155
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: includes/functions-core.php:207
+msgid "Submit"
+msgstr ""
+
+#: includes/functions-core.php:378
+msgid "Amenities not found."
+msgstr ""
+
+#: templates/content.php:7
+msgid "Summary"
+msgstr ""
+
+#: templates/content.php:17 templates/template-map.php:15
+msgid "Category"
+msgstr ""
+
+#: templates/content.php:22 templates/content.php:79
+#: templates/template-listing.php:10 templates/template-map.php:26
+#: templates/form/lava-add-item-location.php:2
+msgid "Location"
+msgstr ""
+
+#: templates/content.php:44
+msgid "Details"
+msgstr ""
+
+#: templates/content.php:53
+msgid "Facebook"
+msgstr ""
+
+#: templates/content.php:54
+msgid "Twitter"
+msgstr ""
+
+#: templates/content.php:55
+msgid "Instagram"
+msgstr ""
+
+#: templates/content.php:56
+msgid "Google+"
+msgstr ""
+
+#: templates/content.php:81 includes/admin/admin-metabox.php:56
+msgid "StreetView"
+msgstr ""
+
+#: templates/template-addItem.php:29 includes/admin/admin-metabox.php:21
+msgid "Tagline"
+msgstr ""
+
+#: templates/template-dashboard.php:36
+msgid "Posted Date"
+msgstr ""
+
+#: templates/template-dashboard.php:39
+msgid "Status"
+msgstr ""
+
+#: templates/template-dashboard.php:46
+msgid "My Directory Items"
+msgstr ""
+
+#: templates/template-dashboard.php:109
+msgid "PUBLISH"
+msgstr ""
+
+#: templates/template-dashboard.php:109
+msgid "PENDING"
+msgstr ""
+
+#: templates/template-listing.php:5
+msgid "Keywords"
+msgstr ""
+
+#: templates/template-listing.php:13
+msgid "Any Location"
+msgstr ""
+
+#: templates/template-listing.php:39
+msgid "Search"
+msgstr ""
+
+#: templates/template-map.php:17
+msgid "Categories"
+msgstr ""
+
+#: templates/template-map.php:28
+msgid "Location (city)"
+msgstr ""
+
+#: templates/template-map.php:42 templates/template-map.php:43
+msgid "Keyword"
+msgstr ""
+
+#: templates/template-map.php:45
+msgid "Search Now"
+msgstr ""
+
+#: templates/template-map.php:53
+msgid "Loading"
+msgstr ""
+
+#: includes/admin/admin-addons.php:11
+msgid "Please type your email account "
+msgstr ""
+
+#: includes/admin/admin-addons.php:12
+msgid "Please type license key"
+msgstr ""
+
+#: includes/admin/admin-addons.php:13
+msgid ""
+"Failed to register your license key. please try again or contact to lava "
+"support team"
+msgstr ""
+
+#: includes/admin/admin-addons.php:32
+msgid "Refresh & check update"
+msgstr ""
+
+#: includes/admin/admin-addons.php:34
+msgid "How to active addons and add your license key"
+msgstr ""
+
+#: includes/admin/admin-addons.php:36
+msgid "Visit lava code addon list"
+msgstr ""
+
+#: includes/admin/admin-amenities-form.php:6
+#: includes/admin/admin-amenities-form.php:10
+msgid "Amenities Icon"
+msgstr ""
+
+#: includes/admin/admin-amenities-form.php:20
+msgid ""
+"<p>You can add icon class. <a href=\"http://fontawesome.io/icons/\" "
+"target=\"_blank\">Awesome Font Icons</a> <a href=\"https://wpjavo."
+"com/a/jvbpd-icons.html\" target=\"_blank\">Javo Custom Icons</a><br>Before "
+"you use font icons, you need to enqueue icon code. <a href=\"http:"
+"//fontawesome.io/get-started/\" target=\"_blank\">Here</a><br>\n"
+"\t\t(If you are using javo themes, you do not need to enqueue)</p>"
+msgstr ""
+
+#: includes/admin/admin-featured-form.php:3
+msgid ""
+"Category markers : you need to refresh map data after you upload or change "
+"map pins (markers). Listings > Settings > Json Generator"
+msgstr ""
+
+#: includes/admin/admin-featured-form.php:12
+#: includes/admin/admin-metabox.php:10
+#: includes/admin/part-add-category-meta.php:22
+#: includes/admin/part-add-term-featured-image.php:12
+#: includes/admin/part-edit-category-meta.php:31
+#: includes/admin/part-edit-term-featured-image.php:14
+#: templates/form/lava-add-item-file.php:41
+#: templates/form/lava-add-item-file.php:72
+#: templates/form/lava-add-item-file.php:78
+#: templates/form/lava-add-item-file.php:107
+#: templates/form/lava-add-item-file.php:113
+msgid "Select"
+msgstr ""
+
+#: includes/admin/admin-index.php:6
+msgid "Page Settings"
+msgstr ""
+
+#: includes/admin/admin-index.php:12
+msgid "Add Listing"
+msgstr ""
+
+#: includes/admin/admin-index.php:15 includes/admin/admin-index.php:26
+msgid "Select a Page"
+msgstr ""
+
+#: includes/admin/admin-index.php:23
+msgid "My Page"
+msgstr ""
+
+#: includes/admin/admin-index.php:34
+msgid "Login Page"
+msgstr ""
+
+#: includes/admin/admin-index.php:38
+msgid "Wordpress Login Page"
+msgstr ""
+
+#: includes/admin/admin-index.php:39
+msgid "Custom Login Page"
+msgstr ""
+
+#: includes/admin/admin-index.php:53
+msgid "Add listing Settings"
+msgstr ""
+
+#: includes/admin/admin-index.php:61
+msgid "New listing Status"
+msgstr ""
+
+#: includes/admin/admin-index.php:70
+msgid "Publish"
+msgstr ""
+
+#: includes/admin/admin-index.php:79
+msgid "Pending"
+msgstr ""
+
+#: includes/admin/admin-index.php:89
+msgid "Post new listing permit"
+msgstr ""
+
+#: includes/admin/admin-index.php:93
+msgid "Anyone without login (it will generate an account automatically)"
+msgstr ""
+
+#: includes/admin/admin-index.php:98
+msgid "Only login members"
+msgstr ""
+
+#: includes/admin/admin-index.php:108
+msgid "Max category users can choose on front-end form"
+msgstr ""
+
+#: includes/admin/admin-index.php:111
+msgid "0 is unlimited (recommended 1 )."
+msgstr ""
+
+#: includes/admin/admin-index.php:119
+msgid "Limit Detail image upload"
+msgstr ""
+
+#: includes/admin/admin-index.php:122
+msgid "0 is unlimited (recommended 6 )."
+msgstr ""
+
+#: includes/admin/admin-index.php:130
+msgid "Required Fields"
+msgstr ""
+
+#: includes/admin/admin-index.php:151
+msgid "Map Settings"
+msgstr ""
+
+#: includes/admin/admin-index.php:157
+msgid "Google Map API KEY"
+msgstr ""
+
+#: includes/admin/admin-index.php:164
+msgid "More Detail"
+msgstr ""
+
+#: includes/admin/admin-index.php:171
+msgid "Category search result setting"
+msgstr ""
+
+#: includes/admin/admin-index.php:176
+msgid "Parent category + (related) child categories"
+msgstr ""
+
+#: includes/admin/admin-index.php:177
+msgid "Each category only"
+msgstr ""
+
+#: includes/admin/admin-index.php:188
+msgid "Note : After changes, \"Save\" and press \"Data refresh\"."
+msgstr ""
+
+#: includes/admin/admin-index.php:189
+msgid ""
+"You need to refresh map data ( Data refresh) after you change this option."
+msgstr ""
+
+#: includes/admin/admin-index.php:195
+msgid "Data Refresh"
+msgstr ""
+
+#: includes/admin/admin-index.php:211
+msgid "Refresh"
+msgstr ""
+
+#: includes/admin/admin-index.php:216
+msgid "Processing"
+msgstr ""
+
+#: includes/admin/admin-index.php:217
+msgid "JSON Generator"
+msgstr ""
+
+#: includes/admin/admin-index.php:230
+msgid "Cross Domain"
+msgstr ""
+
+#: includes/admin/admin-index.php:234
+msgid "Disabled ( Default )"
+msgstr ""
+
+#: includes/admin/admin-index.php:239
+msgid "Enable"
+msgstr ""
+
+#: includes/admin/admin-index.php:251
+msgid "Single Page Settings"
+msgstr ""
+
+#: includes/admin/admin-index.php:257
+msgid "Amenities display type"
+msgstr ""
+
+#: includes/admin/admin-index.php:261
+msgid "List all (unselected & selected) (Default)"
+msgstr ""
+
+#: includes/admin/admin-index.php:266
+msgid "List only selected"
+msgstr ""
+
+#: includes/admin/admin-index.php:276
+msgid "Amenities : Icon type"
+msgstr ""
+
+#: includes/admin/admin-index.php:280
+msgid "Default icons ( check, uncheck icons)"
+msgstr ""
+
+#: includes/admin/admin-index.php:285
+msgid "Custom icons ( You can add them on Amenities taxonomy setting. )"
+msgstr ""
+
+#: includes/admin/admin-index.php:296
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/admin-index.php:302
+msgid "Listing Slug"
+msgstr ""
+
+#: includes/admin/admin-index.php:305
+#, php-format
+msgid "Empty is default( %s )"
+msgstr ""
+
+#: includes/admin/admin-index.php:313
+msgid "Blank Image"
+msgstr ""
+
+#: includes/admin/admin-index.php:316
+msgid "Select an Image"
+msgstr ""
+
+#: includes/admin/admin-index.php:317 includes/admin/admin-metabox.php:91
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/admin-index.php:320
+msgid "Preview"
+msgstr ""
+
+#: includes/admin/admin-loop-addons.php:10
+#, php-format
+msgid "Current Version : %s"
+msgstr ""
+
+#: includes/admin/admin-loop-addons.php:13
+#, php-format
+msgid "Lastest Version : %s"
+msgstr ""
+
+#: includes/admin/admin-loop-addons.php:21
+msgid "Update Plugin Page"
+msgstr ""
+
+#: includes/admin/admin-loop-addons.php:25
+msgid "Lastest Version"
+msgstr ""
+
+#: includes/admin/admin-loop-addons.php:30
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/admin/admin-loop-addons.php:54
+msgid "Email (registered in Lava code when purchased)"
+msgstr ""
+
+#: includes/admin/admin-loop-addons.php:56
+msgid "License Key"
+msgstr ""
+
+#: includes/admin/admin-loop-addons.php:58
+msgid "Unregistered"
+msgstr ""
+
+#: includes/admin/admin-loop-addons.php:59
+msgid "Register"
+msgstr ""
+
+#: includes/admin/admin-metabox.php:9 templates/form/lava-add-item-file.php:40
+msgid "Select logo"
+msgstr ""
+
+#: includes/admin/admin-metabox.php:11 templates/form/lava-add-item-file.php:42
+msgid "Reset"
+msgstr ""
+
+#: includes/admin/admin-metabox.php:27
+msgid "Featured Item"
+msgstr ""
+
+#: includes/admin/admin-metabox.php:45
+msgid "Address on map"
+msgstr ""
+
+#: includes/admin/admin-metabox.php:47
+#: templates/form/lava-add-item-location.php:5
+msgid "Find"
+msgstr ""
+
+#: includes/admin/admin-metabox.php:61
+msgid "Use StreetView"
+msgstr ""
+
+#: includes/admin/admin-metabox.php:76
+msgid "Description Images"
+msgstr ""
+
+#: includes/admin/admin-metabox.php:79
+msgid "Add Images"
+msgstr ""
+
+#: includes/admin/part-add-category-meta.php:30
+#: includes/admin/part-edit-category-meta.php:39
+msgid ""
+"Category markers : you need to refresh map data after you upload or change "
+"map pins (markers). Listings > Settings > Jason Generator"
+msgstr ""
+
+#: includes/admin/part-add-category-meta.php:39
+#: includes/admin/part-edit-category-meta.php:52
+msgid "Features (Amenities)"
+msgstr ""
+
+#: includes/widgets/widget-featureds.php:9
+msgid "[Lava] Featured Listings Widget"
+msgstr ""
+
+#: includes/widgets/widget-featureds.php:10
+msgid "This widget shows a list of featured listings as box style."
+msgstr ""
+
+#: includes/widgets/widget-featureds.php:22
+msgid "Featured"
+msgstr ""
+
+#: includes/widgets/widget-featureds.php:80
+msgid "Read more"
+msgstr ""
+
+#: includes/widgets/widget-featureds.php:90
+#: includes/widgets/widget-recents.php:85
+msgid "Not Found Posts."
+msgstr ""
+
+#: includes/widgets/widget-featureds.php:116
+#: includes/widgets/widget-recents.php:114
+msgid "Post type"
+msgstr ""
+
+#: includes/widgets/widget-featureds.php:120
+#: includes/widgets/widget-recents.php:118
+msgid "Item"
+msgstr ""
+
+#: includes/widgets/widget-featureds.php:121
+#: includes/widgets/widget-recents.php:119
+msgid "Post"
+msgstr ""
+
+#: includes/widgets/widget-featureds.php:126
+#: includes/widgets/widget-recents.php:125
+msgid "count"
+msgstr ""
+
+#: includes/widgets/widget-recents.php:9
+msgid "[Lava] Recent Listings Widget"
+msgstr ""
+
+#: includes/widgets/widget-recents.php:10
+msgid "This widget shows the list of the listing which is uploaded recently"
+msgstr ""
+
+#: includes/widgets/widget-recents.php:23
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/widgets/widget-single-contact.php:12
+msgid "[Lava] Author information"
+msgstr ""
+
+#: includes/widgets/widget-single-contact.php:14
+msgid ""
+"This is for only single detail pages. This widget shows the requested "
+"information about the author of the listing."
+msgstr ""
+
+#: includes/widgets/widget-single-contact.php:29
+msgid "Invalid post ID."
+msgstr ""
+
+#: includes/widgets/widget-single-contact.php:54
+#: includes/widgets/widget-single-contact.php:55
+#: includes/widgets/widget-single-contact.php:103
+#: includes/widgets/widget-single-contact.php:127
+msgid "Contact Form"
+msgstr ""
+
+#: includes/widgets/widget-single-contact.php:97
+msgid "Form Type"
+msgstr ""
+
+#: includes/widgets/widget-single-contact.php:101
+#: includes/widgets/widget-single-contact.php:125
+msgid "None"
+msgstr ""
+
+#: includes/widgets/widget-single-contact.php:102
+#: includes/widgets/widget-single-contact.php:126
+msgid "Ninja Form"
+msgstr ""
+
+#: includes/widgets/widget-single-contact.php:109
+#: includes/widgets/widget-single-contact.php:133
+msgid "Form ID"
+msgstr ""
+
+#: includes/widgets/widget-single-contact.php:114
+#: includes/widgets/widget-single-contact.php:138
+msgid "Button Label"
+msgstr ""
+
+#: includes/widgets/widget-single-contact.php:121
+msgid "Report Type"
+msgstr ""
+
+#: templates/form/lava-add-item-file.php:62
+msgid "Remove featured image"
+msgstr ""
+
+#: templates/form/lava-add-item-file.php:82
+msgid "Clear"
+msgstr ""
+
+#: templates/form/lava-add-item-location.php:4
+msgid "Type an Address"
+msgstr ""
+
+#: templates/form/lava-add-item-location.php:19
+msgid "Streetview Setting"
+msgstr ""
+
+#: templates/form/lava-add-item-location.php:23
+msgid "Show Streeview"
+msgstr ""
+
+#: templates/form/lava-add-item-location.php:32
+msgid "Streetview Lat"
+msgstr ""
+
+#: templates/form/lava-add-item-location.php:33
+msgid "Streetview Lng"
+msgstr ""
+
+#: templates/form/lava-add-item-location.php:34
+msgid "POV: Heading"
+msgstr ""
+
+#: templates/form/lava-add-item-location.php:35
+msgid "POV: Pitch"
+msgstr ""
+
+#: templates/form/lava-add-item-location.php:36
+msgid "POV : Zoom"
+msgstr ""
+
+#: templates/form/lava-add-item-terms.php:33
+msgid "Select a one"
+msgstr ""
+
+#: templates/form/lava-add-item-user.php:2
+msgid "Login"
+msgstr ""
+
+#: templates/form/lava-add-item-user.php:3
+msgid "If you have an account?"
+msgstr ""
+
+#: templates/form/lava-add-item-user.php:4
+msgid "Please Login"
+msgstr ""
+
+#: templates/form/lava-add-item-user.php:8
+msgid "User Email"
+msgstr ""
+
+#: templates/form/lava-add-item-user.php:9
+msgid "Email Address"
+msgstr ""
+
+#: templates/form/lava-add-item-user.php:13
+msgid "User Password"
+msgstr ""
+
+#: templates/form/lava-add-item-user.php:14
+msgid "Password"
+msgstr ""
+
+#: includes/widgets/html/widget-single-contact.php:18
+#, php-format
+msgid "%d properties"
+msgstr ""
+
+#. Name of the plugin
+msgid "Lava Directory Manager"
+msgstr ""
+
+#. Description of the plugin
+msgid "Lava Directory Manager Plugin"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://lava-code.com/directory/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Lavacode"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://lava-code.com/"
+msgstr ""

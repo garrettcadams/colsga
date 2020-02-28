@@ -1,0 +1,994 @@
+/*-----------------------------------------
+Lava Directory Manager
+	0. Default
+	1. Single Page
+	2. Listing Page
+	3. Add Item Page
+	4. Dashboard My Item List Page
+	5. Sidebar - Widget
+	6. jQuery Lava MessageBox
+	7. Map Template Page
+	8. PLUploader Style
+-----------------------------------------*/
+/*-----------------------------------------
+	0. Default
+-----------------------------------------*/
+.main-navigation li ul.sub-menu {
+  z-index: 999;
+}
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+@media (max-width: 1178px) {
+  .container {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  body.single-lv_listing .item-title {
+    line-height: 25px;
+  }
+  .four.columns {
+    margin: 0 auto;
+    display: table;
+  }
+}
+@media (max-width: 480px) {
+  .description #lava-directory-amenities {
+    display: table;
+  }
+  .description #lava-directory-amenities .lava-amenity {
+    width: 50%;
+    margin: 0;
+  }
+}
+.entry-content .gm-style img {
+  max-width: none;
+}
+/*-----------------------------------------
+	1. Single Page
+-----------------------------------------*/
+body.single-lv_listing h1 {
+  font-size: 22px;
+  line-height: 60px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+body.single-lv_listing h2:not(.widgettitle) {
+  font-size: 15px;
+  line-height: 33px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+body.single-lv_listing p {
+  font-size: 13px;
+  line-height: 26px;
+  font-weight: nomal;
+}
+body.single-lv_listing strong {
+  font-size: 13px;
+  color: #888;
+  font-weight: 600;
+  text-align: center;
+}
+body.single-lv_listing .flex-viewport {
+  max-height: 330px;
+}
+body.single-lv_listing .meta-summary a {
+  text-decoration: none;
+}
+body.single-lv_listing .meta-summary strong {
+  display: block;
+}
+body.single-lv_listing .meta-summary img {
+  width: 4em;
+  height: 4em;
+  margin-bottom: 5px;
+  border-radius: 100%;
+}
+body.single-lv_listing .meta-summary li {
+  display: inline-block;
+  text-align: center;
+  margin: 0px 5em 0 0;
+  vertical-align: middle;
+}
+body.single-lv_listing .meta-summary li span {
+  line-height: 40px;
+  font-size: 12px;
+  color: #999;
+}
+body.single-lv_listing .meta-summary .meta-type span:not(:empty) {
+  background: #ff5a5f;
+  color: #fff;
+  padding: 1px 10px;
+  border-radius: 3px;
+}
+body.single-lv_listing .meta-condition li {
+  display: inline-block;
+  text-align: center;
+  margin: 0 2.5em 0 0;
+  vertical-align: middle;
+}
+body.single-lv_listing .meta-condition li span {
+  line-height: 30px;
+  font-size: 12px;
+  color: #999;
+}
+#lava-directory-amenities {
+  display: block;
+}
+#lava-directory-amenities .lava-amenity {
+  display: inline-block;
+  margin: 3px 5px;
+  color: #ccc;
+  width: 28%;
+  font-size: 13px;
+}
+#lava-directory-amenities .lava-amenity::before {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1em;
+  font-weight: bold;
+  content: '';
+}
+#lava-directory-amenities .lava-amenity.active {
+  color: #454545;
+}
+#lava-directory-amenities .lava-amenity.active::before {
+  content: 'v';
+}
+#lava-directory-amenities .lava-amenity.showall {
+  color: #454545;
+  width: auto;
+}
+#lava-directory-amenities .lava-amenity.with-own-icon:before {
+  content: none !important;
+}
+.lava-detail-images {
+  position: relative;
+}
+.lava-detail-images ul.lava-attach-item > li {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  display: block;
+}
+.lava-detail-images ul.lava-attach-item > li > img {
+  max-width: 100%;
+  height: 300px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  body.single-lv_listing .meta-summary li {
+    margin: 0px 2em 0 0;
+  }
+}
+/*-----------------------------------------
+	2. Listing Page
+-----------------------------------------*/
+#lava-directory-manager-listing {
+  margin-bottom: 2em;
+  background: #f4f4f4;
+  padding: 2%;
+  border-radius: 5px;
+}
+#lava-directory-manager-listing .search-type .search-type-keywords,
+#lava-directory-manager-listing .search-type .search-type-location {
+  width: 35%;
+  padding-right: 1.5em;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#lava-directory-manager-listing .search-type .search-type-keywords input,
+#lava-directory-manager-listing .search-type .search-type-location input,
+#lava-directory-manager-listing .search-type .search-type-keywords select,
+#lava-directory-manager-listing .search-type .search-type-location select {
+  height: 34px;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 0.428571429rem;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#lava-directory-manager-listing .search-type .search-type-category {
+  float: left;
+  width: 30%;
+}
+#lava-directory-manager-listing .search-type .search-type-category select {
+  height: 34px;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 0.428571429rem;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#lava-directory-manager-listing .select-type {
+  margin-top: 45px;
+}
+#lava-directory-manager-listing .select-type li {
+  display: inline-block;
+  margin-left: 0;
+}
+#lava-directory-manager-listing .select-type li:last-child label {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
+}
+#lava-directory-manager-listing .select-type label {
+  margin-right: 9px;
+  font-size: 13px;
+  border-right: 1px solid #ccc;
+  padding-right: 9px;
+}
+#lava-directory-manager-output a {
+  text-decoration: none;
+}
+#lava-directory-manager-output h1 {
+  color: #999;
+  font-size: 1em;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+}
+#lava-directory-manager-output .lava-directory-manager-listing-item {
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  border-bottom: 1px solid #e9e9e9;
+}
+#lava-directory-manager-output .lava-directory-manager-listing-item:hover {
+  background: #f9f9f9;
+  border-radius: 3px;
+}
+#lava-directory-manager-output .lava-directory-manager-listing-item .lava-image {
+  width: 15%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+#lava-directory-manager-output .lava-directory-manager-listing-item .lava-image .lava-thb {
+  width: 4em !important;
+  height: 4em !important;
+  margin: 0 auto;
+  border-radius: 100%;
+  background-position: center center;
+  background-size: cover;
+}
+#lava-directory-manager-output .lava-directory-manager-listing-item .lava-image strong {
+  color: #888;
+  font-size: 1em;
+}
+#lava-directory-manager-output .lava-directory-manager-listing-item .description {
+  width: 84%;
+  display: inline-block;
+  vertical-align: middle;
+}
+#lava-directory-manager-output .lava-directory-manager-listing-item .description ul {
+  list-style: none;
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
+}
+#lava-directory-manager-output .lava-directory-manager-listing-item .description ul li {
+  margin: 0;
+  display: inline-block;
+  margin-right: 1em;
+}
+#lava-directory-manager-output .lava-directory-manager-listing-item .description ul li span {
+  font-size: 13px;
+  color: #999;
+}
+#lava-directory-manager-output .lava-directory-manager-listing-item .description ul .meta-type span:not(:empty) {
+  background: #ff5a5f;
+  color: #fff;
+  padding: 2px 10px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+#lava-directory-manager-output .lava-directory-manager-listing-item .description ul .meta-date {
+  float: right;
+}
+@media (max-width: 992px) {
+  #lava-directory-manager-listing .search-type .search-type-category select {
+    height: 34px;
+    overflow: hidden;
+  }
+}
+@media (max-width: 767px) {
+  #lava-directory-manager-output .lava-directory-manager-listing-item .lava-image {
+    display: none;
+  }
+  #lava-directory-manager-output .lava-directory-manager-listing-item .description ul .meta-date {
+    display: none;
+  }
+  #lava-directory-manager-output .lava-directory-manager-listing-item .description ul .meta-location {
+    margin-right: 0;
+  }
+}
+/*-----------------------------------------
+	3. Add Item Page
+-----------------------------------------*/
+.lava-item-add-form > form textarea::-webkit-input-placeholder,
+.lava-item-add-form > form input::-webkit-input-placeholder {
+  color: #c6c6c6 !important;
+}
+.lava-item-add-form > form .form-inner {
+  position: relative;
+  padding: 14px 0px 10px 0px;
+  border-bottom: 0px solid #f9f9f9;
+  display: table;
+  width: 100%;
+  /** addons **/
+
+}
+.lava-item-add-form > form .form-inner > label.field-title,
+.lava-item-add-form > form .form-inner > label {
+  width: 29%;
+  display: table-cell;
+  line-height: 34px;
+  margin-right: 10px;
+  vertical-align: middle;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #777;
+}
+.lava-item-add-form > form .form-inner .amenities-title{
+  font-weight:600;
+}
+.lava-item-add-form > form .form-inner > label {
+  display: inline-block;
+}
+.lava-item-add-form > form .form-inner > div.address-group {
+  display: table;
+  width: 100%;
+}
+.lava-item-add-form > form .form-inner > div.address-group > input,
+.lava-item-add-form > form .form-inner > div.address-group > button {
+  display: table-cell;
+}
+.lava-item-add-form > form .form-inner > div.address-group > input.lava-add-item-map-search,
+.lava-item-add-form > form .form-inner > div.address-group > button.lava-add-item-map-search {
+  width: 75%;
+}
+.lava-item-add-form > form .form-inner > div.address-group > input.lava-add-item-map-search-find,
+.lava-item-add-form > form .form-inner > div.address-group > button.lava-add-item-map-search-find {
+  width: 20%;
+  margin-left: 10px;
+}
+.lava-item-add-form > form .form-inner > div.address-group > input.lava-add-item-map-search-find[type=button],
+.lava-item-add-form > form .form-inner > div.address-group > button.lava-add-item-map-search-find[type=button] {
+  margin-top: 0;
+}
+.lava-item-add-form > form .form-inner .selectize-control,
+.lava-item-add-form > form .form-inner select,
+.lava-item-add-form > form .form-inner input:not([type=radio]):not([type=checkbox]),
+.lava-item-add-form > form .form-inner textarea,
+.lava-item-add-form > form .form-inner .lava-fileupload-wrap,
+.lava-item-add-form > form .form-inner .form-inner-video {
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 21px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+.lava-item-add-form > form .form-inner .selectize-control.multi .selectize-input > div {
+  padding: 1px 3px 1px 10px;
+  background: #6f6f6f;
+  color: #ffffff;
+}
+.lava-item-add-form > form .form-inner .select {
+  width: 100%;
+}
+.lava-item-add-form > form .form-inner .select::after,
+.lava-item-add-form > form .form-inner .select::before {
+  content: none !important;
+}
+.lava-item-add-form > form .form-inner input,
+.lava-item-add-form > form .form-inner .selectize-input,
+.lava-item-add-form > form .form-inner textarea,
+.lava-item-add-form > form .form-inner select,
+.lava-item-add-form > form .form-inner select option {
+  padding: 0.5em 1em;
+  font-size: 11px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 1px solid #e9e9e9;
+  background: #eeeeee;
+  font-weight: 400;
+}
+.lava-item-add-form > form .form-inner .video-portal,
+.lava-item-add-form > form .form-inner .video-id {
+  display: inline-block;
+}
+.lava-item-add-form > form .form-inner .video-portal select {
+  width: 100%;
+  vertical-align: middle;
+}
+.lava-item-add-form > form .form-inner .video-id {
+  width: 60%;
+}
+.lava-item-add-form > form .form-inner .video-id input {
+  width: 100%;
+  height: 34px;
+  vertical-align: middle;
+}
+.lava-item-add-form > form .form-inner .loop-field-item {
+  background-color: #f5f5f5 !important;
+}
+.lava-item-add-form > form .form-inner .loop-field-item div.field-item div {
+  padding: 10px;
+}
+.lava-item-add-form > form .form-inner .loop-field-item div.field-item div input,
+.lava-item-add-form > form .form-inner .loop-field-item div.field-item div textarea {
+  background: #ffffff;
+  color: #454545;
+}
+.lava-item-add-form > form .form-inner .loop-field-item div.field-item div.loop-action [type=button] {
+  background: #fff;
+}
+.lava-item-add-form > form .form-inner .loop-field-item div.field-item div.loop-action [type=button]:hover {
+  background: #ccc;
+  border: 1px solid #ccc;
+  color: #454545;
+}
+.lava-item-add-form > form .form-inner .loop-field-item div.field-item div.loop-action::after {
+  color: #454545;
+  text-shadow: none;
+  border: 1px solid #dadada;
+  font-size: 16px;
+  top: 0;
+  background: #fff;
+}
+.lava-item-add-form > form .form-inner.ajax-process:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /*Selectize z-index ... */
+
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: url(../images/loading2.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.lava-item-add-form > form .form-inner.ajax-process.no-effect:after {
+  background-image: none;
+}
+.lava-item-add-form > form .lava_map_advanced {
+  background-color: #f4f4f4;
+  padding: 35px;
+}
+.lava-item-add-form > form .lava_map_advanced input {
+  background-color: #fff;
+}
+.lava-item-add-form > form #lava-detail-image-input-wrap fieldset {
+  max-width: 25%;
+  float: left;
+}
+.lava-item-add-form > form button,
+.lava-item-add-form > form [type=button] {
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: #eeeeee;
+  border: 1px solid #e9e9e9;
+  padding: 7px 12px 5px 12px;
+  color: #666666;
+  margin-top: 10px;
+}
+.lava-item-add-form > form button:hover,
+.lava-item-add-form > form [type=button]:hover {
+  background: #ccc;
+  border: 1px solid #ccc;
+  color: #fff;
+}
+.lava-item-add-form > form .amenties-field .output label {
+  display: inline-block;
+  vertical-align:top;
+  font-weight: 400;
+  width: 30.3%;
+  position: relative;
+}
+.lava-item-add-form fieldset.submit {
+  display: block;
+  text-align: center;
+  margin: 30px 0;
+}
+.lava-item-add-form fieldset.submit > button,
+.lava-item-add-form fieldset.submit > button[type=submit] {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 30px;
+}
+#lava-additem-upload-loading {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url('../images/loading.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.3;
+}
+div#lava-detail-image-input-wrap::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/*-----------------------------------------
+   4. Dashboard My Item List Page
+-----------------------------------------*/
+.lava-my-item-list h2 {
+  color: #777;
+  font-size: 15px;
+  line-height: 33px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 20px 0;
+  border-bottom: 2px solid #eee;
+}
+.lava-my-item-list table thead {
+  background: #f4f4f4;
+}
+.lava-my-item-list table thead tr th {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 5px 15px;
+  color: #666;
+}
+.lava-my-item-list table tbody tr th {
+  padding: 15px 15px 5px 15px;
+  font-size: 12px;
+  color: #999;
+  border-bottom: 1px solid #e9e9e9;
+}
+.lava-my-item-list table tbody tr th .lava-title {
+  margin-bottom: 0em;
+  line-height: 15px;
+}
+.lava-my-item-list table tbody tr th .lava-title a {
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+  font-weight: 600;
+}
+.lava-my-item-list table tbody tr th .lava-action {
+  line-height: 15px;
+}
+.lava-my-item-list table tbody tr th .lava-action a {
+  text-decoration: none;
+  font-size: 10px;
+  color: #aaa;
+  margin-right: 1em;
+}
+.lava-my-item-list .lava-pagination {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 12px;
+}
+/*-----------------------------------------
+   5. Sidebar - Widget
+-----------------------------------------*/
+.lava-recent-widget {
+  margin-bottom: 30px;
+}
+.lava-recent-widget .lava-recent-widget-title {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+}
+.lava-recent-widget .lava-recent-widget-title h3 {
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #666;
+}
+.lava-recent-widget .latest-posts {
+  margin-bottom: 10px;
+}
+.lava-recent-widget .latest-posts .lava-recent-widget-content {
+  float: left;
+}
+.lava-recent-widget .latest-posts .lava-recent-widget-content.thumb-content {
+  width: 30%;
+}
+.lava-recent-widget .latest-posts .lava-recent-widget-content.thumb-content .thumb a {
+  position: relative;
+  display: inline-block;
+}
+.lava-recent-widget .latest-posts .lava-recent-widget-content.thumb-content .thumb a:hover::after {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.lava-recent-widget .latest-posts .lava-recent-widget-content.thumb-content .thumb a::after {
+  content: '';
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 93%;
+  border-radius: 100%;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.lava-recent-widget .latest-posts .lava-recent-widget-content.thumb-content .thumb a img {
+  border-radius: 100%;
+  border: 3px solid #aaa;
+}
+.lava-recent-widget .latest-posts .lava-recent-widget-content.text-content {
+  width: 70%;
+}
+.lava-recent-widget .latest-posts .lava-recent-widget-content.text-content h3 {
+  margin-bottom: 5px;
+  margin-top: 0px;
+  font-size: 14px;
+  line-height: 15px;
+}
+.lava-recent-widget .latest-posts .lava-recent-widget-content.text-content h3 a {
+  color: #777;
+}
+.lava-recent-widget .latest-posts .lava-recent-widget-content.text-content a {
+  color: #999;
+  text-decoration: none;
+}
+.lava-recent-widget .latest-posts::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/* Widget - Featured widget */
+.lava-featured-widget {
+  margin-bottom: 30px;
+}
+.lava-featured-widget .lava-featured-widget-title {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+}
+.lava-featured-widget .lava-featured-widget-title h3 {
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #666;
+}
+.lava-featured-widget .latest-posts {
+  margin-bottom: 30px;
+}
+.lava-featured-widget .latest-posts .lava-featured-widget-content {
+  position: relative;
+}
+.lava-featured-widget .latest-posts .lava-featured-widget-content .corner-ribbon {
+  width: 100px;
+  background: #ff5a5f;
+  position: absolute;
+  top: 5px;
+  left: -3px;
+  text-align: center;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.lava-featured-widget .latest-posts .lava-featured-widget-content.thumb-content {
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.lava-featured-widget .latest-posts .lava-featured-widget-content.thumb-content .thumb a img {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  width: 100% !important;
+  height: auto !important;
+}
+.lava-featured-widget .latest-posts .lava-featured-widget-content.text-content h3 {
+  margin-bottom: 5px;
+}
+.lava-featured-widget .latest-posts .lava-featured-widget-content.text-content h3 a {
+  font-size: 14px;
+  color: #454545;
+}
+.lava-featured-widget .latest-posts .lava-featured-widget-content.text-content span {
+  font-size: 12px;
+  color: #646464;
+}
+.lava-featured-widget .latest-posts .lava-featured-widget-content.text-content a {
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+}
+.lava-featured-widget .latest-posts .lava-featured-widget-content.text-content p {
+  margin-top: 15px;
+  font-size: 16px;
+}
+.lava-featured-widget .latest-posts .lava-featured-widget-content.text-content p.price {
+  margin-top: 2px;
+  font-size: 14px;
+}
+/* Widget - Single Contact */
+#lava-single-contact-widget {
+  margin: 0 0 50px 0;
+}
+#lava-single-contact-widget > div {
+  text-align: center;
+}
+#lava-single-contact-widget .author-avatar img {
+  max-width: 100%;
+}
+#lava-single-contact-widget .author-avatar .author-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#lava-single-contact-widget .author-avatar .author-phone a,
+#lava-single-contact-widget .author-avatar .author-email a,
+#lava-single-contact-widget .author-avatar .author-properties {
+  color: #888;
+}
+/*-----------------------------------------
+	6. jQuery Lava MessageBox
+-----------------------------------------*/
+div#lava-alert-box-bg {
+  position: fixed;
+  background: rgba(45, 45, 45, 0.2);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999998;
+}
+div#lava-alert-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 999999;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: solid 1px #efefef;
+  padding: 10px 30px;
+  box-shadow: 0 0 20px rgba(150, 150, 150, 0.8);
+  -webkit-box-shadow: 0 0 20px rgba(150, 150, 150, 0.8);
+  -moz-box-shadow: 0 0 20px rgba(150, 150, 150, 0.8);
+  -ms-box-shadow: 0 0 20px rgba(150, 150, 150, 0.8);
+  -o-box-shadow: 0 0 20px rgba(150, 150, 150, 0.8);
+}
+/*-----------------------------------------
+	7. Map Template Page
+-----------------------------------------*/
+#lava-map-container {
+  height: 300px;
+}
+#lava-map-output {
+  margin: 0 0 30px 0;
+}
+#lava-map-output .lava-list-item {
+  width: 100%;
+  display: table;
+  padding: 10px;
+  margin: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+#lava-map-output .lava-list-item .lv-item-thumbnail {
+  float: left;
+  width: 10%;
+}
+#lava-map-output .lava-list-item .lv-item-name-wrap {
+  float: left;
+  width: 75%;
+}
+#lava-map-output .lava-list-item .lv-item-name-wrap .item-name {
+  margin-bottom: 20px;
+}
+#lava-map-output .lava-list-item .lv-item-name-wrap .item-name a {
+  display: block;
+  margin: 10px 0;
+  text-decoration: none;
+  font-weight: 700;
+  display: table-cell;
+  font-size: 20px;
+}
+#lava-map-output .lava-list-item .lv-item-name-wrap .lv-item-info span {
+  color: #aaa;
+  font-size: 13px;
+  display: block;
+  float: left;
+  width: 30%;
+}
+#lava-map-output .lava-list-item .item-author {
+  width: 10%;
+  text-align: center;
+  float: left;
+  display: table-cell;
+}
+#lava-map-output .lava-list-item:hover {
+  background-color: #eee;
+}
+#lava-map-filter {
+  margin: 0 0 15px 0;
+}
+#lava-map-filter .filter-group {
+  display: table;
+  width: 100%;
+  margin: 10px 0;
+}
+#lava-map-filter .filter-group .filter-group-column {
+  display: table-cell;
+  width: 50%;
+}
+#lava-map-filter .filter-group .filter-group-column:first-child {
+  padding-right: 5px;
+}
+#lava-map-filter .filter-group .filter-group-column:last-child {
+  padding-left: 5px;
+}
+#lava-map-filter .filter-group > label,
+#lava-map-filter .filter-group .filter-group-column > label {
+  text-indent: -9999px;
+  display: none;
+}
+#lava-map-filter .filter-group > select,
+#lava-map-filter .filter-group .filter-group-column > select {
+  width: 100%;
+}
+#lava-map-filter .filter-group.submit {
+  padding: 0;
+  margin: 0;
+}
+#lava-map-filter .filter-group.submit input,
+#lava-map-filter .filter-group.submit button {
+  float: left;
+}
+#lava-map-filter .filter-group.submit input {
+  width: 80%;
+}
+#lava-map-filter .filter-group.submit button {
+  width: 18%;
+}
+/*-----------------------------------------
+	8. PLUploader Style
+-----------------------------------------*/
+#lava-multi-uploader-drag-drop {
+  background-color: #efefef;
+  border: 2px dashed #dfdfdf;
+  text-align: center;
+  padding: 30px;
+  margin-top: 10px;
+}
+.lava-multi-uploader-wrap .sortable-placeholder {
+  width: 133px;
+  height: 133px;
+  margin: 0 0 5px 5px;
+  width: 141px;
+  height: 141px;
+  float: left;
+  margin: 0 0 8px 8px;
+  background-color: #efefef;
+}
+.lava-multi-uploader-wrap .sortable-placeholder img {
+  width: 133px;
+  height: 133px;
+}
+.lava-multi-uploader-wrap .gallery-thumb {
+  width: 133px;
+  height: 133px;
+  margin: 0 0 5px 5px;
+  width: 141px;
+  height: 141px;
+  float: left;
+  margin: 0 0 8px 8px;
+  position: relative;
+  display: table;
+  text-align: center;
+  background-color: #efefef;
+  box-shadow: inset 0px 0px 0px 2px #dfdfdf;
+}
+.lava-multi-uploader-wrap .gallery-thumb img {
+  width: 133px;
+  height: 133px;
+  width: 141px;
+  height: 141px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.lava-multi-uploader-wrap .gallery-thumb span {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+}
+.lava-multi-uploader-wrap .gallery-thumb .mark-featured {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f0f0f0;
+  padding: 5px 8px;
+  position: absolute;
+  right: 0;
+  font-size: 16px;
+  right: auto;
+  top: auto;
+  bottom: 0;
+  left: 0;
+}
+.lava-multi-uploader-wrap .gallery-thumb .mark-featured:hover {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.lava-multi-uploader-wrap .gallery-thumb .loader {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f0f0f0;
+  padding: 5px 8px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 16px;
+  right: auto;
+  bottom: auto;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  display: none;
+}
+.lava-multi-uploader-wrap .gallery-thumb .loader:hover {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.lava-multi-uploader-wrap .gallery-thumb a {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f0f0f0;
+  padding: 5px 8px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 16px;
+}
+.lava-multi-uploader-wrap .gallery-thumb a:hover {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.lava-multi-uploader-wrap .image {
+  margin-bottom: 6px;
+}
+.lava-multi-uploader-wrap #add-more {
+  margin-bottom: 10px;
+}
+.lava-multi-uploader-wrap #featured-file-container.hidden {
+  display: none;
+}
+.lava-multi-uploader-wrap #featured-thumb-container {
+  margin: 0 0 10px -8px;
+}
+.lava-multi-uploader-wrap #gallery-thumbs-container {
+  margin: 0 0 10px -8px;
+}
