@@ -1,0 +1,390 @@
+body.edit-php table.wp-list-table.widefat.fixed th.manage-column.column-thumbnail{ width:10% }
+
+
+body.edit-php table.wp-list-table.widefat.fixed td.thumbnail.column-thumbnail img{ max-width:100%; height:auto; }
+
+
+
+div#lava-setting-page-progressbar-wrap{
+
+
+	display:none;
+
+
+	visibility:hidden;
+
+
+	width:400px;
+
+
+	height:18px;
+
+
+	border-style:solid;
+
+
+	border-width:1px;
+
+
+	border-color:#ccc;
+
+
+	margin:10px 0;
+
+
+	padding:2px;
+
+
+	overflow:hidden;
+
+
+}
+
+
+div#lava-setting-page-progressbar-wrap,
+
+
+div#lava-setting-page-progressbar-wrap > .progressbar{
+
+
+	position:relative;
+
+
+	border-radius:5px;
+
+
+}
+
+
+div#lava-setting-page-progressbar-wrap > .progressbar{
+
+
+	background-color:#44b130;
+
+
+	width:0%;
+
+
+	height:100%;
+
+
+	border-width:0;
+
+
+	transition:all 0.5s;
+
+
+	-webkit-transition:all 0.5s;
+
+
+	-o-transition:all 0.5s;
+
+
+	-moz-transition:all 0.5s;
+
+
+}
+
+
+div#lava-setting-page-progressbar-wrap > .text{
+
+
+	position:absolute;
+
+
+	z-index:2;
+
+
+	top:0;
+
+
+	left:0;
+
+
+	right:0;
+
+
+	bottom:0;
+
+
+	color:#454545;
+
+
+	font-weight:500;
+
+
+	font-size:12pt;
+
+
+	font-family:tahoma;
+
+
+	text-align:center;
+
+
+}
+
+
+div#lava-setting-page-progressbar-wrap.active{
+
+
+	display:block;
+
+
+	visibility:visible;
+
+
+}
+
+
+
+
+
+.lava-manager-addons-wrap{}
+
+
+.lava-manager-addons-wrap .spinner{
+
+
+	float:none;
+
+
+	display:inline-block;
+
+
+}
+
+
+.lava-manager-addons-wrap ol.addons-wrap{
+
+
+	display:block;
+
+
+	width:100%;
+
+
+	margin:0;
+
+
+	padding:0;
+
+
+}
+
+
+.lava-manager-addons-wrap ol.addons-wrap > li{
+
+
+	display:inline-block;
+
+
+	vertical-align:top;
+
+
+	width:25%;
+
+
+	word-break:break-all;
+
+
+}
+
+
+
+
+
+.lava-manager-addons-wrap ol.addons-wrap > li > div.addon-wrap{
+
+
+	border:solid 1px #ddd;
+
+
+	background-color:#fff;
+
+
+	margin:10px;
+
+
+}
+
+
+.lava-manager-addons-wrap ol.addons-wrap > li > div.addon-wrap > div.thumb-wrap{
+
+
+	text-align:center;
+
+
+	margin:10px;
+
+
+	padding-top:20px;
+
+
+}
+
+
+.lava-manager-addons-wrap ol.addons-wrap > li > div.addon-wrap > div.thumb-wrap > img{
+
+
+	max-width:100%;
+
+
+	height:auto;
+
+
+}
+
+
+
+
+
+.lava-manager-addons-wrap ol.addons-wrap > li > div.addon-wrap > h2.addon-title{
+
+
+	text-align:center;
+
+
+	line-height:1;
+
+
+}
+
+
+.lava-manager-addons-wrap ol.addons-wrap > li > div.addon-wrap > div.addon-meta{
+
+
+	text-align:center;
+
+
+	margin:10px;
+
+
+}
+
+
+
+.lava-manager-addons-wrap ol.addons-wrap > li > div.addon-wrap > div.addon-meta > div.addon-description{
+
+
+	overflow: hidden;
+
+
+	white-space: nowrap;
+
+
+	text-overflow: ellipsis;
+
+
+}
+
+
+
+.lava-manager-addons-wrap ol.addons-wrap > li > div.addon-wrap > div.addon-action{
+
+
+	text-align:center;
+
+
+	margin:10px;
+
+
+}
+
+
+.lava-manager-addons-wrap ol.addons-wrap > li > div.addon-wrap > div.addon-action div.addon-lastest-button{
+
+
+    display: inline-block;
+
+
+    text-decoration: none;
+
+
+    font-size: 13px;
+
+
+    line-height: 26px;
+
+
+    height: 28px;
+
+
+    margin: 0;
+
+
+    padding: 0 10px 1px;
+
+
+    cursor: default;
+
+
+    border-width: 1px;
+
+
+    border-style: solid;
+
+
+    -webkit-appearance: none;
+
+
+    -webkit-border-radius: 3px;
+
+
+    border-radius: 3px;
+
+
+    white-space: nowrap;
+
+
+    -webkit-box-sizing: border-box;
+
+
+    -moz-box-sizing: border-box;
+
+
+    box-sizing: border-box;
+
+
+	outline:0;
+
+
+    color: #999;
+
+
+    border-color: #999;
+
+
+    background-color: #eee;
+
+
+    -webkit-box-shadow: -1px -1px 0 #ccc;
+
+
+    box-shadow: -1px -1px 0 #ccc;
+
+
+    vertical-align: top;
+
+
+}
+
+
+
+.lava-manager-addons-wrap ol.addons-wrap > li > div.addon-wrap > div.addon-activator{
+
+
+	text-align:center;
+
+
+}
+
+
+
+.lava-manager-addons-wrap ol.addons-wrap > li > div.addon-wrap > div.addon-activator > div.lava-addons-license-field	 input[name^="lavaLicense"]{
+
+
+	width:80%;
+
+
+}
