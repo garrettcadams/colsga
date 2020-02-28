@@ -1,0 +1,28 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: backend/assets/js/gutenberg/grid/index.js:15
+msgid "Display a grid."
+msgstr ""
+
+#: backend/assets/js/gutenberg/grid/index.js:19
+msgid "masonry"
+msgstr ""
+
+#: backend/assets/js/gutenberg/grid/index.js:20
+msgid "layout"
+msgstr ""
+
+#: backend/assets/js/gutenberg/grid/index.js:21
+msgid "grid"
+msgstr ""
+
+#: backend/assets/js/gutenberg/grid/inspector.js:17
+msgid "Grid Settings"
+msgstr ""
+
+#: backend/assets/js/gutenberg/grid/select.js:24
+msgid "Please, select a grid"
+msgstr ""
